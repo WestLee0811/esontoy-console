@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="zh-Hant"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>陀螺行情站</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<style>
+body{font-family:"Noto Sans TC",-apple-system,sans-serif;margin:0;background:#f8f4ec;color:#2c2620}
+header{background:rgba(248,244,236,.95);backdrop-filter:blur(8px);border-bottom:1px solid #e5dccb;padding:12px 18px;position:sticky;top:0;z-index:5}
+.hin{max-width:1100px;margin:0 auto}
+h1{font-family:"Noto Serif TC",serif;font-size:18px;margin:0 0 8px;color:#2c2620;font-weight:700}small{color:#8a7f72;font-weight:400}
+.bar{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.bar button,.bar input{border:1px solid #e5dccb;background:#fff;color:#2c2620;border-radius:8px;padding:6px 12px;font-size:13px}
+.bar button.on{background:#2c2620;color:#f8f4ec;border-color:#2c2620;font-weight:700}
+#grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;padding:14px 18px;max-width:1100px;margin:0 auto}
+.card{background:#fff;border:1px solid #e5dccb;border-radius:12px;overflow:hidden;transition:border-color .15s}
+.card:hover{border-color:#b8943a}
+.card img{width:100%;aspect-ratio:1;object-fit:contain;background:#f3ede2;display:block}
+.noimg{width:100%;aspect-ratio:1;background:#f3ede2;display:flex;align-items:center;justify-content:center;color:#8a6d1f;font-size:22px;font-weight:700}
+.ci{padding:10px 12px}
+.cd{font-size:15px;font-weight:700;color:#8a6d1f}
+.nm{font-size:12.5px;color:#2c2620;margin:2px 0 6px;line-height:1.4;min-height:34px}
+.row{display:flex;justify-content:space-between;font-size:12px;padding:3px 0;border-top:1px dashed #e5dccb}
+.row b{font-variant-numeric:tabular-nums;color:#2c2620}
+.fm{color:#8a7f72}
+.up{color:#c1303d;font-size:11px}.dn{color:#16a34a;font-size:11px}
+.msrp{font-size:10.5px;color:#8a7f72;margin-top:6px}
+.meta{font-size:10px;color:#a89c8e;margin-top:3px}
+</style></head><body>
+<header><div class="hin"><h1>🌀 陀螺行情站 <small id="stat"></small></h1>
+<div class="bar">
+<button data-f="all" class="on">全部</button>
+<button data-f="priced">有行情</button>
+<button data-f="UX">UX</button><button data-f="CX">CX</button><button data-f="BX">BX</button>
+<input id="q" placeholder="搜型號/名稱…" style="width:160px">
+<span style="font-size:11px;color:#8a7f72">行情源：脆(Threads)成交＋FindPrice｜整盒/散刃分開記，勿跨比</span>
+</div></div></header>
+<div id="grid"></div>
+<script src="data.js"></script><script>
+const FJ={"boxed":"整盒","loose":"散刃","part":"零件","launch":"發射器","set":"套組"};
+let F={f:'all',q:''};
+const fmt=n=>n?('$'+n.toLocaleString()):'—';
+function render(){
+ let r=BEY.filter(c=>{
+  if(F.f=='priced'&&!c.mk)return false;
+  if(['UX','CX','BX'].includes(F.f)&&!c.code.startsWith(F.f))return false;
+  if(F.q&&!(c.code.toLowerCase().includes(F.q)||c.name.toLowerCase().includes(F.q)))return false;
+  return true});
+ document.getElementById('stat').textContent=`${r.length} 顆｜有行情 ${r.filter(c=>c.mk).length}｜更新 ${GEN}`;
+ document.getElementById('grid').innerHTML=r.map(c=>{
+  const img=c.img&&c.img.startsWith('http')?`<img loading="lazy" src="${c.img}" onerror="this.outerHTML='<div class=noimg>${c.code}</div>'">`:`<div class="noimg">${c.code}</div>`;
+  let rows='';
+  if(c.mk){for(const [fm,e] of Object.entries(c.mk)){
+   const ch=e.chg==null?'':(e.chg>0?`<span class="up">▲${e.chg}%</span>`:e.chg<0?`<span class="dn">▼${-e.chg}%</span>`:'');
+   const rng=(e.lo&&e.hi&&e.lo!=e.hi)?`$${e.lo.toLocaleString()}~${e.hi.toLocaleString()}`:fmt(e.mid);
+   rows+=`<div class="row"><span class="fm">${FJ[fm]||fm}</span><span><b>${rng}</b> ${ch}</span></div>`}}
+  else rows='<div class="row"><span class="fm" style="color:#c9bda8">尚無行情快照</span></div>';
+  const latest=c.mk?Object.values(c.mk).map(e=>e.date).sort().pop():'';
+  return `<div class="card">${img}<div class="ci"><div class="cd">${c.code}</div><div class="nm">${c.name.replace(c.code,'').trim()||c.name}</div>${rows}${c.msrp?`<div class="msrp">官方定價 ${c.msrp}</div>`:''}${latest?`<div class="meta">行情日 ${latest}｜台幣</div>`:''}</div></div>`}).join('');
+}
+document.querySelectorAll('.bar button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.bar button').forEach(x=>x.classList.remove('on'));b.classList.add('on');F.f=b.dataset.f;render()});
+document.getElementById('q').oninput=e=>{F.q=e.target.value.toLowerCase();render()};
+render();
+</script></body></html>

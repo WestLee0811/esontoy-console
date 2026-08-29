@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang="zh-Hant"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>🎖 商品資料庫總台</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f8f4ec;--panel:#ffffff;--panel2:#f3ede2;--ink:#2c2620;--mut:#8a7f72;--gold:#b8943a;--goldD:#8a6d1f;--line:#e5dccb;--red:#c1303d}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Noto Sans TC",-apple-system,sans-serif;background:var(--bg);color:var(--ink);min-height:100vh}
+.ichimatsu{position:fixed;inset:0;pointer-events:none;opacity:.05;color:var(--gold);
+ background-image:linear-gradient(45deg,currentColor 25%,transparent 25%,transparent 75%,currentColor 75%),
+ linear-gradient(45deg,currentColor 25%,transparent 25%,transparent 75%,currentColor 75%);
+ background-size:56px 56px;background-position:0 0,28px 28px}
+.wrap{position:relative;max-width:1040px;margin:0 auto;padding:48px 28px 80px}
+header{display:flex;align-items:center;gap:18px;margin-bottom:8px;justify-content:center;text-align:center}
+.seal{width:52px;height:52px;border-radius:50%;background:var(--red);display:flex;align-items:center;justify-content:center;
+ font-family:"Noto Serif TC",serif;font-weight:900;font-size:26px;color:#fff;box-shadow:0 0 0 2px var(--gold)}
+h1{font-family:"Noto Serif TC",serif;font-weight:900;font-size:30px;color:var(--ink);letter-spacing:.08em}
+h1 small{display:block;font-size:12px;color:var(--mut);letter-spacing:.35em;font-weight:400;margin-top:4px}
+.sub{font-size:13px;color:var(--mut);margin:16px auto 8px;line-height:1.8;border-left:3px solid var(--gold);padding-left:14px;max-width:640px}
+h2{font-family:"Noto Serif TC",serif;font-size:15px;color:var(--goldD);letter-spacing:.3em;margin:38px 0 14px;
+ display:flex;align-items:center;gap:12px}
+h2::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+a.card{position:relative;display:block;background:var(--panel);
+ border:1px solid var(--line);border-radius:14px;padding:20px 22px;text-decoration:none;color:inherit;
+ transition:border-color .2s,transform .15s,box-shadow .2s;overflow:hidden}
+a.card:hover{border-color:var(--gold);transform:translateY(-2px);box-shadow:0 6px 18px rgba(138,109,31,.12)}
+.ico{font-size:26px;margin-bottom:10px;display:block}
+.t{font-family:"Noto Serif TC",serif;font-size:17px;font-weight:700;color:var(--ink);margin-bottom:7px;letter-spacing:.04em}
+.d{font-size:12.5px;color:var(--mut);line-height:1.75}
+.tag{display:inline-flex;align-items:center;gap:6px;font-size:10.5px;background:var(--panel2);
+ border:1px solid var(--line);border-radius:99px;padding:3px 10px;margin-top:12px;color:var(--goldD);letter-spacing:.05em}
+.dot{width:6px;height:6px;border-radius:99px;background:#16a34a}
+.star{border-color:var(--gold)}
+footer{margin-top:52px;text-align:center;font-size:11px;color:var(--mut);letter-spacing:.2em}
+</style></head><body><div class="ichimatsu"></div><div class="wrap">
+<header><div class="seal">賞</div>
+<h1>商品資料庫總台<small>ESONTOY　INTELLIGENCE　CONSOLE</small></h1></header>
+<div class="sub">全部入口只在這一頁，記這裡就好。標綠點的每天自動更新；信箱另有 08:55 晨報＋21:30 晚報。</div>
+
+<h2>每 天 逛</h2>
+<div class="grid">
+<a class="card star" href="卡牌行情站/index.html"><span class="ico">🃏</span><div class="t">卡牌行情站</div>
+<div class="d">六遊戲卡圖牆 × 販售／買取／台版價 × 漲跌。寶可夢・海賊王・遊戲王・WS簽卡・UA鏈鋸人・數碼</div>
+<div class="tag"><span class="dot"></span>每晚 03:30 自動更新</div></a>
+<a class="card star" href="陀螺行情站/index.html"><span class="ico">🌀</span><div class="t">陀螺行情站</div>
+<div class="d">BEYBLADE X 全型號 × 整盒／散刃分層市價 × 漲跌（脆成交＋FindPrice）</div>
+<div class="tag"><span class="dot"></span>每晚自動更新</div></a>
+<a class="card" href="新鮮度儀表板.html"><span class="ico">📊</span><div class="t">品牌新鮮度儀表板</div>
+<div class="d">213 牌誰有進新貨、誰欠帳、誰掛了——入庫新鮮度紅綠燈與 burn-down</div>
+<div class="tag"><span class="dot"></span>每晚 03:30 自動更新</div></a>
+<a class="card" href="#" onclick="alert('查詢台請雙擊 輸出/查詢台.command（開自助搜尋網頁）');return false"><span class="ico">🔍</span><div class="t">全庫查詢台</div>
+<div class="d">31 萬筆搜角色／IP／品牌——搜「童磨」跨品牌全中，不用管收在誰家。開法：雙擊 查詢台.command</div>
+<div class="tag"><span class="dot"></span>figures.db 每晚重建</div></a>
+</div>
+
+<h2>報 告</h2>
+<div class="grid">
+<a class="card" href="報告/日報.html"><span class="ico">📰</span><div class="t">每日日報</div>
+<div class="d">每天更新了什麼＋該去抓什麼（與 email 晚報同步）</div><div class="tag"><span class="dot"></span>每晚 21:30</div></a>
+<a class="card" href="報告/戰報.html"><span class="ico">🎖</span><div class="t">巡邏戰報台帳</div>
+<div class="d">品牌官每日一行流水帳：巡幾牌／新品幾筆／紅燈變化，回頭對帳用</div><div class="tag">每日</div></a>
+<a class="card" href="報告/總覽.html"><span class="ico">🧭</span><div class="t">系統運作總覽</div>
+<div class="d">整套體系全景：品牌×雷達×閉環自檢報告</div><div class="tag">每週五重產</div></a>
+<a class="card" href="報告/快報.html"><span class="ico">🎯</span><div class="t">一番賞新品快報</div>
+<div class="d">1kuji 新套偵測即爬即入庫，有料才發</div><div class="tag">週三・六</div></a>
+</div>
+
+<h2>工 具</h2>
+<div class="grid">
+<a class="card" href="#" onclick="alert('雙擊 輸出/立即全巡.command（平常夜跑自動，不用手點）');return false"><span class="ico">⚡</span><div class="t">立即全巡</div>
+<div class="d">手動觸發 120 牌閃電探測</div></a>
+<a class="card" href="燈箱設計/index.html"><span class="ico">🏮</span><div class="t">燈箱設計稿</div>
+<div class="d">二樓 13 格燈箱視覺系統（鬼滅試作版）</div></a>
+<a class="card" href="demo/index.html"><span class="ico">🖼</span><div class="t">商品卡展示頁</div>
+<div class="d">product 格式 HTML 展示 demo</div></a>
+</div>
+
+<h2>工 程 師 對 接</h2>
+<div class="grid">
+<a class="card" href="https://github.com/WestLee0811/esontoy-product-feed"><span class="ico">📦</span><div class="t">esontoy-product-feed</div>
+<div class="d">34 萬商品＋20 萬報價，full＋delta 雙軌，工程師唯一取貨口。不用你管，看得到就好</div>
+<div class="tag"><span class="dot"></span>每晚 03:44 自動推送 GitHub</div></a>
+</div>
+
+<footer>乙賞玩具 × 乙番賞 ── 沉・金・和風・克制・貨深</footer>
+</div></body></html>

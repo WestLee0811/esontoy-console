@@ -1,0 +1,251 @@
+<!DOCTYPE html><html lang="zh-Hant"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>系統運作總覽</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f8f4ec;--panel:#ffffff;--panel2:#f3ede2;--ink:#2c2620;--mut:#8a7f72;--gold:#b8943a;--goldD:#8a6d1f;--line:#e5dccb}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Noto Sans TC",-apple-system,sans-serif;background:var(--bg);color:var(--ink);line-height:1.85}
+.top{position:sticky;top:0;background:rgba(248,244,236,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:12px 22px;display:flex;align-items:center;gap:14px;z-index:5}
+.top a{color:var(--goldD);text-decoration:none;font-size:13px}
+.top b{font-family:"Noto Serif TC",serif;color:var(--ink);font-size:16px;letter-spacing:.06em}
+.wrap{max-width:820px;margin:0 auto;padding:30px 24px 80px}
+h1{font-family:"Noto Serif TC",serif;font-size:24px;color:var(--ink);margin:26px 0 14px;letter-spacing:.05em}
+h2{font-family:"Noto Serif TC",serif;font-size:18px;color:var(--goldD);margin:30px 0 12px;padding-left:12px;border-left:3px solid var(--gold)}
+h3{font-size:15px;color:var(--ink);margin:20px 0 8px;font-weight:700}
+p{margin:8px 0;font-size:14.5px}
+ul{margin:8px 0 14px 4px;list-style:none}
+li{font-size:14px;margin:7px 0;padding-left:18px;position:relative}
+li::before{content:"◆";position:absolute;left:0;color:var(--gold);font-size:9px;top:6px}
+strong,b{color:var(--goldD);font-weight:700}
+a{color:var(--goldD)}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:13px;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+th{background:var(--panel2);color:var(--goldD);text-align:left;padding:9px 12px;font-weight:500;letter-spacing:.05em}
+td{padding:8px 12px;border-top:1px solid var(--line);vertical-align:top}
+code{background:var(--panel2);border-radius:4px;padding:1px 6px;font-size:12.5px;color:var(--goldD)}
+hr{border:none;height:1px;background:var(--line);margin:22px 0}
+blockquote{border-left:3px solid var(--line);padding-left:14px;color:var(--mut);margin:10px 0}
+.arch a{display:inline-block;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px 14px;margin:4px 6px 4px 0;font-size:13px;text-decoration:none}
+.arch a:hover{border-color:var(--gold)}
+</style></head><body>
+<div class="top"><a href="../總台.html">← 總台</a><b>系統運作總覽</b><span style="flex:1"></span><span style="font-size:11px;color:var(--mut)">渲染於 08-30 03:30</span></div>
+<div class="wrap"><h1>🧠 商品資料庫 — 系統運作總覽（自動生成 2026-08-29）</h1>
+<blockquote><code>python3 crawlers/system_overview.py</code> 隨時重產。新鮮度：🟢≤30天 🟡≤90 🟠≤180 🔴&gt;180 ⚫無記錄</blockquote>
+<h2>一、資產總量</h2>
+<ul>
+<li><strong>商品庫：341,742 筆 / 216 品牌</strong>（figures.db，每晚重建；SoT=品牌/*.xlsx）</li>
+<li>一番賞：<strong>23,016 列 / ~2,165 套組</strong>（含賞項層級）</li>
+<li>行情歷史：8914 序列（陀螺 846＋卡牌單卡 8068）/ 27,437 筆快照</li>
+<li>IP 對照 8,379｜大腦 wiki 637 頁｜週報 8｜日報 23｜快報 29</li>
+</ul>
+<h2>二、品牌全景（分類 × 爬取進度）</h2>
+<h3>通路商(聚合) — 15 牌 / 221,151 筆（🔴 過期 1）</h3>
+<table>
+<tr><th>品牌</th><th>筆數</th><th>最後爬</th><th>audit</th><th>minimal</th></tr>
+<tr><td>HOBBY STOCK</td><td>43,894</td><td>🟢 2d巡</td><td>P2</td><td></td></tr>
+<tr><td>OrzGK</td><td>39,851</td><td>🟢 0d巡</td><td>P0</td><td>4982</td></tr>
+<tr><td>GK-Toyergk</td><td>25,144</td><td>🟢 7d</td><td>P2</td><td></td></tr>
+<tr><td>GK-SCC</td><td>19,693</td><td>🟢 3d巡</td><td>OK</td><td></td></tr>
+<tr><td>YesGK</td><td>18,430</td><td>🟢 0d巡</td><td>P0</td><td>100</td></tr>
+<tr><td>MozFigure</td><td>16,870</td><td>🟢 4d巡</td><td>P0</td><td>2071</td></tr>
+<tr><td>GK-MasterD</td><td>15,439</td><td>🟢 2d巡</td><td>P0</td><td>1</td></tr>
+<tr><td>Mamegyorai</td><td>14,489</td><td>🟢 0d巡</td><td>P2</td><td></td></tr>
+<tr><td>GKFigureWorldwide</td><td>8,298</td><td>🟠 134d</td><td>OK</td><td></td></tr>
+<tr><td>熱血模玩</td><td>5,966</td><td>🟢 3d巡</td><td>P2</td><td></td></tr>
+<tr><td>GKCollectors</td><td>4,208</td><td>🟢 0d巡</td><td>P0</td><td>63</td></tr>
+<tr><td>FavorGK</td><td>3,944</td><td>🟢 4d巡</td><td>P0</td><td>143</td></tr>
+<tr><td>GKResinStatues</td><td>3,517</td><td>🟢 4d巡</td><td>OK</td><td></td></tr>
+<tr><td>酷比樂</td><td>1,387</td><td>🟠 105d</td><td>OK</td><td></td></tr>
+<tr><td>怨念事務所</td><td>21</td><td>⚫ 無記錄</td><td>P2</td><td></td></tr>
+</table>
+<h3>GK工作室 — 11 牌 / 4,857 筆</h3>
+<table>
+<tr><th>品牌</th><th>筆數</th><th>最後爬</th><th>audit</th><th>minimal</th></tr>
+<tr><td>GKAniMerch</td><td>3,669</td><td>🟢 0d巡</td><td>P0</td><td>1575</td></tr>
+<tr><td>XMStudios</td><td>454</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>InfinityStudio</td><td>193</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>SOAPStudio</td><td>185</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>QueenStudios</td><td>104</td><td>🟢 0d巡</td><td>P1</td><td></td></tr>
+<tr><td>SpiralStudio</td><td>92</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>JNDStudios</td><td>64</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>GrandJesterStudios</td><td>40</td><td>🟢 2d巡</td><td>OK</td><td></td></tr>
+<tr><td>Studio24</td><td>26</td><td>🟢 3d巡</td><td>OK</td><td></td></tr>
+<tr><td>GK</td><td>18</td><td>🟠 91d</td><td>P0</td><td>3</td></tr>
+<tr><td>Level52Studios</td><td>12</td><td>🟠 135d</td><td>OK</td><td></td></tr>
+</table>
+<h3>GK工作室/其他 — 145 牌 / 22,598 筆（🔴 過期 4）</h3>
+<table>
+<tr><th>品牌</th><th>筆數</th><th>最後爬</th><th>audit</th><th>minimal</th></tr>
+<tr><td>Medicos</td><td>1,274</td><td>🟢 0d巡</td><td>P2</td><td></td></tr>
+<tr><td>千値練</td><td>1,032</td><td>🟡 46d</td><td>OK</td><td></td></tr>
+<tr><td>JOYTOY</td><td>882</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>B&#x27;full</td><td>879</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>WetaWorkshop</td><td>692</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>A+研究所</td><td>637</td><td>🟠 135d</td><td>OK</td><td></td></tr>
+<tr><td>First4Figures</td><td>630</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>Threezero</td><td>608</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>KDcolle</td><td>603</td><td>🟢 0d巡</td><td>P2</td><td></td></tr>
+<tr><td>JXK</td><td>579</td><td>🟢 0d巡</td><td>P1</td><td></td></tr>
+<tr><td>Yz</td><td>577</td><td>🟠 135d</td><td>OK</td><td></td></tr>
+<tr><td>League</td><td>575</td><td>🟠 135d</td><td>OK</td><td></td></tr>
+<tr><td>DarkHorseDirect</td><td>528</td><td>🟢 0d巡</td><td>P0</td><td>17</td></tr>
+<tr><td>FNEX</td><td>517</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>UC</td><td>467</td><td>🟠 135d</td><td>OK</td><td></td></tr>
+<tr><td>Phat!</td><td>398</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>FOTS JAPAN</td><td>369</td><td>🟢 3d巡</td><td>OK</td><td></td></tr>
+<tr><td>Power</td><td>348</td><td>🟠 135d</td><td>OK</td><td></td></tr>
+<tr><td>Mezco</td><td>347</td><td>🟢 2d巡</td><td>P2</td><td></td></tr>
+<tr><td>amiami</td><td>273</td><td>🟢 3d巡</td><td>OK</td><td></td></tr>
+<tr><td>AliceGlint</td><td>272</td><td>🟢 2d</td><td>OK</td><td></td></tr>
+<tr><td>FactoryEntertainment</td><td>265</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>OrchidSeed</td><td>250</td><td>🟢 0d巡</td><td>P2</td><td></td></tr>
+<tr><td>C-STUDIO</td><td>246</td><td>🟠 135d</td><td>OK</td><td></td></tr>
+<tr><td>TBLeague</td><td>239</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>_…其餘 120 牌_</td><td>9,111</td><td></td><td></td><td></td></tr>
+</table>
+<h3>日系官方廠 — 25 牌 / 47,858 筆（🔴 過期 1）</h3>
+<table>
+<tr><th>品牌</th><th>筆數</th><th>最後爬</th><th>audit</th><th>minimal</th></tr>
+<tr><td>Medicom</td><td>10,577</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>BANDAI-BANPRESTO</td><td>10,438</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>GSC</td><td>5,615</td><td>🟢 0d巡</td><td>P2</td><td></td></tr>
+<tr><td>BANDAI-Hobby</td><td>4,590</td><td>🟢 0d巡</td><td>P2</td><td></td></tr>
+<tr><td>BANDAI-Tamashii</td><td>3,482</td><td>🟢 0d巡</td><td>P0</td><td>391</td></tr>
+<tr><td>MegaHouse</td><td>2,569</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>VOLKS</td><td>1,325</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>MaxFactory</td><td>1,191</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>Native_v2</td><td>1,069</td><td>🟢 0d巡</td><td>P0</td><td>7</td></tr>
+<tr><td>海洋堂</td><td>974</td><td>🟡 46d</td><td>P0</td><td>2</td></tr>
+<tr><td>Kotobukiya</td><td>952</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>FREEing</td><td>902</td><td>🟢 0d巡</td><td>P0</td><td>8</td></tr>
+<tr><td>X-PLUS</td><td>801</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>RAH</td><td>756</td><td>🟠 91d</td><td>OK</td><td></td></tr>
+<tr><td>ALTER</td><td>628</td><td>🟢 0d巡</td><td>P0</td><td>6</td></tr>
+<tr><td>ANIPLEX+</td><td>371</td><td>⚫ 無記錄</td><td>OK</td><td></td></tr>
+<tr><td>AMAKUNI</td><td>299</td><td>🟢 2d巡</td><td>OK</td><td></td></tr>
+<tr><td>Wonderful Works</td><td>253</td><td>🟢 2d巡</td><td>OK</td><td></td></tr>
+<tr><td>AOSHIMA</td><td>241</td><td>🟢 0d巡</td><td>P2</td><td></td></tr>
+<tr><td>PLUM</td><td>238</td><td>🟢 0d巡</td><td>P2</td><td></td></tr>
+<tr><td>TAITO</td><td>225</td><td>🟢 0d巡</td><td>P2</td><td></td></tr>
+<tr><td>Alphamax</td><td>163</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>VERTEX</td><td>103</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>Emontoys</td><td>64</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>1000TOYS</td><td>32</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+</table>
+<h3>歐美雕像廠 — 14 牌 / 21,184 筆</h3>
+<table>
+<tr><th>品牌</th><th>筆數</th><th>最後爬</th><th>audit</th><th>minimal</th></tr>
+<tr><td>Sideshow</td><td>6,454</td><td>🟢 0d巡</td><td>P2</td><td></td></tr>
+<tr><td>Mondo</td><td>5,951</td><td>🟢 0d巡</td><td>P0</td><td>18</td></tr>
+<tr><td>NECA</td><td>2,970</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>HotToys</td><td>1,370</td><td>🟢 2d巡</td><td>OK</td><td></td></tr>
+<tr><td>BeastKingdom</td><td>1,189</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>IronStudios</td><td>1,135</td><td>🟢 0d巡</td><td>P0</td><td>19</td></tr>
+<tr><td>McFarlaneToys</td><td>911</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>Prime1Studio</td><td>341</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>PureArts</td><td>233</td><td>🟢 0d巡</td><td>P0</td><td>9</td></tr>
+<tr><td>PCSCollectibles</td><td>189</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>HollywoodCollectibles</td><td>160</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>StormCollectibles</td><td>147</td><td>🟢 0d巡</td><td>OK</td><td></td></tr>
+<tr><td>Kinetiquettes</td><td>88</td><td>🟢 3d巡</td><td>OK</td><td></td></tr>
+<tr><td>UniqueArt</td><td>46</td><td>🟠 135d</td><td>OK</td><td></td></tr>
+</table>
+<h3>一番賞/景品 — 2 牌 / 23,722 筆</h3>
+<table>
+<tr><th>品牌</th><th>筆數</th><th>最後爬</th><th>audit</th><th>minimal</th></tr>
+<tr><td>一番賞</td><td>23,016</td><td>🟢 3d</td><td>P2</td><td></td></tr>
+<tr><td>Furyu</td><td>706</td><td>🟢 0d巡</td><td>P0</td><td>2</td></tr>
+</table>
+<h3>陀螺 — 1 牌 / 145 筆</h3>
+<table>
+<tr><th>品牌</th><th>筆數</th><th>最後爬</th><th>audit</th><th>minimal</th></tr>
+<tr><td>BEYBLADEX</td><td>145</td><td>🟡 47d</td><td>P2</td><td></td></tr>
+</table>
+<h3>卡牌 — 3 牌 / 227 筆</h3>
+<table>
+<tr><th>品牌</th><th>筆數</th><th>最後爬</th><th>audit</th><th>minimal</th></tr>
+<tr><td>PTCG繁中</td><td>114</td><td>🟡 47d</td><td>OK</td><td></td></tr>
+<tr><td>OP卡牌</td><td>64</td><td>🟡 47d</td><td>P1</td><td></td></tr>
+<tr><td>PTCG日版</td><td>49</td><td>🟡 47d</td><td>P2</td><td></td></tr>
+</table>
+<h2>三、自動化時刻表</h2>
+<table>
+<tr><th>時間</th><th>任務</th><th>內容</th></tr>
+<tr><td>每天 08:40</td><td>ip-news-radar</td><td>🌏 IP 動向雷達：日美漫/大廠 PVC/GK/模型 新聞源掃描 → 日報 IP 段</td></tr>
+<tr><td>每天 21:00</td><td>daily-threads-beyblade-price</td><td>脆陀螺行情：$2000+ 全查＋交叉＋斷點偵測</td></tr>
+<tr><td>每天 21:30</td><td>daily-digest-report</td><td>📬信箱(Code指令)→📰日報</td></tr>
+<tr><td>每晚深夜</td><td>本機 runner</td><td>Shopify 增量＋db 重建＋HTML 刷新</td></tr>
+<tr><td>週一 10:02</td><td>weekly-database-audit</td><td>rollover＋203牌健檢＋週報(PVC雷達)</td></tr>
+<tr><td>週一 10:05</td><td>pbandai-tw-weekly-check</td><td>p-bandai 新品嗅探</td></tr>
+<tr><td>週二 09:01</td><td>update (Lane A)</td><td>1kuji＋Shopify 21 牌巡邏</td></tr>
+<tr><td>週三/六 08:33</td><td>kuji-news-flash</td><td>一番賞新套即爬即入庫</td></tr>
+<tr><td>週五 09:03</td><td>weekly-housekeeping</td><td>F/G＋總覽＋lint＋本檔重產</td></tr>
+<tr><td>月初週一</td><td>stale_check</td><td>&gt;180 天品牌排單</td></tr>
+</table>
+<h2>四、四端分工</h2>
+<p>Cowork＝主腦+排程（需開機）｜Code＝同資料夾手動+📬信箱留令｜runner＝無人深夜爬蟲｜手機＝Dispatch遙控+iCloud看報</p>
+<h2>五、🌏 新聞雷達線狀態（自動檢查各線是否在動）</h2>
+<p>最新 raw：260829（runner 夜抓）</p>
+<table>
+<tr><th>線</th><th>域</th><th>lane</th><th>最新條數</th><th>狀態</th></tr>
+<tr><td>natalie_comic</td><td>日漫新聞</td><td>runner</td><td></td><td>🔴 無資料（RSS 不通或 runner 未跑）</td></tr>
+<tr><td>natalie_eiga</td><td>日影劇場版</td><td>runner</td><td></td><td>🔴 無資料（RSS 不通或 runner 未跑）</td></tr>
+<tr><td>animeanime</td><td>日動畫</td><td>runner</td><td>50</td><td>🟢 50 條</td></tr>
+<tr><td>gnn_bahamut</td><td>台灣ACG</td><td>runner</td><td></td><td>🔴 無資料（RSS 不通或 runner 未跑）</td></tr>
+<tr><td>figsoku</td><td>手辦速報</td><td>runner</td><td>10</td><td>🟢 10 條</td></tr>
+<tr><td>hobbywatch</td><td>日玩具業界</td><td>runner</td><td>20</td><td>🟢 20 條</td></tr>
+<tr><td>dengeki_hobby</td><td>日模型手辦</td><td>runner</td><td>10</td><td>🟢 10 條</td></tr>
+<tr><td>cbr</td><td>美漫</td><td>runner</td><td>10</td><td>🟢 10 條</td></tr>
+<tr><td>toyark</td><td>歐美玩具</td><td>runner</td><td>10</td><td>🟢 10 條</td></tr>
+<tr><td>oricon_manga</td><td>漫畫銷量榜</td><td>websearch</td><td></td><td>🟡 Chrome 輪掃</td></tr>
+<tr><td>bandai_hobby</td><td>模型(鋼普拉)</td><td>fetch</td><td></td><td>🟢 Cowork 每日</td></tr>
+<tr><td>sideshow_news</td><td>歐美雕像</td><td>websearch</td><td></td><td>🟡 Chrome 輪掃</td></tr>
+<tr><td>p1s_news</td><td>高端雕像</td><td>websearch</td><td></td><td>🟡 Chrome 輪掃</td></tr>
+<tr><td>animate_kettei</td><td>動畫化決定一覽</td><td>fetch</td><td></td><td>🟢 Cowork 每日</td></tr>
+<tr><td>animate_eiga</td><td>劇場版一覽</td><td>fetch</td><td></td><td>🟢 Cowork 每日</td></tr>
+<tr><td>figsoku_daily</td><td>PVC/模型預約總站</td><td>fetch</td><td></td><td>🟢 Cowork 每日</td></tr>
+<tr><td>channel_diff</td><td>GK廠動態(通路增量)</td><td>internal</td><td></td><td>🟢 Cowork 每日</td></tr>
+<tr><td>gsc_new</td><td>GSC官網新作</td><td>chrome</td><td></td><td>🟡 Chrome 輪掃</td></tr>
+<tr><td>amiami_new</td><td>amiami新預約</td><td>chrome</td><td></td><td>🟡 Chrome 輪掃</td></tr>
+<tr><td>p1s_upcoming</td><td>Prime1新品</td><td>chrome</td><td></td><td>🟡 Chrome 輪掃</td></tr>
+<tr><td>xm_upcoming</td><td>XM Studios</td><td>chrome</td><td></td><td>🟡 Chrome 輪掃</td></tr>
+<tr><td>sideshow_new</td><td>Sideshow新品</td><td>chrome</td><td></td><td>🟡 Chrome 輪掃</td></tr>
+<tr><td>hobbysearch</td><td>ホビーサーチ新製品</td><td>chrome</td><td></td><td>🟡 Chrome 輪掃</td></tr>
+<tr><td>cn_gk_fb</td><td>中國GK廠FB/微博</td><td>chrome</td><td></td><td>🟡 Chrome 輪掃</td></tr>
+</table>
+<h2>六、📋 預購 pipeline 閉環檢查（訊號 → 有沒有進資料庫）</h2>
+<p>追蹤 156 件：✅ 已入庫 1｜👀 監看中 155</p>
+<ul>
+<li>👀 2026-08-10｜天使の羽とピンクの髪が幻想的！『勝利の女神：NIKKE』のドロシーをぬーどるストッパーフィギュア化！｜預定 未定</li>
+<li>👀 2026-08-10｜感動シーンがよみがえる…！「FAIRY TAIL」ナツ、ルーシィ、ハッピーのフィギュアなどが当たる！20周年記｜預定 未定</li>
+<li>👀 2026-08-10｜見よ！この肉体美！ 「無職転生III」エリス・ボレアス・グレイラットが立体化！ 大人になったエリスの魅力を完全｜預定 未定</li>
+<li>👀 2026-08-10｜乃木憂助や野崎守たちを座り姿でデフォルメフィギュア化！日曜劇場『VIVANT』がガシャポンフィギュアシリーズ「｜預定 未定</li>
+<li>👀 2026-08-10｜う、美しい…！「リゼロ」エミリアがウェディングドレス姿で立体化！凛とした気品と可憐さを表現｜預定 未定</li>
+<li>👀 2026-08-10｜【ToLOVEる】一番くじ「To LOVEる-とらぶる-ダークネス」フィギュアあり【発売決定・フィギュア画像追｜預定 未定</li>
+<li>👀 2026-08-10｜【フレームアームズ・ガール】「ミヅキ School Swimsuits ホワイトVer.」プラモデル【明日予約｜預定 未定</li>
+<li>👀 2026-08-10｜アメリカの無人偵察機「RQ-4B グローバルホーク」を再現したプラモデルキットがプラッツから登場！1/72スケ｜預定 未定</li>
+<li>👀 2026-08-11｜【ウルトラ怪獣擬人化計画】LADo TOYSより1/12スケールアクションフィギュア化決定｜預定 未定</li>
+<li>👀 2026-08-11｜“見よ、東方は赤く燃えている！”「METAL BUILD ゴッドガンダム（明鏡止水）」が登場！ 明鏡止水発動時｜預定 未定</li>
+<li>👀 2026-08-11｜「周防パトラ」フィギュア第3弾はオリジナルバニーガール姿！ご本人徹底監修のグラマラスな造形で、フリューのF:N｜預定 未定</li>
+<li>👀 2026-08-11｜競泳水着の人妻美女が“大胆開脚”ストレッチ！ 水も滴る濡れ感が艶っぽいぞ…!!「巨乳人妻と秘密の水泳教室・シュ｜預定 未定</li>
+</ul>
+<h2>七、🔍 反向閉環（訊號廠牌 → 我們爬蟲有沒有蓋到該產品線）</h2>
+<p>覆蓋判定＝全庫任一欄(maker/品名/系列)含該廠名：✅ &gt;20 筆｜🟡 1~20 筆=薄弱｜🔴 0 筆=缺口</p>
+<table>
+<tr><th>訊號中出現的廠牌</th><th>次數</th><th>庫內筆數</th><th>覆蓋</th></tr>
+<tr><td>一番くじ（查:一番賞）</td><td>3</td><td>3,623</td><td>✅</td></tr>
+<tr><td>タカラトミー（查:TAKARA TOMY）</td><td>2</td><td>910</td><td>✅</td></tr>
+<tr><td>セガ（查:SEGA）</td><td>2</td><td>522</td><td>✅</td></tr>
+<tr><td>Hot Toys（查:Hot Toys）</td><td>2</td><td>1,054</td><td>✅</td></tr>
+<tr><td>グッスマ（查:GSC）</td><td>1</td><td>2,649</td><td>✅</td></tr>
+<tr><td>アルター（查:ALTER）</td><td>1</td><td>1,560</td><td>✅</td></tr>
+<tr><td>BANDAI（查:BANDAI）</td><td>1</td><td>42,330</td><td>✅</td></tr>
+<tr><td>アニプレックス（查:ANIPLEX）</td><td>1</td><td>537</td><td>✅</td></tr>
+<tr><td>ThreeZero（查:ThreeZero）</td><td>1</td><td>1,284</td><td>✅</td></tr>
+</table>
+<p>缺口工單：5 件 open（爬蟲資料/ip_news/coverage_gaps.json，雷達排程每日 recon→補建→閉案）</p>
+<h2>八、known issues（🔴 過期品牌 Top10）</h2>
+<ul>
+<li>（無 &gt;180 天過期品牌 ✅）</li>
+</ul>
+<hr>
+<p>_規則：每新增機制/品牌/雷達線必重產本報告（python3 crawlers/system_overview.py）。歷史版本見 輸出/運行報告/_</p></div></body></html>

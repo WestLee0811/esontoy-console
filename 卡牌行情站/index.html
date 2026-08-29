@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="zh-Hant"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>卡牌行情站</title><style>
+body{font-family:-apple-system,"Noto Sans TC","PingFang TC",sans-serif;margin:0;background:#f8f4ec;color:#2c2620}
+header{background:rgba(248,244,236,.95);backdrop-filter:blur(8px);border-bottom:1px solid #e5dccb;padding:12px 18px;position:sticky;top:0;z-index:5}
+.hin{max-width:1280px;margin:0 auto}
+h1{font-size:17px;margin:0 0 8px;color:#2c2620;font-weight:700}small{color:#8a7f72;font-weight:400}
+.bar{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.bar button,.bar select,.bar input{border:1px solid #e5dccb;background:#fff;color:#2c2620;border-radius:8px;padding:6px 12px;font-size:13px}
+.bar button.on{background:#2c2620;color:#f8f4ec;border-color:#2c2620;font-weight:700}
+.bar input{width:170px}
+#grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(158px,1fr));gap:10px;padding:14px 18px;max-width:1280px;margin:0 auto}
+.card{background:#fff;border:1px solid #e5dccb;border-radius:10px;overflow:hidden;transition:border-color .15s}
+.card:hover{border-color:#b8943a}
+.card img{width:100%;aspect-ratio:63/88;object-fit:contain;background:#f3ede2;display:block}
+.ci{padding:7px 9px}
+.nm{font-size:12px;font-weight:500;line-height:1.3;height:31px;overflow:hidden;color:#2c2620}
+.mt{font-size:10px;color:#8a7f72;margin:2px 0}
+.pr{font-size:12px;line-height:1.5}
+.pr b{font-variant-numeric:tabular-nums;color:#8a6d1f}
+.up{color:#c1303d}.dn{color:#16a34a}
+.tag{display:inline-block;font-size:9px;background:#f3ede2;border-radius:4px;padding:1px 5px;margin-right:3px;color:#8a6d1f}
+.vtag{background:#fdf3d7;color:#8a6d1f}
+#more{display:block;margin:0 auto 30px;padding:10px;width:min(1244px,calc(100% - 36px));border:1px solid #e5dccb;background:#fff;color:#8a6d1f;border-radius:8px;font-size:14px;cursor:pointer}
+</style></head><body>
+<header><div class='hin'><h1>🃏 卡牌行情站 <small id="stat"></small></h1>
+<div class="bar">
+<button data-k="g" data-v="all" class="on">全部</button>
+<button data-k="g" data-v="ptcg">寶可夢</button>
+<button data-k="g" data-v="op">海賊王</button>
+<button data-k="g" data-v="ua">UA鏈鋸人</button>
+<button data-k="g" data-v="ygo">遊戲王</button>
+<button data-k="g" data-v="ws">WS簽卡</button>
+<button data-k="g" data-v="digi">數碼</button>
+<span style="width:8px"></span>
+<button data-k="l" data-v="all" class="on">台+日</button>
+<button data-k="l" data-v="jp">日版</button>
+<button data-k="l" data-v="tc">台版</button>
+<select id="fset"><option value="all">全部彈</option></select>
+<select id="frar"><option value="all">全稀有度</option></select>
+<select id="fsort"><option value="price">價高→低</option><option value="chg">漲幅</option><option value="chgd">跌幅</option><option value="new">彈新→舊</option></select>
+<input id="q" placeholder="搜卡名/卡號…">
+<button id="onlyp" data-on="0">只看有行情</button>
+</div></div></header>
+<div id="grid"></div><button id="more">載入更多</button>
+<script src="data.js"></script><script>
+const F={g:'all',l:'all',set:'all',r:'all',sort:'price',q:'',onlyp:false};let SHOW=120;
+const fmt=n=>n>=10000?(n/10000).toFixed(1)+'萬':n.toLocaleString();
+const SRC_J={'遊遊亭販售':'販','遊遊亭買取':'買取','露天掛牌':'台','スニダン掛牌':'スニ','スニダン成交':'成交','ptcgtw':'台基準'};
+const SRC_C={'露天掛牌':'NT$','ptcgtw':'NT$','FindPrice掛牌':'NT$'};
+function pool(){return CARDS.filter(c=>
+ (F.g=='all'||c.g==F.g)&&(F.l=='all'||c.l==F.l)&&(F.set=='all'||c.set==F.set)&&(F.r=='all'||c.r==F.r)
+ &&(!F.onlyp||Object.keys(c.p).length)
+ &&(!F.q||c.name.toLowerCase().includes(F.q)||c.no.toLowerCase().includes(F.q)||(c.a&&c.a.toLowerCase().includes(F.q))||(c.sn&&c.sn.toLowerCase().includes(F.q))))}
+function best(c){const v=Object.values(c.p);return v.length?Math.max(...v):0}
+function render(){
+ let r=pool();
+ if(F.sort=='price')r.sort((a,b)=>best(b)-best(a));
+ else if(F.sort=='chg')r.sort((a,b)=>(b.chg??-999)-(a.chg??-999));
+ else if(F.sort=='chgd')r.sort((a,b)=>(a.chg??999)-(b.chg??999));
+ else r.sort((a,b)=>b.set.localeCompare(a.set)||a.no.localeCompare(b.no));
+ document.getElementById('stat').textContent=`${r.length} 張｜有行情 ${r.filter(c=>Object.keys(c.p).length).length}｜更新 ${GEN}`;
+ document.getElementById('grid').innerHTML=r.slice(0,SHOW).map(c=>{
+  const ps=Object.entries(c.p).map(([s,v])=>`${SRC_J[s]||s} <b>${fmt(v)}</b><span style="font-size:9px;color:#a8a29e">${SRC_C[s]||'円'}</span>`).join('｜')||'<span style="color:#a8a29e">無行情</span>';
+  const ch=c.chg==null?'':`<span class="${c.chg>0?'up':'dn'}">${c.chg>0?'▲':'▼'}${Math.abs(c.chg)}%</span>`;
+  const vt=c.v&&c.v!='base'?`<span class="tag vtag">${c.v.toUpperCase()}</span>`:'';
+  const imghtml=c.img?`<img loading="lazy" src="${c.img}" onerror="this.style.opacity=.15">`:`<div style="width:100%;aspect-ratio:63/88;background:linear-gradient(160deg,#f3ede2,#e5dccb);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;color:#8a6d1f;text-align:center;padding:8px"><div style="font-size:13px;font-weight:600;line-height:1.4">${c.name}</div><div style="font-size:10px;color:#8a7f72">${c.no}</div><div style="font-size:9px;color:#78716c">秘藏編號｜實掃圖待補</div></div>`;
+  return `<div class="card">${imghtml}
+  <div class="ci"><div class="nm">${c.name}</div>
+  <div class="mt"><span class="tag">${c.g=='op'?'OP':'PTCG'}·${c.l=='jp'?'日':'台'}</span><span class="tag">${c.no}</span><span class="tag">${c.r}</span>${vt}</div>
+  <div class="pr">${ps} ${ch}</div></div></div>`}).join('');
+ document.getElementById('more').style.display=r.length>SHOW?'block':'none';
+}
+const SN={};CARDS.forEach(c=>{if(c.sn&&c.sn!=c.set){const n=c.sn.replace(/拡張パック|強化拡張パック|ハイクラスパック|擴充包|強化擴充包|「|」/g,'').slice(0,14);if(!SN[c.set]||c.l=='tc')SN[c.set]=n}});
+const sets=[...new Set(CARDS.map(c=>c.set))].sort().reverse();
+document.getElementById('fset').innerHTML+=sets.map(s=>`<option value="${s}">${s}${SN[s]?'｜'+SN[s]:''}</option>`).join('');
+const rars=[...new Set(CARDS.map(c=>c.r).filter(Boolean))].sort();
+document.getElementById('frar').innerHTML+='<option>'+rars.join('</option><option>')+'</option>';
+document.querySelectorAll('.bar button[data-k]').forEach(b=>b.onclick=()=>{
+ document.querySelectorAll(`.bar button[data-k=${b.dataset.k}]`).forEach(x=>x.classList.remove('on'));
+ b.classList.add('on');F[b.dataset.k]=b.dataset.v;SHOW=120;render()});
+document.getElementById('fset').onchange=e=>{F.set=e.target.value;SHOW=120;render()};
+document.getElementById('frar').onchange=e=>{F.r=e.target.value;SHOW=120;render()};
+document.getElementById('fsort').onchange=e=>{F.sort=e.target.value;render()};
+document.getElementById('q').oninput=e=>{F.q=e.target.value.toLowerCase();SHOW=120;render()};
+document.getElementById('onlyp').onclick=e=>{F.onlyp=!F.onlyp;e.target.classList.toggle('on');SHOW=120;render()};
+document.getElementById('more').onclick=()=>{SHOW+=180;render()};
+render();
+</script></body></html>
