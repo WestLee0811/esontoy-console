@@ -27,150 +27,66 @@ blockquote{border-left:3px solid var(--line);padding-left:14px;color:var(--mut);
 .arch a{display:inline-block;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px 14px;margin:4px 6px 4px 0;font-size:13px;text-decoration:none}
 .arch a:hover{border-color:var(--gold)}
 </style></head><body>
-<div class="top"><a href="../總台.html">← 總台</a><b>每日日報</b><span style="flex:1"></span><span style="font-size:11px;color:var(--mut)">渲染於 08-31 04:23</span></div>
-<div class="wrap"><h1>📰 每日日報 2026-08-30</h1>
+<div class="top"><a href="../總台.html">← 總台</a><b>每日日報</b><span style="flex:1"></span><span style="font-size:11px;color:var(--mut)">渲染於 09-01 04:25</span></div>
+<div class="wrap"><h1>📰 每日日報 2026-08-31</h1>
 <p><strong>品牌新鮮度</strong>：</p>
 <ul>
-<li>✅ 7天內: 207｜🟡 8-30天: 0｜🔴 &gt;30天: 0 （昨 4，▼4）</li>
+<li>✅ 7天內: 207｜🟡 8-30天: 0｜🔴 &gt;30天: 0 （昨 0，—0）</li>
 <li>runner: 12 牌｜✅12 🟡0 🔴0</li>
 </ul>
 <h2>🔔 看門狗：需 West 動手</h2>
-<p>（來源 260830_watchdog.md）</p>
+<p>（來源 260831_watchdog.md）</p>
 <p><strong>🚨 慢性故障</strong></p>
 <ul>
-<li>🧱 <strong>夜跑積壓連 7 天無出口</strong>：目前 240 筆／6 牌（最久 30 天）。AUTO_MERGE=0 之下唯一出口是你開口。回「<strong>消化夜跑 staged</strong>」我就入庫。主要積壓：OrzGK 128筆、YesGK 82筆、GK Collectors 24筆、Dark Horse Direct 3筆、Mondo 2筆、Iron Studios 1筆</li>
-<li>🚧 <strong>28 牌巡邏連 5 天被擋</strong>（probe 四招輪試全失效，非站方節流）：B&#x27;full（probe:列表撈不到(待Chrome確認)）、Myethos（probe:列表撈不到(待Chrome確認)）、WANDERER（probe:列表撈不到(待Chrome確認)）、Wonderful Works（probe:列表撈不到(待Chrome確認)）、Tweeterhead（probe:列表撈不到(待Chrome確認)）、GK Figure Worldwide（probe:列表撈不到(待Chrome確認)）、SooSooToys（probe:列表撈不到(待Chrome確認)）、COOMODEL（probe:列表撈不到(待Chrome確認)）。這些牌的新品從 5 天前就沒進來。建議標成 chrome_only 走 Chrome 精爬——回「<strong>跑 Chrome 待辦</strong>」我就清。</li>
+<li>🧱 <strong>夜跑積壓連 8 天無出口</strong>：目前 25344 筆／9 牌（最久 30 天）。AUTO_MERGE=0 之下唯一出口是你開口。回「<strong>消化夜跑 staged</strong>」我就入庫。主要積壓：PalVerse 24760筆、Numskull 175筆、blackdots 168筆、OrzGK 128筆、YesGK 82筆、GK Collectors 25筆、Dark Horse Direct 3筆、Mondo 2筆</li>
+<li>🚧 <strong>29 牌巡邏連 6 天被擋</strong>（probe 四招輪試全失效，非站方節流）：B&#x27;full（probe:列表撈不到(待Chrome確認)）、Myethos（probe:列表撈不到(待Chrome確認)）、WANDERER（probe:列表撈不到(待Chrome確認)）、Wonderful Works（probe:403/503 被擋，需 Chrome）、Tweeterhead（probe:列表撈不到(待Chrome確認)）、GK Figure Worldwide（probe:列表撈不到(待Chrome確認)）、SooSooToys（probe:列表撈不到(待Chrome確認)）、COOMODEL（probe:列表撈不到(待Chrome確認)）。這些牌的新品從 6 天前就沒進來。建議標成 chrome_only 走 Chrome 精爬——回「<strong>跑 Chrome 待辦</strong>」我就清。</li>
 </ul>
+<hr>
 <h2>📬 信箱待處理（Code 指令）</h2>
 <ul>
 <li>260830_台中店盤點回寫.md：把 2608 台中店盤點的實盤數量回寫進 Google Sheet「商品庫存」的 <code>台中店數量</code> 欄。</li>
 </ul>
 <h2>今天更新了什麼</h2>
 <ul>
-<li>2026-08-30 [query] West「GSC 這頁怎沒收錄（胡蝶忍＆童磨無比例）」→ 查明<strong>已收在 CLY-00053</strong>（製造商=Claynel，GSC 僅販售商，歸戶原則記在正身名下）；順手官方化該列（GSC 繁中官名+¥16,500+2027/03）。啟示：West 常從賣場頁反查 → 找東西用查詢台搜角色名（童磨/胡蝶忍）跨品牌全中，不用管收在誰家 → [[GK市場結構]]</li>
-<li>2026-08-30 [decision] West「是否要像卡牌那樣建db？跟工程師對接怎樣？感覺一團亂」→ 盤點式回答：①架構已三層完備（xlsx正本→figures.db/cards_v2/opcg 查詢腦→HTML逛層），卡牌公仔同模式，無需新建 ②工程師feed健康：v20260829 每晚自動推 GitHub，341,742商品/205,501報價/216牌含品質分級 ③「亂」根因=八個入口八個門 → 建 <strong>輸出/總台.html 單一總入口</strong>（每天逛/報告/工具/對接四區，標自動更新時間）。West 以後只記一個檔 → [[指揮體系]]</li>
-<li>2026-08-30 [decision] West「每一頁都檢查，不要只有框，統一感閱讀性」→ 全站換裝品牌規格（墨×金×和風）：①建 render_reports.py（md→品牌風HTML：日報/戰報/總覽/快報+檔案庫，掛夜跑6.7）——根治「點進去是原始markdown」②儀表板+卡牌行情站 CSS 全換墨金暗色系③總台連結改指渲染版。全站視覺自此同一套（源自燈箱設計案 efunson 色票）→ [[指揮體系]]</li>
-<li>2026-08-30 [patrol] West「大牌巡了怎沒入庫」→ 病灶=probe 候選 4,141 筆囤積無人收。三修：①隊列排序改候選數優先②收割特遣 +223 筆（壽屋台官網 Cyberbiz JS 站爬法解鎖/KDcolle 索引頁噪音型/VERTEX URL編碼重複型/GL 草稿複本型=噪音三分類法）③probe unquote 根治。UI 同場全站改淺色（紙白×墨×金）＋置中統一，West「不想雕網頁」→ 交付標準寫死 → [[指揮體系]]</li>
-<li>2026-08-30 [query] 研究「打卡之星」內部人事系統（West 提問：打卡/薪資計算/離職員工刪除）→ 全爬 help.dakastar.com.tw 17 分類 332 篇 → 新建 [[打卡之星操作]]（主題 12→13）。關鍵發現：離職只改狀態不會自動結算特休（要改到期日）、刪帳號不可逆且會卡住待簽單、員工可自刪打卡紀錄且管理員無法禁止。⚔️ 未在自家後台驗證（Chrome AppleScript JS 權限未開）</li>
-<li>2026-08-30 [patrol] West「不要慢慢爬，一次到位打到完」→ <strong>終局戰 W1+W2 八特遣連波 +940 筆，紅燈歸零</strong>（🔴&gt;60天=0！dormant 累計 10 附死亡證明）。里程碑：BANPRESTO 十年缺口收乾/HotToys 67 全通/Medicom 155/p-bandai TW 首爬開檔。平台勘誤五連：Mezco→Magento、NECA→store.necaonline Shopify、TAITO API 破解、Queen/SOAP Shopify 復通。同日交付：🌀陀螺行情站（93 顆/60 帶行情，整盒散刃分層+漲跌）＋🌐publish_console.py GitHub Pages 遠端總台（今晚 03:30 首發 → westlee0811.github.io/esontoy-console，手機隨時查卡價陀螺價）→ [[指揮體系]]</li>
-<li>2026-08-30 [lint] 🧬 週日自我進化回顧：FAIL 0／WARN 3（W6b 積壓 240 筆・W7 工單逾期 1・W10 被擋 28 牌），11 支排程 lastRunAt 全在容忍內。<strong>抓到三條結構問題並當場改掉檢查器</strong>：①W6b 連 7 天積壓、②W10 連 5 天固定 8 牌被擋——兩者都因 FAIL=0 而從不通知 West，唯一清空紀錄是 08-27 West 自己開口 → 新增 <code>_streak()</code> 歷史回讀 ＋ <strong>🚨慢性故障區塊</strong>，連 ≥3 天即強制通知（今日首度觸發兩條）；③W11 對「修好了」和「剛壞」講同一句「續觀察」→ 拆成兩句。<strong>收尾好消息：角色補全斷鏈已恢復</strong>（08-23 瀏覽器標頭修復生效，AniList ok=229/300、403 歸零、review 162 筆，連兩週白跑的洞補上）。教訓沿用「假成功不會叫」系列：<strong>慢性 WARN 等同靜默失敗</strong>——每天叫一次但沒人被叫醒，跟不叫一樣 → [[指揮體系]]</li>
-<li>2026-08-30 [patrol] 巡 20 牌，新品 205 筆全 🟢（MegaHouse 87／PalVerse 42／Numskull 38／熱血模玩 20／Tamashii 20／PLUM 19／Hertz 6／BANPRESTO 5／Threezero 3／WAVE 3／HOBBY MAX 1），⚫新增 1（GKResinStatues Wix 網域未連結），缺口立案 2（GKAniMerch≈402／BellFine 138），shopify_brands.json 新登記 4 牌入夜跑</li>
-<li>2026-08-30 🎏成立一番賞監察官：大清洗 763 系列(F改1757/L改7324格)+818 賞項名+F獵人→魔物獵人133筆+商品線整容346格，總計 1.1 萬格；kuji_inspector.py 週二自動巡檢(基線diff)，備份：備份文件/一番賞_backup_260830_翻譯清洗前.xlsx</li>
-<li>2026-08-30 🈶全庫翻譯大掃除：217牌30.5萬筆全掃，機械修27,513格/130牌+語意清洗I1,013/F273格/47牌；真實污染16,245→5,937（餘5,407為無來源待翻譯backlog）；零污染牌66→159。修好兩個系統性bug：s2twp會改壞正確繁體（改用s2t字元級+KEEP白名單）、substring偵測28,019筆假陽性（audit改接fix守衛規則）。工具：translation_audit.py/translation_fix.py，規範入TRANSLATION_RULES.md</li>
-<li>2026-08-30 🇭🇰 HKTCG 港價線上線：592 彈 / 17.9 萬張單卡入庫（在庫僅 3,169＝1.8%），2,188 型番進行情序列。<strong>關鍵情報：HKTCG「調低價格」在單卡上不成立</strong>——同型番同變體對日版遊遊亭販售價，中位數 1.23x，低價卡 2-4x 貴；結論是香港不是進貨地而是出貨地。在庫集中 UA(1,242)&gt;PTCG(816)&gt;OP(759)&gt;數碼(351)，招牌是鏈鋸人 UA CSM-1-AP02 標 HK$112,000≈NT$45.6萬。踩到的坑：★=閃卡變體必須分離，否則閃卡會對到日版普卡讓價差全錯。工具：hktcg_crawler.py / hk_arbitrage.py，已排夜跑每日更新</li>
+<li>2026-08-31 [query] 市場週報 #9（weekly-database-audit 排程）→ 大腦/週報/260831.md。本期三個「報告自己被抓包」的發現：①<strong>minimal +58 是淨值幻覺</strong>——拆開是 MozFigure+320／FavorGK+171 新污染，被 Tamashii -332／PalVerse -119 抵銷；上週報已寫明「OrzGK 病灶=夜跑抓新品但翻譯 pipeline 沒跟上」，一週後同一件事在兩家重演＋8 個牌新掉進 P0 榜（8/30 剛大掃除完），<strong>證明這是結構缺陷不是偶發：增量爬蟲與翻譯佇列沒綁在同一工作流</strong>。②<strong>陀螺 BX-35 鏡像異動連四週紅旗未查證</strong>，且數字逐字相同（散刃 -87%／整盒 -58%）——<strong>同一組數字連四週出現＝管線固定產物不是市場行為</strong>，正是 8/30 剛沉澱的「慢性 WARN 等同靜默失敗」發生在報告自己身上。③🆕<strong>卡牌線 form 結構污染</strong>：單卡價被標「整盒」，跑出 op:jp:OP16-063 $100→$180,000(+179,900%)、OP16 全套 base 卡整齊 $4→$80(+1,900%)——整齊倍數＝機械錯誤；watchlist 從 52 顆爆到 2,211 顆也是同一後果。<strong>修好前卡牌漲跌榜不可對外報價</strong>。生意面：2027/01 檔首度跨年浮出，孤獨搖滾 6 筆＝該月最大套 ↔ 8/27 開約山田涼 ¥12,100，是本週唯一「官方替你宣傳」且成本帶落乙番中段賞的單 → [[PVC預購雷達]]</li>
+<li>2026-08-31 [patrol] 巡 11 牌，新品 491 筆：GK-SCC 145／GK-MasterD 51／BANDAI-BANPRESTO 283（🟡 I欄待翻譯）／WAVE 51／BANDAI-Tamashii 8／Threezero 3；0 新品 PalVerse・blackdots・Alpha×Omega・Numskull・Hertz。⚫新增 0。跳過 9 牌（BellFine/PLUM/KDcolle/HOBBY MAX/MaxFactory/GSC/GKAniMerch/WetaWorkshop/HobbyJapan，時間到未跑完，最舊優先明天接手）。</li>
 </ul>
 <p><strong>品牌爬蟲動態</strong>：</p>
 <ul>
-<li>MegaHouse（2528 筆，至 MEG-02528）</li>
-<li>GSC（5615 筆，至 GSC-05847）</li>
-<li>MaxFactory（1191 筆，至 MAX-00004）</li>
-<li>Kotobukiya（952 筆，至 KTB-00024）</li>
-<li>B&#x27;full（881 筆，至 BFL-00881）</li>
-<li>HOBBY MAX（77 筆，至 HOB-00077）</li>
-<li>WING（40 筆，至 WIN-00040）</li>
-<li>revolve（14 筆，至 REV-00014）</li>
-<li>knead（17 筆，至 KND-00017）</li>
-<li>GENCO（9 筆，至 GNC-00009）</li>
-<li>Licorne（23 筆，至 LCN-00023）</li>
-<li>BellFine（8 筆，至 BLF-00008）</li>
-<li>WANDERER（23 筆，至 WND-00023）</li>
-<li>AOSHIMA（241 筆，至 AOS-00101）</li>
-<li>Plusone（7 筆，至 PLU-00007）</li>
-<li>HobbyJapan（21 筆，至 HOB-00004）</li>
-<li>BANDAI（3066 筆，至 BND-03066）</li>
-<li>Iron Studios（1136 筆，至 IRN-01108）</li>
-<li>Dark Horse Direct（531 筆，至 DHD-00521）</li>
-<li>Figurama Collectors（75 筆，至 FIG-00075）</li>
-<li>Star Ace Toys（227 筆，至 STA-00227）</li>
-<li>GKAniMerch（2095 筆，至 GAM-02095）</li>
-<li>GK Figure Worldwide（8358 筆，至 GKFW-08358）</li>
-<li>GK Collectors（4233 筆，至 GKC-04233）</li>
-<li>IronStudios（1136 筆，至 IRN-01108）</li>
-<li>DarkHorseDirect（531 筆，至 DHD-00521）</li>
-<li>StarAce（227 筆，至 STA-00227）</li>
-<li>GKCollectors（4233 筆，至 GKC-04233）</li>
-<li>QueenStudios（103 筆，至 QNS--00103）</li>
-<li>SOAPStudio（183 筆，至 SOA-00183）</li>
-<li>FireGirlToys（59 筆，至 FGT-00059）</li>
-<li>i8Toys（80 筆，至 I8-00080）</li>
-<li>BLACKBOX（36 筆，至 BB-00036）</li>
-<li>ActionToys（71 筆，至 AT-00071）</li>
-<li>JNDStudios（64 筆，至 JND-00064）</li>
-<li>APEX-TOYS（195 筆，至 APX-00195）</li>
-<li>WetaWorkshop（692 筆，至 WTA-00692）</li>
-<li>Gantaku（5 筆，至 GTK-00005）</li>
-<li>SpiralStudio（92 筆，至 SPS-00092）</li>
-<li>Animester（90 筆，至 AMS-00090）</li>
-<li>FactoryEntertainment（265 筆，至 FAC-00012）</li>
-<li>EliteCreature（31 筆，至 ECC--00031）</li>
-<li>GrandJesterStudios（34 筆，至 GJS-00034）</li>
-<li>HollywoodCollectibles（160 筆，至 HCG-00160）</li>
 <li>Numskull（103 筆，至 NUM-00003）</li>
-<li>HexCollectibles（30 筆，至 HEX-00030）</li>
-<li>ArtSpirits（30 筆，至 ASP-00030）</li>
-<li>DragonHorse（203 筆，至 DRA-00007）</li>
-<li>HotToys（1437 筆，至 HOT-00286）</li>
 <li>Hertz（45 筆，至 HTZ-00045）</li>
-<li>GEEK LIFE（81 筆，至 GEE-00005）</li>
-<li>MuckleM（95 筆，至 MKL--00095）</li>
-<li>GKFigureWorldwide（8358 筆，至 GKFW-08358）</li>
-<li>BDtoys（11 筆，至 BDT-00011）</li>
 <li>blackdots（51 筆，至 BKD--00051）</li>
-<li>Nauts（0 筆，至 ）</li>
-<li>HOBBY STOCK（43954 筆，至 HSK-43965）</li>
-<li>Mamegyorai（14489 筆，至 MGR-14489）</li>
 <li>BANDAI-BANPRESTO（10611 筆，至 BAN-00020）</li>
-<li>Medicom（10577 筆，至 MED-00076）</li>
-<li>KDcolle（615 筆，至 KDC-00615）</li>
-<li>OrchidSeed（250 筆，至 OSD-00250）</li>
-<li>VERTEX（103 筆，至 VTX-00103）</li>
-<li>TAITO（244 筆，至 TAI-00244）</li>
-<li>熱血模玩（5946 筆，至 HTG-05948）</li>
+<li>GK-SCC（19595 筆，至 SCC-19856）</li>
+<li>GK-MasterD（15378 筆，至 MSD-15378）</li>
 <li>BANDAI-Tamashii（? 筆，至 ?）</li>
-<li>NECA（3027 筆，至 NCA-03027）</li>
-<li>Native_v2（1069 筆，至 NTV-01069）</li>
 <li>Threezero（608 筆，至 THR-00040）</li>
-<li>Prime1Studio（401 筆，至 P1S-00401）</li>
-<li>Mezco（356 筆，至 MZC-00356）</li>
-<li>amiami（333 筆，至 AMI-00333）</li>
-<li>PLUM（? 筆，至 ?）</li>
-<li>Lechery（? 筆，至 ?）</li>
-<li>ORCATOYS（? 筆，至 ?）</li>
-<li>Alphamax（? 筆，至 ?）</li>
-<li>AsmusToys（110 筆，至 ASM-00110）</li>
-<li>FiguramaCollectors石油廠（75 筆，至 FIG-00075）</li>
 <li>WAVE（? 筆，至 ?）</li>
-<li>1000TOYS（92 筆，至 1KT-1553）</li>
 <li>Alpha×Omega（? 筆，至 ?）</li>
 <li>PalVerse（200 筆，至 PAL-00200）</li>
-<li>p-bandai TW（? 筆，至 ?）</li>
-<li>Queen Studios（? 筆，至 ?）</li>
-<li>SOAP Studio（? 筆，至 ?）</li>
 </ul>
 <p><strong>行情</strong>：</p>
 <ul>
-<li>今日新快照：2928 序列</li>
-<li>op:jp:OP16-032:p·boxed: $2000→$120000 (+5900%)</li>
-<li>op:tc:ST29-001:p·boxed: $246→$1839 (+647%)</li>
-<li>UX-00·boxed: $1200→$3000 (+150%)</li>
-<li>op:jp:OP16-063:sp·boxed: $180000→$100 (-100%)</li>
-<li>op:jp:OP14-119:sp·boxed: $90000→$392 (-100%)</li>
-<li>op:jp:OP16-115:base·boxed: $80→$4 (-95%)</li>
-<li>op:jp:OP16-113:base·boxed: $80→$4 (-95%)</li>
-<li>op:jp:OP16-110:base·boxed: $120→$6 (-95%)</li>
-<li>op:jp:OP16-109:base·boxed: $80→$4 (-95%)</li>
-<li>op:jp:OP16-103:base·boxed: $80→$4 (-95%)</li>
+<li>今日新快照：2937 序列</li>
+<li>op:jp:OP16-063:sp·boxed: $100→$180000 (+179900%)</li>
+<li>op:jp:OP16-115:base·boxed: $4→$80 (+1900%)</li>
+<li>op:jp:OP16-113:base·boxed: $4→$80 (+1900%)</li>
+<li>op:jp:OP16-110:base·boxed: $6→$120 (+1900%)</li>
+<li>op:jp:OP16-109:base·boxed: $4→$80 (+1900%)</li>
+<li>op:jp:OP16-103:base·boxed: $4→$80 (+1900%)</li>
+<li>op:jp:OP16-102:base·boxed: $4→$80 (+1900%)</li>
+<li>op:jp:OP16-099:base·boxed: $4→$80 (+1900%)</li>
+<li>op:jp:OP16-095:base·boxed: $6→$120 (+1900%)</li>
+<li>op:jp:OP16-094:base·boxed: $4→$80 (+1900%)</li>
 </ul>
 <h2>該去抓的（明日待辦）</h2>
 <p><strong>行情樣本不足（需補交叉）</strong>：</p>
 <ul>
 <li>BX-37（2026-08-24 n=1）</li>
-<li>CX-00-EVA（2026-08-30 n=1）</li>
 <li>CX-04（2026-07-31 n=1）</li>
-<li>CX-11（2026-08-30 n=1）</li>
 <li>CX-16（2026-08-30 n=1）</li>
-<li>UX-00（2026-08-28 n=1）</li>
-<li>UX-10（2026-08-30 n=1）</li>
+<li>UX-00（2026-08-31 n=1）</li>
+<li>UX-10（2026-08-31 n=1）</li>
 <li>UX-21（2026-08-27 n=1）</li>
 <li>digi:AD1:007-sp（2026-08-29 n=1）</li>
 <li>digi:AD1:008-p（2026-08-29 n=1）</li>
@@ -283,46 +199,46 @@ blockquote{border-left:3px solid var(--line);padding-left:14px;color:var(--mut);
 <li>jp:M-P:033/M-P（2026-08-27 n=1）</li>
 <li>jp:M-P:043/M-P（2026-08-27 n=1）</li>
 <li>jp:M-P:044/M-P（2026-08-27 n=1）</li>
-<li>jp:M1s:089/063（2026-08-30 n=1）</li>
-<li>jp:M1L:086/063（2026-08-27 n=1）</li>
-<li>jp:M1l:087/063（2026-08-30 n=1）</li>
-<li>jp:M1l:088/063（2026-08-30 n=1）</li>
-<li>jp:M1l:091/063（2026-08-30 n=1）</li>
-<li>jp:M1l:092/063（2026-08-30 n=1）</li>
-<li>jp:M1s:087/063（2026-08-30 n=1）</li>
+<li>jp:M1s:089/063（2026-08-31 n=1）</li>
+<li>jp:M1l:086/063（2026-08-31 n=1）</li>
+<li>jp:M1l:087/063（2026-08-31 n=1）</li>
+<li>jp:M1l:088/063（2026-08-31 n=1）</li>
+<li>jp:M1l:091/063（2026-08-31 n=1）</li>
+<li>jp:M1l:092/063（2026-08-31 n=1）</li>
+<li>jp:M1s:087/063（2026-08-31 n=1）</li>
 <li>jp:M1S:088/063（2026-08-27 n=1）</li>
-<li>jp:M1s:090/063（2026-08-30 n=1）</li>
-<li>jp:M1s:092/063（2026-08-30 n=1）</li>
-<li>jp:M2:094/080（2026-08-30 n=1）</li>
-<li>jp:M2:110/080（2026-08-30 n=1）</li>
-<li>jp:M2:115/080（2026-08-30 n=1）</li>
-<li>jp:M2:116/080（2026-08-30 n=1）</li>
+<li>jp:M1s:090/063（2026-08-31 n=1）</li>
+<li>jp:M1s:092/063（2026-08-31 n=1）</li>
+<li>jp:M2:094/080（2026-08-31 n=1）</li>
+<li>jp:M2:110/080（2026-08-31 n=1）</li>
+<li>jp:M2:115/080（2026-08-31 n=1）</li>
+<li>jp:M2:116/080（2026-08-31 n=1）</li>
 <li>jp:M2a:223/193（2026-08-27 n=1）</li>
-<li>jp:M2a:234/193（2026-08-30 n=1）</li>
-<li>jp:M2a:236/193（2026-08-30 n=1）</li>
-<li>jp:M2a:237/193（2026-08-30 n=1）</li>
-<li>jp:M2a:240/193（2026-08-30 n=1）</li>
-<li>jp:M2a:242/193（2026-08-30 n=1）</li>
-<li>jp:M2a:243/193（2026-08-30 n=1）</li>
-<li>jp:M2a:245/193（2026-08-30 n=1）</li>
-<li>jp:M2a:246/193（2026-08-30 n=1）</li>
-<li>jp:M2a:248/193（2026-08-30 n=1）</li>
-<li>jp:M2a:250/193（2026-08-30 n=1）</li>
-<li>jp:M3:100/080（2026-08-30 n=1）</li>
+<li>jp:M2a:234/193（2026-08-31 n=1）</li>
+<li>jp:M2a:236/193（2026-08-31 n=1）</li>
+<li>jp:M2a:237/193（2026-08-31 n=1）</li>
+<li>jp:M2a:240/193（2026-08-31 n=1）</li>
+<li>jp:M2a:242/193（2026-08-31 n=1）</li>
+<li>jp:M2a:243/193（2026-08-31 n=1）</li>
+<li>jp:M2a:245/193（2026-08-31 n=1）</li>
+<li>jp:M2a:246/193（2026-08-31 n=1）</li>
+<li>jp:M2a:248/193（2026-08-31 n=1）</li>
+<li>jp:M2a:250/193（2026-08-31 n=1）</li>
+<li>jp:M3:100/080（2026-08-31 n=1）</li>
 <li>jp:M3:107/080（2026-08-27 n=1）</li>
 <li>jp:M3:111/080（2026-08-27 n=1）</li>
 <li>jp:M3:112/080（2026-08-27 n=1）</li>
 <li>jp:M3:113/080（2026-08-27 n=1）</li>
 <li>jp:M3:114/080（2026-08-27 n=1）</li>
 <li>jp:M3:115/080（2026-08-27 n=1）</li>
-<li>jp:M3:117/080（2026-08-30 n=1）</li>
+<li>jp:M3:117/080（2026-08-31 n=1）</li>
 <li>jp:M4:114/083（2026-08-27 n=1）</li>
-<li>jp:M4:117/083（2026-08-30 n=1）</li>
-<li>jp:M4:120/083（2026-08-30 n=1）</li>
-<li>jp:M5:114/081（2026-08-30 n=1）</li>
-<li>jp:M5:115/081（2026-08-30 n=1）</li>
-<li>jp:M5:117/081（2026-08-30 n=1）</li>
-<li>jp:M5:118/081（2026-08-30 n=1）</li>
+<li>jp:M4:117/083（2026-08-27 n=1）</li>
+<li>jp:M4:120/083（2026-08-31 n=1）</li>
+<li>jp:M5:114/081（2026-08-31 n=1）</li>
+<li>jp:M5:115/081（2026-08-31 n=1）</li>
+<li>jp:M5:117/081（2026-08-31 n=1）</li>
+<li>jp:M5:118/081（2026-08-31 n=1）</li>
 <li>jp:M6:108/076（2026-08-27 n=1）</li>
 <li>jp:M6:112/076（2026-08-27 n=1）</li>
 <li>jp:PROMO:001/025（2026-08-27 n=1）</li>
@@ -1087,103 +1003,124 @@ blockquote{border-left:3px solid var(--line);padding-left:14px;color:var(--mut);
 <li>jp:XY-P:基本炎エネルギー(リザードンメガバトル)（2026-08-27 n=1）</li>
 <li>jp:XY-P:殿堂の書（2026-08-27 n=1）</li>
 <li>jp:XY-P:鍛冶屋(リザードンメガバトル)（2026-08-27 n=1）</li>
-<li>op:jp:EB01-001:p（2026-08-28 n=1）</li>
-<li>op:jp:EB02-010:p（2026-08-28 n=1）</li>
+<li>op:jp:EB01-001:p（2026-08-31 n=1）</li>
+<li>op:jp:EB02-010:p（2026-08-31 n=1）</li>
 <li>op:jp:EB02-035:p（2026-08-28 n=1）</li>
-<li>op:jp:EB02-052:p（2026-08-30 n=1）</li>
-<li>op:jp:EB03-003:p（2026-08-30 n=1）</li>
+<li>op:jp:EB02-052:p（2026-08-31 n=1）</li>
+<li>op:jp:EB03-003:p（2026-08-31 n=1）</li>
 <li>op:jp:EB03-024:p（2026-08-28 n=1）</li>
 <li>op:jp:EB03-053:p（2026-08-29 n=1）</li>
-<li>op:jp:EB03-055:p（2026-08-30 n=1）</li>
-<li>op:jp:EB04-007:base（2026-08-30 n=1）</li>
-<li>op:jp:EB04-007:p（2026-08-30 n=1）</li>
-<li>op:jp:EB04-054:p（2026-08-30 n=1）</li>
-<li>op:jp:EB04-058:base（2026-08-30 n=1）</li>
-<li>op:jp:EB04-061:sp（2026-08-30 n=1）</li>
+<li>op:jp:EB03-055:p（2026-08-31 n=1）</li>
+<li>op:jp:EB04-007:base（2026-08-31 n=1）</li>
+<li>op:jp:EB04-007:p（2026-08-31 n=1）</li>
+<li>op:jp:EB04-054:p（2026-08-31 n=1）</li>
+<li>op:jp:EB04-058:base（2026-08-31 n=1）</li>
+<li>op:jp:EB04-061:sp（2026-08-31 n=1）</li>
 <li>op:jp:OP01-001:p（2026-08-29 n=1）</li>
 <li>op:jp:OP01-002:p（2026-08-29 n=1）</li>
 <li>op:jp:OP01-003:p（2026-08-29 n=1）</li>
 <li>op:jp:OP01-016:p（2026-08-30 n=1）</li>
+<li>op:jp:OP01-094:p（2026-08-31 n=1）</li>
+<li>op:jp:OP03-112:p（2026-08-31 n=1）</li>
 <li>op:jp:OP03-122:sp（2026-08-30 n=1）</li>
+<li>op:jp:OP04-064:p（2026-08-31 n=1）</li>
 <li>op:jp:OP04-083:sp（2026-08-29 n=1）</li>
+<li>op:jp:OP05-119:p（2026-08-31 n=1）</li>
 <li>op:jp:OP06-042:p（2026-08-28 n=1）</li>
-<li>op:jp:OP06-080:p（2026-08-29 n=1）</li>
+<li>op:jp:OP06-080:p（2026-08-31 n=1）</li>
 <li>op:jp:OP07-001:p（2026-08-29 n=1）</li>
-<li>op:jp:OP07-051:p（2026-08-30 n=1）</li>
+<li>op:jp:OP07-051:p（2026-08-31 n=1）</li>
 <li>op:jp:OP07-059:p（2026-08-29 n=1）</li>
 <li>op:jp:OP07-097:p（2026-08-29 n=1）</li>
 <li>op:jp:OP08-001:p（2026-08-30 n=1）</li>
 <li>op:jp:OP08-021:p（2026-08-30 n=1）</li>
 <li>op:jp:OP08-058:p（2026-08-30 n=1）</li>
+<li>op:jp:OP08-105:p（2026-08-31 n=1）</li>
+<li>op:jp:OP08-118:sp（2026-08-31 n=1）</li>
 <li>op:jp:OP09-004:sp（2026-08-30 n=1）</li>
 <li>op:jp:OP09-051:p（2026-08-29 n=1）</li>
 <li>op:jp:OP09-051:sp（2026-08-30 n=1）</li>
 <li>op:jp:OP09-057:p（2026-08-29 n=1）</li>
+<li>op:jp:OP09-076:p（2026-08-31 n=1）</li>
 <li>op:jp:OP09-096:p（2026-08-30 n=1）</li>
+<li>op:jp:OP09-119:p（2026-08-31 n=1）</li>
+<li>op:jp:OP09-119:sp（2026-08-31 n=1）</li>
+<li>op:jp:OP10-001:p（2026-08-31 n=1）</li>
 <li>op:jp:OP10-005:p（2026-08-30 n=1）</li>
-<li>op:jp:OP11-067:p（2026-08-30 n=1）</li>
-<li>op:jp:OP12-014:p（2026-08-30 n=1）</li>
+<li>op:jp:OP11-067:p（2026-08-31 n=1）</li>
+<li>op:jp:OP11-080:p（2026-08-31 n=1）</li>
+<li>op:jp:OP11-106:p（2026-08-31 n=1）</li>
+<li>op:jp:OP12-014:p（2026-08-31 n=1）</li>
 <li>op:jp:OP12-030:p（2026-08-29 n=1）</li>
-<li>op:jp:OP12-056:p（2026-08-30 n=1）</li>
+<li>op:jp:OP12-037:p（2026-08-31 n=1）</li>
+<li>op:jp:OP12-056:p（2026-08-31 n=1）</li>
 <li>op:jp:OP12-118:sp（2026-08-28 n=1）</li>
-<li>op:jp:OP13-028:p（2026-08-30 n=1）</li>
-<li>op:jp:OP13-042:p（2026-08-30 n=1）</li>
+<li>op:jp:OP13-028:p（2026-08-31 n=1）</li>
+<li>op:jp:OP13-042:p（2026-08-31 n=1）</li>
 <li>op:jp:OP13-083:p（2026-08-29 n=1）</li>
+<li>op:jp:OP13-084:p（2026-08-31 n=1）</li>
 <li>op:jp:OP13-089:p（2026-08-29 n=1）</li>
+<li>op:jp:OP13-118:p（2026-08-31 n=1）</li>
 <li>op:jp:OP13-118:sp（2026-08-30 n=1）</li>
 <li>op:jp:OP13-119:sp（2026-08-30 n=1）</li>
-<li>op:jp:OP14-029:p（2026-08-30 n=1）</li>
+<li>op:jp:OP14-029:p（2026-08-31 n=1）</li>
 <li>op:jp:OP14-041:p（2026-08-30 n=1）</li>
-<li>op:jp:OP14-084:p（2026-08-30 n=1）</li>
+<li>op:jp:OP14-084:p（2026-08-31 n=1）</li>
 <li>op:jp:OP14-096:p（2026-08-28 n=1）</li>
-<li>op:jp:OP14-108:p（2026-08-30 n=1）</li>
+<li>op:jp:OP14-108:p（2026-08-31 n=1）</li>
 <li>op:jp:OP14-112:p（2026-08-30 n=1）</li>
-<li>op:jp:OP15-077:p（2026-08-30 n=1）</li>
-<li>op:jp:OP15-078:p（2026-08-30 n=1）</li>
-<li>op:jp:OP15-086:p（2026-08-30 n=1）</li>
-<li>op:jp:OP15-098:p（2026-08-30 n=1）</li>
-<li>op:jp:OP15-116:p（2026-08-30 n=1）</li>
-<li>op:jp:OP16-001:p（2026-08-30 n=1）</li>
-<li>op:jp:OP16-015:p（2026-08-30 n=1）</li>
-<li>op:jp:OP16-022:p（2026-08-30 n=1）</li>
-<li>op:jp:OP16-032:p（2026-08-30 n=1）</li>
-<li>op:jp:OP16-065:sp（2026-08-30 n=1）</li>
-<li>op:jp:OP16-073:sp（2026-08-30 n=1）</li>
-<li>op:jp:OP16-095:p（2026-08-30 n=1）</li>
-<li>op:jp:OP16-116:p（2026-08-30 n=1）</li>
-<li>op:jp:OP16-118:p（2026-08-30 n=1）</li>
-<li>op:jp:OP16-119:p（2026-08-30 n=1）</li>
-<li>op:jp:OP17-005:sp（2026-08-30 n=1）</li>
-<li>op:jp:OP17-022:p（2026-08-30 n=1）</li>
-<li>op:jp:OP17-022:sp（2026-08-30 n=1）</li>
-<li>op:jp:OP17-037:p（2026-08-30 n=1）</li>
-<li>op:jp:OP17-039:p（2026-08-30 n=1）</li>
-<li>op:jp:OP17-062:sp（2026-08-30 n=1）</li>
-<li>op:jp:OP17-079:p（2026-08-30 n=1）</li>
-<li>op:jp:OP17-079:sp（2026-08-30 n=1）</li>
-<li>op:jp:OP17-112:sp（2026-08-30 n=1）</li>
-<li>op:jp:OP17-118:base（2026-08-30 n=1）</li>
-<li>op:jp:OP17-118:p（2026-08-30 n=1）</li>
-<li>op:jp:OP17-118:sp（2026-08-30 n=1）</li>
-<li>op:jp:OP17-119:p（2026-08-30 n=1）</li>
+<li>op:jp:OP15-077:p（2026-08-31 n=1）</li>
+<li>op:jp:OP15-078:p（2026-08-31 n=1）</li>
+<li>op:jp:OP15-086:p（2026-08-31 n=1）</li>
+<li>op:jp:OP15-098:p（2026-08-31 n=1）</li>
+<li>op:jp:OP15-116:p（2026-08-31 n=1）</li>
+<li>op:jp:OP15-118:sp（2026-08-31 n=1）</li>
+<li>op:jp:OP16-001:p（2026-08-31 n=1）</li>
+<li>op:jp:OP16-015:p（2026-08-31 n=1）</li>
+<li>op:jp:OP16-022:p（2026-08-31 n=1）</li>
+<li>op:jp:OP16-032:p（2026-08-31 n=1）</li>
+<li>op:jp:OP16-063:sp（2026-08-31 n=1）</li>
+<li>op:jp:OP16-065:sp（2026-08-31 n=1）</li>
+<li>op:jp:OP16-073:sp（2026-08-31 n=1）</li>
+<li>op:jp:OP16-095:p（2026-08-31 n=1）</li>
+<li>op:jp:OP16-116:p（2026-08-31 n=1）</li>
+<li>op:jp:OP16-118:p（2026-08-31 n=1）</li>
+<li>op:jp:OP16-119:p（2026-08-31 n=1）</li>
+<li>op:jp:OP17-005:sp（2026-08-31 n=1）</li>
+<li>op:jp:OP17-022:p（2026-08-31 n=1）</li>
+<li>op:jp:OP17-022:sp（2026-08-31 n=1）</li>
+<li>op:jp:OP17-037:p（2026-08-31 n=1）</li>
+<li>op:jp:OP17-039:p（2026-08-31 n=1）</li>
+<li>op:jp:OP17-062:sp（2026-08-31 n=1）</li>
+<li>op:jp:OP17-079:p（2026-08-31 n=1）</li>
+<li>op:jp:OP17-079:sp（2026-08-31 n=1）</li>
+<li>op:jp:OP17-112:sp（2026-08-31 n=1）</li>
+<li>op:jp:OP17-118:base（2026-08-31 n=1）</li>
+<li>op:jp:OP17-118:p（2026-08-31 n=1）</li>
+<li>op:jp:OP17-118:sp（2026-08-31 n=1）</li>
+<li>op:jp:OP17-119:p（2026-08-31 n=1）</li>
+<li>op:jp:PRB02-006:p（2026-08-31 n=1）</li>
 <li>op:jp:PRB02-014:p（2026-08-28 n=1）</li>
 <li>op:jp:ST01-001:p（2026-08-29 n=1）</li>
-<li>op:jp:ST01-012:p（2026-08-29 n=1）</li>
+<li>op:jp:ST01-007:p（2026-08-31 n=1）</li>
+<li>op:jp:ST01-012:p（2026-08-31 n=1）</li>
+<li>op:jp:ST13-003:p（2026-08-31 n=1）</li>
 <li>op:jp:ST13-011:p（2026-08-29 n=1）</li>
 <li>op:jp:ST13-015:p（2026-08-29 n=1）</li>
-<li>op:jp:ST15-005:p（2026-08-30 n=1）</li>
+<li>op:jp:ST15-005:p（2026-08-31 n=1）</li>
+<li>op:jp:ST18-004:p（2026-08-31 n=1）</li>
 <li>op:jp:ST18-005:p（2026-08-30 n=1）</li>
-<li>op:jp:ST27-005:p（2026-08-30 n=1）</li>
-<li>op:jp:ST29-001:p（2026-08-30 n=1）</li>
-<li>op:jp:ST29-014:p（2026-08-30 n=1）</li>
-<li>op:jp:ST30-001:base（2026-08-30 n=1）</li>
-<li>op:jp:ST30-001:p（2026-08-30 n=1）</li>
-<li>op:jp:ST30-007:p（2026-08-30 n=1）</li>
-<li>op:jp:ST30-012:p（2026-08-30 n=1）</li>
-<li>op:jp:ST31-004:p（2026-08-30 n=1）</li>
-<li>op:jp:ST32-002:p（2026-08-30 n=1）</li>
-<li>tc:ALL:120/083（2026-08-30 n=1）</li>
-<li>tc:MEGA:120/083（2026-08-30 n=1）</li>
+<li>op:jp:ST27-005:p（2026-08-31 n=1）</li>
+<li>op:jp:ST29-001:p（2026-08-31 n=1）</li>
+<li>op:jp:ST29-014:p（2026-08-31 n=1）</li>
+<li>op:jp:ST30-001:base（2026-08-31 n=1）</li>
+<li>op:jp:ST30-001:p（2026-08-31 n=1）</li>
+<li>op:jp:ST30-007:p（2026-08-31 n=1）</li>
+<li>op:jp:ST30-012:p（2026-08-31 n=1）</li>
+<li>op:jp:ST31-004:p（2026-08-31 n=1）</li>
+<li>op:jp:ST32-002:p（2026-08-31 n=1）</li>
+<li>tc:ALL:120/083（2026-08-31 n=1）</li>
+<li>tc:MEGA:120/083（2026-08-31 n=1）</li>
 <li>tc:SV11B:169/086（2026-08-07 n=1）</li>
 <li>tc:SV11B:174/086（2026-08-07 n=1）</li>
 <li>ua:CSM1:CSM-1-008-p（2026-08-29 n=1）</li>
