@@ -27,7 +27,7 @@ blockquote{border-left:3px solid var(--line);padding-left:14px;color:var(--mut);
 .arch a{display:inline-block;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px 14px;margin:4px 6px 4px 0;font-size:13px;text-decoration:none}
 .arch a:hover{border-color:var(--gold)}
 </style></head><body>
-<div class="top"><a href="../總台.html">← 總台</a><b>巡邏戰報台帳</b><span style="flex:1"></span><span style="font-size:11px;color:var(--mut)">渲染於 09-01 04:25</span></div>
+<div class="top"><a href="../總台.html">← 總台</a><b>巡邏戰報台帳</b><span style="flex:1"></span><span style="font-size:11px;color:var(--mut)">渲染於 09-02 03:46</span></div>
 <div class="wrap"><h1>品牌官巡邏戰報</h1>
 <blockquote>每日一行：巡幾牌／新品幾筆／跳過原因。由 daily-brand-patrol 排程寫入。</blockquote>
 <ul>
@@ -52,4 +52,29 @@ blockquote{border-left:3px solid var(--line);padding-left:14px;color:var(--mut);
 <tr><td>2026-08-31</td><td>巡11/20</td><td>新品491</td><td>🔴0(—0)</td><td>⚫10</td><td>🟢真完整208：GK-SCC+145／GK-MasterD+51／BANDAI-Tamashii+8／Threezero+3｜🟡半完整（I欄#待翻譯）283：BANDAI-BANPRESTO+283｜WAVE+51（🟢，含工具線 ht/om/mk 補登）｜0新品：PalVerse／blackdots／Alpha×Omega／Numskull／Hertz｜未跑完（留明天）：BellFine／PLUM／KDcolle／HOBBY MAX／MaxFactory／GSC／GKAniMerch／WetaWorkshop／HobbyJapan｜🚩 缺口立案：Numskull 站上327 vs 庫200（127 舊品未收）／WetaWorkshop wetanz.com/us/shop 改 JS 渲染舊路徑失效需重寫｜🔧 新腳本 crawlers/patrol_shopline_append.py（SHOPLINE 系）＋ crawlers/patrol_bsp_append.py（bsp-prize）</td></tr>
 </table>
 <h2>260830 清欠總攻第二波（West 問責案收尾）</h2>
-<p>四特遣清 12 牌｜<strong>+271 筆</strong>（🟢270／🟡1／🔴0）｜&gt;60天紅燈 <strong>12→0 歸零</strong>｜GKResinStatues 實證 dormant（Wix 網域未連結）｜儀表板 ✅194 🟡5 🔴6（剩 6 牌為 33–50 天，未達 60 天門檻）｜新發現大缺口：amiami 164／Prime1Studio 147／GKFW 1542</p></div></body></html>
+<p>四特遣清 12 牌｜<strong>+271 筆</strong>（🟢270／🟡1／🔴0）｜&gt;60天紅燈 <strong>12→0 歸零</strong>｜GKResinStatues 實證 dormant（Wix 網域未連結）｜儀表板 ✅194 🟡5 🔴6（剩 6 牌為 33–50 天，未達 60 天門檻）｜新發現大缺口：amiami 164／Prime1Studio 147／GKFW 1542</p>
+<h2>260901 每日輪巡</h2>
+<table>
+<tr><th>日期</th><th>巡邏</th><th>新品</th><th>🔴&gt;30天</th><th>⚫dormant</th><th>備註</th></tr>
+<tr><td>260901</td><td>巡 15/20</td><td>新品 0 筆</td><td>🔴0（—0）</td><td>⚫10（無新增）</td><td>未巡：Hertz／HOBBY MAX／HobbyJapan／MozFigure／FavorGK（時間到，最舊優先明日接手）</td></tr>
+</table>
+<p><strong>判讀：15 牌全部「站上最新品已在庫」＝真的沒有新品，但挖出 5 個結構性缺口＋2 個平台異動。</strong></p>
+<h3>🔧 平台異動（會讓既有爬蟲失效，需修 BRAND_CRAWL_INDEX）</h3>
+<p>1. <strong>GKAniMerch 從 Shopify 遷到 Wix</strong>：<code>/products.json</code> 回 400、<code>window.Shopify</code> 不存在；改走 <code>/store-products-sitemap.xml</code>（4,080 URL，含 lastmod）。索引裡 <code>shopify_generic</code> 已失效。</p>
+<p>2. <strong>BellFine 官網雙軌</strong>：<code>bellfine.com</code> 已被 HugeDomains 掛售（庫內 8 筆該網域 URL＝死鏈）；真正官網是 <code>bellfine.co.jp</code>，活著但商品列表 JS 渲染，需 Chrome navigate 逐頁。</p>
+<h3>📉 結構性缺口（非新品，是歷史沒爬到）</h3>
+<table>
+<tr><th>品牌</th><th>庫內</th><th>站上</th><th>缺口</th><th>性質</th></tr>
+<tr><td>GSC＋MaxFactory</td><td>ID ≤9998</td><td>ID 至 <strong>12810</strong></td><td>~2,800 個 ID 未掃</td><td>goodsmile.com 序號站，<code>/zh/product/{id}</code> 可 fetch＋有 JSON-LD → <strong>爬蟲可重建</strong>（索引原記「需重建」，今天證實方法可行）</td></tr>
+<tr><td>WAVE</td><td>116</td><td>593</td><td><strong>477</strong></td><td>sitemap 前 60 筆全部不在庫，覆蓋率僅 20%</td></tr>
+<tr><td>BANDAI-BANPRESTO</td><td>8,307</td><td>8,911（sitemap）</td><td><strong>604</strong></td><td>最大 ID 與庫內一致＝沒有新品，純中段漏抓</td></tr>
+<tr><td>GKAniMerch</td><td>3,669</td><td>4,080</td><td><strong>411</strong></td><td>遷 Wix 後的新版 URL 清單</td></tr>
+<tr><td>Numskull</td><td>200</td><td>327</td><td>127（判定 175 handle 差異）</td><td>2020–2024 服飾／居家／Pin 舊品，公仔線已滿</td></tr>
+</table>
+<h3>✅ 確認乾淨（0 新品，不用再排）</h3>
+<p>blackdots（最新 psygantis 2026-04-16 已在庫）／Alpha×Omega（13=13）／Threezero（Odoo 最新 30 筆全在庫，URL 已是新版 <code>-{id}</code> 格式）／BANDAI-Tamashii（站上最新 16073 &lt; 庫內最大 16116）／WetaWorkshop（724 vs 718，差額只有 <code>/artists</code> 非商品頁）／KDcolle（sitemap 539 = 庫內 539）</p>
+<h3>⚠️ 未結案</h3>
+<ul>
+<li><strong>PalVerse</strong>：站上多 15 筆，但全是「BOX購入特典」贈品（缶バッジ／ステッカー／ラバスト，售價 0），<strong>維持排除</strong>，不是漏抓。</li>
+<li><strong>PLUM</strong>：sitemap 只有 341 URL 且是 <code>/product/{n}.html</code> 格式，與庫內 <code>/limecollection/product/pf_{n}/</code> 不同源，需先訂比對規則再談缺口。</li>
+</ul></div></body></html>
