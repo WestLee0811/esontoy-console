@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang="zh-Hant"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>HKTCG 全卡牌線評估</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f8f4ec;--panel:#fff;--panel2:#f3ede2;--ink:#2c2620;--mut:#8a7f72;--gold:#b8943a;--goldD:#8a6d1f;--line:#e5dccb;--red:#c1303d;--grn:#16a34a}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Noto Sans TC",-apple-system,sans-serif;background:var(--bg);color:var(--ink);line-height:1.7}
+.wrap{max-width:1000px;margin:0 auto;padding:44px 26px 80px}
+header{text-align:center;margin-bottom:10px}
+h1{font-family:"Noto Serif TC",serif;font-weight:900;font-size:28px;letter-spacing:.06em}
+h1 small{display:block;font-size:12px;color:var(--mut);letter-spacing:.3em;font-weight:400;margin-top:6px}
+h2{font-family:"Noto Serif TC",serif;font-size:16px;color:var(--goldD);letter-spacing:.24em;margin:40px 0 14px;display:flex;align-items:center;gap:12px}
+h2::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent)}
+.lead{font-size:13.5px;color:var(--mut);border-left:3px solid var(--gold);padding-left:14px;margin:20px auto 0;max-width:720px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:22px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:16px 18px}
+.kpi .v{font-family:"Noto Serif TC",serif;font-size:25px;font-weight:900;color:var(--goldD)}
+.kpi .l{font-size:11.5px;color:var(--mut);letter-spacing:.06em;margin-top:3px}
+table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);border-radius:13px;overflow:hidden;font-size:13px}
+th{background:var(--panel2);color:var(--goldD);font-size:11.5px;letter-spacing:.08em;padding:11px 10px;text-align:right;font-weight:700}
+th:first-child,td:first-child{text-align:left}
+td{padding:10px;border-top:1px solid var(--line);text-align:right;font-variant-numeric:tabular-nums}
+tr.hot td{background:#fdf8ec}
+.bar{height:7px;border-radius:9px;background:var(--panel2);overflow:hidden;min-width:70px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--goldD))}
+.tag{display:inline-block;font-size:10.5px;border-radius:99px;padding:2px 9px;border:1px solid var(--line);background:var(--panel2);color:var(--goldD)}
+.tag.no{color:var(--mut)}
+.tag.hot{border-color:var(--gold);color:#fff;background:var(--goldD)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:18px 20px;margin-top:12px}
+.card h3{font-family:"Noto Serif TC",serif;font-size:15.5px;margin-bottom:7px}
+.card p{font-size:13px;color:#4a423a}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:720px){.grid2{grid-template-columns:1fr}}
+.big{font-family:"Noto Serif TC",serif;font-size:19px;font-weight:900;color:var(--red)}
+footer{margin-top:46px;text-align:center;font-size:11px;color:var(--mut);letter-spacing:.16em}
+em{color:var(--goldD);font-style:normal;font-weight:700}
+</style></head><body><div class="wrap">
+<header><h1>HKTCG 全卡牌線評估<small>他上架了什麼　他真正押了什麼　2026-08-30</small></h1></header>
+<div class="lead">資料來源：本日全站爬取 <b>179,186 列 → 去重後 95,392 件實際商品</b>，逐件記錄標價與在庫。
+以下所有數字都是實際庫存，不是他對外宣傳的規模。</div>
+
+<div class="kpis">
+<div class="kpi"><div class="v">95,392</div><div class="l">線上實際商品數</div></div>
+<div class="kpi"><div class="v">1,188</div><div class="l">真正買得到（1.2%）</div></div>
+<div class="kpi"><div class="v">NT$79.8萬</div><div class="l">線上在庫總市值</div></div>
+<div class="kpi"><div class="v">57%</div><div class="l">單一張鏈鋸人卡佔比</div></div>
+</div>
+
+<h2>一 · 全線盤點</h2>
+<table>
+<tr><th>卡牌線</th><th>上架</th><th>在庫</th><th>在庫率</th><th>中位價</th><th>在庫市值</th><th style="text-align:left">押注程度</th></tr>
+<tr class="hot"><td><b>Union Arena</b></td><td>9,833</td><td>409</td><td>4.2%</td><td>HK$5</td><td><b>NT$711,473</b></td><td style="text-align:left"><span class="bar"><i style="width:100%"></i></span> <span class="tag hot">全力壓貨</span></td></tr>
+<tr><td>寶可夢</td><td>53,017</td><td>408</td><td>0.8%</td><td>HK$5</td><td>NT$49,646</td><td style="text-align:left"><span class="bar"><i style="width:7%"></i></span> <span class="tag">目錄為主</span></td></tr>
+<tr><td>海賊王</td><td>4,491</td><td>253</td><td>5.6%</td><td>HK$4</td><td>NT$20,826</td><td style="text-align:left"><span class="bar"><i style="width:3%"></i></span> <span class="tag">薄庫存</span></td></tr>
+<tr><td>數碼寶貝</td><td>5,634</td><td>117</td><td>2.1%</td><td>HK$4</td><td>NT$16,414</td><td style="text-align:left"><span class="bar"><i style="width:2%"></i></span> <span class="tag">薄庫存</span></td></tr>
+<tr><td>Vanguard</td><td>7,250</td><td>0</td><td>0%</td><td>—</td><td>—</td><td style="text-align:left"><span class="tag no">只擺目錄</span></td></tr>
+<tr><td>Battle Spirits</td><td>7,065</td><td>0</td><td>0%</td><td>—</td><td>—</td><td style="text-align:left"><span class="tag no">只擺目錄</span></td></tr>
+<tr><td>七龍珠 Fusion World</td><td>1,938</td><td>0</td><td>0%</td><td>—</td><td>—</td><td style="text-align:left"><span class="tag no">只擺目錄</span></td></tr>
+<tr><td>Shadowverse Evolve</td><td>1,443</td><td>0</td><td>0%</td><td>—</td><td>—</td><td style="text-align:left"><span class="tag no">只擺目錄</span></td></tr>
+<tr><td>鋼彈 GCG</td><td>1,189</td><td>0</td><td>0%</td><td>—</td><td>—</td><td style="text-align:left"><span class="tag no">只擺目錄</span></td></tr>
+<tr><td>Rebirth for you</td><td>1,075</td><td>0</td><td>0%</td><td>—</td><td>—</td><td style="text-align:left"><span class="tag no">只擺目錄</span></td></tr>
+<tr><td>hololive OCG</td><td>1,040</td><td>0</td><td>0%</td><td>—</td><td>—</td><td style="text-align:left"><span class="tag no">只擺目錄</span></td></tr>
+<tr><td>Z/X</td><td>531</td><td>0</td><td>0%</td><td>—</td><td>—</td><td style="text-align:left"><span class="tag no">只擺目錄</span></td></tr>
+<tr><td>Duel Masters</td><td>478</td><td>0</td><td>0%</td><td>—</td><td>—</td><td style="text-align:left"><span class="tag no">只擺目錄</span></td></tr>
+<tr><td>遊戲王</td><td>405</td><td>0</td><td>0%</td><td>—</td><td>—</td><td style="text-align:left"><span class="tag no">幾乎沒做</span></td></tr>
+<tr><td>幻獸帕魯 / Lorcana / Riftbound</td><td>個位數</td><td>0</td><td>0%</td><td>—</td><td>—</td><td style="text-align:left"><span class="tag no">只有招牌</span></td></tr>
+</table>
+
+<h2>二 · 他真正押的是「Union Arena 的四部作品」</h2>
+<table>
+<tr><th>作品</th><th>在庫張數</th><th>在庫市值</th><th>最貴一張</th></tr>
+<tr class="hot"><td><b>鏈鋸人</b>（CSM／UA53BT）</td><td>99</td><td><b>NT$479,173</b></td><td>HK$112,000 ≈ NT$455,840</td></tr>
+<tr><td>無職轉生（MST／UA54BT）</td><td>111</td><td>NT$149,263</td><td>HK$8,800</td></tr>
+<tr><td>超時空要塞（MCR／EX14BT）</td><td>96</td><td>NT$45,417</td><td>HK$2,780</td></tr>
+<tr><td>陰之實力者（KJN／UA52BT）</td><td>103</td><td>NT$37,619</td><td>HK$2,100</td></tr>
+</table>
+<div class="card" style="margin-top:14px"><h3>⚠️ 最關鍵的一個數字</h3>
+<p><span class="big">一張 UA53BT/CSM-1-AP02 鏈鋸人 AP★ 標價 HK$112,000（≈NT$45.6 萬），就佔他線上全部在庫市值的 57%。</span><br>
+換句話說，扣掉這一張，「全球最大卡牌店」線上真正能買到的貨，總值只有約 <em>NT$34 萬</em>。這不是庫存生意，是流量與寄賣生意。</p></div>
+
+<h2>三 · 逐線判讀</h2>
+<div class="grid2">
+<div class="card"><h3>🔥 Union Arena — 他的主戰場，也是最值得跟的線</h3>
+<p>在庫市值佔 <em>89%</em>，且集中在鏈鋸人。UA 是 Bandai 2023 才推的新 TCG，把各家動畫 IP 收進同一套規則，台灣目前幾乎沒有專門做的通路。他敢押，是因為 UA 的高階卡（AP／SR★★★）現在是全亞洲炒作標的。<b>建議：這是第一優先跟進線。</b></p></div>
+<div class="card"><h3>📚 寶可夢 — 目錄最大，庫存最薄</h3>
+<p>上架 53,017 件（佔全站 56%）但在庫率僅 <em>0.8%</em>。他用寶可夢當 SEO 與流量入口，不靠它賺錢。在庫的是繁中(426)＋英文(390)，日版反而沒貨——代表繁中/英文是他的客層。</p></div>
+<div class="card"><h3>🏴‍☠️ 海賊王 — 只做最新兩彈</h3>
+<p>在庫集中 OP14／OP16，共 253 張、市值僅 NT$2 萬。他不做歷史彈，只跟新彈熱度。<b>台灣的舊彈庫存在他那裡是空白</b>，這是你可以反向供貨的位置。</p></div>
+<div class="card"><h3>💤 十一條線掛零 — 這是「佔位」不是「經營」</h3>
+<p>Vanguard(7,250)、Battle Spirits(7,065)、七龍珠FW、Shadowverse、鋼彈GCG、hololive、Z/X、Duel Masters 全部 <em>0 在庫</em>。他把目錄先建起來卡住 SEO 與品項完整度，但沒有壓一毛錢庫存。<b>這些線他還沒真的下注，台灣先做不會撞到他。</b></p></div>
+</div>
+
+<h2>四 · 給乙賞的三個結論</h2>
+<div class="card"><h3>1. 跟進 Union Arena，尤其鏈鋸人線</h3>
+<p>他用真金白銀證明 UA 是熱錢標的，台灣通路又幾乎空白。先把 UA 的日版行情、台灣現況建進資料庫（我們現在只有 UA 的港價，缺日版與台版對照），才有定價權。</p></div>
+<div class="card"><h3>2. 不要跟寶可夢／遊戲王硬碰</h3>
+<p>寶可夢他用來吸流量、遊戲王他幾乎沒碰（405 件）。這兩條在台灣早已紅海，跟進沒有相對優勢。</p></div>
+<div class="card"><h3>3. 他的「目錄先行」策略值得直接抄</h3>
+<p>95,392 件商品、只有 1.2% 有貨，照樣撐起「全球最大」的話語權。你手上 30 萬筆公仔資料庫是同樣性質的資產——<b>目錄本身就是流量與定價權，不必等有庫存才上架。</b></p></div>
+
+<footer>乙賞玩具 × 商品資料庫 ── 資料時間 2026-08-30 ／ 每晚自動更新</footer>
+</div></body></html>
