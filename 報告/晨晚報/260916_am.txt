@@ -1,0 +1,59 @@
+🌅 晨報 2026-09-16｜航海王 IMPACT LOG 2027/01 一番賞定案（92 分）
+Mac 夜跑第 5 晚沒醒，雷達靠 Chrome 手掃撐
+
+新鮮度 ✅7天內：183 ±0
+🟡 8-30天：35 
+🔴 >30天：0 
+看門狗：FAIL 2 -
+
+【🌙 昨夜戰果】
+1. TAKARA TOMY 官宣 BX-53 空力天馬 All-in-One 套組 ¥7,480
+   10/10 発売，內含藍空力復刻；＋BX-52 ¥2,300＋BX-56 ¥1,100，タカラトミーモール抽選至 9/20。
+   藍空力 UX-00-BLUE 掛牌市場凍結（0 新報價），紅空力克數溢價被壓垮（38.8g 頂重 5000 ≈ 一般整盒 4750）。新型號入庫 3 筆（BEY-00152〜154）。
+   📌 藍空力復刻在套組裡 → 手上藍空力別再壓貨
+2. 一番賞週三班：2027/02 檔首套浮出 — meiji×森永×LOTTE 三廠聯名
+   前向窗 80 套 → 新套 1；17 套賞別未展開複查 0 公開。10/24 開賣的 kagurabachi／sumikko27 賞別仍空。
+   📌 食品聯名套歷來純雜貨盤，情報級不進貨；週六班關鍵回訪
+   https://1kuji.com/products/chocolate
+   🧵 10 月下旬四套賞別待公開 第 1 回
+
+【🔥 今日情報】
+1. 【92】航海王 — 一番くじ ONE PIECE IMPACT LOG 2027/01/09 発売決定
+   A 魯夫 VS 天龍人 18cm／B 艾斯「炎帝」31cm／C 索隆＆騙人布 23cm／D 培羅娜 VS 騙人布／Last One THE GIGANT NAME 45cm，全 Revible Moment，790 円。庫存 29,852。
+   📌 **訂貨窗 2026/10 下旬〜11 月**，硬通貨齊、必進
+   https://1kuji.com/products/onep106
+   🧵 航海王 IMPACT LOG 2027/01 訂貨窗 第 1 回
+2. 【60】EVA — 一番くじ 新劇場版：破 2026/12/05
+   A 真嗣＆綾波 20cm／B 明日香／C 薰／Last One 2 號機 30cm，7-11 系＋EVA STORE，無線上販售。庫存 3,856。
+   📌 12 月檔下單窗＝本週〜10 月初，該拍板了
+   https://1kuji.com/products/eva20
+   🧵 EVA 破 12 月檔決策 第 1 回
+3. 【55】死亡筆記本 — 一番くじ DEATH NOTE 2 2027/01/16
+   C 尼亞 16cm／D 梅洛 13cm 先公開，A/B 未公開（推測 L／月）850 円。庫存 759。
+   📌 訂貨 10 下旬〜11 月，等 A/B 揭曉
+   https://1kuji.com/products/deathnote2
+4. 【62】數碼寶貝×哥吉拉 — デフォリアル 戰鬥暴龍獸 "G" 侵食模式（P-Bandai）
+   今日 12:00 開約〜10/13，19,800 円／2026/12。庫存 數碼寶貝 4,570＋哥吉拉 2,515。
+5. 【55】崩鐵 — Myethos 爻光 1/8＋阮・梅 雪梅 1/7 本日開約
+   299 元／2027/08。庫存 星穹 2,666。本庫 Myethos.xlsx 還沒這兩品（等夜跑 amiami 增量）。
+   ◆ 景品訂貨訊號：初音 雪ミク AMP+ 2014/2015ver. 彩色原型（9/30 起投放，50 分）；我英 10th Figure Project 情報日仍「監修中」，訂貨窗未開，下次 10/16（45 分）；不死者之王 MOFLOCK 阿爾貝多彩色原型（44 分）
+   ◆ 一番賞 lineup 反查：10／12／2027-01 月 44 slug 零缺口
+
+【⏰ 要截止】
+   ◆ 今日 9/16：Myethos 爻光＋阮・梅 ¥37,290 開約；P-Bandai 戰鬥暴龍獸 G 侵食 12:00 開約
+   ◆ 9/17：GOLDENHEAD 藍・瑪莉；Medicos 雕像傳說「愚者」再販（JOJO 全庫 2,471）
+   ◆ 9/18：GSC 黏土人 初音 葛飾北齋 Ver.（Rella）開約
+   ◆ 9/19：Myethos 拉普蘭德 1/7 開約；一番賞週六班回訪點
+
+【✅ 要 West 拍板／動手】
+☐ West：最高優先：雙擊 `輸出/夜跑急救.command`（診斷 launchd → 掉了重掛 → 立刻補跑 5 天增量）。若印「agent 仍載入」＝Mac 夜裡關機，需選 pmset 定時喚醒／白天補跑段
+☐ 指揮官：Chrome 通路積壓 25 天＋19 牌 probe 連 3 天被擋 → 說「跑 Chrome 待辦」即清（31 牌，前 5：Sideshow／HotToys／BeastKingdom／Furyu／Medicos）
+☐ West：缺口工單等拍板 2 件：POP MART（22 天）、miHoYo 官方周邊（20 天）→ 回「收／不收」
+☐ West：翻譯官留案：一番賞本週新爬 2,640 筆 F 空／L 只剩 slug，等拍板活動級補齊
+
+【🎯 今天】
+- 品牌官預巡 20 牌，前 5：InfinityStudio（59d）、BANDAI-Hobby（29d）、quesQ、TBLeague、Solarain；通路席 GK-MasterD、MozFigure
+- Cowork 12 支排程 lastRunAt 全健康
+
+存檔頁：https://westlee0811.github.io/esontoy-console/%E5%A0%B1%E5%91%8A/%E6%99%A8%E6%99%9A%E5%A0%B1/260916_am.html
+— 資訊官晨報班 08:55

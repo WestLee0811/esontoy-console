@@ -1,0 +1,81 @@
+🌙 晚報 2026-09-18｜巡邏開閘：19 牌 328 筆新品入庫＋開拓 344 筆，一天補進 672 筆全真完整
+大哥 26.09 第二批單裁完、酷比樂＝萬榮零售前台（預購區 2,546 筆全抓）；Mac 夜跑第 8 晚未醒，卡牌行情站停在 9/11
+
+新鮮度 ✅7天內：117 -55（日期滾動，非變舊）
+🟡 8-30天：102 +56
+🔴 >30天：0 0
+⚫掛掉/凍結：12 0
+今日入庫：672 巡邏 328＋開拓 344
+
+【💰 機會】
+1. 【90】大哥 26.09 第二批單裁完：半箱只開 Grandista 凱茲／佐助 II，其餘走萬榮單隻
+   生意上的意思：2027/2 W1–W4＋2027/3 Grandista 這批不用壓整箱，BANPRESTO 27/2 在酷比樂單隻 NT$450（定價 740）隨時補得到。
+   建議走萬榮單隻的：Noir Edge 佩恩＆小南／斑、航海王 MAXIMATIC 傑克／艾斯馬林福特／KOA 賈巴、K-ON SQ 五人、芙莉蓮咖啡廳雙人、JOJO 戰鬥潮流雙人、貓貓打工ver、乙骨、金牌得主雙人、妮姬雙人。
+   順手挖到的結構性發現：酷比樂就是萬榮的零售前台，而且 amuzinc.com 已整站換 CYBERBIZ（舊 kubileh_update.py 全死）。預購區 2,546 筆全量抓下（BANPRESTO 421／GSC 773／SEGA 96／FuRyu 75），新建 `kubileh_preorder_watch.py`，每週四 09:00 自動出預購週報。首跑：7 日內新品 197（景品 100）。
+   📌 台灣代理商的預購單＝其零售站預購區，以後看單先看站；大哥半箱只開 2 款
+   🧵 酷比樂（萬榮）預購區＝台灣代理預購單 第 1 回
+2. 【95】七龍珠 DRAGON OMNIBUS ～神與神之戰～ 2027/02 一番賞定案（95 分）
+   晨報補刊已報，晚報只更新一句：這是 2027/02 檔目前唯一 95 分的套，訂貨窗預估 12 月上旬。今日無新增賞位資訊，等 1kuji 賞別頁開。
+   📌 情報級，賞別頁開了再算洞數
+   https://1kuji.com/products/db_do
+   🧵 七龍珠 DRAGON OMNIBUS 2027/02 訂貨窗 第 2 回（上回 09/18 晨報補刊）
+3. 【70】明天 9/19 三套開賣：BLEACH 8／IVE 2／學偶大師 6
+   日本週六開抽，週一前看上位賞在メルカリ／脆的成交價再決定要不要跟。10 月檔四套（咔嚓咔嚓／角落小夥伴 27／小學生文具 6／可可夜總會）賞別關鍵回訪也排在明天。
+   📌 明天回訪，週一看行情
+   🧵 10 月下旬四套賞別待公開 第 5 回（上回 09/18 晨報）
+
+【📈 漲跌（脆成交／NT$）】
+1. UX-15-TOPW（boxed）$3,600 → $4,250，+18%
+   脆成交、盒裝、樣本 n 3→2。單邊上漲但樣本縮水，先當訊號不當結論。
+2. CX-00-TIGA（boxed）$1,550 → $1,400，−10%
+   脆成交、盒裝、樣本 n 2→4，樣本變厚、跌得可信。
+   另 6 筆波動因單樣本／同區間換抽已濾除；行情樣本不足待補交叉：BXG-42、CX-04、UX-00-BLUE，數碼寶貝卡 digi 系列 50+ 筆全是 8/29 單樣本。
+
+【🏭 巡邏戰報（硬數字）】
+1. 【85】今日巡 19 牌（上午 8＋下午 11）／新品 328 筆全 🟢／🔴 剩 0（昨 0）／⚫ 12（昨 12）
+   上午班 8 牌（Chrome MCP 4 天來第一次整場在線）：MozFigure 86／GK-MasterD 223（8/31→9/18 整段補完）／Blitzway 1／InfinityStudio 1；0 新品：PureArts／Oniri／Claynel／XMStudios。
+   下午班 11 牌（Chrome 中午又掉，全走 amiami 側路）：BeastKingdom 6／DAMTOYS 6／X-PLUS 4／WING 1；0 新品：WorldBox／VKEND／i8Toys／knead／VERYCOOL／WithFans／broccoli。
+   開拓官週掃另收 344 筆：GOLDENHEAD+ 32（新牌）／52TOYS 275（新牌，潮玩首牌）／Union Creative +37。品牌數 218→220，figures.db 362,179 筆。
+   未巡 9 牌（BANDAI-Hobby／TBLeague／Sideshow／Furyu／revolve／p-bandai TW／WANDERER／FavorGK／熱血模玩）：卡授權門口或屬專案，非站掛。
+   預計清空日：🔴 已是 0；🟡 102 牌要回 ✅ 靠 Mac 夜跑 probe，夜跑不醒就只能靠 Chrome 手巡每天 10–20 牌，約 6–8 天。
+   方法沉澱：amiami API `s_maker_name` 被忽略、`pagemax` 上限 50；merge_to_excel 新增列 SKU 前綴預設品牌名前 3 碼，staged 必給 `_sku_prefix`。
+   📌 Chrome 在線時一天能補 300+ 筆；掉線就只剩 amiami 一條路——授權穩定度是巡邏產能的天花板
+   🧵 Chrome 待辦積壓 第 5 回（上回 09/18 晨報）
+2. p-bandai TW＋BANDAI-Hobby：sitemap 11,807 vs 庫內 4,627，缺口 7,180
+   lastmod 全是 9/10–9/16 無法當增量鍵，須用 ID 集合 diff＋收錄範圍判斷。屬專案不屬巡邏，未擅自開。
+   🧵 p-bandai 7,180 缺口專案 第 1 回
+
+【🃏 卡牌】
+1. 六遊戲行情站停在 9/11（第 8 天沒更新）
+   卡牌行情站 data.js 最後更新 9/11 03:44，六遊戲行情＋帶價卡數本週零變化——不是市場沒動，是 Mac 夜跑 6.6 沒跑。夜跑醒來當晚會自動補產。
+   🧵 Mac 夜跑停擺 第 7 回（上回 09/18 晨報補刊）
+
+【⚠️ 警報】
+1. 【99】看門狗 FAIL 2（W1 夜跑第 8 晚零 log／W2 RSS raw 停 260911）、WARN 7、OK 9
+   急救 .command 產出兩天仍未被雙擊（命令日誌無紀錄）。新線索：launchd.log 曾記 `nightly_run.sh: Operation not permitted`＝macOS TCC 權限層擋住，若雙擊急救後仍零 log，下一步是給 Terminal／python 完整取用磁碟，不是改腳本。
+   另兩件今日自修：①W12 假警報（看門狗把當日「未寄出」字條當推播斷線）已改成只算隔夜未帶走；②沙盒時鐘疑落後台北約 4 小時，晨報同日跑兩次疑為此因，watchdog.py 加 --date 列進化提案。
+   通報鏈檢討：同一 FAIL 連報 5 天而修法早就給了，問題在訊息到達不在動作難度——今晚起晚報把它放警報第一條、不再被新品情報擠掉。
+   📌 雙擊 輸出/夜跑急救.command 仍是唯一動作；跑完若還沒 log 就是 TCC 權限
+   🧵 Mac 夜跑停擺 第 7 回（上回 09/18 晨報補刊）
+2. 晨晚報圖文版定案：Gmail 連接器剝掉所有信內圖片，圖只能在存檔頁看
+   十種寫法（直連／Photon／data URI／cid／CSS 背景）全被 send_message 剝除，附件才留得住。架構定案：信＝無圖版面＋「開啟本期圖文版」連結；圖文版＝存檔頁，要發布到 GitHub Pages 才能手機看，而發布只有 Mac 夜跑跑得動——所以夜跑急救也是圖文版能不能看的前置條件。
+   📌 別再試信內放圖；存檔頁＋夜跑發布是唯一路
+   🧵 晨晚報圖片路線 第 1 回
+
+【✅ 要 West 拍板／動手】
+☐ West：雙擊 輸出/夜跑急救.command——第 8 晚，跑完沒 log 就回我一聲，改查 TCC 完整取用磁碟
+☐ West：大哥 26.09 第二批：半箱只開 Grandista 凱茲＋佐助 II，其餘走萬榮單隻——同意就回單
+☐ West：p-bandai 7,180 缺口要不要開專案
+☐ West：TENITOL 81 筆＋anm 23 筆歸屬：開新 sheet 或併 Furyu
+☐ West：大腦 47 個殭屍 IP 頁：(a) 併入正名頁後刪 (b) 留頁改 redirect——回 a 或 b
+☐ West：內建瀏覽器放行常巡官網（knead.co.jp／1999.co.jp／goodsmile.com／hottoygk.com.tw／infinitystatue.com），Chrome 掉線時才有第二條路
+
+【🎯 明天】
+- 一番賞線：9/19 BLEACH 8／IVE 2／學偶大師 6 日本開抽，週一前看上位賞行情；10 月檔四套賞別回訪
+- 巡邏線：未巡 9 牌最舊優先（BANDAI-Hobby 31d／TBLeague／Sideshow 26 筆 staged detail／Furyu／revolve／FavorGK／熱血模玩）；Chrome 在線就走官網，掉線就 amiami 側路
+- 行情線：補交叉樣本 BXG-42／CX-04／UX-00-BLUE
+- 卡牌線：夜跑恢復後補 9/11 起 8 日行情缺口
+- 系統線：新增機制（酷比樂預購週報／52TOYS／GOLDENHEAD+）後依鐵律重跑 system_overview.py 產新版運行報告（已 4 天未跑）
+
+存檔頁：https://westlee0811.github.io/esontoy-console/%E5%A0%B1%E5%91%8A/%E6%99%A8%E6%99%9A%E5%A0%B1/260918_pm.html
+— 資訊官晚報班｜信箱今日無 Code 端指令｜第 7 期

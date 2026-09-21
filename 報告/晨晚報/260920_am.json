@@ -1,0 +1,269 @@
+{
+ "kind": "am",
+ "date": "2026-09-20",
+ "headline": "昨夜平靜（夜跑第 9 晚未醒）；Batman × 假面騎士 ZERO-ONE 跨界立項＋9/25～30 GSC/APEX 預購高峰",
+ "deck": "週日：自動 digest 0 訊號＝RSS 源斷非市場平靜，Chrome lane 補位掃出景品 5／PVC 12／動畫化 4；看門狗週日進化回顧已自修 4 項、3 提案等你拍板",
+ "kpis": [
+  {
+   "label": "新鮮度 ✅7天內",
+   "value": "109",
+   "delta": "🟡 110／🔴 0"
+  },
+  {
+   "label": "看門狗",
+   "value": "FAIL 2",
+   "delta": "WARN 6／OK 10"
+  },
+  {
+   "label": "夜跑停擺",
+   "value": "9 晚",
+   "delta": "260911 起"
+  },
+  {
+   "label": "昨夜自動任務",
+   "value": "0 檔",
+   "delta": "runner 無 log／佇列空"
+  }
+ ],
+ "sections": [
+  {
+   "title": "🌙 昨夜戰果",
+   "items": [
+    {
+     "title": "昨夜平靜：runner 第 9 晚零 log、runner_queue 空、命令日誌無新檔",
+     "body": "最後一份夜跑 log 仍是 260911（當晚 feed 推 GitHub 也因 443 連不上而失敗）。Shopify 增量／RSS raw／卡牌行情站／角色補全／db 重建自 9/11 起全停。\n急救包狀態三態判讀（看門狗今日自修）：**你 9/18 09:30 按過 → 當時腳本第 25 行 bug 中止 → 9/19 已修 → 至今未再按**。\n佇列無失敗項可重排；補跑 9/11 起 9 日增量的動作已內建在急救包第 3 步，跑通當晚自動補。",
+     "score": 99,
+     "tags": [
+      "系統",
+      "夜跑"
+     ],
+     "thread": "runner-down",
+     "verdict": "第 9 晚——不是 Mac 的錯也不是腳本的錯了，是還沒重按",
+     "action": {
+      "owner": "West",
+      "text": "再雙擊一次 輸出/夜跑急救.command（修好的版本）；跑完把印出的第一句「agent 仍載入／agent 不在」回我。若明早 W1 仍紅，下一步是給終端機「完整取用磁碟」，不是再按"
+     }
+    }
+   ]
+  },
+  {
+   "title": "🔥 今日情報",
+   "items": [
+    {
+     "title": "【48】Batman × 假面騎士 ZERO-ONE「LEGENDS UNITE」跨界立項（DC 原創漫畫＋BANDAI 商品化）",
+     "body": "9/19 蝙蝠俠日發表，東映白倉 P 稱「歷史事件」；商品線（S.H.Figuarts／一番くじ）尚未公告。本庫假面騎士 3,294＋蝙蝠俠 1,566 雙高庫存 IP 交叉，商品一公告即升 A 級訂貨案。\n同日電撃：BANPRESTO《假面騎士 KABUTO》組立式軟膠 全高 30cm，9/25 起投放——當月景品單已定。",
+     "score": 48,
+     "tags": [
+      "假面騎士",
+      "跨界",
+      "景品"
+     ],
+     "link": "https://www.cinematoday.jp/news/N0156919",
+     "q": [
+      "仮面ライダー",
+      "Batman"
+     ],
+     "thread": "batman-zeroone",
+     "thread_title": "Batman × 假面騎士 ZERO-ONE 跨界商品線",
+     "verdict": "watching；等 S.H.Figuarts／一番くじ 公告再拍板，卡布托 BIG 軟膠隨月度單走",
+     "img": "https://www.medicomtoy.co.jp/prod/dt/30/1/img/21011.jpg"
+    },
+    {
+     "title": "【48】蔚藍檔案 9/27 雙廠同日放單：GSC「ミカ（水着）」＋APEX「ヒフミ」",
+     "body": "9/25～9/30 是本季預購高峰：GSC 9/27 四連發（ミカ水着／桜ミク グッスマイラコン／POP UP PARADE 重音テト L／六花 パジャマ XL）＋figma NIKKE ソーダ 9/25＋APEX 崩壞3rd 月下の誓い 9/30＋MiraiMira ユミア 9/25＋**魂ウェブ 2027/1 出貨品 9/27 予約締切**。\n蔚藍檔案在庫 2,198、NIKKE 1,430、初音 2,027——三線都是高庫存 IP。",
+     "score": 48,
+     "tags": [
+      "PVC",
+      "蔚藍檔案",
+      "GSC"
+     ],
+     "link": "https://figsoku.net/blog-entry-524402.html",
+     "q": [
+      "ブルーアーカイブ ミカ",
+      "ヒフミ"
+     ],
+     "gallery": [
+      {
+       "name": "D賞 趴趴坐玩偶 plus 日富美",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/106164/6a6ecee5-c587-48d3-83be-c6b2c8cf1a0a.webp",
+       "link": "https://1kuji.com/products/bluearchive3"
+      },
+      {
+       "name": "F賞 超細纖維大毛巾Hifumi",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/102612/7b8a5188-1a45-47db-9d0e-4174bfa6e298.jpg",
+       "link": "https://1kuji.com/products/bluearchive"
+      },
+      {
+       "name": "F賞 超細纖維大毛巾Hifumi",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/101722/18c88891-0af1-47cf-bee5-525b381c1d67.jpg",
+       "link": "https://1kuji.com/products/bluearchive"
+      },
+      {
+       "name": "蔚藍檔案 -Blue Archive- 黏土人 阿慈谷日富美",
+       "img": "https://s3-ap-northeast-1.amazonaws.com/hobbystock/img/item/00000423651/pc_detail_0.jpg",
+       "link": "https://www.hobbystock.jp/item/view/hby-gcf-00015995"
+      },
+      {
+       "name": "GOOD SMILE COMPANY 蔚藍檔案 -Blue Archive- POP UP PARADE 日富美 惡作劇☆直球 Ver.",
+       "img": "https://s3-ap-northeast-1.amazonaws.com/hobbystock/img/item/00000418122/pc_detail_0.jpg",
+       "link": "https://www.hobbystock.jp/item/view/hby-gcf-00015860"
+      },
+      {
+       "name": "F賞 大型超細纖維毛巾 日富美",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/102612/7b8a5188-1a45-47db-9d0e-4174bfa6e298.jpg",
+       "link": "https://1kuji.com/products/bluearchive_2"
+      }
+     ],
+     "thread": "preorder-0925",
+     "thread_title": "9/25～9/30 PVC 預購高峰",
+     "verdict": "下週三～四（9/23～24）集中對 amiami／GSC 預購頁做 Chrome 輪掃驗收",
+     "img": "https://assets.1kuji.com/uploads/product_item/image/106164/6a6ecee5-c587-48d3-83be-c6b2c8cf1a0a.webp"
+    },
+    {
+     "title": "【45】BANPRESTO 新美少女景品線：《夢幻俱樂部 DREAM C CLUB》魅杏 プライズ化＋彩色原型公開",
+     "body": "本庫僅 5 筆＝景品零歷史，是 Banpresto 開新 IP 線的訊號。另 KONAMI《幻想水滸傳》景品各種 ROUND1 限定（一般流通拿不到，台灣訂貨窗低），Furyu《哆啦A夢》任意門室內燈 9/19 景品化（730 在庫，走 Furyu 月度單）。",
+     "score": 45,
+     "tags": [
+      "景品",
+      "Banpresto"
+     ],
+     "link": "https://figsoku.net/blog-entry-524440.html",
+     "verdict": "首發先看 Banpresto 是否成系列；下月度 lineup 出現即決策"
+    },
+    {
+     "title": "【40】動畫化新訊：《黃泉之絆》第 2 期制作決定、《新 美味大挑戰》TV 動畫化、《銀河特急 Milky☆Subway》劇場版",
+     "body": "黃泉之絆（荒川弘）本庫 0 筆→一番賞潛在；美味大挑戰 懷舊 IP 景品化機率中；Milky☆Subway 9/18 Vivit 景品 4 體＋劇場版雙訊號，庫存 55 → 觀察升 40。\nhpoi 開天廠頁單週 8 品先行（EVA 初號機合金包膠 ¥1,380／街霸6 嘉米 1/3 矽膠可動 ¥6,588／鳴潮 卡提希婭＆芙露德莉斯）——EVA 3,863、鳴潮 935 雙線值得點名。",
+     "score": 40,
+     "tags": [
+      "動畫化",
+      "GK"
+     ],
+     "link": "https://www.hpoi.net/company/260",
+     "q": [
+      "EVA 初号機",
+      "エヴァンゲリオン 初号機"
+     ],
+     "verdict": "情報級；黃泉之絆進 pipeline watching",
+     "img": "https://www.medicomtoy.co.jp/WI/upimage/0043_220124_5twzih_h.jpg"
+    }
+   ]
+  },
+  {
+   "title": "⏰ 要截止（3 天內）",
+   "items": [
+    {
+     "title": "3 天內無硬截止；9/23（三）是 10 月檔四套賞別最後回訪日",
+     "body": "kagurabachi《神樂缽》／sumikko27《角落小夥伴 27》10/24 開賣剩 5 週仍零賞別（sumikko27 連價格都沒掛），已破「開賣前 3～4 週上線」判準。9/23 班若仍空改走通路端（bsp-prize／經銷商）。\n下一個硬截止：魂ウェブ 9/27 予約締切（7 天後）。",
+     "score": 40,
+     "tags": [
+      "一番賞",
+      "截止"
+     ],
+     "thread": "kuji-oct-4sets",
+     "verdict": "9/23 最後回訪，空則走通路端"
+    }
+   ]
+  },
+  {
+   "title": "🔔 要你動手",
+   "items": [
+    {
+     "title": "看門狗 FAIL 2／WARN 6／OK 10（週日進化回顧：兩週來首次，上週日 260913 沒產檔）",
+     "body": "根因判「共同宿主停擺」：runner log 與 RSS raw 同斷在 9/11。\n**今日自修 4 項**：W1 改讀急救 log 三態判讀（不再天天複讀「雙擊」）／W11 標「受 W1 牽連」（之前誤導去換 AniList 源）／TODAY 改 Asia/Taipei＋`--date`（W9 漏產疑沙盒時鐘偏移）／merge_to_excel.py、patrol_queue.py 加 `--help` 攔截（260918 誤灌 88 筆事故根治）。\n**3 提案等你拍板**：①RSS fetch 搬 Cowork 每日排程，砍夜跑單點故障面 ②Chrome-only 通路（Toyergk／SCC／熱血模玩／p-bandai TW）改每週一次你在場批巡 ③pipeline 監看 >45 天自動結案（目前 44 件只增不減）。\n其他 WARN：Chrome 通路積壓 Toyergk 29d／熱血模玩 13d／SCC 12d；9 牌巡邏連 3 天被擋（Sideshow／COOMODEL／PresentToys／JND／APEX／OrchidSeed／Furyu 等）已派 29 牌進 輸出/Chrome待辦.md。",
+     "score": 90,
+     "tags": [
+      "系統",
+      "看門狗"
+     ],
+     "thread": "chrome-todo",
+     "verdict": "通報鏈三段各掉一天——修法本身也要被檢查，已改成能驗證「你按了沒」",
+     "action": {
+      "owner": "West",
+      "text": "回 ①②③ 各「同意／不同意」；說「跑 Chrome 待辦」清 29 牌積壓"
+     }
+    },
+    {
+     "title": "缺口工單：1 件等你一句話、5 件可執行未排期",
+     "body": "等拍板：GAP-260910-03 miHoYo／HoYoverse（駁回收編改資料清洗題）回「收」或「不收」（等 10 天）。\n可執行 5 件缺的是工時：GOLDENHEAD+／Reverse Studio（24d）、Medicom 新站 15,161 vs 本庫 10,732（15d）、TAITO／Furyu 歷史深度（14d，**本週電撃 prize 11 件＋プライズフェア 2 場全是這兩廠，缺口持續放大**）、ip_table 232 條 name_en 中日文（11d）、GSAS 首爬（10d）。說「清缺口工單」我依序做。",
+     "score": 60,
+     "tags": [
+      "缺口工單"
+     ],
+     "thread": "gap-tickets",
+     "action": {
+      "owner": "West",
+      "text": "GAP-260910-03 miHoYo 回「收」或「不收」"
+     }
+    }
+   ]
+  },
+  {
+   "title": "🤖 今日系統",
+   "items": [
+    {
+     "title": "品牌官今日預巡 20 牌：BANDAI-Hobby 33d 最舊，Sideshow／Furyu 25d，其餘 21d 一排",
+     "body": "前 5：BANDAI-Hobby 33d／Sideshow 25d（sitemap 只有 blog，26 筆 staged 待官網 detail）／Furyu 25d／revolve 21d（借 figgy.jp 整店）／p-bandai TW 21d（JS 站需 Chrome 隱藏 iframe 觸發 SSR）。通路席：FavorGK 14d、熱血模玩 12d。\n**burn-down**：219 牌 ✅109／🟡110／🔴0（昨 0，±0）；runner 線 17 牌 ✅1 🟡16（夜跑不醒每天滾進 🟡）；chrome 線 134 牌 ✅44 🟡90；agg 62 牌全 ✅。\n11 支排程 lastRunAt 全準點。⚫ 掛掉／凍結 12 牌另計。",
+     "score": 50,
+     "tags": [
+      "巡邏",
+      "新鮮度"
+     ],
+     "verdict": "🔴 保持 0；🟡 110 要靠夜跑復活＋Chrome 在線才滾回 ✅"
+    }
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "owner": "West",
+   "text": "再雙擊 輸出/夜跑急救.command（修好的版本），把印出的第一句回我",
+   "thread": "runner-down"
+  },
+  {
+   "owner": "West",
+   "text": "看門狗 3 提案 ①RSS 搬 Cowork ②Chrome 通路週一次在場批巡 ③pipeline >45 天自動結案——各回同意／不同意"
+  },
+  {
+   "owner": "West",
+   "text": "說「跑 Chrome 待辦」清 GK-Toyergk 29d／熱血模玩／GK-SCC 積壓",
+   "thread": "chrome-todo"
+  },
+  {
+   "owner": "West",
+   "text": "GAP-260910-03 miHoYo／HoYoverse：回「收」或「不收」",
+   "thread": "gap-tickets"
+  }
+ ],
+ "tomorrow": [
+  "一番賞線：週一看 BLEACH 8／IVE 2／學偶 6 上位賞行情；9/23 四套 10 月檔賞別最後回訪",
+  "巡邏線：BANDAI-Hobby 33d／Sideshow staged 26 筆／Furyu；Chrome 在線走官網，掉線續 amiami 側路（≤15 筆/批、sleep 400-700ms）",
+  "預購線：9/23～24 對 amiami／GSC 預購頁 Chrome 輪掃驗收（ミカ水着／桜ミク／ソーダ figma／ヒフミ／ユミア）",
+  "系統線：急救包跑通後補 9/11 起 9 日增量＋RSS raw＋卡牌行情；週一重跑 system_overview.py"
+ ],
+ "refs": [
+  {
+   "label": "IP 雷達 digest 全文",
+   "path": "爬蟲資料/ip_news/digest_260920.md"
+  },
+  {
+   "label": "看門狗 260920（含週日進化回顧）",
+   "path": "輸出/健檢/260920_watchdog.md"
+  },
+  {
+   "label": "Chrome 待辦 29 牌",
+   "path": "輸出/Chrome待辦.md"
+  },
+  {
+   "label": "急救失敗日誌（9/18）",
+   "path": "輸出/命令日誌/夜跑急救_260918_0930.log"
+  }
+ ],
+ "signoff": "資訊官晨報班 08:45｜信箱今日無 Code 端指令｜看門狗警報 260920 已夾帶本報",
+ "id": "260920_am",
+ "hero": {
+  "img": "https://www.medicomtoy.co.jp/prod/dt/30/1/img/21011.jpg",
+  "link": "https://www.cinematoday.jp/news/N0156919",
+  "caption": "【48】Batman × 假面騎士 ZERO-ONE「LEGENDS UNITE」跨界立項（DC 原創漫畫＋BANDAI 商品化）",
+  "auto": true
+ }
+}

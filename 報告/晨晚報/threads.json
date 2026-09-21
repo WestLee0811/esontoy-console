@@ -1,0 +1,537 @@
+{
+ "runner-down": {
+  "title": "Mac 夜跑停擺",
+  "status": "open",
+  "first": "260915_am",
+  "entries": [
+   {
+    "issue": "260915_am",
+    "anchor": "actions",
+    "note": "Mac 夜跑連 4 晚無 log，需 launchctl 查 agent 狀態"
+   },
+   {
+    "issue": "260916_am",
+    "anchor": "actions",
+    "note": "最高優先：雙擊 輸出/夜跑急救.command（診斷 launchd → 掉了重掛 → 立刻補跑 5 天增量）。若印「agent 仍載入」＝Mac 夜裡關機，需選 pmset 定時喚醒／白天補跑段"
+   },
+   {
+    "issue": "260916_pm",
+    "anchor": "actions",
+    "note": "雙擊 輸出/夜跑急救.command（一次，30 秒）"
+   },
+   {
+    "issue": "260917_pm",
+    "anchor": "actions",
+    "note": "雙擊 輸出/夜跑急救.command — 夜跑第 7 晚未醒，卡牌／增量／RSS 全卡在這"
+   },
+   {
+    "issue": "260918_am",
+    "anchor": "actions",
+    "note": "雙擊 輸出/夜跑急救.command — 夜跑第 8 晚未醒，雷達／卡牌／增量／RSS 全卡在這"
+   },
+   {
+    "issue": "260918_am2",
+    "anchor": "actions",
+    "note": "雙擊 輸出/夜跑急救.command（第 8 晚）"
+   },
+   {
+    "issue": "260918_pm",
+    "anchor": "actions",
+    "note": "雙擊 輸出/夜跑急救.command——第 8 晚，跑完沒 log 就回我一聲，改查 TCC 完整取用磁碟"
+   },
+   {
+    "issue": "260919_am",
+    "anchor": "actions",
+    "note": "再雙擊一次 輸出/夜跑急救.command（bug 已修）——把印出的第一句「agent 仍載入」或「agent 不在」回我"
+   },
+   {
+    "issue": "260919_pm",
+    "anchor": "actions",
+    "note": "再雙擊 輸出/夜跑急救.command（修好的版本）"
+   },
+   {
+    "issue": "260920_am",
+    "anchor": "actions",
+    "note": "再雙擊 輸出/夜跑急救.command（修好的版本），把印出的第一句回我"
+   },
+   {
+    "issue": "260920_pm",
+    "anchor": "actions",
+    "note": "① 雙擊 輸出/夜跑急救.command（第 10 晚，三條線都卡它）"
+   },
+   {
+    "issue": "260921_am",
+    "anchor": "actions",
+    "note": "① 再按一次 輸出/夜跑急救.command（07:49 bootstrap 版，會自驗 log；第 11 晚）"
+   },
+   {
+    "issue": "260921_pm",
+    "anchor": "actions",
+    "note": "雙擊 輸出/夜跑急救.command（新版，自帶 25 秒驗證）——這是今天唯一真正卡住的事"
+   }
+  ],
+  "last": "260921_pm"
+ },
+ "kuji-oct-4sets": {
+  "title": "10 月下旬四套賞別待公開",
+  "status": "open",
+  "first": "260916_am",
+  "entries": [
+   {
+    "issue": "260916_am",
+    "anchor": "it2",
+    "note": "食品聯名套歷來純雜貨盤，情報級不進貨；週六班關鍵回訪"
+   },
+   {
+    "issue": "260916_pm",
+    "anchor": "it2",
+    "note": "週六 9/19 與下週三 9/23 是關鍵回訪點，那時再決定進貨"
+   },
+   {
+    "issue": "260917_pm",
+    "anchor": "it3",
+    "note": "9/19 沒出賞別就等 9/23，兩次都空代表這四套要放掉"
+   },
+   {
+    "issue": "260918_am",
+    "anchor": "it3",
+    "note": "9/19 沒出賞別就等 9/23，兩次都空代表這四套要放掉"
+   },
+   {
+    "issue": "260918_pm",
+    "anchor": "it3",
+    "note": "明天回訪，週一看行情"
+   },
+   {
+    "issue": "260919_am",
+    "anchor": "it8",
+    "note": "9/21（日）TGS 2026 閉展；9/23（三）四套 10 月檔賞別最後回訪"
+   },
+   {
+    "issue": "260919_pm",
+    "anchor": "it3",
+    "note": "9/23 最後回訪，空則走通路端"
+   },
+   {
+    "issue": "260920_am",
+    "anchor": "it6",
+    "note": "9/23 最後回訪，空則走通路端"
+   }
+  ],
+  "last": "260920_am"
+ },
+ "onep106": {
+  "title": "航海王 IMPACT LOG 2027/01 訂貨窗",
+  "status": "open",
+  "first": "260916_am",
+  "entries": [
+   {
+    "issue": "260916_am",
+    "anchor": "it3",
+    "note": "訂貨窗 2026/10 下旬〜11 月，硬通貨齊、必進"
+   },
+   {
+    "issue": "260918_am",
+    "anchor": "it4",
+    "note": "必進；等 10 月下旬經銷單開再排量"
+   }
+  ],
+  "last": "260918_am"
+ },
+ "eva20": {
+  "title": "EVA 破 12 月檔決策",
+  "status": "open",
+  "first": "260916_am",
+  "entries": [
+   {
+    "issue": "260916_am",
+    "anchor": "it4",
+    "note": "12 月檔下單窗＝本週〜10 月初，該拍板了"
+   },
+   {
+    "issue": "260918_am",
+    "anchor": "actions",
+    "note": "EVA 破 12 月檔：進／不進（決策窗到 10 月初）"
+   }
+  ],
+  "last": "260918_am"
+ },
+ "chrome-todo": {
+  "title": "Chrome 待辦積壓",
+  "status": "open",
+  "first": "260916_am",
+  "entries": [
+   {
+    "issue": "260916_am",
+    "anchor": "actions",
+    "note": "Chrome 通路積壓 25 天＋19 牌 probe 連 3 天被擋 → 說「跑 Chrome 待辦」即清（31 牌，前 5：Sideshow／HotToys／BeastKingdom／Furyu／Medicos）"
+   },
+   {
+    "issue": "260916_pm",
+    "anchor": "actions",
+    "note": "對我說「跑 Chrome 待辦」或「清缺口工單」即開工"
+   },
+   {
+    "issue": "260917_pm",
+    "anchor": "actions",
+    "note": "Sideshow 26 筆新品要不要只收 5 件立體物"
+   },
+   {
+    "issue": "260918_am",
+    "anchor": "actions",
+    "note": "Sideshow 26 筆新品要不要只收 5 件立體物"
+   },
+   {
+    "issue": "260918_pm",
+    "anchor": "actions",
+    "note": "內建瀏覽器放行常巡官網（knead.co.jp／1999.co.jp／goodsmile.com／hottoygk.com.tw／infinitystatue.com），Chrome 掉線時才有第二條路"
+   },
+   {
+    "issue": "260919_am",
+    "anchor": "actions",
+    "note": "說「跑 Chrome 待辦」清 Toyergk 28d／SCC／熱血模玩 積壓"
+   },
+   {
+    "issue": "260919_pm",
+    "anchor": "actions",
+    "note": "說「跑 Chrome 待辦」清 GK-Toyergk 28d／GK-SCC／熱血模玩 通路積壓"
+   },
+   {
+    "issue": "260920_am",
+    "anchor": "actions",
+    "note": "說「跑 Chrome 待辦」清 GK-Toyergk 29d／熱血模玩／GK-SCC 積壓"
+   },
+   {
+    "issue": "260920_pm",
+    "anchor": "actions",
+    "note": "② 內建瀏覽器放行 api.amiami.com＋soapstudio／queenstudios／spiral-studio／taito.co.jp；Chrome 擴充功能重新授權（9/23～24 預購高峰輪掃前必須通）"
+   },
+   {
+    "issue": "260921_am",
+    "anchor": "actions",
+    "note": "② 內建瀏覽器放行 api.amiami.com＋soapstudio／queenstudios／spiral-studio／taito.co.jp；Chrome 擴充功能重新授權"
+   },
+   {
+    "issue": "260921_pm",
+    "anchor": "actions",
+    "note": "若想加速：說一句「跑 Chrome 待辦」，29 牌依庫存排序開清"
+   }
+  ],
+  "last": "260921_pm"
+ },
+ "gap-tickets": {
+  "title": "缺口工單待拍板",
+  "status": "open",
+  "first": "260916_am",
+  "entries": [
+   {
+    "issue": "260916_am",
+    "anchor": "actions",
+    "note": "缺口工單等拍板 2 件：POP MART（22 天）、miHoYo 官方周邊（20 天）→ 回「收／不收」"
+   },
+   {
+    "issue": "260916_pm",
+    "anchor": "actions",
+    "note": "缺口工單等回覆：POP MART（22 天）、miHoYo 官方周邊（20 天）— 回「收」或「不收」即結案"
+   },
+   {
+    "issue": "260917_pm",
+    "anchor": "actions",
+    "note": "POP MART／miHoYo 兩件缺口工單：回「收」或「不收」"
+   },
+   {
+    "issue": "260918_am",
+    "anchor": "actions",
+    "note": "POP MART／miHoYo 兩件缺口工單：回「收」或「不收」（已 24／22 天）"
+   },
+   {
+    "issue": "260918_am2",
+    "anchor": "actions",
+    "note": "POP MART／miHoYo 工單回「收」或「不收」"
+   },
+   {
+    "issue": "260918_manual",
+    "anchor": "actions",
+    "note": "✅ 結案：West 260918 裁定 POP MART「不用」（推翻 260909 的收，工單 closed＋永久排除）；miHoYo「爬吧」→ 但 recon 證實 miHoYo 是 IP 持有者不是公仔品牌，全球端無自營店（shop/store/merch 皆 NXDOMAIN），唯一自營米游铺在中國且 SPA+WAF 抓不到。庫內該 IP 系已有 7,212 筆（原神3,106／星穹鐵道2,662／絕區零887／崩壞3系534）散在既有通路，實際製造商是 APEX-TOYS/Myethos/HobbyMax/GSC 等已收品牌 → 不建 品牌/miHoYo.xlsx，改走 IP 對照維護。晨晚報停止追這條。"
+   },
+   {
+    "issue": "260920_am",
+    "anchor": "actions",
+    "note": "GAP-260910-03 miHoYo／HoYoverse：回「收」或「不收」"
+   },
+   {
+    "issue": "260920_pm",
+    "anchor": "actions",
+    "note": "④ 缺口工單：miHoYo／HoYoverse 收不收（GAP-260910-03，10 天）回「收」或「不收」"
+   },
+   {
+    "issue": "260921_am",
+    "anchor": "actions",
+    "note": "③ miHoYo／HoYoverse 收不收（GAP-260910-03，第 11 天）回「收」或「不收」"
+   },
+   {
+    "issue": "260921_pm",
+    "anchor": "actions",
+    "note": "缺口工單 GAP-260910-03（miHoYo 官方自營線）回「收」或「不收」即結案，已卡 11 天"
+   }
+  ],
+  "last": "260921_pm",
+  "closed": "2026-09-18"
+ },
+ "db_do": {
+  "title": "七龍珠 DRAGON OMNIBUS 2027/02 訂貨窗",
+  "status": "open",
+  "first": "260918_am2",
+  "entries": [
+   {
+    "issue": "260918_am2",
+    "anchor": "it1",
+    "note": "情報級；11 月下旬再拍板，10/20 先補 F〜I 賞"
+   },
+   {
+    "issue": "260918_pm",
+    "anchor": "it2",
+    "note": "情報級，賞別頁開了再算洞數"
+   }
+  ],
+  "last": "260918_pm"
+ },
+ "genshin_kuji1": {
+  "title": "原神 一番賞 vol.1 訂貨窗",
+  "status": "open",
+  "first": "260918_am2",
+  "entries": [
+   {
+    "issue": "260918_am2",
+    "anchor": "it2",
+    "note": "情報級；10/15 回查發售日與賞別"
+   }
+  ],
+  "last": "260918_am2"
+ },
+ "kubileh-preorder": {
+  "title": "酷比樂（萬榮）預購區＝台灣代理預購單",
+  "status": "open",
+  "first": "260918_pm",
+  "entries": [
+   {
+    "issue": "260918_pm",
+    "anchor": "actions",
+    "note": "大哥 26.09 第二批：半箱只開 Grandista 凱茲＋佐助 II，其餘走萬榮單隻——同意就回單"
+   },
+   {
+    "issue": "260919_am",
+    "anchor": "actions",
+    "note": "大哥 26.09 第二批：半箱 Grandista 凱茲＋佐助 II，其餘萬榮單隻——同意就回單"
+   }
+  ],
+  "last": "260919_am"
+ },
+ "pbandai-gap": {
+  "title": "p-bandai 7,180 缺口專案",
+  "status": "open",
+  "first": "260918_pm",
+  "entries": [
+   {
+    "issue": "260918_pm",
+    "anchor": "actions",
+    "note": "p-bandai 7,180 缺口要不要開專案"
+   },
+   {
+    "issue": "260919_am",
+    "anchor": "actions",
+    "note": "p-bandai 7,180 缺口要不要開專案"
+   },
+   {
+    "issue": "260919_pm",
+    "anchor": "actions",
+    "note": "p-bandai TW＋BANDAI-Hobby 7,180 缺口專案要不要開"
+   },
+   {
+    "issue": "260920_pm",
+    "anchor": "actions",
+    "note": "③ 兩題拍板：p-bandai 7,180 缺口開不開專案／TAITO spiritale＋Furyu TENITOL 比例線歸屬（收進品牌本體 or 另立）"
+   },
+   {
+    "issue": "260921_am",
+    "anchor": "actions",
+    "note": "④ p-bandai 7,180 缺口開不開專案／TAITO spiritale＋Furyu TENITOL 比例線歸屬"
+   }
+  ],
+  "last": "260921_am"
+ },
+ "brief-images": {
+  "title": "晨晚報圖片路線",
+  "status": "closed",
+  "first": "260918_pm",
+  "entries": [
+   {
+    "issue": "260918_pm",
+    "anchor": "it10",
+    "note": "別再試信內放圖；存檔頁＋夜跑發布是唯一路"
+   }
+  ],
+  "last": "260918_pm",
+  "closed_in": "260918_pm"
+ },
+ "brain-zombie": {
+  "title": "大腦 47 個殭屍 IP 頁：(a) 併入正名頁後刪 (b) 留頁改 redirect——回 a 或 b",
+  "status": "open",
+  "first": "260918_pm",
+  "entries": [
+   {
+    "issue": "260918_pm",
+    "anchor": "actions",
+    "note": "大腦 47 個殭屍 IP 頁：(a) 併入正名頁後刪 (b) 留頁改 redirect——回 a 或 b"
+   },
+   {
+    "issue": "260919_am",
+    "anchor": "actions",
+    "note": "大腦 47 個殭屍 IP 頁：回 a（併入後刪）或 b（留頁 redirect）"
+   }
+  ],
+  "last": "260919_am"
+ },
+ "hxh8_2": {
+  "title": "獵人 GREED ISLAND ② 再販訂貨窗",
+  "status": "open",
+  "first": "260919_am",
+  "entries": [
+   {
+    "issue": "260919_am",
+    "anchor": "it4",
+    "note": "訂貨級預備；10 月中回查經銷單開了沒"
+   },
+   {
+    "issue": "260919_pm",
+    "anchor": "it2",
+    "note": "10 月中回查經銷單再拍板"
+   }
+  ],
+  "last": "260919_pm"
+ },
+ "disney_coco": {
+  "title": "可可夜總會一番賞 10/31",
+  "status": "open",
+  "first": "260919_pm",
+  "entries": [
+   {
+    "issue": "260919_pm",
+    "anchor": "it1",
+    "note": "情報級，A＋LAST 單出價再看；不整套進"
+   },
+   {
+    "issue": "260920_pm",
+    "anchor": "it1",
+    "note": "情報級，A＋LAST 單抽出貨判斷；10/31 前不用動"
+   }
+  ],
+  "last": "260920_pm"
+ },
+ "batman-zeroone": {
+  "title": "Batman × 假面騎士 ZERO-ONE 跨界商品線",
+  "status": "open",
+  "first": "260920_am",
+  "entries": [
+   {
+    "issue": "260920_am",
+    "anchor": "it2",
+    "note": "watching；等 S.H.Figuarts／一番くじ 公告再拍板，卡布托 BIG 軟膠隨月度單走"
+   }
+  ],
+  "last": "260920_am"
+ },
+ "preorder-0925": {
+  "title": "9/25～9/30 PVC 預購高峰",
+  "status": "open",
+  "first": "260920_am",
+  "entries": [
+   {
+    "issue": "260920_am",
+    "anchor": "it3",
+    "note": "下週三～四（9/23～24）集中對 amiami／GSC 預購頁做 Chrome 輪掃驗收"
+   },
+   {
+    "issue": "260920_pm",
+    "anchor": "it2",
+    "note": "高峰前必須把 Chrome 授權救回來，否則 9/27 只能事後補"
+   },
+   {
+    "issue": "260921_am",
+    "anchor": "it7",
+    "note": "今天無截止；9/27 締切前提是 Chrome 授權救回"
+   }
+  ],
+  "last": "260921_am"
+ },
+ "genshin-apex": {
+  "title": "APEX 原神 PVC 線（月下の誓い→ナヒーダ）",
+  "status": "open",
+  "first": "260921_am",
+  "entries": [
+   {
+    "issue": "260921_am",
+    "anchor": "it3",
+    "note": "情報級；訂貨窗 11 月再看，先盯 miHoYo 收編決策"
+   },
+   {
+    "issue": "260921_pm",
+    "anchor": "it3",
+    "note": "原神 APEX ナヒーダ 50 分：官方自營＋第三方同時放量"
+   }
+  ],
+  "last": "260921_pm"
+ },
+ "persona-p4r": {
+  "title": "Persona 4 Revival 商品化週期",
+  "status": "open",
+  "first": "260921_am",
+  "entries": [
+   {
+    "issue": "260921_am",
+    "anchor": "it4",
+    "note": "watching；等 BANPRESTO 景品化首發訊號再升級"
+   }
+  ],
+  "last": "260921_am"
+ },
+ "oricon-gap": {
+  "title": "Oricon 熱度 vs 本庫商品數反差名單",
+  "status": "open",
+  "first": "260921_pm",
+  "entries": [
+   {
+    "issue": "260921_pm",
+    "anchor": "it2",
+    "note": "列觀察 4 檔，等景品廠首發訊號再拉高分數"
+   }
+  ],
+  "last": "260921_pm"
+ },
+ "beyblade-ux": {
+  "title": "陀螺 UX 線行情",
+  "status": "open",
+  "first": "260921_pm",
+  "entries": [
+   {
+    "issue": "260921_pm",
+    "anchor": "it4",
+    "note": "脆二手 UX 線三筆 ≥5%（全 TWD，樣本已過濾單樣本）"
+   }
+  ],
+  "last": "260921_pm"
+ },
+ "patrol": {
+  "title": "品牌巡邏新鮮度",
+  "status": "open",
+  "first": "260921_pm",
+  "entries": [
+   {
+    "issue": "260921_pm",
+    "anchor": "it5",
+    "note": "今日實巡 4 牌／新品 +37 筆／🔴 0 牌（昨 0，±0）"
+   }
+  ],
+  "last": "260921_pm"
+ }
+}

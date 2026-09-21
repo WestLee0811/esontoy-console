@@ -1,0 +1,77 @@
+🌙 晚報 2026-09-17｜Chrome 待辦全牌實勘：31 牌裡 24 牌其實活著，真問題只有 4 牌
+巡邏封鎖率從 100% 降到 13%；Mac 夜跑第 7 晚未醒，卡牌行情站停在 9/11
+
+新鮮度 ✅7天內：172 -12
+🟡 8-30天：46 +12
+🔴 >30天：0 0
+⚫掛掉/凍結：12 +2
+
+【💰 機會】
+1. 【95】Chrome 待辦 31 牌逐一實勘：24 牌是誤判，不是被封
+   生意上的意思：過去三週被判「抓不到」而斷貨情報的 24 個品牌，其實隨時可以恢復自動巡邏，Sideshow／BeastKingdom／Furyu 這種上千品項的大牌都在裡面。
+   三大誤判來源：①協定錯（Myethos／Solarain／TBLeague／COOMODEL／OrchidSeed 只吃 http，probe 四招寫死 https）②JS 渲染當掛掉（APEX／p-bandai／Claynel／DAMTOYS／Sideshow 首頁空但 sitemap／API 正常）③搬家（JNDStudios .kr→.com、charahiroba→furyuprize、Threezero→Odoo、Prime1→Salesforce、BeastKingdom 美國站收攤→台灣 91APP）。
+   真被擋只有 HotToys／PresentToys（連 robots.txt 都回零字元＝真 WAF），真死只有 DragonHorse／Animester。
+   修根已落地：patrol_probe 加 https→http 降級、site_override 5 牌、sources.json 回填 25 牌端點、PLAYBOOK §7.1 端點表。
+   📌 積壓解除一半以上，明早跑一輪 probe 驗收修根是否真的把誤判清掉
+   🧵 Chrome 待辦積壓 第 3 回（上回 09/16 晚報）
+2. Sideshow 實抓 122 筆 → 新品 26，但立體物只有 5
+   用 Chrome 實際打進去抓了 122 筆，對庫 diff 出 26 筆新品，其中立體物僅 5 件，其餘是海報／畫框／周邊。
+   staged 未入庫，因為欄位多為 minimal，硬 merge 會污染 7,040 筆的 Sideshow 分頁。
+   📌 先把 5 件立體物挑出來補完整欄位再入庫，周邊那 21 筆不值得花工時
+   🧵 Chrome 待辦積壓 第 3 回（上回 09/16 晚報）
+3. 10 月下旬四套一番賞剩 5 週，賞別仍全空
+   咔嚓咔嚓 10/24、角落小夥伴 27 10/24、小學生の文具 6、迪士尼可可夜總會 10/31 — 今日複查仍 0 公開。
+   官網慣例在開賣前 2～3 週集中放續報，本週六 9/19 是第一個關鍵回訪點。
+   📌 9/19 沒出賞別就等 9/23，兩次都空代表這四套要放掉
+   https://1kuji.com/products/kagurabachi
+   🧵 10 月下旬四套賞別待公開 第 3 回（上回 09/16 晚報）
+4. 兩件缺口工單等你一句話，已卡 20 天以上
+   POP MART（泡泡瑪特） GAP-260825-06，卡 22 天；miHoYo / HoYoverse 官方周邊 GAP-260827-08，卡 20 天。
+   回「收」我就排爬蟲建分頁，回「不收」就結案不再出現在日報。
+   🧵 缺口工單待拍板 第 3 回（上回 09/16 晚報）
+
+【📈 漲跌 — 陀螺（脆成交）】
+1. CX-00 EVA 整盒 $2,600 → $2,000（-24%）
+   形態：整盒 boxed，幣別 TWD，來源脆成交，樣本數 n 7→4。
+   樣本掉到 4 筆，跌幅可信度中等；另有 7 筆波動因單樣本或同區間換抽已濾除，需補交叉樣本才算數。
+   📌 先當「賣壓浮現」看，別急著調零售價，等 n≥6 再確認
+
+【🏭 巡邏戰報】
+1. 今日巡 0 牌 — 工時全投入 31 牌實勘
+   巡 0 牌的原因：今日 West 下令「跑 Chrome 待辦」，全日工時用在 31 牌逐一實勘與修根，沒有跑例行品牌巡邏。
+   新品入庫 0 筆（Sideshow 26 筆停在 staged，未 merge）。
+   新鮮度：✅7天內 172（昨 184，-12）｜🟡8-30天 46（昨 34，+12）｜🔴>30天 0（昨 0，持平）｜⚫掛掉/凍結 12（昨 10，+2＝DragonHorse／Animester 實勘確認已死，移出巡邏名單）。
+   ✅ 掉 12 是日期滾動（9/10 那批滿 7 天）＋runner 停擺，不是新增故障。
+   預計清空日：🔴 已為 0，無待清；🟡 46 牌靠明早修根後的 probe 一輪即可大批回 ✅。
+   明日隊列最舊 5 牌：InfinityStudio 60d、BANDAI-Hobby 31d、TBLeague 23d、Sideshow 23d、Oniri 23d。
+   🧵 Chrome 待辦積壓 第 3 回（上回 09/16 晚報）
+
+【🃏 卡牌】
+1. 六遊戲行情連 6 日未更新，帶價卡數變化無法計算
+   卡牌行情站 `data.js` 最後寫入 9/11 03:44，單卡層資料同樣停在 9/11。
+   夜跑 6.6（每日重產卡牌行情站）自 9/11 起沒跑過 → 本欄今日無新數字可報，不是行情平靜，是資料沒進來。
+   根因與下方警報同一條：Mac 夜跑 runner 停擺。
+   📌 夜跑一恢復，卡牌行情站會自動補回，不需另外處理
+   🧵 Mac 夜跑停擺 第 4 回（上回 09/16 晚報）
+
+【⚠️ 警報】
+1. Mac 夜跑第 7 晚未醒（自 9/11 起零產出）
+   證據：`爬蟲資料/source_health_*` 最後一筆 260911、卡牌 `單卡層` 最後寫入 9/11、ip_news RSS 最後 digest 260916 靠 Cowork 端撐著。
+   連帶停擺：Shopify 增量、source_health、img_health、figures.db 重建、卡牌行情站、RSS 抓取（sandbox egress 不通，這條只能在 Mac 端跑）。
+   修復動作壓到雙擊一次：`輸出/夜跑急救.command`（自動診斷 launchctl → 掉了就重掛 → 立刻補跑，失敗 fallback 開 Terminal 直跑）。
+   🧵 Mac 夜跑停擺 第 4 回（上回 09/16 晚報）
+
+【✅ 要 West 拍板／動手】
+☐ West：雙擊 輸出/夜跑急救.command — 夜跑第 7 晚未醒，卡牌／增量／RSS 全卡在這
+☐ West：POP MART／miHoYo 兩件缺口工單：回「收」或「不收」
+☐ West：Sideshow 26 筆新品要不要只收 5 件立體物
+
+【🎯 明天】
+- 巡邏線：跑一輪 probe 驗收今日修根（https→http 降級＋5 牌 site_override＋25 牌端點），目標把 🟡 46 牌大批打回 ✅
+- 巡邏線：隊列最舊 InfinityStudio（60 天）、BANDAI-Hobby（31 天）優先
+- 一番賞線：9/19 週六四套（咔嚓咔嚓／角落小夥伴 27／小學生文具 6／可可夜總會）賞別關鍵回訪
+- 資料線：Sideshow staged 122 筆挑 5 件立體物補欄位入庫（待 West 點頭）
+- 卡牌線：夜跑恢復後補算 6 日行情缺口與帶價卡數變化
+
+存檔頁：https://westlee0811.github.io/esontoy-console/%E5%A0%B1%E5%91%8A/%E6%99%A8%E6%99%9A%E5%A0%B1/260917_pm.html
+— 資訊官晚報班｜信箱今日無 Code 端新指令（僅 260830 台中店盤點已結案）

@@ -1,0 +1,196 @@
+{
+ "kind": "pm",
+ "date": "2026-09-17",
+ "headline": "Chrome 待辦全牌實勘：31 牌裡 24 牌其實活著，真問題只有 4 牌",
+ "deck": "巡邏封鎖率從 100% 降到 13%；Mac 夜跑第 7 晚未醒，卡牌行情站停在 9/11",
+ "kpis": [
+  {
+   "label": "新鮮度 ✅7天內",
+   "value": "172",
+   "delta": "-12"
+  },
+  {
+   "label": "🟡 8-30天",
+   "value": "46",
+   "delta": "+12"
+  },
+  {
+   "label": "🔴 >30天",
+   "value": "0",
+   "delta": "0"
+  },
+  {
+   "label": "⚫掛掉/凍結",
+   "value": "12",
+   "delta": "+2"
+  }
+ ],
+ "sections": [
+  {
+   "title": "💰 機會",
+   "items": [
+    {
+     "title": "Chrome 待辦 31 牌逐一實勘：24 牌是誤判，不是被封",
+     "body": "生意上的意思：**過去三週被判「抓不到」而斷貨情報的 24 個品牌，其實隨時可以恢復自動巡邏**，Sideshow／BeastKingdom／Furyu 這種上千品項的大牌都在裡面。\n三大誤判來源：①協定錯（Myethos／Solarain／TBLeague／COOMODEL／OrchidSeed 只吃 http，probe 四招寫死 https）②JS 渲染當掛掉（APEX／p-bandai／Claynel／DAMTOYS／Sideshow 首頁空但 sitemap／API 正常）③搬家（JNDStudios .kr→.com、charahiroba→furyuprize、Threezero→Odoo、Prime1→Salesforce、BeastKingdom 美國站收攤→台灣 91APP）。\n真被擋只有 **HotToys／PresentToys**（連 robots.txt 都回零字元＝真 WAF），真死只有 **DragonHorse／Animester**。\n修根已落地：patrol_probe 加 https→http 降級、site_override 5 牌、sources.json 回填 25 牌端點、PLAYBOOK §7.1 端點表。",
+     "score": 95,
+     "tags": [
+      "巡邏",
+      "修根"
+     ],
+     "thread": "chrome-todo",
+     "thread_title": "Chrome 待辦積壓",
+     "verdict": "積壓解除一半以上，明早跑一輪 probe 驗收修根是否真的把誤判清掉",
+     "q": [
+      "Sideshow",
+      "BeastKingdom"
+     ],
+     "img": "https://www.sideshow.com/storage/product-images/9153332/prime-1-studio-fallout-lucy-maclean-bonus-version-quarter-scale-statue-silo_sm.png"
+    },
+    {
+     "title": "Sideshow 實抓 122 筆 → 新品 26，但立體物只有 5",
+     "body": "用 Chrome 實際打進去抓了 122 筆，對庫 diff 出 26 筆新品，**其中立體物僅 5 件**，其餘是海報／畫框／周邊。\nstaged **未入庫**，因為欄位多為 minimal，硬 merge 會污染 7,040 筆的 Sideshow 分頁。",
+     "tags": [
+      "Sideshow",
+      "待拍板"
+     ],
+     "thread": "chrome-todo",
+     "verdict": "先把 5 件立體物挑出來補完整欄位再入庫，周邊那 21 筆不值得花工時",
+     "action": {
+      "owner": "West",
+      "text": "同意就回「Sideshow 只收立體物」，我明天補完欄位入庫"
+     }
+    },
+    {
+     "title": "10 月下旬四套一番賞剩 5 週，賞別仍全空",
+     "link": "https://1kuji.com/products/kagurabachi",
+     "body": "咔嚓咔嚓 10/24、角落小夥伴 27 10/24、小學生の文具 6、迪士尼可可夜總會 10/31 — 今日複查仍 0 公開。\n官網慣例在開賣前 2～3 週集中放續報，**本週六 9/19 是第一個關鍵回訪點**。",
+     "tags": [
+      "一番賞",
+      "訂貨窗"
+     ],
+     "thread": "kuji-oct-4sets",
+     "verdict": "9/19 沒出賞別就等 9/23，兩次都空代表這四套要放掉",
+     "img": "https://assets.1kuji.com/uploads/product/image/10742/878770ed-59cd-433f-a2e6-a623b6792d02.webp"
+    },
+    {
+     "title": "兩件缺口工單等你一句話，已卡 20 天以上",
+     "body": "**POP MART（泡泡瑪特）** GAP-260825-06，卡 22 天；**miHoYo / HoYoverse 官方周邊** GAP-260827-08，卡 20 天。\n回「收」我就排爬蟲建分頁，回「不收」就結案不再出現在日報。",
+     "tags": [
+      "工單"
+     ],
+     "thread": "gap-tickets",
+     "action": {
+      "owner": "West",
+      "text": "POP MART／miHoYo：收 或 不收"
+     }
+    }
+   ]
+  },
+  {
+   "title": "📈 漲跌 — 陀螺（脆成交）",
+   "items": [
+    {
+     "title": "CX-00 EVA 整盒 $2,600 → $2,000（-24%）",
+     "body": "形態：**整盒 boxed**，幣別 **TWD**，來源脆成交，樣本數 n 7→4。\n樣本掉到 4 筆，跌幅可信度中等；另有 7 筆波動因單樣本或同區間換抽已濾除，需補交叉樣本才算數。",
+     "tags": [
+      "陀螺",
+      "行情"
+     ],
+     "verdict": "先當「賣壓浮現」看，別急著調零售價，等 n≥6 再確認"
+    }
+   ]
+  },
+  {
+   "title": "🏭 巡邏戰報",
+   "items": [
+    {
+     "title": "今日巡 0 牌 — 工時全投入 31 牌實勘",
+     "body": "**巡 0 牌的原因**：今日 West 下令「跑 Chrome 待辦」，全日工時用在 31 牌逐一實勘與修根，沒有跑例行品牌巡邏。\n**新品入庫 0 筆**（Sideshow 26 筆停在 staged，未 merge）。\n新鮮度：✅7天內 **172**（昨 184，-12）｜🟡8-30天 **46**（昨 34，+12）｜🔴>30天 **0**（昨 0，持平）｜⚫掛掉/凍結 12（昨 10，+2＝DragonHorse／Animester 實勘確認已死，移出巡邏名單）。\n✅ 掉 12 是日期滾動（9/10 那批滿 7 天）＋runner 停擺，不是新增故障。\n**預計清空日：🔴 已為 0，無待清**；🟡 46 牌靠明早修根後的 probe 一輪即可大批回 ✅。\n明日隊列最舊 5 牌：InfinityStudio 60d、BANDAI-Hobby 31d、TBLeague 23d、Sideshow 23d、Oniri 23d。",
+     "tags": [
+      "巡邏"
+     ],
+     "thread": "chrome-todo"
+    }
+   ]
+  },
+  {
+   "title": "🃏 卡牌",
+   "items": [
+    {
+     "title": "六遊戲行情連 6 日未更新，帶價卡數變化無法計算",
+     "body": "卡牌行情站 `data.js` 最後寫入 **9/11 03:44**，單卡層資料同樣停在 9/11。\n夜跑 6.6（每日重產卡牌行情站）自 9/11 起沒跑過 → 本欄今日**無新數字可報**，不是行情平靜，是資料沒進來。\n根因與下方警報同一條：Mac 夜跑 runner 停擺。",
+     "tags": [
+      "卡牌",
+      "資料斷層"
+     ],
+     "thread": "runner-down",
+     "verdict": "夜跑一恢復，卡牌行情站會自動補回，不需另外處理"
+    }
+   ]
+  },
+  {
+   "title": "⚠️ 警報",
+   "items": [
+    {
+     "title": "Mac 夜跑第 7 晚未醒（自 9/11 起零產出）",
+     "body": "證據：`爬蟲資料/source_health_*` 最後一筆 260911、卡牌 `單卡層` 最後寫入 9/11、ip_news RSS 最後 digest 260916 靠 Cowork 端撐著。\n連帶停擺：Shopify 增量、source_health、img_health、figures.db 重建、卡牌行情站、RSS 抓取（sandbox egress 不通，這條**只能在 Mac 端跑**）。\n**修復動作壓到雙擊一次**：`輸出/夜跑急救.command`（自動診斷 launchctl → 掉了就重掛 → 立刻補跑，失敗 fallback 開 Terminal 直跑）。",
+     "tags": [
+      "警報",
+      "runner"
+     ],
+     "thread": "runner-down",
+     "action": {
+      "owner": "West",
+      "text": "雙擊 輸出/夜跑急救.command（第 7 天了，其餘所有線都在等它）"
+     }
+    }
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "owner": "West",
+   "text": "雙擊 輸出/夜跑急救.command — 夜跑第 7 晚未醒，卡牌／增量／RSS 全卡在這",
+   "thread": "runner-down"
+  },
+  {
+   "owner": "West",
+   "text": "POP MART／miHoYo 兩件缺口工單：回「收」或「不收」",
+   "thread": "gap-tickets"
+  },
+  {
+   "owner": "West",
+   "text": "Sideshow 26 筆新品要不要只收 5 件立體物",
+   "thread": "chrome-todo"
+  }
+ ],
+ "tomorrow": [
+  "巡邏線：跑一輪 probe 驗收今日修根（https→http 降級＋5 牌 site_override＋25 牌端點），目標把 🟡 46 牌大批打回 ✅",
+  "巡邏線：隊列最舊 InfinityStudio（60 天）、BANDAI-Hobby（31 天）優先",
+  "一番賞線：9/19 週六四套（咔嚓咔嚓／角落小夥伴 27／小學生文具 6／可可夜總會）賞別關鍵回訪",
+  "資料線：Sideshow staged 122 筆挑 5 件立體物補欄位入庫（待 West 點頭）",
+  "卡牌線：夜跑恢復後補算 6 日行情缺口與帶價卡數變化"
+ ],
+ "refs": [
+  {
+   "label": "日報全文",
+   "path": "輸出/日報/260917.md"
+  },
+  {
+   "label": "Chrome 待辦全牌實勘",
+   "path": "輸出/健檢/260917_Chrome待辦全牌實勘.md"
+  },
+  {
+   "label": "Chrome 待辦佇列",
+   "path": "輸出/Chrome待辦.md"
+  }
+ ],
+ "signoff": "資訊官晚報班｜信箱今日無 Code 端新指令（僅 260830 台中店盤點已結案）",
+ "id": "260917_pm",
+ "hero": {
+  "img": "https://www.sideshow.com/storage/product-images/9153332/prime-1-studio-fallout-lucy-maclean-bonus-version-quarter-scale-statue-silo_sm.png",
+  "link": "",
+  "caption": "Chrome 待辦 31 牌逐一實勘：24 牌是誤判，不是被封",
+  "auto": true
+ }
+}

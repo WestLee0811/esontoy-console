@@ -1,0 +1,260 @@
+{
+ "id": "260918_am2",
+ "kind": "am",
+ "date": "2026-09-18",
+ "headline": "補刊：雷達醒了——七龍珠 DRAGON OMNIBUS 2027/02 一番賞定案（95 分）＋原神 vol.1 商品化（80 分）",
+ "deck": "更正 04:18 版「今日 0 訊號」：08:45 雷達班補抓兩日份 66 條；開拓官本週收編 GOLDENHEAD+／52TOYS 共 344 筆全真完整；夜跑第 8 晚仍未醒",
+ "kpis": [
+  {
+   "label": "景品訂貨訊號 ≥40",
+   "value": "10",
+   "delta": "04:18 版 0"
+  },
+  {
+   "label": "本週收編",
+   "value": "+2 牌 344 筆",
+   "delta": "🟢 全真完整"
+  },
+  {
+   "label": "品牌總覽",
+   "value": "220",
+   "delta": "+2"
+  },
+  {
+   "label": "看門狗",
+   "value": "FAIL 2",
+   "delta": "根因同一個"
+  }
+ ],
+ "sections": [
+  {
+   "title": "🔥 今日情報（08:45 雷達班補抓，取代 04:18 版「0 訊號」）",
+   "items": [
+    {
+     "title": "95 分｜一番賞 七龍珠 DRAGON OMNIBUS ～神與神之戰～ 2027/02/06 開賣定案",
+     "body": "A 超級賽亞人之神 孫悟空 25cm／B 破壞神比魯斯 22cm／C 維斯 25cm／D 究極悟飯 25cm／E 超三 悟天克斯 17cm（全 MASTERLISE）；F〜I 未公開；最後賞 親子龜派氣功 MASTERLISE PLUS；800 円。\n七龍珠是本庫最大 IP（15,170 筆），神與神題材上位賞五隻全公仔＝硬通貨檔。\n**訂貨窗預估：2 月檔＝2026/11 下旬〜12 月經銷下單，本月不用動。** slug `db_do` 本庫尚缺（1kuji 首頁 77 slug 唯一缺件），pipeline 已登記 10/20 回查 F〜I 賞後補建。",
+     "score": 95,
+     "link": "https://1kuji.com/products/db_do",
+     "tags": [
+      "一番賞",
+      "七龍珠",
+      "訂貨窗"
+     ],
+     "thread": "db_do",
+     "thread_title": "七龍珠 DRAGON OMNIBUS 2027/02 訂貨窗",
+     "verdict": "情報級；11 月下旬再拍板，10/20 先補 F〜I 賞"
+    },
+    {
+     "title": "80 分｜一番賞 原神 vol.1 商品化決定（官方 X 9/15），1 回 1,450 円",
+     "body": "發售日未定；**1,450 円是公仔級定價**（不是 2024 那套掛軸級）。商品頁露出 Q 版 刻晴／神里綾人／瓦雷莎／流浪者。\n原神本庫 3,112 筆，PVC 線一直熱（APEX／Myethos／Gift+ 刻晴都在庫），一番賞第一次做公仔級＝新客層入口。\n訂貨窗未開；推 2027 Q1〜Q2 投放，pipeline 登記 10/15 回查。",
+     "score": 80,
+     "link": "https://hobby.watch.impress.co.jp/docs/news/2141303.html",
+     "tags": [
+      "一番賞",
+      "原神"
+     ],
+     "thread": "genshin_kuji1",
+     "thread_title": "原神 一番賞 vol.1 訂貨窗",
+     "verdict": "情報級；10/15 回查發售日與賞別"
+    },
+    {
+     "title": "景品訂貨其他 ≥40（8 件）：咒術 甚爾 GigantiX／英雄 轟焦凍／死亡筆記本 彌海砂／不死者之王 阿爾貝多逆兔女郎",
+     "body": "**50｜咒術迴戰**（4,184）GigantiX 禪院甚爾（直哉回想 Ver.）今冬登場 → 12〜1 月檔，**10〜11 月月度單**。\n**48｜我的英雄學院**（1,799）Furyu ムチュート 劇場版 轟焦凍 2027/03；S.H.Figuarts AFO Final Battle Set 魂商店 9/18 受注；10 週年 23 體案下次情報日 10/16。\n**45｜死亡筆記本**（761）Furyu 彌海砂 景品，與 一番賞 DEATH NOTE 2（2027/01/16）同檔 → IP 回溫。\n**44｜不死者之王**（607）TAITO MOFLOCK 阿爾貝多 逆兔女郎 **2026/11 展開確定** → TAITO 11 月景品單＝本週〜10 月初決策點。\n其他：SAO 莉法 BiCute Ribbons 2027/02（42）／賽馬娘 XStellar 亞蒙德艾＋Alter 米浴（42）／雪初音 AMP＋ 第 3・4 彈（40）／出包王女 春菜 泳圈（40）。",
+     "tags": [
+      "景品",
+      "咒術迴戰",
+      "我的英雄學院",
+      "死亡筆記本",
+      "不死者之王"
+     ],
+     "verdict": "不死者之王 TAITO 11 月單最急（10 月初前）；其餘 10〜11 月月度單"
+    },
+    {
+     "title": "PVC 今日：魂商店 16:00 赤犬 馬林福特／quesQ 芙莉蓮 對奧拉戰／Alter 米浴／黏土人 北齋初音 今日開約；明 9/19 Gift+ 凱爾希",
+     "body": "9/18 16:00 プレバン：S.H.Figuarts 赤犬 マリンフォード（航海王）＋ジラース＋ホッパー兄弟 20th＋ミザールシド 40th。\n9/18 予約：quesQ 芙莉蓮 對奧拉戰（2027/06）、Alter 米浴（賽馬娘）、黏土人 初音未來 葛飾北齋。\n9/19 予約：Gift+ 凱爾希＋拉普蘭德（明日方舟）。\n9/24：壽屋 FAG 新作情報解禁。\nNIKKE 四線同週（VKEND 品牌化＋壽屋 蘇打 1/4＋figma／1/4 安妮絲）→ 2027Q1 NIKKE 集中檔；崩鐵 amiami 4 品（花火・阮梅・鏡流… ×Fate Saber）；蔚藍檔案 サツキ・イチカ 1/7＋どーる アロナ・プラナ。",
+     "tags": [
+      "PVC",
+      "預購"
+     ],
+     "verdict": "今日開約 4 件、明日 1 件；情報級不進貨"
+    }
+   ]
+  },
+  {
+   "title": "🧭 開拓官週掃（本週收編 2 家＋增量 1 家，344 筆全 🟢 真完整）",
+   "items": [
+    {
+     "title": "GOLDENHEAD+ 收編 32 筆：サウザンド旗下 1/7 美少女線，蔚藍檔案 8／碧藍航線 8／拳皇XV／餓狼傳說 CotW／惡魔高校",
+     "body": "為什麼值得：連續 3 週進雷達訊號（9/14 蔚藍檔案 サツキ 預約），IP 全是台灣熱門，2027/05 檔期已排；官網規格表乾淨、JAN 齊。",
+     "q": "GOLDENHEAD+",
+     "brand": "GoldenHead",
+     "gallery": [
+      {
+       "name": "GOLDENHEAD+ Fighting Girls Collection 1/7比例公仔 拳皇XV 布魯·瑪莉",
+       "img": "https://goldenhead.net/wp-content/uploads/2026/09/3659-scaled.jpg",
+       "link": "https://goldenhead.net/products/fgc_kofxv_bluemary_jp/"
+      },
+      {
+       "name": "GOLDENHEAD+ 1/7比例公仔 蔚藍檔案 サツキ 記憶大廳Ver.",
+       "img": "https://goldenhead.net/wp-content/uploads/2026/08/0310-scaled.jpg",
+       "link": "https://goldenhead.net/products/satsuki_jp/"
+      },
+      {
+       "name": "GOLDENHEAD+ Fighting Girls Collection 1/7比例公仔 拳皇XV 不知火舞",
+       "img": "https://goldenhead.net/wp-content/uploads/2026/03/0063-scaled.jpg",
+       "link": "https://goldenhead.net/products/fgc_kofxv_mai_jp/"
+      },
+      {
+       "name": "GOLDENHEAD+ 1/7比例公仔 蔚藍檔案 芹香（泳裝）",
+       "img": "https://goldenhead.net/wp-content/uploads/2026/05/0023-scaled.jpg",
+       "link": "https://goldenhead.net/products/serika_swimsuit_jp/"
+      },
+      {
+       "name": "GOLDENHEAD+ 1/7比例公仔 伊芙 兔耳內衣Ver.（再販）",
+       "img": "https://goldenhead.net/wp-content/uploads/2023/10/20230807i-1S.jpg",
+       "link": "https://goldenhead.net/products/evejp/"
+      },
+      {
+       "name": "GOLDENHEAD+ 1/7比例公仔 餓狼傳說 City of the Wolves 不知火舞",
+       "img": "https://goldenhead.net/wp-content/uploads/2025/11/0015-scaled.jpg",
+       "link": "https://goldenhead.net/products/cotw_mai_jp/"
+      }
+     ],
+     "tags": [
+      "收編",
+      "GOLDENHEAD+",
+      "PVC"
+     ],
+     "verdict": "已入庫 品牌/GoldenHead.xlsx",
+     "img": "https://goldenhead.net/wp-content/uploads/2026/09/3659-scaled.jpg"
+    },
+    {
+     "title": "52TOYS 收編 275 筆：潮玩類目首牌（你 9/9 裁 POP MART 收＝類目開綠燈）",
+     "body": "官方全球店 207（NOOK／CICILU／迪士尼／蠟筆小新／小小兵）＋ BEASTBOX 店 68（變形方塊、快打旋風 6 FIGLITE、鏢人）。BEASTBOX 68 筆站上沒發售日，之後走側路補。庫內早有 394 筆散在通路，現在有官方源。",
+     "q": "52TOYS",
+     "brand": "52TOYS",
+     "gallery": [
+      {
+       "name": "52TOYS COMUGI 水果喵系列",
+       "img": "https://cdn.shopify.com/s/files/1/0773/7874/8731/files/12_7407c32a-9ccb-4581-82b5-2a39a966e138.webp",
+       "link": "https://hi52toys.com/products/comugi-fruity-meow-series"
+      },
+      {
+       "name": "52TOYS 小熊維尼 變裝系列 絨毛收藏",
+       "img": "https://cdn.shopify.com/s/files/1/0773/7874/8731/files/14_c718dbcc-4359-4161-8a42-00c6259320c2.webp",
+       "link": "https://hi52toys.com/products/winnie-the-pooh-costume-series-plush-collection"
+      },
+      {
+       "name": "52TOYS 迪士尼反派 追逐系列 絨毛盲盒吊飾",
+       "img": "https://cdn.shopify.com/s/files/1/0773/7874/8731/files/1_870eecd9-c159-4985-a79a-c3a0d671f2c5.webp",
+       "link": "https://hi52toys.com/products/disney-villains-on-the-chase-plush-keychain"
+      },
+      {
+       "name": "52TOYS NOOK 100% 限定版 - 瓶中海",
+       "img": "https://cdn.shopify.com/s/files/1/0773/7874/8731/files/1__1_321582c6-c458-439f-bc55-3552fb76d54b.webp",
+       "link": "https://hi52toys.com/products/nook-100-limited-edition-sea-in-a-bottle"
+      },
+      {
+       "name": "52TOYS 蠟筆小新 復古絨毛玩偶 - OOTD",
+       "img": "https://cdn.shopify.com/s/files/1/0773/7874/8731/files/20260909-154852.webp",
+       "link": "https://hi52toys.com/products/crayon-shinchan-vintage-plush-doll-ootd"
+      },
+      {
+       "name": "52TOYS NOOK & SEEK 雙子系列",
+       "img": "https://cdn.shopify.com/s/files/1/0773/7874/8731/files/1_4505b5b1-6fc9-4373-8a68-0f1f62fdb194.webp",
+       "link": "https://hi52toys.com/products/nook-seek-gemini-series"
+      }
+     ],
+     "tags": [
+      "收編",
+      "52TOYS",
+      "潮玩"
+     ],
+     "verdict": "已入庫 品牌/52TOYS.xlsx",
+     "img": "https://cdn.shopify.com/s/files/1/0773/7874/8731/files/12_7407c32a-9ccb-4581-82b5-2a39a966e138.webp"
+    },
+    {
+     "title": "Union Creative 增量 +37（反查誤判案）＋一件自首",
+     "body": "把 union-creative.jp 當新牌爬完全站才發現就是既有 `UC.xlsx`（檔名縮寫躲過比對）→ 改成增量：37 筆 2026/09～2027/06 新品（我推的孩子 露比貓女僕、不死者之王 安茲 10th、學園偶像大師 月村手毬、出包王女 fillette 系列）。教訓已寫進 PLAYBOOK。\n**自首**：`merge_to_excel.py --help` 不吃參數直接跑，把 HobbySakura 88 筆重灌一次，已去重復原（有備份），無資料損失。品牌/ 下還躺 5 個舊 staged 檔，任何無參數 merge 都會吞掉，建議歸檔。\n駁回／觀察：Reverse Studio（2026 零新品）、ACGN 02／QuietArt／Genius Bee／王冠／BGA／Gentleman／PA Create／Pierrot China（淘寶系無官網→通路覆蓋）。",
+     "tags": [
+      "增量",
+      "Union Creative",
+      "自修"
+     ],
+     "verdict": "總覽 218→220；工單 GAP-260918-01/02"
+    }
+   ]
+  },
+  {
+   "title": "🔔 要你動手（看門狗 08:28 第二次查勤：FAIL 2，同一根因）",
+   "items": [
+    {
+     "title": "Mac 夜跑第 8 晚未醒：雙擊 輸出/夜跑急救.command（仍是唯一動作）",
+     "body": "W1 runner 連 7 晚無 log（最後 260911）／W2 RSS raw 停 260911。不是腳本錯，是 launchd 根本沒叫它。\n**新線索**：launchd.log（260711）曾記 `nightly_run.sh: Operation not permitted`＝macOS TCC 權限拒絕。急救 .command 跑完若明早仍紅 → 查 系統設定→隱私權與安全性→完整取用磁碟 是否給 bash／launchd，不要再改腳本。\n看門狗今日自修：把「留給晨報班的字條」誤判成推播斷線的假警報修掉（FAIL 3→2）；Cowork 11 支排程實查全準點、0 逾期。",
+     "tags": [
+      "runner",
+      "警報"
+     ],
+     "thread": "runner-down",
+     "verdict": "第 8 晚；修法早就給了，缺的是那一下雙擊",
+     "action": {
+      "owner": "West",
+      "text": "雙擊 輸出/夜跑急救.command；明早仍紅→查完整取用磁碟"
+     }
+    },
+    {
+     "title": "其餘待拍板：POP MART／miHoYo 缺口工單（24／22 天）＋Chrome 通路積壓 27 天",
+     "body": "缺口工單等你一句「收」或「不收」：POP MART（GAP-260825-06）、miHoYo 官方周邊（GAP-260827-08）。\nChrome 通路積壓：GK-Toyergk 27d／GK-MasterD 18d／熱血模玩 11d，說「跑 Chrome 待辦」即清。\n巡邏被擋 14 牌（COOMODEL／APEX／BeastKingdom／OrchidSeed 等 probe 撈不到列表，待 Chrome 確認）。",
+     "tags": [
+      "待拍板",
+      "工單"
+     ],
+     "thread": "gap-tickets",
+     "verdict": "兩句話結案兩張工單"
+    }
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "owner": "West",
+   "text": "雙擊 輸出/夜跑急救.command（第 8 晚）",
+   "thread": "runner-down"
+  },
+  {
+   "owner": "West",
+   "text": "POP MART／miHoYo 工單回「收」或「不收」",
+   "thread": "gap-tickets"
+  },
+  {
+   "owner": "系統",
+   "text": "10/15 回查原神 vol.1 發售日；10/20 回查 db_do F〜I 賞後補建"
+  }
+ ],
+ "tomorrow": [
+  "一番賞線：9/19 BLEACH 8／IVE 2／學偶大師 6 開賣，看日本開抽後上位賞行情（見 04:18 版）",
+  "巡邏線：InfinityStudio 61d／BANDAI-Hobby 31d／TBLeague 23d／GK-MasterD 17d／FavorGK 12d",
+  "開拓線：品牌/ 下 5 個舊 staged 檔待歸檔"
+ ],
+ "refs": [
+  {
+   "label": "IP 雷達完整版",
+   "path": "爬蟲資料/ip_news/digest_260918.md"
+  },
+  {
+   "label": "看門狗健檢",
+   "path": "輸出/健檢/260918_watchdog.md"
+  },
+  {
+   "label": "04:18 版晨報（第 5 期）",
+   "path": "輸出/報告/晨晚報/260918_am.html"
+  }
+ ],
+ "signoff": "資訊官晨報班 08:55 補刊｜夾帶：IP 雷達推播／看門狗警報／開拓官週掃 三份未寄出檔",
+ "hero": {
+  "img": "https://goldenhead.net/wp-content/uploads/2026/09/3659-scaled.jpg",
+  "link": "",
+  "caption": "GOLDENHEAD+ 收編 32 筆：サウザンド旗下 1/7 美少女線，蔚藍檔案 8／碧藍航線 8／拳皇XV／餓狼傳說 CotW／惡魔高校",
+  "auto": true
+ }
+}

@@ -1,0 +1,86 @@
+🌅 晨報 2026-09-19｜急救腳本 9/18 你按了但第 25 行炸掉——已修好，請再雙擊一次
+夜跑第 9 晚未醒（RSS/卡牌/增量全停 260911）；今日 HUNTER×HUNTER GREED ISLAND ② 再販定案 55 分；P1S 單日 4 品含喜多川海夢 1/1 等身
+
+新鮮度 ✅7天內：102 昨 111（日期滾動）
+🟡 8-30天：117 
+🔴 >30天：0 ±0
+看門狗：FAIL 2 WARN 6／OK 10
+
+【🌙 昨夜戰果】
+1. 【99】急救腳本本身有 bug：9/18 09:30 你雙擊後在第 25 行「LABEL: unbound variable」中止，診斷／重掛／補跑三步一步都沒跑
+   命令日誌 `夜跑急救_260918_0930.log` 只有 4 行就死。原因：`set -u` 下 `$LABEL）` 後接全形括號，Finder 啟動的 Terminal 沒帶 UTF-8 locale，bash 把全形字吃進變數名。
+   已修：改 `${LABEL}` 寫法＋腳本開頭強制 `LANG=en_US.UTF-8`，`bash -n` 語法過（舊版備份在 備份文件/夜跑急救_260919_backup.command）。
+   請再雙擊一次 輸出/夜跑急救.command，這次應該會印出「agent 仍載入」或「agent 不在 launchd」二選一，看到哪句回我。
+   📌 8 天沒醒不是 Mac 的錯，是急救包自己壞了；修好了，重按一次才知道真相
+   🧵 Mac 夜跑停擺 第 8 回（上回 09/18 晚報）
+2. 【45】一番賞快報週六班：1kuji 前向 80 套全在庫、新套 0；可可夜總會 Colorful Memories 全開 9 賞 → 補 10 列 🟢
+   `disney_coco` 10/31 開賣 781 円，刪舊寫新 KUJ-27714~27723，一番賞總列 26,612。抽賞判：一 BIG（米高＆海特場景公仔）一 LAST（亡靈節夜燈）撐雜貨盤，只看這兩件能否單出。
+   ⚠️ kagurabachi／sumikko27 10/24 開賣剩 5 週仍零賞別，已破「開賣前 3〜4 週上線」判準，9/23 班仍空就改去通路端找。
+   📌 9/19 回訪：四套之一沒動，9/23 是最後一次
+   https://1kuji.com/products/disney_coco
+   🧵 10 月下旬四套賞別待公開 第 6 回（上回 09/18 晚報）
+3. 【40】昨日巡邏總結：19 牌 328 筆＋開拓 344 筆＝672 筆全 🟢入庫；今晨 burn-down 🔴 0／🟡 117
+   上午 8 牌（MozFigure 86／GK-MasterD 223…）＋下午 11 牌 amiami 側路（BeastKingdom 6／DAMTOYS 6／X-PLUS 4／WING 1）。⚫ 12 牌另計。方法沉澱三條已寫進大腦 log（Chrome JS 回傳 1.3KB 截斷→寫 innerText 再抓；輸出含 cookie/query 字樣會被攔；MasterD 標題無｜分隔要接 enrich_ip_zh）。
+   🧵 Chrome 待辦積壓 第 6 回（上回 09/18 晚報）
+
+【🔥 今日情報】
+1. 【55】一番くじ HUNTER×HUNTER GREED ISLAND ② 再販決定（55 分｜HxH 庫存 ≈2,600）
+   小傑／奇犽／西索／雷射／格雷魯 公仔＋A 賞 G.I. 卡冊＆戒指 MASTERELIVE。slug `hxh8_2` 已在庫，初版 `hxh8` 賣相可直接對照。
+   再販檔通常公告後 2〜3 個月投放 → 10〜11 月經銷再販單。西索／奇犽是硬通貨，初版若當時有缺貨紀錄就該進。
+   📌 訂貨級預備；10 月中回查經銷單開了沒
+   https://1kuji.com/products/hxh8_2
+   🧵 獵人 GREED ISLAND ② 再販訂貨窗 第 1 回
+2. 【45】Prime 1 Studio 單日 4 品：喜多川海夢 1/1 等身大開發中／NGNL 白 等身大彩色原型／グレンラガン 庸子 1/4／鵺 1/5（45 分｜P1S 在庫 2,187）
+   戀上換裝娃娃 庫存 591、NGNL 176、天元突破 192。1/1 海夢＝高單價旗艦，屬陳列品不是週轉品。下週三 P1S 輪掃必驗 4 品有無入庫。
+   📌 情報級；等預約頁開再看定價與 EX 版差
+3. 【45】明日方舟 Myethos ×2 本日 9/19 開預約（Gift+ 凱爾希 時之足跡 Ver.＋ 羅德島 Kids 拉普蘭德）（45 分）
+   昨日預告兌現，pipeline 已轉 preorder_open。Myethos 在庫 491／明日方舟 923。同日 RIBOSE 崩鐵 Q 版 VOL.2、DMM 遊戲王 究極寶玉神 彩虹龍 開預約（42 分）。
+   📌 Myethos 常規單，依既有預購配額
+4. 【42】景品訂貨：Furyu 約會大作戰 十香（草帽×洋裝）＋ 初音 Flower Fairy 酸漿 色違（各 40〜42 分）
+   約會大作戰 Furyu 一月兩線（BiCute Dark 十香已 watching）；初音色違＝低風險追單。兩者都走 10〜11 月 Furyu 月度單。
+   另：一番くじ 烙印勇士 宿命之雙極 全賞公開，無公仔賞（A 賞複製原畫），訂單依既有。
+   📌 月度單併入，不另拍板
+
+【⏰ 要截止（3 天內）】
+1. 【30】9/21（日）TGS 2026 閉展；9/23（三）四套 10 月檔賞別最後回訪
+   3 天內無預購截止。今日 9/19 BLEACH Stirring Souls vol.5／學偶大師 Part6／IVE vol.2 日本店頭開抽（皆在庫），週一看上位賞行情。
+   較遠：9/24 壽屋 ルーデンス 開約、9/24 學偶大師 線上、9/25 ENSOU 超輝夜姬。
+   🧵 10 月下旬四套賞別待公開 第 6 回（上回 09/18 晚報）
+
+【🔔 要你動手】
+1. 【60】看門狗 FAIL 2／WARN 6：W1 夜跑第 9 晚零 log、W2 RSS raw 停 260911——根因研判「共同宿主停擺」＋急救包壞掉
+   W5 Chrome 通路積壓：GK-Toyergk 28d／GK-SCC 11d／熱血模玩 12d → 說一句「跑 Chrome 待辦」即清。
+   W7 缺口工單逾期 6 件（等你拍板 1：miHoYo 清洗題已裁「爬吧」但 recon 推翻假設不建 sheet；可執行 5）。
+   W10 巡邏被擋 11 牌（Sideshow／COOMODEL／JNDStudios／SuperDuck…）屬站方節流，連 3 天要換 Chrome 抓法。
+   W12 假警報已自修（晨報寄出後改名的檔仍被 glob 撈到）。
+   🧵 Mac 夜跑停擺 第 8 回（上回 09/18 晚報）
+2. 【50】待你回覆的 4 件（昨晚晚報已列，今再點名）
+   ① 大哥 26.09 第二批：半箱只開 Grandista 凱茲＋佐助 II，其餘走萬榮單隻——同意就回單
+   ② p-bandai 7,180 缺口要不要開專案
+   ③ TENITOL 81 筆＋anm 23 筆歸屬：開新 sheet 或併 Furyu
+   ④ 大腦 47 個殭屍 IP 頁：(a) 併入正名頁後刪 (b) 留頁改 redirect
+   🧵 酷比樂（萬榮）預購區＝台灣代理預購單 第 2 回（上回 09/18 晚報）
+
+【🤖 今日系統】
+1. 【35】品牌官今日預巡 20 牌｜點名前 5：BANDAI-Hobby 32d／TBLeague 24d／Sideshow 24d／Furyu 24d／revolve 20d
+   其餘：p-bandai TW／WANDERER／VERTEX／TAITO／SuperDuck／Studio24／Stronger／StormCollectibles／SpiralStudio／SnailShell／SOAPStudio／QueenStudios／PresentToys；通路 2 席 FavorGK 13d／熱血模玩 11d。
+   Burn-down（219 牌）：✅ 102／🟡 117／🔴 0。runner 線 17 牌只剩 ✅1（夜跑停擺直接反映）；chrome 線 134 牌 ✅37。
+2. 【30】IP 雷達 08:40 班：runner RSS 0 訊號（源斷第 8 天），全靠 Chrome lane 補位（figsoku p1〜7／1kuji 77 slug／bsp-prize／animatetimes／電撃／巴哈）
+   1kuji 首頁 77 slug 僅缺 `db_do`（10/20 回查）。動畫化新增：『お酒によわい安藤さん』；巴哈 GNN《降臨在學校的神明大人》台灣端露出。hololive 新組合下週出道 → FLOW GLOW 賞 11/13 同期，觀察 35。
+   11 個排程 lastRunAt 全正常；推播檔 `260919_IP動向雷達_推播未寄出.md`＋`260919_看門狗警報_未寄出.md` 隨本報寄出。
+
+【✅ 要 West 拍板／動手】
+☐ West：再雙擊一次 輸出/夜跑急救.command（bug 已修）——把印出的第一句「agent 仍載入」或「agent 不在」回我
+☐ West：說「跑 Chrome 待辦」清 Toyergk 28d／SCC／熱血模玩 積壓
+☐ West：大哥 26.09 第二批：半箱 Grandista 凱茲＋佐助 II，其餘萬榮單隻——同意就回單
+☐ West：p-bandai 7,180 缺口要不要開專案
+☐ West：大腦 47 個殭屍 IP 頁：回 a（併入後刪）或 b（留頁 redirect）
+
+【🎯 今天】
+- 一番賞線：週一看 BLEACH 8／IVE 2／學偶 6 上位賞行情；9/23 四套賞別最後回訪；10 月中回查 hxh8_2 經銷單
+- 巡邏線：BANDAI-Hobby 32d 最舊優先、TBLeague（只有 http 通）、Sideshow 26 筆 staged detail、Furyu；Chrome 在線走官網，掉線 amiami 側路
+- 雕像線：下週三 P1S 輪掃驗 海夢 1/1／白／庸子／鵺 4 品入庫
+- 系統線：急救包跑通後補 9/11 起 8 日 Shopify 增量＋RSS raw＋卡牌行情；system_overview.py 已 5 天未跑
+
+存檔頁：https://westlee0811.github.io/esontoy-console/%E5%A0%B1%E5%91%8A/%E6%99%A8%E6%99%9A%E5%A0%B1/260919_am.html
+— 資訊官晨報班 08:45｜信箱今日無 Code 端指令

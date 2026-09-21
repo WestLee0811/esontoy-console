@@ -1,0 +1,235 @@
+{
+ "kind": "pm",
+ "date": "2026-09-18",
+ "headline": "巡邏開閘：19 牌 328 筆新品入庫＋開拓 344 筆，一天補進 672 筆全真完整",
+ "deck": "大哥 26.09 第二批單裁完、酷比樂＝萬榮零售前台（預購區 2,546 筆全抓）；Mac 夜跑第 8 晚未醒，卡牌行情站停在 9/11",
+ "kpis": [
+  {
+   "label": "新鮮度 ✅7天內",
+   "value": "117",
+   "delta": "-55（日期滾動，非變舊）"
+  },
+  {
+   "label": "🟡 8-30天",
+   "value": "102",
+   "delta": "+56"
+  },
+  {
+   "label": "🔴 >30天",
+   "value": "0",
+   "delta": "0"
+  },
+  {
+   "label": "⚫掛掉/凍結",
+   "value": "12",
+   "delta": "0"
+  },
+  {
+   "label": "今日入庫",
+   "value": "672",
+   "delta": "巡邏 328＋開拓 344"
+  }
+ ],
+ "sections": [
+  {
+   "title": "💰 機會",
+   "items": [
+    {
+     "title": "大哥 26.09 第二批單裁完：半箱只開 Grandista 凱茲／佐助 II，其餘走萬榮單隻",
+     "body": "生意上的意思：**2027/2 W1–W4＋2027/3 Grandista 這批不用壓整箱**，BANPRESTO 27/2 在酷比樂單隻 NT$450（定價 740）隨時補得到。\n建議走萬榮單隻的：Noir Edge 佩恩＆小南／斑、航海王 MAXIMATIC 傑克／艾斯馬林福特／KOA 賈巴、K-ON SQ 五人、芙莉蓮咖啡廳雙人、JOJO 戰鬥潮流雙人、貓貓打工ver、乙骨、金牌得主雙人、妮姬雙人。\n**順手挖到的結構性發現：酷比樂就是萬榮的零售前台**，而且 amuzinc.com 已整站換 CYBERBIZ（舊 kubileh_update.py 全死）。預購區 2,546 筆全量抓下（BANPRESTO 421／GSC 773／SEGA 96／FuRyu 75），新建 `kubileh_preorder_watch.py`，每週四 09:00 自動出預購週報。首跑：7 日內新品 197（景品 100）。",
+     "score": 90,
+     "tags": [
+      "景品",
+      "訂貨",
+      "萬榮"
+     ],
+     "thread": "kubileh-preorder",
+     "thread_title": "酷比樂（萬榮）預購區＝台灣代理預購單",
+     "verdict": "台灣代理商的預購單＝其零售站預購區，以後看單先看站；大哥半箱只開 2 款",
+     "action": {
+      "owner": "West",
+      "text": "大哥第二批：半箱只開 Grandista 凱茲＋佐助 II，其餘走萬榮單隻——同意就回單"
+     },
+     "refs_path": "輸出/快報/260918_酷比樂預購新品.md"
+    },
+    {
+     "title": "七龍珠 DRAGON OMNIBUS ～神與神之戰～ 2027/02 一番賞定案（95 分）",
+     "body": "晨報補刊已報，晚報只更新一句：**這是 2027/02 檔目前唯一 95 分的套**，訂貨窗預估 12 月上旬。今日無新增賞位資訊，等 1kuji 賞別頁開。",
+     "score": 95,
+     "link": "https://1kuji.com/products/db_do",
+     "tags": [
+      "一番賞",
+      "七龍珠"
+     ],
+     "thread": "db_do",
+     "verdict": "情報級，賞別頁開了再算洞數"
+    },
+    {
+     "title": "明天 9/19 三套開賣：BLEACH 8／IVE 2／學偶大師 6",
+     "body": "日本週六開抽，**週一前看上位賞在メルカリ／脆的成交價**再決定要不要跟。10 月檔四套（咔嚓咔嚓／角落小夥伴 27／小學生文具 6／可可夜總會）賞別關鍵回訪也排在明天。",
+     "score": 70,
+     "tags": [
+      "一番賞"
+     ],
+     "thread": "kuji-oct-4sets",
+     "verdict": "明天回訪，週一看行情"
+    }
+   ]
+  },
+  {
+   "title": "📈 漲跌（脆成交／NT$）",
+   "items": [
+    {
+     "title": "UX-15-TOPW（boxed）$3,600 → $4,250，+18%",
+     "body": "脆成交、盒裝、樣本 n 3→2。**單邊上漲但樣本縮水**，先當訊號不當結論。",
+     "tags": [
+      "行情",
+      "戰鬥陀螺"
+     ]
+    },
+    {
+     "title": "CX-00-TIGA（boxed）$1,550 → $1,400，−10%",
+     "body": "脆成交、盒裝、樣本 n 2→4，樣本變厚、跌得可信。\n另 6 筆波動因單樣本／同區間換抽已濾除；行情樣本不足待補交叉：BXG-42、CX-04、UX-00-BLUE，數碼寶貝卡 digi 系列 50+ 筆全是 8/29 單樣本。",
+     "tags": [
+      "行情",
+      "戰鬥陀螺"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "🏭 巡邏戰報（硬數字）",
+   "items": [
+    {
+     "title": "今日巡 19 牌（上午 8＋下午 11）／新品 328 筆全 🟢／🔴 剩 0（昨 0）／⚫ 12（昨 12）",
+     "body": "**上午班 8 牌（Chrome MCP 4 天來第一次整場在線）**：MozFigure 86／GK-MasterD 223（8/31→9/18 整段補完）／Blitzway 1／InfinityStudio 1；0 新品：PureArts／Oniri／Claynel／XMStudios。\n**下午班 11 牌（Chrome 中午又掉，全走 amiami 側路）**：BeastKingdom 6／DAMTOYS 6／X-PLUS 4／WING 1；0 新品：WorldBox／VKEND／i8Toys／knead／VERYCOOL／WithFans／broccoli。\n**開拓官週掃另收 344 筆**：GOLDENHEAD+ 32（新牌）／52TOYS 275（新牌，潮玩首牌）／Union Creative +37。品牌數 218→220，figures.db 362,179 筆。\n**未巡 9 牌**（BANDAI-Hobby／TBLeague／Sideshow／Furyu／revolve／p-bandai TW／WANDERER／FavorGK／熱血模玩）：卡授權門口或屬專案，非站掛。\n**預計清空日**：🔴 已是 0；🟡 102 牌要回 ✅ 靠 Mac 夜跑 probe，夜跑不醒就只能靠 Chrome 手巡每天 10–20 牌，約 6–8 天。\n方法沉澱：amiami API `s_maker_name` 被忽略、`pagemax` 上限 50；merge_to_excel 新增列 SKU 前綴預設品牌名前 3 碼，staged 必給 `_sku_prefix`。",
+     "score": 85,
+     "tags": [
+      "巡邏"
+     ],
+     "thread": "chrome-todo",
+     "verdict": "Chrome 在線時一天能補 300+ 筆；掉線就只剩 amiami 一條路——授權穩定度是巡邏產能的天花板"
+    },
+    {
+     "title": "p-bandai TW＋BANDAI-Hobby：sitemap 11,807 vs 庫內 4,627，缺口 7,180",
+     "body": "lastmod 全是 9/10–9/16 無法當增量鍵，須用 ID 集合 diff＋收錄範圍判斷。**屬專案不屬巡邏**，未擅自開。",
+     "tags": [
+      "缺口"
+     ],
+     "thread": "pbandai-gap",
+     "thread_title": "p-bandai 7,180 缺口專案",
+     "action": {
+      "owner": "West",
+      "text": "p-bandai 7,180 缺口要不要開專案（含收錄範圍：模型／魂商店限定／周邊要不要全收）"
+     }
+    }
+   ]
+  },
+  {
+   "title": "🃏 卡牌",
+   "items": [
+    {
+     "title": "六遊戲行情站停在 9/11（第 8 天沒更新）",
+     "body": "卡牌行情站 data.js 最後更新 9/11 03:44，六遊戲行情＋帶價卡數**本週零變化**——不是市場沒動，是 Mac 夜跑 6.6 沒跑。夜跑醒來當晚會自動補產。",
+     "tags": [
+      "卡牌"
+     ],
+     "thread": "runner-down"
+    }
+   ]
+  },
+  {
+   "title": "⚠️ 警報",
+   "items": [
+    {
+     "title": "看門狗 FAIL 2（W1 夜跑第 8 晚零 log／W2 RSS raw 停 260911）、WARN 7、OK 9",
+     "body": "**急救 .command 產出兩天仍未被雙擊**（命令日誌無紀錄）。新線索：launchd.log 曾記 `nightly_run.sh: Operation not permitted`＝macOS TCC 權限層擋住，若雙擊急救後仍零 log，下一步是給 Terminal／python 完整取用磁碟，不是改腳本。\n另兩件今日自修：①W12 假警報（看門狗把當日「未寄出」字條當推播斷線）已改成只算隔夜未帶走；②沙盒時鐘疑落後台北約 4 小時，晨報同日跑兩次疑為此因，watchdog.py 加 --date 列進化提案。\n**通報鏈檢討**：同一 FAIL 連報 5 天而修法早就給了，問題在訊息到達不在動作難度——今晚起晚報把它放警報第一條、不再被新品情報擠掉。",
+     "score": 99,
+     "tags": [
+      "看門狗"
+     ],
+     "thread": "runner-down",
+     "verdict": "雙擊 輸出/夜跑急救.command 仍是唯一動作；跑完若還沒 log 就是 TCC 權限",
+     "action": {
+      "owner": "West",
+      "text": "雙擊 輸出/夜跑急救.command（卡牌／增量／RSS／圖文版發布全卡在這）"
+     }
+    },
+    {
+     "title": "晨晚報圖文版定案：Gmail 連接器剝掉所有信內圖片，圖只能在存檔頁看",
+     "body": "十種寫法（直連／Photon／data URI／cid／CSS 背景）全被 send_message 剝除，附件才留得住。**架構定案：信＝無圖版面＋「開啟本期圖文版」連結；圖文版＝存檔頁，要發布到 GitHub Pages 才能手機看，而發布只有 Mac 夜跑跑得動**——所以夜跑急救也是圖文版能不能看的前置條件。",
+     "tags": [
+      "晨晚報"
+     ],
+     "thread": "brief-images",
+     "thread_title": "晨晚報圖片路線",
+     "verdict": "別再試信內放圖；存檔頁＋夜跑發布是唯一路",
+     "close": true
+    }
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "owner": "West",
+   "text": "雙擊 輸出/夜跑急救.command——第 8 晚，跑完沒 log 就回我一聲，改查 TCC 完整取用磁碟",
+   "thread": "runner-down"
+  },
+  {
+   "owner": "West",
+   "text": "大哥 26.09 第二批：半箱只開 Grandista 凱茲＋佐助 II，其餘走萬榮單隻——同意就回單",
+   "thread": "kubileh-preorder"
+  },
+  {
+   "owner": "West",
+   "text": "p-bandai 7,180 缺口要不要開專案",
+   "thread": "pbandai-gap"
+  },
+  {
+   "owner": "West",
+   "text": "TENITOL 81 筆＋anm 23 筆歸屬：開新 sheet 或併 Furyu",
+   "thread": "chrome-todo"
+  },
+  {
+   "owner": "West",
+   "text": "大腦 47 個殭屍 IP 頁：(a) 併入正名頁後刪 (b) 留頁改 redirect——回 a 或 b",
+   "thread": "brain-zombie"
+  },
+  {
+   "owner": "West",
+   "text": "內建瀏覽器放行常巡官網（knead.co.jp／1999.co.jp／goodsmile.com／hottoygk.com.tw／infinitystatue.com），Chrome 掉線時才有第二條路",
+   "thread": "chrome-todo"
+  }
+ ],
+ "tomorrow": [
+  "一番賞線：9/19 BLEACH 8／IVE 2／學偶大師 6 日本開抽，週一前看上位賞行情；10 月檔四套賞別回訪",
+  "巡邏線：未巡 9 牌最舊優先（BANDAI-Hobby 31d／TBLeague／Sideshow 26 筆 staged detail／Furyu／revolve／FavorGK／熱血模玩）；Chrome 在線就走官網，掉線就 amiami 側路",
+  "行情線：補交叉樣本 BXG-42／CX-04／UX-00-BLUE",
+  "卡牌線：夜跑恢復後補 9/11 起 8 日行情缺口",
+  "系統線：新增機制（酷比樂預購週報／52TOYS／GOLDENHEAD+）後依鐵律重跑 system_overview.py 產新版運行報告（已 4 天未跑）"
+ ],
+ "refs": [
+  {
+   "label": "日報全文",
+   "path": "輸出/日報/260918.md"
+  },
+  {
+   "label": "巡邏戰報 260918／260918b",
+   "path": "輸出/巡邏戰報.md"
+  },
+  {
+   "label": "酷比樂預購新品快報",
+   "path": "輸出/快報/260918_酷比樂預購新品.md"
+  },
+  {
+   "label": "酷比樂預購圖冊",
+   "path": "輸出/圖冊_酷比樂預購/index.html"
+  },
+  {
+   "label": "本週接力日誌",
+   "path": "週執行日誌/260918.md"
+  }
+ ],
+ "signoff": "資訊官晚報班｜信箱今日無 Code 端指令｜第 7 期",
+ "id": "260918_pm"
+}

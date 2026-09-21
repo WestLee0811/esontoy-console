@@ -1,0 +1,217 @@
+{
+ "kind": "pm",
+ "date": "2026-09-21",
+ "headline": "夜跑真因終於抓到：Mac 03:30 是關機的＋macOS 26 的 launchctl 「假成功」",
+ "deck": "急救包已改版並加產物自驗，等 West 再按一次；三牌改判可自動化，Chrome 依賴再減",
+ "kpis": [
+  {
+   "label": "新鮮度 ✅7天內",
+   "value": "118",
+   "delta": "—"
+  },
+  {
+   "label": "🟡 8-30天",
+   "value": "101",
+   "delta": "—"
+  },
+  {
+   "label": "🔴 >30天",
+   "value": "0",
+   "delta": "±0"
+  },
+  {
+   "label": "今日回寫品牌",
+   "value": "4 牌",
+   "delta": "+37 筆"
+  },
+  {
+   "label": "夜跑零 log",
+   "value": "第 10 晚",
+   "delta": "+1"
+  }
+ ],
+ "sections": [
+  {
+   "title": "💰 機會",
+   "items": [
+    {
+     "title": "三牌從「非 Chrome 不可」翻案 → 回歸夜跑自動化",
+     "body": "GK-Toyergk（29天未巡）／GK-SCC（12天）／熱血模玩（13天）實測：sitemap.xml 是靜態 XML（toyer 一次回 **25,843 個商品網址**）、商品頁 SSR 自帶 JSON-LD（name/image/price 全有）。被判要 Chrome 的只有分類列表頁——而用 sitemap 當全集根本不需要列表頁。\n新寫 `crawlers/sitemap_jsonld_crawler.py`，三牌已排進 runner_queue。\n**生意上的意思**：這三個通路的新品從「要人在場點 Chrome」變成「晚上自己長出來」，且 Toyergk 站上 25,843 vs 庫內 25,144 ＝ **約 700 筆現成缺口**等夜跑一醒就補。順手修正 chrome_brands.json 把 toyer-gk 誤標 SHOPLINE（實為 Cyberbiz）。",
+     "score": 85,
+     "q": [
+      "Toyergk",
+      "熱血模玩"
+     ],
+     "tags": [
+      "自動化",
+      "缺口"
+     ],
+     "thread": "chrome-todo",
+     "verdict": "Chrome 待辦從 32 牌降到 29 牌，且降的是積壓最久的三牌"
+    },
+    {
+     "title": "Oricon 漫畫前 5 名有 4 個本庫商品數 <25 筆",
+     "body": "9/7〜9/13 週間榜：女の園の星5／入間くん50／薰香花朵24／カグラバチ12／WIND BREAKER27。\n庫存對照：**薰香花朵僅 4 筆**、入間くん 21、WIND BREAKER 22（全景品）、カグラバチ 約 22。\n**熱度高、商品線薄＝景品化前置候選**，尤其薰香花朵（動畫播畢熱度未退、景品廠尚未鋪）。這是「先卡位比別人早知道」的位置，不是現在要下單。",
+     "score": 55,
+     "q": [
+      "薰香花朵",
+      "WIND BREAKER"
+     ],
+     "tags": [
+      "雷達",
+      "景品前置"
+     ],
+     "thread": "oricon-gap",
+     "thread_title": "Oricon 熱度 vs 本庫商品數反差名單",
+     "verdict": "列觀察 4 檔，等景品廠首發訊號再拉高分數",
+     "img": "http://dragonhorse-inc.com/upload/image/20260630/6a4335268f18d.jpg"
+    },
+    {
+     "title": "原神 APEX ナヒーダ 50 分：官方自營＋第三方同時放量",
+     "body": "APEX「ナヒーダ 白草浄華Ver.」PVC 預約開始（50 分，本庫原神 3,119 筆／景品僅 25）。APEX 原神線**連 2 週出新**（月下の誓い→ナヒーダ），同日 miHoYo 官方 Q 版「幽夜綺想 キィニチ」也開預約。\n**代表**：原神線正在從「官方獨佔」轉成「官方＋第三方同時鋪貨」，我們庫內景品只有 25 筆＝這條線幾乎空著。",
+     "score": 50,
+     "link": "https://figsoku.net/blog-entry-524485.html",
+     "q": "原神 ナヒーダ",
+     "tags": [
+      "原神",
+      "PVC"
+     ],
+     "thread": "genshin-apex"
+    }
+   ]
+  },
+  {
+   "title": "📈 漲跌",
+   "items": [
+    {
+     "title": "脆二手 UX 線三筆 ≥5%（全 TWD，樣本已過濾單樣本）",
+     "body": "・**UX-03 loose〔脆散刃〕**：$2,000 → $800（**-60%**，n 4→3）\n・**UX-00 boxed〔脆成交〕**：$4,000 → $2,450（**-39%**，n 2→2）\n・**UX-15 boxed〔脆成交〕**：$2,900 → $2,100（**-28%**，n 2→4）\n另有 4 筆波動因單樣本／同區間換抽不可信，已濾除。\n**白話**：UX-00 拆賣窗口上週就過了，今天連整盒都在退；散刃 -60% 是有人清倉。這條線現在是**別追高、等落底**，不是進貨點。",
+     "tags": [
+      "行情",
+      "陀螺"
+     ],
+     "thread": "beyblade-ux",
+     "thread_title": "陀螺 UX 線行情"
+    }
+   ]
+  },
+  {
+   "title": "🏭 巡邏戰報",
+   "items": [
+    {
+     "title": "今日實巡 4 牌／新品 +37 筆／🔴 0 牌（昨 0，±0）",
+     "body": "**回寫的 4 牌**：POPTOYS 155 筆（至 PT-00155）／Medicos 1,292（+9）／NECA 3,054（+27）／Mezco 400（+1）。\n**新鮮度**：219 牌中 ✅7天內 118／🟡8-30天 101／🔴>30天 **0**（連續維持）。分 lane：runner 17 牌（✅1 🟡16）、channel 6、chrome 134（✅53 🟡81）、agg 62 全 ✅。\n**為何只巡 4 牌**：夜跑 runner 第 10 晚零 log（見警報），17 牌 runner lane 幾乎沒動；134 牌 Chrome lane 需要有人在場。今日 patrol_queue 排出的 20 牌**全數未執行**，最舊的是 BANDAI-Hobby 35 天、Sideshow 27 天、Furyu 27 天。\n**預計清空日**：🔴 目前為 0，但 🟡 101 牌裡有 8 牌已連 4 天被 probe 擋住（GK Figure Worldwide／COOMODEL／PresentToys／JNDStudios／APEX-TOYS／Sideshow／Furyu／1000TOYS）。**照現況不會自己清空**——夜跑一醒可清 runner 17 牌（約 2 晚），Chrome 待辦 29 牌需一場「跑 Chrome 待辦」對話（約 2 場清完）。",
+     "tags": [
+      "巡邏"
+     ],
+     "thread": "patrol",
+     "thread_title": "品牌巡邏新鮮度"
+    }
+   ]
+  },
+  {
+   "title": "🃏 卡牌",
+   "items": [
+    {
+     "title": "卡牌行情站已 10 天沒更新（連帶停擺，非自身故障）",
+     "body": "`輸出/卡牌行情站/data.js` 最後產出 **09-11 03:44**，六遊戲（寶可夢／海賊王等）台日行情、販售/買取/台版價、7 日漲跌**全部停在 9/11**。\n原因：卡牌站重產掛在 Mac 夜跑第 6.6 步，runner 沒醒＝站不重產。帶價卡數變化：**無新增（10 天 0）**。\n**注意**：現在打開卡牌行情站看到的價格已經是 10 天前的，**先別拿它出價**。",
+     "tags": [
+      "卡牌",
+      "停擺"
+     ],
+     "thread": "runner-down"
+    }
+   ]
+  },
+  {
+   "title": "⚠️ 警報",
+   "items": [
+    {
+     "title": "夜跑真因定位完成：不是 launchd 掉了，是 Mac 03:30 關機＋macOS 26 legacy launchctl 靜默失效",
+     "body": "今早急救包本身**跑成功並驗出真因**：\n① agent 一直都在載入中 → 連 10 晚零 log 不是 plist 掉了，是 **Mac 在 03:30 是關機的**（launchd 只對睡眠補跑，關機整段跳過）＝ 9/18 加的多時段 plist 正好對症。\n② 更深的坑：**這台是 macOS 26（Darwin 25），legacy `launchctl load` / `start` 會 exit 0 卻什麼都沒做**——實測 load ✅ start ✅、WatchPaths 踢下去沒反應、十分鐘零 log、錯誤檔停在 7/11。\n已把急救包改用新版 domain 指令 `bootout` / `bootstrap gui/$UID` / `kickstart -k`（失敗才退 legacy），並加**自我驗證**：啟動後等 25 秒確認 log 真的產生，沒有就直接開 Terminal 保底。\n**現況**：`框架/.runner_force` 旗標還在（07:38 建立、未被消耗），log 仍停 09-11 ＝ **舊版 plist 還裝在上面，要用新版急救包再按一次**。\n教訓已落頁：**exit 0 不等於有做事，排程類動作一定要驗到產物層**。",
+     "score": 95,
+     "tags": [
+      "夜跑",
+      "阻塞"
+     ],
+     "thread": "runner-down",
+     "verdict": "真因已知＋修法已寫好，只差按一次",
+     "action": {
+      "owner": "West",
+      "text": "雙擊 輸出/夜跑急救.command（新版 bootstrap 版，會自己驗 25 秒有沒有 log）"
+     }
+    },
+    {
+     "title": "看門狗 FAIL 2／WARN 6／OK 10",
+     "body": "FAIL：W1/W2 runner 連 10 晚零 log（同上）。Cowork 端 11 支排程 lastRunAt 全正常。\n8 牌巡邏連 4 天被 probe 擋（四招輪試全失效，非站方節流），已自動派工 29 牌進 `輸出/Chrome待辦.md`，依庫存×停擺天數排序，前 5：**Sideshow(7,040)／BeastKingdom(1,539)／HotToys(1,437)／Furyu(1,396)／Medicos(1,283)**。\n角色庫補全線仍斷：AniList 連兩週 300/300 403（Cloudflare 擋 bot UA），8/23 已改瀏覽器標頭＋Jikan 退避，**等下週日夜跑驗收**；若仍 0 產出就換源（bgm.tv／Fandom）。",
+     "tags": [
+      "watchdog"
+     ],
+     "thread": "chrome-todo"
+    }
+   ]
+  },
+  {
+   "title": "🎯 明天",
+   "items": [
+    {
+     "title": "各線分工",
+     "body": "**夜跑線**：West 按急救包 → 今晚（或 05:00/09:00 備援時段）應看到 260922.log；醒了自動吃 runner 17 牌＋三新牌 sitemap＋卡牌站重產＋Toyergk 約 700 筆缺口。\n**巡邏線**：patrol_queue 今日 20 牌未動，明日順延且 BANDAI-Hobby 會到 36 天——若夜跑仍不醒，建議開一場「跑 Chrome 待辦」先清前 5 大庫存牌。\n**一番賞線**：9/26（六）第 4 週投放（Furyu 21cm/15cm、TAITO 12cm 多品同日），9 月大物 Grandista 新四皇シャンクス／バギー、BLEACH 藍染、鏈鋸人 レゼ篇 MAXIMATIC ×2；無新首發需拍板。\n**PVC 線**：9/25〜9/30 預購高峰週——GSC ミカ(水着) ¥21,800（**全庫 0 筆待收編**）／キューズQ 芙莉蓮 ¥25,080／アルター ライスシャワー ¥28,380（截 11/18）。\n**行情線**：補 6 個單樣本序列交叉（CX-04／CX-11／CX-16／UX-00-BLUE／UX-00-TOPW／UX-15）。",
+     "tags": [
+      "明日"
+     ]
+    }
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "owner": "West",
+   "text": "雙擊 輸出/夜跑急救.command（新版，自帶 25 秒驗證）——這是今天唯一真正卡住的事",
+   "thread": "runner-down"
+  },
+  {
+   "owner": "West",
+   "text": "缺口工單 GAP-260910-03（miHoYo 官方自營線）回「收」或「不收」即結案，已卡 11 天",
+   "thread": "gap-tickets"
+  },
+  {
+   "owner": "West",
+   "text": "若想加速：說一句「跑 Chrome 待辦」，29 牌依庫存排序開清",
+   "thread": "chrome-todo"
+  }
+ ],
+ "tomorrow": [
+  "夜跑線：驗 260922.log 是否產生（急救包自驗 25 秒）",
+  "巡邏線：Chrome 待辦前 5 牌（Sideshow 7,040 起）",
+  "一番賞線：9/26 第 4 週投放清單落庫",
+  "PVC 線：9/25〜30 高峰週五款收編（GSC ミカ 全庫 0 筆）",
+  "行情線：6 序列補交叉樣本"
+ ],
+ "refs": [
+  {
+   "label": "日報全文",
+   "path": "輸出/日報/260921.md"
+  },
+  {
+   "label": "IP 動向雷達 digest",
+   "path": "爬蟲資料/ip_news/digest_260921.md"
+  },
+  {
+   "label": "Chrome 待辦（29 牌派工單）",
+   "path": "輸出/Chrome待辦.md"
+  },
+  {
+   "label": "本週系統運作報告",
+   "path": "輸出/運行報告/260921_系統運作報告.md"
+  }
+ ],
+ "signoff": "資訊官晚報班｜信箱今日無 Code 端指令（信箱/ 無待處理 .md）",
+ "id": "260921_pm",
+ "hero": {
+  "img": "http://dragonhorse-inc.com/upload/image/20260630/6a4335268f18d.jpg",
+  "link": "",
+  "caption": "Oricon 漫畫前 5 名有 4 個本庫商品數 <25 筆",
+  "auto": true
+ }
+}

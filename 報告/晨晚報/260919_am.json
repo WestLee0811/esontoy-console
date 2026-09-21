@@ -1,0 +1,401 @@
+{
+ "kind": "am",
+ "date": "2026-09-19",
+ "headline": "急救腳本 9/18 你按了但第 25 行炸掉——已修好，請再雙擊一次",
+ "deck": "夜跑第 9 晚未醒（RSS/卡牌/增量全停 260911）；今日 HUNTER×HUNTER GREED ISLAND ② 再販定案 55 分；P1S 單日 4 品含喜多川海夢 1/1 等身",
+ "kpis": [
+  {
+   "label": "新鮮度 ✅7天內",
+   "value": "102",
+   "delta": "昨 111（日期滾動）"
+  },
+  {
+   "label": "🟡 8-30天",
+   "value": "117",
+   "delta": ""
+  },
+  {
+   "label": "🔴 >30天",
+   "value": "0",
+   "delta": "±0"
+  },
+  {
+   "label": "看門狗",
+   "value": "FAIL 2",
+   "delta": "WARN 6／OK 10"
+  }
+ ],
+ "sections": [
+  {
+   "title": "🌙 昨夜戰果",
+   "items": [
+    {
+     "title": "急救腳本本身有 bug：9/18 09:30 你雙擊後在第 25 行「LABEL: unbound variable」中止，診斷／重掛／補跑三步一步都沒跑",
+     "body": "命令日誌 `夜跑急救_260918_0930.log` 只有 4 行就死。原因：`set -u` 下 `$LABEL）` 後接全形括號，Finder 啟動的 Terminal 沒帶 UTF-8 locale，bash 把全形字吃進變數名。\n**已修**：改 `${LABEL}` 寫法＋腳本開頭強制 `LANG=en_US.UTF-8`，`bash -n` 語法過（舊版備份在 備份文件/夜跑急救_260919_backup.command）。\n**請再雙擊一次 輸出/夜跑急救.command**，這次應該會印出「agent 仍載入」或「agent 不在 launchd」二選一，看到哪句回我。",
+     "score": 99,
+     "tags": [
+      "系統",
+      "夜跑"
+     ],
+     "thread": "runner-down",
+     "verdict": "8 天沒醒不是 Mac 的錯，是急救包自己壞了；修好了，重按一次才知道真相",
+     "action": {
+      "owner": "West",
+      "text": "再雙擊一次 輸出/夜跑急救.command（已修 bug），把印出的第一句回我"
+     }
+    },
+    {
+     "title": "一番賞快報週六班：1kuji 前向 80 套全在庫、新套 0；可可夜總會 Colorful Memories 全開 9 賞 → 補 10 列 🟢",
+     "body": "`disney_coco` 10/31 開賣 781 円，刪舊寫新 KUJ-27714~27723，一番賞總列 26,612。抽賞判：一 BIG（米高＆海特場景公仔）一 LAST（亡靈節夜燈）撐雜貨盤，只看這兩件能否單出。\n⚠️ kagurabachi／sumikko27 10/24 開賣剩 5 週仍零賞別，已破「開賣前 3〜4 週上線」判準，9/23 班仍空就改去通路端找。",
+     "score": 45,
+     "link": "https://1kuji.com/products/disney_coco",
+     "gallery": [
+      {
+       "name": "A賞 米高＆海特 場景公仔",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/107256/adc6d2a1-2162-4ebc-8423-e6dd9393302d.webp"
+      },
+      {
+       "name": "B賞 毛毯",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/107257/a3aa08f9-a61c-47d8-84e5-dec3ebbc4004.webp"
+      },
+      {
+       "name": "C賞 托特包",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/107258/cba5ff03-3dff-440b-9f64-2b84306ddd5c.webp"
+      },
+      {
+       "name": "D賞 收納包",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/107259/1a412abe-8e8b-4901-8ee7-197233d3dd2e.webp"
+      },
+      {
+       "name": "E賞 串珠吊飾",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/107260/b9f2e066-8da8-4caf-aff2-e5a2c97c1df1.webp"
+      },
+      {
+       "name": "F賞 迷你畫布板收藏",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/107261/5a311332-3840-4e52-9966-28e1484d570c.webp"
+      }
+     ],
+     "tags": [
+      "一番賞",
+      "迪士尼"
+     ],
+     "thread": "kuji-oct-4sets",
+     "verdict": "9/19 回訪：四套之一沒動，9/23 是最後一次",
+     "img": "https://assets.1kuji.com/uploads/product/top_banner/10757/203ea70b-6b57-409c-a10e-e0521e4e9d28.webp"
+    },
+    {
+     "title": "昨日巡邏總結：19 牌 328 筆＋開拓 344 筆＝672 筆全 🟢入庫；今晨 burn-down 🔴 0／🟡 117",
+     "body": "上午 8 牌（MozFigure 86／GK-MasterD 223…）＋下午 11 牌 amiami 側路（BeastKingdom 6／DAMTOYS 6／X-PLUS 4／WING 1）。⚫ 12 牌另計。方法沉澱三條已寫進大腦 log（Chrome JS 回傳 1.3KB 截斷→寫 innerText 再抓；輸出含 cookie/query 字樣會被攔；MasterD 標題無｜分隔要接 enrich_ip_zh）。",
+     "score": 40,
+     "tags": [
+      "巡邏"
+     ],
+     "thread": "chrome-todo"
+    }
+   ]
+  },
+  {
+   "title": "🔥 今日情報",
+   "items": [
+    {
+     "title": "一番くじ HUNTER×HUNTER GREED ISLAND ② 再販決定（55 分｜HxH 庫存 ≈2,600）",
+     "body": "小傑／奇犽／西索／雷射／格雷魯 公仔＋A 賞 G.I. 卡冊＆戒指 MASTERELIVE。slug `hxh8_2` 已在庫，初版 `hxh8` 賣相可直接對照。\n**再販檔通常公告後 2〜3 個月投放 → 10〜11 月經銷再販單**。西索／奇犽是硬通貨，初版若當時有缺貨紀錄就該進。",
+     "score": 55,
+     "link": "https://1kuji.com/products/hxh8_2",
+     "gallery": [
+      {
+       "name": "A賞 梅路艾姆 MASTERLISE",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/106877/5b417717-bc9a-46bb-b948-cec6399d6cdd.webp"
+      },
+      {
+       "name": "B賞 尼特羅 MASTERLISE",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/106878/6463d665-f232-4efd-af75-a71dde57b97d.webp"
+      },
+      {
+       "name": "C賞 小傑 MASTERLISE",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/106879/e81acb83-8ead-41a1-b716-bd6b76773bd3.webp"
+      },
+      {
+       "name": "D賞 奇犽 MASTERLISE",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/106880/b1e20c41-424e-4f12-8916-03f25bc51da3.webp"
+      },
+      {
+       "name": "E賞 尼飛彼多 MASTERLISE",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/106881/e8f605e5-4047-423f-945f-6409f0ad7850.webp"
+      },
+      {
+       "name": "F賞 夏瓦普夫／蒙託託尤匹 MASTERLISE（全2種）",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/106882/5f5a7980-6511-4094-a354-6e226a874ed6.webp"
+      }
+     ],
+     "tags": [
+      "一番賞",
+      "獵人"
+     ],
+     "thread": "hxh8_2",
+     "thread_title": "獵人 GREED ISLAND ② 再販訂貨窗",
+     "verdict": "訂貨級預備；10 月中回查經銷單開了沒",
+     "img": "https://assets.1kuji.com/uploads/product/top_banner/10788/c2f8ee0d-8933-40b8-9034-f0597e793ccd.webp"
+    },
+    {
+     "title": "Prime 1 Studio 單日 4 品：喜多川海夢 1/1 等身大開發中／NGNL 白 等身大彩色原型／グレンラガン 庸子 1/4／鵺 1/5（45 分｜P1S 在庫 2,187）",
+     "body": "戀上換裝娃娃 庫存 591、NGNL 176、天元突破 192。**1/1 海夢＝高單價旗艦**，屬陳列品不是週轉品。下週三 P1S 輪掃必驗 4 品有無入庫。",
+     "score": 45,
+     "q": [
+      "喜多川海夢",
+      "Prime 1 Studio"
+     ],
+     "gallery": [
+      {
+       "name": "更衣人偶墜入愛河 喜多川海夢 Liz CosplayVer. 無比例公仔",
+       "img": "https://online.aniplex.co.jp/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw5c21c75d/items/title-S/kisekoi/FGR/liz/01.jpg",
+       "link": "https://online.aniplex.co.jp/itemgirzPXvb.html"
+      },
+      {
+       "name": "更衣人偶墜入愛河 Season 2 喜多川海夢 冬制服Ver. 1/7 比例公仔",
+       "img": "https://online.aniplex.co.jp/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwe1efb305/items/title-S/kisekoi/FGR/fuyu-seifuku/01.jpg",
+       "link": "https://online.aniplex.co.jp/itemFnivnLGv.html"
+      },
+      {
+       "name": "ANIPLEX 戀上換裝娃娃 喜多川海夢 利茲 1/7",
+       "img": "https://img.shoplineapp.com/media/image_clips/698b1744cd403a85a7cddfc8/original.jpg?1770723137=&owner_id=64bf83e10c9a630084069d98",
+       "link": "https://www.scctoys.com.tw/products/a24734"
+      },
+      {
+       "name": "ANIPLEX 戀上換裝娃娃 喜多川海夢 冬季制服",
+       "img": "https://img.shoplineapp.com/media/image_clips/698b1fbdd0deedefb993cd6e/original.jpg?1770725308=&owner_id=64bf83e10c9a630084069d98",
+       "link": "https://www.scctoys.com.tw/products/a24737"
+      },
+      {
+       "name": "星原 戀上換裝娃娃 喜多川海夢2.0 1/6",
+       "img": "https://img.shoplineapp.com/media/image_clips/69fb2c8a9daa4fe485239114/original.jpg?1778068616=&owner_id=64bf83e10c9a630084069d98",
+       "link": "https://www.scctoys.com.tw/products/a25953"
+      },
+      {
+       "name": "依戀上換裝娃娃 沙灘系列 喜多川海夢 1/6",
+       "img": "https://img.shoplineapp.com/media/image_clips/6a06e6f712a32a2e715844a7/original.jpg?1778837236=&owner_id=64bf83e10c9a630084069d98",
+       "link": "https://www.scctoys.com.tw/products/a26119"
+      }
+     ],
+     "tags": [
+      "GK/雕像",
+      "P1S"
+     ],
+     "verdict": "情報級；等預約頁開再看定價與 EX 版差",
+     "img": "https://online.aniplex.co.jp/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw5c21c75d/items/title-S/kisekoi/FGR/liz/01.jpg"
+    },
+    {
+     "title": "明日方舟 Myethos ×2 本日 9/19 開預約（Gift+ 凱爾希 時之足跡 Ver.＋ 羅德島 Kids 拉普蘭德）（45 分）",
+     "body": "昨日預告兌現，pipeline 已轉 preorder_open。Myethos 在庫 491／明日方舟 923。同日 RIBOSE 崩鐵 Q 版 VOL.2、DMM 遊戲王 究極寶玉神 彩虹龍 開預約（42 分）。",
+     "score": 45,
+     "q": [
+      "明日方舟 凱爾希",
+      "Myethos"
+     ],
+     "gallery": [
+      {
+       "name": "APEX 明日方舟 凱爾希 行者版 1/7",
+       "img": "https://img.shoplineapp.com/media/image_clips/6811f49e34e171000a9a5f04/original.jpg?1746007198",
+       "link": "https://www.scctoys.com.tw/products/a19860"
+      },
+      {
+       "name": "APEX Happy Shake 明日方舟 凱爾希",
+       "img": "https://s3-ap-northeast-1.amazonaws.com/hobbystock/img/item/00000516538/pc_detail_0.jpg",
+       "link": "https://www.hobbystock.jp/item/view/hby-gcf-00018173"
+      },
+      {
+       "name": "Myethos 符華 小小茶會Ver.",
+       "img": "http://www.myethos.cn/upload/image/20260713/6a54b1cfea1a7.jpg",
+       "link": "http://www.myethos.cn/Collection/view/id/291"
+      },
+      {
+       "name": "Myethos 克麗斯騰 精英二Ver.",
+       "img": "http://www.myethos.cn/upload/image/20260622/6a38f504bf95b.jpg",
+       "link": "http://www.myethos.cn/Collection/view/id/288"
+      },
+      {
+       "name": "Myethos 凱爾希·Esperanta",
+       "img": "http://www.myethos.cn/upload/image/20260703/6a476c0e6d4c2.jpg",
+       "link": "http://www.myethos.cn/Collection/view/id/290"
+      },
+      {
+       "name": "Myethos 羅德島孩童系列 初雪",
+       "img": "http://www.myethos.cn/upload/image/20260623/6a3a1ebd1b35f.jpg",
+       "link": "http://www.myethos.cn/Collection/view/id/289"
+      }
+     ],
+     "tags": [
+      "PVC",
+      "明日方舟"
+     ],
+     "verdict": "Myethos 常規單，依既有預購配額",
+     "img": "https://img.shoplineapp.com/media/image_clips/6811f49e34e171000a9a5f04/original.jpg?1746007198"
+    },
+    {
+     "title": "景品訂貨：Furyu 約會大作戰 十香（草帽×洋裝）＋ 初音 Flower Fairy 酸漿 色違（各 40〜42 分）",
+     "body": "約會大作戰 Furyu 一月兩線（BiCute Dark 十香已 watching）；初音色違＝低風險追單。兩者都走 10〜11 月 Furyu 月度單。\n另：一番くじ 烙印勇士 宿命之雙極 全賞公開，**無公仔賞**（A 賞複製原畫），訂單依既有。",
+     "score": 42,
+     "q": [
+      "夜刀神十香",
+      "初音ミク ほおずき"
+     ],
+     "gallery": [
+      {
+       "name": "PRISMA WING 約會大作戰 Prime 1 Studio 夜刀神十香＆時崎狂三 魅魔 1/7",
+       "img": "https://img.shoplineapp.com/media/image_clips/699dac5812a9e3f33bc477a4/original.jpg?1771940951=&owner_id=64bf83e10c9a630084069d98",
+       "link": "https://www.scctoys.com.tw/products/a24816"
+      },
+      {
+       "name": "約會大作戰 Fantasia30週年紀念企劃 夜刀神十香 靈裝ver.【新裝包裝】",
+       "img": "https://kdcolle.kadokawa.co.jp//media/002/201905/035cb403dfc750a5a5863947ca058d3e.jpg?v=20190524123343",
+       "link": "https://kdcolle.kadokawa.co.jp/product/date/4550687225594.html"
+      },
+      {
+       "name": "__TRANSLATE__デート・ア・ライブV サマードレスフィギュアー夜刀神十香ー",
+       "img": "https://furyuprize.com/files/images/prz/pi-main-21774.webp",
+       "link": "https://furyuprize.com/item/21774"
+      },
+      {
+       "name": "BiCute Pure Figure 夜刀神十香",
+       "img": "https://file.charahiroba.com/img/trans/contents/17698_p.jpg",
+       "link": "https://charahiroba.com/prize/item/detail?id=15518"
+      },
+      {
+       "name": "Prisma Wing - 約會大作戰 夜刀神十香 魅魔版 [預購]",
+       "img": "https://cdn.shopify.com/s/files/1/0661/4528/8416/files/a005_PWDAL-05_28_pr.jpg?v=1771991898",
+       "link": "https://www.gkcollectors.com/products/prisma-wing-date-a-live-yatogami-tohka-succubus-version"
+      },
+      {
+       "name": "“[限定版]‘Date A Live’原創版矢刀神十香 Date ver. KADOKAWA 特別套裝”",
+       "img": "https://kdcolle.kadokawa.co.jp//media/001/202209/9cf5b2ef02e5cc936469347e6f485a13.jpg?v=20220913123748",
+       "link": "https://kdcolle.kadokawa.co.jp/product/date/4935228609086.html"
+      }
+     ],
+     "tags": [
+      "景品",
+      "Furyu"
+     ],
+     "verdict": "月度單併入，不另拍板",
+     "img": "https://img.shoplineapp.com/media/image_clips/699dac5812a9e3f33bc477a4/original.jpg?1771940951=&owner_id=64bf83e10c9a630084069d98"
+    }
+   ]
+  },
+  {
+   "title": "⏰ 要截止（3 天內）",
+   "items": [
+    {
+     "title": "9/21（日）TGS 2026 閉展；9/23（三）四套 10 月檔賞別最後回訪",
+     "body": "3 天內無預購截止。今日 9/19 BLEACH Stirring Souls vol.5／學偶大師 Part6／IVE vol.2 日本店頭開抽（皆在庫），週一看上位賞行情。\n較遠：9/24 壽屋 ルーデンス 開約、9/24 學偶大師 線上、9/25 ENSOU 超輝夜姬。",
+     "score": 30,
+     "tags": [
+      "截止"
+     ],
+     "thread": "kuji-oct-4sets"
+    }
+   ]
+  },
+  {
+   "title": "🔔 要你動手",
+   "items": [
+    {
+     "title": "看門狗 FAIL 2／WARN 6：W1 夜跑第 9 晚零 log、W2 RSS raw 停 260911——根因研判「共同宿主停擺」＋急救包壞掉",
+     "body": "W5 Chrome 通路積壓：GK-Toyergk 28d／GK-SCC 11d／熱血模玩 12d → 說一句「跑 Chrome 待辦」即清。\nW7 缺口工單逾期 6 件（等你拍板 1：miHoYo 清洗題已裁「爬吧」但 recon 推翻假設不建 sheet；可執行 5）。\nW10 巡邏被擋 11 牌（Sideshow／COOMODEL／JNDStudios／SuperDuck…）屬站方節流，連 3 天要換 Chrome 抓法。\nW12 假警報已自修（晨報寄出後改名的檔仍被 glob 撈到）。",
+     "score": 60,
+     "tags": [
+      "看門狗"
+     ],
+     "thread": "runner-down"
+    },
+    {
+     "title": "待你回覆的 4 件（昨晚晚報已列，今再點名）",
+     "body": "① 大哥 26.09 第二批：半箱只開 Grandista 凱茲＋佐助 II，其餘走萬榮單隻——同意就回單\n② p-bandai 7,180 缺口要不要開專案\n③ TENITOL 81 筆＋anm 23 筆歸屬：開新 sheet 或併 Furyu\n④ 大腦 47 個殭屍 IP 頁：(a) 併入正名頁後刪 (b) 留頁改 redirect",
+     "score": 50,
+     "tags": [
+      "拍板"
+     ],
+     "thread": "kubileh-preorder"
+    }
+   ]
+  },
+  {
+   "title": "🤖 今日系統",
+   "items": [
+    {
+     "title": "品牌官今日預巡 20 牌｜點名前 5：BANDAI-Hobby 32d／TBLeague 24d／Sideshow 24d／Furyu 24d／revolve 20d",
+     "body": "其餘：p-bandai TW／WANDERER／VERTEX／TAITO／SuperDuck／Studio24／Stronger／StormCollectibles／SpiralStudio／SnailShell／SOAPStudio／QueenStudios／PresentToys；通路 2 席 FavorGK 13d／熱血模玩 11d。\nBurn-down（219 牌）：✅ 102／🟡 117／🔴 0。runner 線 17 牌只剩 ✅1（夜跑停擺直接反映）；chrome 線 134 牌 ✅37。",
+     "score": 35,
+     "tags": [
+      "巡邏"
+     ]
+    },
+    {
+     "title": "IP 雷達 08:40 班：runner RSS 0 訊號（源斷第 8 天），全靠 Chrome lane 補位（figsoku p1〜7／1kuji 77 slug／bsp-prize／animatetimes／電撃／巴哈）",
+     "body": "1kuji 首頁 77 slug 僅缺 `db_do`（10/20 回查）。動畫化新增：『お酒によわい安藤さん』；巴哈 GNN《降臨在學校的神明大人》台灣端露出。hololive 新組合下週出道 → FLOW GLOW 賞 11/13 同期，觀察 35。\n11 個排程 lastRunAt 全正常；推播檔 `260919_IP動向雷達_推播未寄出.md`＋`260919_看門狗警報_未寄出.md` 隨本報寄出。",
+     "score": 30,
+     "tags": [
+      "雷達"
+     ]
+    }
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "owner": "West",
+   "text": "再雙擊一次 輸出/夜跑急救.command（bug 已修）——把印出的第一句「agent 仍載入」或「agent 不在」回我",
+   "thread": "runner-down"
+  },
+  {
+   "owner": "West",
+   "text": "說「跑 Chrome 待辦」清 Toyergk 28d／SCC／熱血模玩 積壓",
+   "thread": "chrome-todo"
+  },
+  {
+   "owner": "West",
+   "text": "大哥 26.09 第二批：半箱 Grandista 凱茲＋佐助 II，其餘萬榮單隻——同意就回單",
+   "thread": "kubileh-preorder"
+  },
+  {
+   "owner": "West",
+   "text": "p-bandai 7,180 缺口要不要開專案",
+   "thread": "pbandai-gap"
+  },
+  {
+   "owner": "West",
+   "text": "大腦 47 個殭屍 IP 頁：回 a（併入後刪）或 b（留頁 redirect）",
+   "thread": "brain-zombie"
+  }
+ ],
+ "tomorrow": [
+  "一番賞線：週一看 BLEACH 8／IVE 2／學偶 6 上位賞行情；9/23 四套賞別最後回訪；10 月中回查 hxh8_2 經銷單",
+  "巡邏線：BANDAI-Hobby 32d 最舊優先、TBLeague（只有 http 通）、Sideshow 26 筆 staged detail、Furyu；Chrome 在線走官網，掉線 amiami 側路",
+  "雕像線：下週三 P1S 輪掃驗 海夢 1/1／白／庸子／鵺 4 品入庫",
+  "系統線：急救包跑通後補 9/11 起 8 日 Shopify 增量＋RSS raw＋卡牌行情；system_overview.py 已 5 天未跑"
+ ],
+ "refs": [
+  {
+   "label": "IP 雷達 digest 全文",
+   "path": "爬蟲資料/ip_news/digest_260919.md"
+  },
+  {
+   "label": "看門狗 260919",
+   "path": "輸出/健檢/260919_watchdog.md"
+  },
+  {
+   "label": "一番賞快報",
+   "path": "輸出/快報/260919_新品快報.md"
+  },
+  {
+   "label": "急救失敗日誌",
+   "path": "輸出/命令日誌/夜跑急救_260918_0930.log"
+  }
+ ],
+ "signoff": "資訊官晨報班 08:45｜信箱今日無 Code 端指令",
+ "id": "260919_am",
+ "hero": {
+  "img": "https://assets.1kuji.com/uploads/product/top_banner/10788/c2f8ee0d-8933-40b8-9034-f0597e793ccd.webp",
+  "link": "https://1kuji.com/products/hxh8_2",
+  "caption": "一番くじ HUNTER×HUNTER GREED ISLAND ② 再販決定（55 分｜HxH 庫存 ≈2,600）",
+  "auto": true
+ }
+}

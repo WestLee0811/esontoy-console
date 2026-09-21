@@ -1,0 +1,105 @@
+{
+ "runner-down": {
+  "title": "Mac 夜跑停擺",
+  "status": "open",
+  "first": "260915_am",
+  "entries": [
+   {
+    "issue": "260915_am",
+    "anchor": "actions",
+    "note": "Mac 夜跑連 4 晚無 log，需 launchctl 查 agent 狀態"
+   },
+   {
+    "issue": "260916_am",
+    "anchor": "actions",
+    "note": "最高優先：雙擊 `輸出/夜跑急救.command`（診斷 launchd → 掉了重掛 → 立刻補跑 5 天增量）。若印「agent 仍載入」＝Mac 夜裡關機，需選 pmset 定時喚醒／白天補跑段"
+   },
+   {
+    "issue": "260916_pm",
+    "anchor": "actions",
+    "note": "雙擊 `輸出/夜跑急救.command`（一次，30 秒）"
+   }
+  ],
+  "last": "260916_pm"
+ },
+ "kuji-oct-4sets": {
+  "title": "10 月下旬四套賞別待公開",
+  "status": "open",
+  "first": "260916_am",
+  "entries": [
+   {
+    "issue": "260916_am",
+    "anchor": "it2",
+    "note": "食品聯名套歷來純雜貨盤，情報級不進貨；週六班關鍵回訪"
+   },
+   {
+    "issue": "260916_pm",
+    "anchor": "it2",
+    "note": "週六 9/19 與下週三 9/23 是關鍵回訪點，那時再決定進貨"
+   }
+  ],
+  "last": "260916_pm"
+ },
+ "onep106": {
+  "title": "航海王 IMPACT LOG 2027/01 訂貨窗",
+  "status": "open",
+  "first": "260916_am",
+  "entries": [
+   {
+    "issue": "260916_am",
+    "anchor": "it3",
+    "note": "**訂貨窗 2026/10 下旬〜11 月**，硬通貨齊、必進"
+   }
+  ],
+  "last": "260916_am"
+ },
+ "eva20": {
+  "title": "EVA 破 12 月檔決策",
+  "status": "open",
+  "first": "260916_am",
+  "entries": [
+   {
+    "issue": "260916_am",
+    "anchor": "it4",
+    "note": "12 月檔下單窗＝本週〜10 月初，該拍板了"
+   }
+  ],
+  "last": "260916_am"
+ },
+ "chrome-todo": {
+  "title": "Chrome 待辦積壓",
+  "status": "open",
+  "first": "260916_am",
+  "entries": [
+   {
+    "issue": "260916_am",
+    "anchor": "actions",
+    "note": "Chrome 通路積壓 25 天＋19 牌 probe 連 3 天被擋 → 說「跑 Chrome 待辦」即清（31 牌，前 5：Sideshow／HotToys／BeastKingdom／Furyu／Medicos）"
+   },
+   {
+    "issue": "260916_pm",
+    "anchor": "actions",
+    "note": "對我說「跑 Chrome 待辦」或「清缺口工單」即開工"
+   }
+  ],
+  "last": "260916_pm"
+ },
+ "gap-tickets": {
+  "title": "缺口工單待拍板",
+  "status": "open",
+  "first": "260916_am",
+  "entries": [
+   {
+    "issue": "260916_am",
+    "anchor": "actions",
+    "note": "缺口工單等拍板 2 件：POP MART（22 天）、miHoYo 官方周邊（20 天）→ 回「收／不收」"
+   },
+   {
+    "issue": "260916_pm",
+    "anchor": "actions",
+    "note": "缺口工單等回覆：POP MART（22 天）、miHoYo 官方周邊（20 天）— 回「收」或「不收」即結案"
+   }
+  ],
+  "last": "260916_pm"
+ }
+}

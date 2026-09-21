@@ -1,0 +1,63 @@
+🌙 晚報 2026-09-20｜四路全封只剩 amiami DOM 一條：巡 5 牌只進 2 筆；夜跑第 10 晚未醒、卡牌行情站停更 9 天
+週日晚班：資料庫本身沒事（🔴>30天 0 牌），但補貨眼睛正在一隻隻閉上——Chrome 授權掉、官網沙盒封、Mac runner 沒重按。今晚沒有新機會，只有要 West 動手的三件事
+
+今日巡邏：5/20 牌 新品 +2（昨 7 牌 +54）
+🔴 >30 天：0 昨 0／✅114 🟡105
+夜跑停擺：10 晚 260911 起
+卡牌行情站：停更 9 天 最後 09/11 03:44
+
+【💰 機會】
+1. 【40】今天沒有新的可下單機會——日報「今天的生意」只剩 09/19 一番賞快報回鍋
+   週六班一番賞普查 80 套→新套 0；唯一動的是《可可夜總會》Colorful Memories 9 賞位全開（2026/10/31，781 円）。抽賞判斷不變：A 賞米高＋海特場景公仔、最後賞亡靈節夜燈兩件能不能單獨出貨，B～H 全是可選雜貨集齊動機弱。11 月正好接萬聖／亡靈節檔。
+   其餘 24 套原封不動，10/24 `kagurabachi`、`sumikko27` 開賣剩 5 週仍 0 賞位——這兩套要盯，官方拖到最後一週才開的話訂貨窗會很短。
+   📌 情報級，A＋LAST 單抽出貨判斷；10/31 前不用動
+   https://1kuji.com/products/disney_coco
+   🧵 可可夜總會一番賞 10/31 第 2 回（上回 09/19 晚報）
+2. 【45】9/25～9/30 預購高峰倒數 5 天（晨報已立線，晚班補一句）
+   GSC 9/27 四連發（蔚藍檔案 ミカ水着／桜ミク／POP UP PARADE 重音テト L／六花パジャマ XL）＋APEX ヒフミ＋魂ウェブ 2027/1 出貨品 9/27 予約締切。今天 amiami 側只撈到 Phat! 兩支比基尼（棕色塵埃2 特蕾莎 2027/09、少女前線 PA-15 2027/04），高峰前的官網預熱頁一個都看不到——因為官網全封。
+   代表什麼：9/23～24 的 Chrome 輪掃如果授權還是掉的，這波預購高峰我們會是瞎的，只能靠 amiami 20 筆/頁慢慢翻。
+   📌 高峰前必須把 Chrome 授權救回來，否則 9/27 只能事後補
+   🧵 9/25～9/30 PVC 預購高峰 第 2 回（上回 09/20 晨報）
+
+【📈 漲跌】
+1. 【20】陀螺：UX-15 散刃（脆）$1,300→$1,100（-16%，n 3→4）
+   唯一過門檻的異動，台幣、脆散刃形態。另 10 筆波動因單樣本／同區間換抽已濾除。卡牌六遊戲今日無新快照（行情站 data.js 停在 09/11，runner 停擺連帶），寶可夢／海賊王等帶價卡數與 9/11 相同，無變化可報。
+   📌 陀螺一筆真跌；卡牌行情等 runner 回來才會動
+
+【🏭 巡邏戰報】
+1. 【70】巡 5/20 牌｜新品 +2 筆（全 🟢 真完整）｜🔴 >30 天 0（昨 0）｜⚫ 12
+   入庫：Phat! 2（PHT-00413～414，F/G/H/I/J/K/P/S/T 齊）。0 新品 4 牌：OrchidSeed／ORCATOYS／Native_v2／Nauts（再販 6 筆判重跳過：黒乃胡夢、索尼子啦啦隊、待兼唐懷瑟…）。
+   巡 5 牌而不是 20 的原因：網路四路全封——①Chrome MCP navigate 回 `Browser action was not allowed`；②沙盒 egress 官網全封（soapstudio/queenstudios/taito/furyu/native/sideshow/bandai-hobby… Max retries）；③內建瀏覽器 soapstudio.com 與 api.amiami.com 無人值守 declined；④只剩 amiami 主站 Nuxt DOM，20 筆/頁、s_maker_name 被忽略只能關鍵字翻。
+   跳過 15 牌：BANDAI-Hobby＋p-bandai TW（7,180 缺口專案待拍板）／Sideshow（26 筆 staged 待官網 detail）／Furyu（TENITOL 歸屬待定）／TAITO（spiritale 比例線歸屬待定）／WANDERER／revolve／Plusone／SOAPStudio／QueenStudios／SpiralStudio／PresentToys／POPTOYS／FavorGK／熱血模玩——全卡授權門口，非站掛不標 dormant。
+   預計清空日：🔴 已是 0，沒有清空題；真正的題是 🟡 105 牌會在 Chrome 不通的狀態下逐日滾進 🔴（最早一批 BANDAI-Hobby 34 天、Sideshow/Furyu 26 天已過線但被通路規則豁免）。Chrome 待辦 29 牌（Sideshow 7,040／BeastKingdom 1,539／HotToys 1,437／Furyu 1,396／Medicos 1,283 領頭）積壓第 4 天。
+   📌 資料庫沒壞，是眼睛被蒙住；一放行 api.amiami.com 巡邏量立刻從 20/頁回 50/頁
+   🧵 Chrome 待辦積壓 第 9 回（上回 09/20 晨報）
+
+【🃏 卡牌】
+1. 【15】六遊戲今日無更新——行情站停在 09/11 03:44（runner 停擺第 10 天連帶）
+   寶可夢／海賊王／數碼寶貝／遊戲王／七龍珠／假面騎士 帶價卡數與 9/11 相同（無新快照可比）。日報「該去抓的」列 digi 系列 60+ 張 n=1 單樣本（BT23～BT26 sp/tsp 為主）＋ CX-11／UX-00-TOPW 等陀螺 4 筆待補交叉——這些是 runner 醒來後夜跑 6.6 會自動補的，不用人工。
+   📌 跟夜跑同一條線，急救包按了就一起回來
+   🧵 Mac 夜跑停擺 第 11 回（上回 09/20 晨報）
+
+【⚠️ 警報】
+1. 【95】夜跑急救包第 10 晚未重按（晨報已講，晚班複誦一次是因為它擋住三條線）
+   看門狗三態判讀：你 9/18 按過 → 舊版第 25 行 bug 中止 → 9/19 已修 → 至今未再按。它擋住的不只是巡邏：Shopify 增量／RSS 新聞源／卡牌行情站／角色補全／figures.db 重建全停在 9/11。急救包第 3 步內建補跑 9/11 起 9 日增量，跑通當晚自動補齊。
+   看門狗週日進化回顧：FAIL 2（W1 runner／W2 RSS）、WARN 6、OK 10，11 支排程全準點——排程本身沒失敗，是外部依賴。
+   📌 第 10 晚：不是 Mac 也不是腳本，是還沒重按
+   🧵 Mac 夜跑停擺 第 11 回（上回 09/20 晨報）
+
+【✅ 要 West 拍板／動手】
+☐ West：① 雙擊 輸出/夜跑急救.command（第 10 晚，三條線都卡它）
+☐ West：② 內建瀏覽器放行 api.amiami.com＋soapstudio／queenstudios／spiral-studio／taito.co.jp；Chrome 擴充功能重新授權（9/23～24 預購高峰輪掃前必須通）
+☐ West：③ 兩題拍板：p-bandai 7,180 缺口開不開專案／TAITO spiritale＋Furyu TENITOL 比例線歸屬（收進品牌本體 or 另立）
+☐ West：④ 缺口工單：miHoYo／HoYoverse 收不收（GAP-260910-03，10 天）回「收」或「不收」
+
+【🎯 明天】
+- 巡邏線：週一隊列最舊 20 牌（BANDAI-Hobby 34d／Sideshow／Furyu／PresentToys／POPTOYS／Medicos／Gecco／F4F…）；若 Chrome 仍封，續走 amiami DOM 撿日系；Sideshow 26 筆 staged 需官網 detail，授權通才動
+- 週一例行：10:02 weekly_rollover（archive 本週日誌＋全 200 牌 audit＋開新週日誌）；11:02 全品牌健檢 diff
+- 一番賞線：盯 10/24 kagurabachi／sumikko27 賞位（開賣剩 5 週仍 0）；10 月下旬四套線續 watching
+- 預購線：9/23～24 Chrome 輪掃驗收 GSC 9/27 四連發＋魂ウェブ 9/27 締切——前提是授權救回
+- runner 線：急救包按下後，明早 W1 看門狗會回報三態；通了夜跑 6.6 自動補卡牌 9 日快照＋digi 單樣本交叉
+
+存檔頁：https://westlee0811.github.io/esontoy-console/%E5%A0%B1%E5%91%8A/%E6%99%A8%E6%99%9A%E5%A0%B1/260920_pm.html
+— 資訊官晚報班｜信箱今日無 Code 端指令｜第 11 期

@@ -1,0 +1,235 @@
+{
+ "kind": "am",
+ "date": "2026-09-21",
+ "headline": "急救包 07:38 按了、夜跑仍沒醒（第 11 晚，旗標檔沒被吃掉）；原神 ナヒーダ 50 分＋Persona 雙廠同日訊號",
+ "deck": "週一晨班：昨夜平靜（runner 零 log）。Cowork 端 IP 雷達／看門狗／系統報告今早準點；急救包這次跑成功並驗出真因（Mac 03:30 關機＋macOS 26 legacy launchctl 靜默失效），修好的版本要再按一次。9/26 景品第 4 週投放、9/27 GSC／魂ウェブ 締切在 6 天內",
+ "kpis": [
+  {
+   "label": "夜跑停擺",
+   "value": "11 晚",
+   "delta": "260911 起；.runner_force 07:38 仍在＝沒跑"
+  },
+  {
+   "label": "高分 IP 訊號",
+   "value": "1 條 ≥50",
+   "delta": "中分 4／pipeline 344 件"
+  },
+  {
+   "label": "今日巡邏",
+   "value": "20 牌",
+   "delta": "🔴>30天 0｜✅114 🟡105"
+  },
+  {
+   "label": "看門狗",
+   "value": "FAIL 2",
+   "delta": "WARN 6／OK 10"
+  }
+ ],
+ "sections": [
+  {
+   "title": "🌙 昨夜戰果",
+   "items": [
+    {
+     "title": "昨夜平靜：Mac 夜跑第 11 晚零 log，急救包按了但補跑沒啟動",
+     "body": "你 07:38 雙擊了 輸出/夜跑急救.command，這次腳本本身跑完（診斷→重裝→啟動補跑都印 ✅），**但 `框架/.runner_force` 旗標檔到現在還在、`local_runner/logs/` 最新仍是 260911** ＝ launchd 根本沒把 runner 拉起來。真因兩層：①連 10 晚零 log 是 **Mac 在 03:30 是關機狀態**（launchd 只補睡眠不補關機）→ 新 plist 已改 5 時段（03:30／10:00／14:00／19:00／23:00）；②這台是 **macOS 26，legacy `launchctl load/start` 會 exit 0 卻什麼都不做** → 07:49 已把急救包改成 `bootstrap／kickstart` 並加 25 秒產物自驗（沒 log 就直接開 Terminal 保底）。\n**擋住的線**：Shopify 增量／RSS 新聞源（raw 停 260911）／卡牌行情站／角色補全／figures.db 重建／GitHub 發布，全停在 9/11。\n佇列失敗重排：無（佇列自 9/11 後未執行，`框架/runner_queue.txt` 原樣保留：三牌 sitemap_jsonld 回歸夜跑 lane 的排程也在裡面等）。",
+     "score": 95,
+     "tags": [
+      "系統",
+      "夜跑"
+     ],
+     "thread": "runner-down",
+     "verdict": "第 11 晚：這次不是沒按，是 legacy launchctl 靜默失效；修好的版本再按一次，25 秒內會自驗",
+     "action": {
+      "owner": "West",
+      "text": "再按一次 輸出/夜跑急救.command（07:49 修好的 bootstrap 版）；跑完看它有沒有印「✅ log 已產生」，沒有就會自動開 Terminal 跑——把最後三行回我"
+     }
+    },
+    {
+     "title": "Cowork 端今早三件準點：IP 雷達 digest／看門狗／系統運作報告（229 品牌／362,430 筆）",
+     "body": "digest_260921 Chrome lane 全補位（fetch lane figsoku／animatetimes／bsp-prize 三站 web_fetch 被 provenance 擋，改 Chrome 手抽）；pipeline.json +7 件 → 344 件。system_overview 週一版已產 `輸出/運行報告/260921_系統運作報告.md`。11 支 Cowork 排程 lastRunAt 全在 36h 內。",
+     "score": 30,
+     "tags": [
+      "系統"
+     ],
+     "verdict": "排程本身沒失敗，失明的是 Mac 端外部依賴"
+    }
+   ]
+  },
+  {
+   "title": "🔥 今日情報",
+   "items": [
+    {
+     "title": "【原神】APEX「ナヒーダ 白草浄華 Ver.」PVC 預約開始（50 分，唯一過線）",
+     "body": "APEX 原神線連 2 週出新（月下の誓い→ナヒーダ）。本庫原神 3,119 筆（景品 25）。同日 miHoYo 官方 Q 版「幽夜綺想 キィニチ」開約（40）——再一筆佐證 GAP-260910-03「官方自營線放量」。\n**判讀**：APEX 原神 PVC 是穩定週轉線，ナヒーダ人氣 T1（草神），預約期通常 2～3 個月，訂貨窗不急，但要跟 [[gap-tickets]] miHoYo 收不收一起看——官方自營線放量代表通路貨會分流。",
+     "score": 50,
+     "q": [
+      "ナヒーダ",
+      "納西妲"
+     ],
+     "link": "https://figsoku.net/blog-entry-524485.html",
+     "tags": [
+      "原神",
+      "PVC",
+      "APEX"
+     ],
+     "thread": "genshin-apex",
+     "thread_title": "APEX 原神 PVC 線（月下の誓い→ナヒーダ）",
+     "verdict": "情報級；訂貨窗 11 月再看，先盯 miHoYo 收編決策",
+     "img": "https://s3-ap-northeast-1.amazonaws.com/hobbystock/img/item/00000569141/pc_detail_0.jpg"
+    },
+    {
+     "title": "【Persona】GSC 黏土人「P1 主人公」＋ 壽屋「P4 リバイバル 主人公」原型公開——同日雙廠（45＋45）",
+     "body": "P4 Revival 遊戲檔期連動，本庫 Persona 774 筆，BANPRESTO 歷年 Persona 景品 19 筆。**兩廠同日動＝IP 進入商品化週期**，年末〜明年景品化機率上調；P5 之後 Persona 景品線沉寂已久，P4R 是最可能重啟的節點（主角＋クマ／久慈川りせ 是傳統景品組合）。",
+     "score": 45,
+     "q": [
+      "ペルソナ4",
+      "Persona 4"
+     ],
+     "link": "https://figsoku.net/blog-entry-524491.html",
+     "tags": [
+      "Persona",
+      "黏土人",
+      "壽屋"
+     ],
+     "thread": "persona-p4r",
+     "thread_title": "Persona 4 Revival 商品化週期",
+     "verdict": "watching；等 BANPRESTO 景品化首發訊號再升級",
+     "img": "https://mamegyorai.jp/item/image/674131-w300.jpg"
+    },
+    {
+     "title": "Prime 1 Studio「He-Man（2026 電影版）」1/3 雕像揭曉（40）",
+     "body": "93cm，$1,599／DX $1,899 限 350，出貨 2027/10〜2028/01。本庫太空超人 349 筆。歐美電影 IP 大雕像，台灣接單面窄，情報級。",
+     "score": 40,
+     "link": "https://www.toy-people.com/en/?p=110795",
+     "tags": [
+      "P1S",
+      "雕像"
+     ],
+     "verdict": "情報級不進貨"
+    },
+    {
+     "title": "🎯 景品訂貨：本日無新「景品化／一番くじ新系列」首發；9/26（六）第 4 週投放",
+     "body": "BANPRESTO 官網最新仍是 9/10 刀劍亂舞 ちびぐるみ 致歉，無新企劃。**9/26 投放大物**：Grandista 新四皇 シャンクス／バギー、ブロリー、BLEACH 藍染、チェンソーマン レゼ篇 MAXIMATIC ×2、咲-Saki- 原村和 27cm、雪ミク AMP+（TAITO 14 繪師）。一番くじ レゼ篇第 2 弾 9/18 已投放（庫 鏈鋸人 2,639／景品 71）。\n**Oricon 反差**：週間コミック前 5 名有 4 個本庫 <25 筆（薰香花朵 4／入間くん 21／WIND BREAKER 22／カグラバチ 22）＝景品化前置候選，續追。",
+     "score": 40,
+     "q": [
+      "レゼ",
+      "MAXIMATIC"
+     ],
+     "tags": [
+      "景品",
+      "一番賞"
+     ],
+     "verdict": "9/26 投放品是週末補貨料，不是新訂貨窗",
+     "img": "https://assets.1kuji.com/uploads/product_item/image/106947/01af2320-8b3d-47b2-9d8a-510ebb5cd290.webp"
+    }
+   ]
+  },
+  {
+   "title": "⏰ 要截止",
+   "items": [
+    {
+     "title": "3 天內（9/21〜9/24）：無",
+     "body": "週報 260914 的「⏰ 截止」段全已過期（9/15 EVA 日本人形／9/16 爻光／9/17 ザ・フール），無未結案項。**6 天內預告**：9/27（六）GSC 四連發（蔚藍檔案 ミカ水着／桜ミク／POP UP PARADE 重音テト L／六花パジャマ XL）＋ APEX ヒフミ ＋ **魂ウェブ 2027/1 出貨品 予約締切**。9/23〜24 Chrome 輪掃是最後驗收點，授權不通就只能事後補。",
+     "score": 35,
+     "tags": [
+      "預購"
+     ],
+     "thread": "preorder-0925",
+     "verdict": "今天無截止；9/27 締切前提是 Chrome 授權救回"
+    }
+   ]
+  },
+  {
+   "title": "🔔 要你動手",
+   "items": [
+    {
+     "title": "看門狗 🔴 FAIL 2／🟡 WARN 6：W1 runner 零 log、W2 RSS raw 停 260911",
+     "body": "**FAIL**：W1／W2 同根（夜跑），見上。\n**WARN**：W5 Chrome 通路積壓 GK-Toyergk 30d／GK-SCC 13d／熱血模玩 14d（**已推翻 Chrome 專用標籤**：sitemap＋ld+json 可走沙盒，新寫 `sitemap_jsonld_crawler.py` 排進 runner_queue——但 runner 要先醒）；W7 缺口工單逾期 6 件（待拍板 1：miHoYo 收不收 GAP-260910-03 第 11 天）；W7 pipeline 監看逾 30 天 45 件；W9 看門狗 260917 漏產（判當次被實勘佔滿，觀察）；W10 巡邏被擋 8 牌連 4 天（Sideshow／Furyu／COOMODEL／PresentToys／JNDStudios／APEX-TOYS／1000TOYS／GK Figure Worldwide）→ Chrome 待辦 29 牌積壓第 5 天；W11 角色補全連 2 週日 0 產出（受 W1 牽連）。",
+     "score": 80,
+     "tags": [
+      "看門狗"
+     ],
+     "thread": "chrome-todo",
+     "verdict": "三件事：再按急救包／放行 api.amiami.com＋Chrome 重授權／回 miHoYo「收」或「不收」",
+     "action": {
+      "owner": "West",
+      "text": "內建瀏覽器放行 api.amiami.com＋soapstudio／queenstudios／spiral-studio／taito.co.jp；Chrome 擴充功能重新授權（9/23 輪掃前）"
+     }
+    }
+   ]
+  },
+  {
+   "title": "🤖 今日系統",
+   "items": [
+    {
+     "title": "品牌官今日預巡 20 牌｜前 5：BANDAI-Hobby 34d／Sideshow 26d／Furyu 26d／revolve 22d／p-bandai TW 22d",
+     "body": "其餘：WANDERER／TAITO／SpiralStudio／SOAPStudio／QueenStudios／PresentToys（onesixthkit WAF）／Plusone／POPTOYS／NECA／MuckleM／Mezco／Medicos／Mamegyorai／FavorGK 15d／熱血模玩 13d。\n**紅燈 burn-down**：219 牌｜✅ 7 天內 114｜🟡 8–30 天 105｜🔴 >30 天 **0**（昨 0）｜⚫ 掛掉/凍結 12 另計。分 lane：runner 17（✅1 🟡16）／channel 6（✅2 🟡4）／chrome 134（✅49 🟡85）／agg 62 全綠。BANDAI-Hobby 34d、Sideshow／Furyu 26d 已過線但被通路規則豁免——Chrome 不通，🟡 85 牌會逐日滾。\n**週一例行**：10:02 weekly_rollover（archive 上週日誌＋全牌 audit＋開新週日誌）／11:02 全品牌健檢 diff。",
+     "score": 40,
+     "tags": [
+      "巡邏"
+     ],
+     "verdict": "資料庫本身健康（🔴 0），眼睛還被蒙著"
+    }
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "owner": "West",
+   "text": "① 再按一次 輸出/夜跑急救.command（07:49 bootstrap 版，會自驗 log；第 11 晚）",
+   "thread": "runner-down"
+  },
+  {
+   "owner": "West",
+   "text": "② 內建瀏覽器放行 api.amiami.com＋soapstudio／queenstudios／spiral-studio／taito.co.jp；Chrome 擴充功能重新授權",
+   "thread": "chrome-todo"
+  },
+  {
+   "owner": "West",
+   "text": "③ miHoYo／HoYoverse 收不收（GAP-260910-03，第 11 天）回「收」或「不收」",
+   "thread": "gap-tickets"
+  },
+  {
+   "owner": "West",
+   "text": "④ p-bandai 7,180 缺口開不開專案／TAITO spiritale＋Furyu TENITOL 比例線歸屬",
+   "thread": "pbandai-gap"
+  }
+ ],
+ "tomorrow": [
+  "runner 線：急救包重按後看 25 秒自驗；通了夜跑自動補 9/11 起增量＋卡牌 10 日快照＋三牌 sitemap_jsonld 首跑",
+  "巡邏線：Chrome 授權若回來，優先 Sideshow 26 筆 staged detail＋BANDAI-Hobby 34d；否則續 amiami DOM 撿日系",
+  "預購線：9/23〜24 Chrome 輪掃驗收 GSC 9/27 四連發＋魂ウェブ 締切",
+  "情報線：Persona 雙廠 → 盯 BANPRESTO 景品化首發；Oricon 前 5 名庫存空白 4 IP 續追",
+  "晚報班 21:30：weekly_rollover 新週日誌＋健檢 diff 結果"
+ ],
+ "refs": [
+  {
+   "label": "IP 雷達 digest",
+   "path": "爬蟲資料/ip_news/digest_260921.md"
+  },
+  {
+   "label": "看門狗 260921",
+   "path": "輸出/健檢/260921_watchdog.md"
+  },
+  {
+   "label": "急救包 log 07:38",
+   "path": "輸出/命令日誌/夜跑急救_260921_0738.log"
+  },
+  {
+   "label": "Chrome 待辦 29 牌",
+   "path": "輸出/Chrome待辦.md"
+  },
+  {
+   "label": "系統運作報告 260921",
+   "path": "輸出/運行報告/260921_系統運作報告.md"
+  }
+ ],
+ "signoff": "資訊官晨報班｜第 12 期｜信箱今日無 Code 端指令",
+ "id": "260921_am",
+ "hero": {
+  "img": "https://s3-ap-northeast-1.amazonaws.com/hobbystock/img/item/00000569141/pc_detail_0.jpg",
+  "link": "https://figsoku.net/blog-entry-524485.html",
+  "caption": "【原神】APEX「ナヒーダ 白草浄華 Ver.」PVC 預約開始（50 分，唯一過線）",
+  "auto": true
+ }
+}
