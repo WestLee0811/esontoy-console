@@ -1,0 +1,69 @@
+🌅 晨報 2026-09-23｜11 月一番くじ 16 檔全公開、13 檔命中本庫——七龍珠 FA3／JOJO RIVALS 優先；Mac 夜跑復跑一晚又斷
+週三晨班：昨夜 runner 未跑（260923 無 log、無 raw），戰果只有 9/22 補跑那一輪。今天最該動的是景品訂貨評估；9/25 figma／MiraiMira 締切在 3 天內
+
+夜跑：斷 1 晚 9/22 復跑後今晨又無 log
+11 月一番くじ：13/16 檔 命中庫存 ≥100 IP
+今日巡邏：20 牌 🔴>30天 0｜✅184 🟡35
+看門狗：FAIL 0 WARN 9／OK 11
+
+【🌙 昨夜戰果】
+1. 【85】昨夜 Mac 夜跑未跑（復跑一晚後又斷）；最近一輪戰果仍是 9/22 04:20 那輪
+   `crawlers/local_runner/logs/260923.log`、`raw_260923.json` 皆不存在 → 雷達今晨 0 訊號是「沒原料」，不是沒新聞（fetch／Chrome lane 已手動補）。
+   9/22 那輪回顧：feed 全量 products 362,523／offers 205,501／品牌 229（upsert 7,498）已推 GitHub；景品行事曆 439 件；遊遊亭實拍替換 1,134 張；佇列 GK-SCC sitemap 500 筆 staged 0 失敗；熱血模玩 sitemap 回 0 筆（SHOPLINE 不吐商品 sitemap，重跑無用，不重排佇列，待改 collections 路線或 Chrome 實勘）。
+   急救包新 plist 有 5 個時段（03:30／10:00／14:00／19:00／23:00），Mac 今天白天開著的話 10:00 應會自動補跑——若 10:00 後仍無 260923.log，就是 launchd 又失效。
+   📌 斷 1 晚未達 3 天通知門檻，先看 10:00 時段能否自補
+   🧵 Mac 夜跑停擺 第 15 回（上回 09/22 晨報）
+
+【🔥 今日情報】
+1. 【80】🎯 11 月一番くじ 16 檔全公開，13 檔命中本庫 IP（庫存 ≥100）
+   優先序：①七龍珠 Fantastic Adventure 3（11/28）—庫存 15,191、FA 前兩彈有量，必追 ②JOJO The Gathering of RIVALS（11/21）—宿敵主題、公仔含量高 ③鋼彈 UC SAGA INTERLUDE（11/5）—10/3 SAGA2 後隔月接檔，UC 線加速 ④我英 彼女たちの物語（11/30）—女角彈。
+   其他：Persona 30th（11/28，呼應 P4R 雙廠訊號）／庫洛魔法使 透明牌篇（11/6）／hololive FLOW GLOW（11/13）／哥吉拉 怪獣乱舞（11/13）／獵人 蟻王篇② 再販（11/14）／出包王女 Darkness（11/18）／快打旋風／假面騎士。
+   ⚠️ 航海王 あにまる大集合（11/14）是 Q 版雜貨彈，非公仔，別照航海王 29,888 筆的直覺重訂。
+   訂貨窗預估 9 月下旬〜10 月上旬，已全登記 pipeline（next_check 9/30）。
+   📌 本週評估訂量：七龍珠 FA3 > JOJO RIVALS > 鋼彈 UC > 我英
+   https://1kuji.com/products?sale_month=11&sale_year=2026
+   🧵 11 月一番くじ 訂貨窗 第 1 回
+2. 【55】Prime 1 Studio NLS XIX 後 56 品待開預約：Edgerunners 三連（TRIGGER 監修）＋忍者外傳 4／鐵拳 8
+   Cyberpunk: Edgerunners Lucy／Rebecca／David（本庫 401 筆）、NINJA GAIDEN 4 隼龍／八雲、TEKKEN 8 Nina、Power Rangers Megazord、Batman vs Clayface、Jurassic Park 棘龍 1/6。更正：pipeline 9/19 的「鵺 1/5」是 Taiki 原創插畫，非天元突破。NLS 觀後感活動至 9/29 送 5 折券（預購品不適用）。XM Studios 官網 Chrome 讀不到，本週空白。
+   📌 雕像線情報級，Edgerunners 三連可列客訂試水
+   https://www.prime1studio.com/comingsoon
+3. 【45】動畫線：ちいかわ 劇場版 158.4 億円＝2026 日本票房第 1；黄泉のツガイ 2 期、ぐらんぶる 4 期
+   吉伊卡哇本庫 238 筆，景品／一番くじ 需求持續高檔。另：猫と竜 2 期（2027）、神さま学校の落ちこぼれ TV 化（藥屋少女原作者日向夏新作）、新 美味しんぼ TV 化。GSC ねんどろいどどーる 一天連發 4 款（芙莉蓮 ユーベル／超てんちゃん・あめちゃん／狛枝凪斗／モニカ）；咲-Saki- 原村和・石戸霞 景品彩色原型公開（庫存 61，觀察）。
+   📌 吉伊卡哇景品有貨就補；其餘情報級
+   https://www.animatetimes.com/tag/details.php?id=4105
+
+【⏰ 要截止】
+1. 【50】3 天內：9/25 figma ソーダ＋MiraiMira ユミア 締切；9/24～26 一番くじ 連續投放
+   締切：9/25 figma ソーダ、MiraiMira ユミア。
+   一番くじ 投放（對帳用，訂貨窗已過）：9/24 きみが死ぬまで恋をしたい／9/25 幽☆遊☆白書 魔界の扉編、ベルセルク 宿命の双極／9/26 呪術廻戦 5周年FINAL、プリキュア、攻殻機動隊；9/26 另有 BANPRESTO 第 4 週景品投放。
+   4 天後預告：9/27 GSC 四連發＋魂ウェブ 2027/1 出貨品 締切。
+   📌 要訂 figma ソーダ／ユミア 的話 9/25 前下單
+   🧵 9/25～9/30 PVC 預購高峰 第 5 回（上回 09/22 晨報）
+
+【🔔 要你動手】
+1. 【60】看門狗 FAIL 0／WARN 9：三條積壓線未動＋12 牌巡邏連 6 天被擋
+   W5 Chrome 通路積壓 GK-Toyergk 32d／熱血模玩 16d／GK-SCC 15d；W6b 夜跑 staged 未入庫 11 牌約 1,038 筆（OrzGK 702、YesGK 213…）；W6c Medicom 夜跑抓到 store 站 15,394 筆，不可直接 merge；W7 缺口工單逾期 6 件（待你拍板 1）＋pipeline 逾 30 天 50 件；W10 12 牌巡邏被擋連 6 天（Sideshow／Furyu／BeastKingdom／APEX-TOYS／COOMODEL／PresentToys／JNDStudios／GK Figure Worldwide…）；W11 角色補全連 2 週日 0 產出。
+   新缺口工單：GAP-260923-01 F 欄「電馭叛客」分裂 5 種寫法（精確篩 IP 會漏 64 筆）。
+   📌 說一句「跑 Chrome 待辦」即可清 W5／W10；Medicom 需先定通路歸屬
+   🧵 三條積壓線 第 2 回（上回 09/22 晚報）
+
+【🤖 今日系統】
+1. 【35】品牌官今日預巡 20 牌｜前 5：BANDAI-BANPRESTO 15d／Prime1Studio 14d／BellFine 13d／BANDAI-Tamashii 13d／SquareEnix 12d
+   其餘：McFarlaneToys／Aniplex+／WAVE／Threezero／GKAniMerch／Tsume Art／JXK（handle 改名假報）／PCSCollectibles／PLUM／X-PLUS／WetaWorkshop／KDcolle／HOBBY MAX 23d；通路席 FavorGK 17d／熱血模玩 15d。
+   紅燈 burn-down：219 牌｜✅ 7 天內 184｜🟡 8–30 天 35｜🔴 >30 天 0（昨 0，±0）｜⚫ 12 另計。分 lane：runner 17（✅16 🟡1）／channel 6（✅2 🟡4）／chrome 134（✅104 🟡30）／agg 62 全綠。
+   📌 🔴 0 維持；9/22 復跑把 ✅ 從 114 拉到 184
+   🧵 品牌巡邏新鮮度 第 3 回（上回 09/22 晨報）
+
+【✅ 要 West 拍板／動手】
+☐ West：本週決定 11 月一番くじ 前 4 檔（七龍珠 FA3／JOJO RIVALS／鋼彈 UC INTERLUDE／我英 彼女たち）進不進、各幾套
+☐ West：9/25 前決定 figma ソーダ／MiraiMira ユミア 要不要訂
+☐ West：10:00 後若 crawlers/local_runner/logs/ 仍無 260923.log → 檢查 Mac 是否休眠，必要時再按 輸出/夜跑急救.command
+
+【🎯 今天】
+- runner 線：10:00／14:00 時段看能否自補今日輪
+- 景品線：11 月一番くじ 訂量評估；9/30 pipeline 回查
+- 預購線：9/25 figma／ユミア 締切、9/27 GSC＋魂ウェブ 締切
+- 晚報班 21:30：巡邏戰果＋Chrome lane 結果
+
+存檔頁：https://westlee0811.github.io/esontoy-console/%E5%A0%B1%E5%91%8A/%E6%99%A8%E6%99%9A%E5%A0%B1/260923_am.html
+— 資訊官晨報班｜昨夜無新 runner log，佇列失敗項（熱血模玩）屬站型問題不重排

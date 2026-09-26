@@ -68,9 +68,24 @@
     "issue": "260921_pm",
     "anchor": "actions",
     "note": "雙擊 輸出/夜跑急救.command（新版，自帶 25 秒驗證）——這是今天唯一真正卡住的事"
+   },
+   {
+    "issue": "260922_am",
+    "anchor": "it1",
+    "note": "夜跑停擺線可結案觀察——連兩晚有 log 才正式關閉，今晚（09/23 凌晨）是驗收第 2 晚"
+   },
+   {
+    "issue": "260923_am",
+    "anchor": "actions",
+    "note": "10:00 後若 crawlers/local_runner/logs/ 仍無 260923.log → 檢查 Mac 是否休眠，必要時再按 輸出/夜跑急救.command"
+   },
+   {
+    "issue": "260926_pm",
+    "anchor": "actions",
+    "note": "檢查 Mac 端 launchd/cron 排程與睡眠設定（runner 斷線 4 天，本月第二次）"
    }
   ],
-  "last": "260921_pm"
+  "last": "260926_pm"
  },
  "kuji-oct-4sets": {
   "title": "10 月下旬四套賞別待公開",
@@ -116,9 +131,19 @@
     "issue": "260920_am",
     "anchor": "it6",
     "note": "9/23 最後回訪，空則走通路端"
+   },
+   {
+    "issue": "260922_am",
+    "anchor": "actions",
+    "note": "10/5 前拍板：進撃の巨人(10/24)／七龍珠(10/17)／賽馬娘14弾(10/17) 三檔一番賞要不要下訂"
+   },
+   {
+    "issue": "260922_pm",
+    "anchor": "it3",
+    "note": "10/20 前需對進撃／七龍珠／賽馬娘三檔拍板"
    }
   ],
-  "last": "260920_am"
+  "last": "260922_pm"
  },
  "onep106": {
   "title": "航海王 IMPACT LOG 2027/01 訂貨窗",
@@ -215,9 +240,24 @@
     "issue": "260921_pm",
     "anchor": "actions",
     "note": "若想加速：說一句「跑 Chrome 待辦」，29 牌依庫存排序開清"
+   },
+   {
+    "issue": "260922_am",
+    "anchor": "it10",
+    "note": "Chrome 通路積壓 31 天＋12 牌巡邏連 5 天被擋"
+   },
+   {
+    "issue": "260922_pm",
+    "anchor": "it8",
+    "note": "12 牌連 5 天被擋 ＋ Chrome 通路積壓 31 天"
+   },
+   {
+    "issue": "260926_pm",
+    "anchor": "it7",
+    "note": "12 牌連 9 天被擋，25 牌已派工 Chrome 待辦"
    }
   ],
-  "last": "260921_pm"
+  "last": "260926_pm"
  },
  "gap-tickets": {
   "title": "缺口工單待拍板",
@@ -273,9 +313,14 @@
     "issue": "260921_pm",
     "anchor": "actions",
     "note": "缺口工單 GAP-260910-03（miHoYo 官方自營線）回「收」或「不收」即結案，已卡 11 天"
+   },
+   {
+    "issue": "260922_am",
+    "anchor": "it11",
+    "note": "等你一句話：缺口工單 1 件待拍板、5 件待工時"
    }
   ],
-  "last": "260921_pm",
+  "last": "260922_am",
   "closed": "2026-09-18"
  },
  "db_do": {
@@ -424,9 +469,14 @@
     "issue": "260920_pm",
     "anchor": "it1",
     "note": "情報級，A＋LAST 單抽出貨判斷；10/31 前不用動"
+   },
+   {
+    "issue": "260922_am",
+    "anchor": "it3",
+    "note": "[80] 迪士尼《可可夜總會》米格＆赫克特 一番くじ 公開"
    }
   ],
-  "last": "260920_pm"
+  "last": "260922_am"
  },
  "batman-zeroone": {
   "title": "Batman × 假面騎士 ZERO-ONE 跨界商品線",
@@ -460,9 +510,19 @@
     "issue": "260921_am",
     "anchor": "it7",
     "note": "今天無截止；9/27 締切前提是 Chrome 授權救回"
+   },
+   {
+    "issue": "260922_am",
+    "anchor": "it8",
+    "note": "9/25（五）：figma NIKKE「ソーダ：トゥインクルバニー」＋ MiraiMira ユミア 開約"
+   },
+   {
+    "issue": "260923_am",
+    "anchor": "actions",
+    "note": "9/25 前決定 figma ソーダ／MiraiMira ユミア 要不要訂"
    }
   ],
-  "last": "260921_am"
+  "last": "260923_am"
  },
  "genshin-apex": {
   "title": "APEX 原神 PVC 線（月下の誓い→ナヒーダ）",
@@ -530,8 +590,132 @@
     "issue": "260921_pm",
     "anchor": "it5",
     "note": "今日實巡 4 牌／新品 +37 筆／🔴 0 牌（昨 0，±0）"
+   },
+   {
+    "issue": "260922_am",
+    "anchor": "it13",
+    "note": "品牌官今日預巡 20 牌｜burn-down 🔴 0"
+   },
+   {
+    "issue": "260923_am",
+    "anchor": "it7",
+    "note": "🔴 0 維持；9/22 復跑把 ✅ 從 114 拉到 184"
    }
   ],
-  "last": "260921_pm"
+  "last": "260923_am"
+ },
+ "disney-coco-kuji": {
+  "title": "迪士尼 可可夜總會 一番くじ",
+  "status": "open",
+  "first": "260922_pm",
+  "entries": [
+   {
+    "issue": "260922_pm",
+    "anchor": "it1",
+    "note": "情報級，等檔期與價格落地再拍板"
+   }
+  ],
+  "last": "260922_pm"
+ },
+ "onep-akainu-ace": {
+  "title": "航海王 赤犬立体化／艾斯超限定復刻",
+  "status": "open",
+  "first": "260922_pm",
+  "entries": [
+   {
+    "issue": "260922_pm",
+    "anchor": "it2",
+    "note": "艾斯復刻優先於赤犬——限定屬性稀缺"
+   }
+  ],
+  "last": "260922_pm"
+ },
+ "patrol-blocked": {
+  "title": "巡邏線通路受阻",
+  "status": "open",
+  "first": "260922_pm",
+  "entries": [
+   {
+    "issue": "260922_pm",
+    "anchor": "it7",
+    "note": "🔴 掛零是好消息，但今天完全沒推進；🟡35 是明日唯一要壓的數字"
+   }
+  ],
+  "last": "260922_pm"
+ },
+ "translation-guard": {
+  "title": "翻譯修復守衛",
+  "status": "open",
+  "first": "260922_pm",
+  "entries": [
+   {
+    "issue": "260922_pm",
+    "anchor": "actions",
+    "note": "拍板 (1)：translation_fix 加『__TRANSLATE__／日文源行 skip』守衛"
+   }
+  ],
+  "last": "260922_pm"
+ },
+ "backlog-three-lines": {
+  "title": "三條積壓線",
+  "status": "open",
+  "first": "260922_pm",
+  "entries": [
+   {
+    "issue": "260922_pm",
+    "anchor": "it11",
+    "note": "看門狗 FAIL 0／WARN 8／OK 11 — 排程全綠，三條積壓線未動"
+   },
+   {
+    "issue": "260923_am",
+    "anchor": "it6",
+    "note": "說一句「跑 Chrome 待辦」即可清 W5／W10；Medicom 需先定通路歸屬"
+   },
+   {
+    "issue": "260926_pm",
+    "anchor": "it10",
+    "note": "🟡 三條積壓線持續掛著：夜跑 staged 1,038 筆／Chrome 通路 35 天／缺口工單 7 件"
+   }
+  ],
+  "last": "260926_pm"
+ },
+ "kuji-nov": {
+  "title": "11 月一番くじ 訂貨窗",
+  "status": "open",
+  "first": "260923_am",
+  "entries": [
+   {
+    "issue": "260923_am",
+    "anchor": "actions",
+    "note": "本週決定 11 月一番くじ 前 4 檔（七龍珠 FA3／JOJO RIVALS／鋼彈 UC INTERLUDE／我英 彼女たち）進不進、各幾套"
+   }
+  ],
+  "last": "260923_am"
+ },
+ "kuji-nov-dec": {
+  "title": "11-12 月一番くじ訂貨窗仍在倒數：優先序不變",
+  "status": "open",
+  "first": "260926_pm",
+  "entries": [
+   {
+    "issue": "260926_pm",
+    "anchor": "it2",
+    "note": "9/30 前確認 11 月檔要不要動"
+   }
+  ],
+  "last": "260926_pm"
+ },
+ "patrol-mark-anomaly": {
+  "title": "巡邏標記疑似空跑",
+  "status": "open",
+  "first": "260926_pm",
+  "entries": [
+   {
+    "issue": "260926_pm",
+    "anchor": "actions",
+    "note": "確認今日 02:55 巡邏 20 牌的批次標記是否伴隨真實巡邏，無則安排重巡"
+   }
+  ],
+  "last": "260926_pm"
  }
 }
