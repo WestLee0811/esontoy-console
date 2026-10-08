@@ -1,0 +1,117 @@
+🌅 晨報 2026-10-04｜1kuji 官方實查：11 月檔一番賞本週收窗、2027/1 五套待決
+補 08:46 純文字版漏掉的景品急件；10:30 前請關掉一套重複排程
+
+11 月一番賞：本週收窗 13 檔命中庫存≥100
+2027/01 待決：5 套 另 3 套 9/9 已排量
+夜跑：斷 7 晚 最後 log 9/27
+看門狗：FAIL 3 WARN 9／OK 9
+新鮮度 ✅7天內：167 🔴14 ±0
+
+【🌙 昨夜戰果】
+1. Mac 夜跑第 7 晚沒跑——昨夜戰果全靠雲端班次
+   runner log／RSS raw 都停在 9/27（那一輪發布 feed 362,653 筆、upsert 161）。看門狗研判＝Mac 夜間關機／睡眠，launchd 不補跑，不是腳本壞。
+   10/03 已換新版急救包（讀得到就背景直跑＋可選 pmset 定時開機），按一次、選定時開機就能根治，之後這條不再重複報。
+   📌 硬體面問題，只有 West 在 Mac 上按得到
+   🧵 Mac 夜跑停擺 第 17 回（上回 09/26 晚報）
+2. 雲端班次戰果：1kuji 官方逐檔實查＋酷比樂補跑＋看門狗自修 5 個盲點
+   ・IP 雷達 B 輪（08:42〜08:56）：自動 RSS 0 訊號（夜跑沒抓），改回 1kuji 官方 lineup 逐檔核對——11／12 月檔數與發售日全數未變；2027/01 檔 8 套全上官網（5 套待決）、2027/02 檔本週新浮 8 檔；上海 WF 2026 新作入 pipeline（401→409 件）。
+   ・酷比樂預購週報 10/04 補跑成功（10/01 因排程沒掛資料夾失敗）：新品 136（景品 13）。
+   ・看門狗週日自我進化：修掉 5 個自己的盲點（停擺後慢性區消失、Toyergk 誤報、晨晚報退化沒人看、各套只看得到自己排程、同日重跑蓋掉前一輪），新增 W13 雙排程偵測——上線第一天就抓到兩套排程並行（見 ⏰）。
+   📌 景品情報沒斷，斷的是本機夜跑那條線
+
+【🔥 今日情報】
+1. 🎯 11 月檔一番賞：本週是最後訂貨決策窗（13 檔命中庫存≥100）
+   經銷 11 月檔訂貨窗預估「9 月下旬〜10 月上旬」＝本週收；排程 9/24〜10/03 停用期間沒人複查，今早 1kuji 官方逐檔核對：檔數／發售日全數未變。
+   雷達優先序（依 IP 庫存）：七龍珠 FA3（11/28）＞ JOJO RIVALS（11/21）＞ 鋼彈 UC INTERLUDE（11/05）＞ 我英 -她們的故事-（11/30）。
+   補一刀公仔密度（乙番拆賞看這個）：
+   ・JOJO The Gathering of RIVALS＝7 尊全 MASTERLISE（A 迪奧・布蘭度 PLUS／B 卡茲／C DIO／D 川尻浩作／E 迪亞波羅／F 普奇神父／最後賞 迪亞哥・布蘭度），一到七部宿敵一次到齊，本月拆賞價值最高 https://1kuji.com/products/jojo_26
+   ・我英 -她們的故事-＝5 尊 MASTERLISE 女角彈（麗日／蛙吹／葉隱／波動螺兒／最後賞 渡我被身子）https://1kuji.com/products/myhero48
+   ・七龍珠 FA3＝IP 最大，但目前只公開 A 牛魔王之車＋最後賞，B〜I 未刊 https://1kuji.com/products/db_fa3
+   ・鋼彈 UC INTERLUDE＝A／B／最後賞是薩克 BUSTISAN 胸像＋C 菈菈·蘇，偏老粉 https://1kuji.com/products/gundam_ucsi
+   其餘：假面騎士 MY-TH／哥吉拉 怪獸亂舞／獵人 蟻王② 再販／快打旋風／庫洛魔法使／hololive FLOW GLOW／女神異聞錄 30th／出包王女 DARKNESS；航海王 あにまる大集合是雜貨彈，勿依 IP 規模重訂。全清單 https://1kuji.com/products?sale_month=11&sale_year=2026
+   📌 本週內下單；拆賞看公仔密度，JOJO RIVALS／我英 優先於七龍珠（B〜I 未刊）
+   https://1kuji.com/products/jojo_26
+   🧵 11 月一番くじ 訂貨窗 第 2 回（上回 09/23 晨報）
+2. 2027/01 一番賞：8 套全上官網，還有 5 套沒決定
+   9/9 決策頁的量（NIKKE CH9 ×2／東京喰種 ×2／DEATH NOTE 2 ×1）覆核無變動。同窗尚未決定：
+   ・⭐ 孤獨搖滾 VOLUME 5（1/08，890 円）＝5 尊 1/7 Gracemaster（後藤一里／伊地知虹夏／山田涼／喜多郁代＋最後賞 廣井菊里），同期 SEGA 景品＋30MS 三線放量 https://1kuji.com/products/bocchitherock5
+   ・航海王 IMPACT LOG（1/09，790 円）Revible Moment 4 尊＋最後賞約 45cm；上回結論「必進，等 10 月下旬經銷單排量」https://1kuji.com/products/onep106
+   ・七龍珠 ASSEMBLE COLLECTION 孫悟空少年期篇 再販（1/16，900 円；再販＝初版賣得好，賞位未刊）https://1kuji.com/products/db_ac-2
+   ・hololive Fairy tale Style（1/09，890 円，賞位未刊；11/13 FLOW GLOW 後兩個月再一彈）https://1kuji.com/products/hololive-fs
+   ・夏目友人帳 ぽかぽか冬のひととき（1/09，760 円，雜貨比重高，待賞位）https://1kuji.com/products/natsume49
+   1 月檔訂貨窗預估 10 月中旬〜11 月上旬開，10/15 雷達回查賞位。
+   📌 孤獨搖滾 VOL.5（五尊 Gracemaster）最值得先排量；其餘等 10/15 賞位
+   https://1kuji.com/products/bocchitherock5
+   🧵 2027/01 一番賞訂貨窗 第 1 回
+3. 【56】2027/02 檔開始上架：官方 9 檔、本週新浮 8 檔
+   🆕 我英 -うなれ体育祭-（2/13，MASTERLISE，790 円；BANPRESTO 10/14 體育祭景品同主題＝整季放量）https://1kuji.com/products/myhero49
+   🆕 鋼彈 G・W・X 30th（2/26，900 円，三作合彈）https://1kuji.com/products/gundam_gwx
+   已在追：七龍珠 DRAGON OMNIBUS 神與神（2/06，全 MASTERLISE）https://1kuji.com/products/db_do
+   🆕 刃牙 再販（2 月上旬，本庫庫存薄）https://1kuji.com/products/baki2-2 ；其餘 可哀想に！HOTEL／カラフルピーチ／拉拉熊／スサノオマジック／零食聯名 本庫 0〜低庫存，情報級。
+   📌 情報級；10/18 雷達回查賞位
+   https://1kuji.com/products/myhero49
+   🧵 2027/02 一番賞檔期 第 1 回
+4. 【56】上海 WF 2026（10/3〜4）：GSC 一口氣約 25 品，蔚藍檔案再加 3 隻泳裝
+   GSC：蔚藍檔案 未花(泳裝) メモリアルロビー彩色原型＋渚／妃咲／伊呂波 泳裝化決定；NIKKE 桃樂絲；BanG Dream! MyGO!!!!! 要樂奈／椎名立希／長崎爽世；碧藍航線 白鳳；初音未來 7 品。MaxFactory：蔚藍檔案／Stella Sora／烙印勇士；APEX：原神／絕區零；另有 ホビーサクラ（NIKKE）、Phat!、MAGI ARTS（牙狼）。
+   生意含意：蔚藍檔案 PVC 線持續加碼，GSC 未花(泳裝) 1/7（11/4 截止）全庫仍 0 筆的缺口要補；各品予約展後 1〜3 個月陸續開，10/11 雷達回查。
+   📌 PVC 情報級，等予約開再看價
+   https://figsoku.net/tag/%e4%b8%8a%e6%b5%b7%e3%83%af%e3%83%b3%e3%83%95%e3%82%a7%e3%82%b9
+   🧵 上海 WF 2026 新作→予約追蹤 第 1 回
+5. 酷比樂（萬榮）預購 136 新品：景品 13，兩組三隻成套款
+   ・Vivit 主播女孩重度依賴 三隻成套（超絕最可愛天使醬 1 月／糖糖、卡茜 2 月，各 NT$480）https://www.amuzinc.com/zh-TW/products/gsc-ss0642192701 ｜ https://www.amuzinc.com/zh-TW/products/gsc-ss0642262702 ｜ https://www.amuzinc.com/zh-TW/products/gsc-ss0642332702
+   ・Vivit 涼宮春日的憂鬱 SOS 團三隻（春日 1 月／長門、實玖瑠 2 月，各 NT$480）https://www.amuzinc.com/zh-TW/products/gsc-ss0641032701 ｜ https://www.amuzinc.com/zh-TW/products/gsc-ss0641102702 ｜ https://www.amuzinc.com/zh-TW/products/gsc-ss0641412702
+   ・TAITO 11 月（最快出貨）：AMP+ 雪初音 2014 藍／2015 綠（各 NT$520）、MOFLOCK 雅兒貝德 逆兔女郎（NT$480）https://www.amuzinc.com/zh-TW/products/gsc-ta4057252611 ｜ https://www.amuzinc.com/zh-TW/products/gsc-ta4057322611 ｜ https://www.amuzinc.com/zh-TW/products/gsc-ta4058002611
+   全清單＋圖：`輸出/圖冊_酷比樂預購/index.html`
+   📌 成套款適合整組進；TAITO 11 月最快變現
+   🧵 酷比樂（萬榮）預購區＝台灣代理預購單 第 3 回（上回 09/19 晨報）
+
+【⏰ 要截止】
+1. 今天 10:30 前：兩套排程擇一（否則兩班品牌官同寫品牌 xlsx）
+   看門狗 W13：A 套（9/24 起代班、含酷比樂週報）沒關，B 套（Cowork 11 支）10/04 又重啟 → 今天每個班次跑兩輪。你現在收到的就是第二封晨報（08:46 A 套純文字版／08:54 B 套＝本封圖文版）。
+   最急是 10:30／10:34 兩班品牌官：拿同一份 20 牌名單、同時寫同一批品牌 xlsx，merge 無檔案鎖＝後寫蓋前寫可能掉列。其次 21:00／21:04 行情、21:30／21:39 晚報。
+   選邊：①關 B 的 11 支＝回到跑了 10 天的 A；②關 A 的同名排程（B 本封已照 CLAUDE.md 走 brief_render）。不論留哪套，晨／晚報 prompt 都要改成「走 crawlers/brief_render.py」——A 那封今天仍是純文字。
+   📌 10:30 前關掉一套；明天看門狗 W13 只剩 1 輪＝驗收
+   🧵 兩套排程並行（W13） 第 1 回
+2. 官方截止 3 天內：無｜估計窗口：11 月檔本週收、EVA 破 決策窗到 10 月初
+   PVC 預購官方截止最近是 11/4 GSC 未花(泳裝) 1/7、11/18 ALTER 米浴 Yummy Dreamy Fairy，都不在 3 天內。
+   12 月檔一番賞（窗口預估到 10 月中旬）：EVA 破（12/05，A 真嗣＆綾波／B 式波明日香／C 渚薰／最後賞 2 號機＝4 尊公仔）上回定「決策窗到 10 月初」＝這週要回進／不進 https://1kuji.com/products/eva20
+   更正雷達 12 月清單兩處：
+   ①寶可夢 30th vol.1／vol.2 再販 IP 庫存最大（16,216），但整套 0 公仔（A 壓克力時鐘／B 裝飾盤／C〜F 絨毛／最後賞 皮卡丘絨毛）＝雜貨絨毛彈，別依 IP 規模重訂 https://1kuji.com/products/pk30th_1-2
+   ②雷達漏列蔚藍檔案 vol.4（5 尊 1/7 Gracemaster 禮服：亞瑠／佳代子／亞子／沙織＋最後賞 日奈）https://1kuji.com/products/bluearchive4 ，跟五等分 beachside（五姊妹 1/7 Gracemaster）https://1kuji.com/products/5Hanayome22 同屬 12 月公仔密度最高的兩檔。
+   📌 EVA 破本週回進／不進；12 月公仔密度看 蔚藍 vol.4／五等分 ＞ EVA 破
+   https://1kuji.com/products/eva20
+   🧵 EVA 破 12 月檔決策 第 3 回（上回 09/18 晨報）
+
+【🔔 要你動手】
+1. 看門狗 FAIL 3／WARN 9：雙排程與夜跑之外，其餘都是一句話就能清
+   ・夜跑積壓 1,522 筆未入庫（OrzGK 1,519 筆，最久 30 天）→ 回「消化夜跑 staged」
+   ・12 牌巡邏連 40 天被擋，已派工 26 牌進 Chrome 待辦（前 5：Sideshow 7,040／BeastKingdom 1,545／HotToys 1,437／Furyu 1,396／Threezero 616）→ 開有 Chrome 的對話說「跑 Chrome 待辦」
+   ・缺口工單 1 件等你一句話：miHoYo／HoYoverse 收編 → 回「收」或「不收」；另 7 件可執行 → 說「清缺口工單」
+   ・酷比樂週報排程沒掛資料夾（10/01 失敗、今早補跑）→ 排程設定掛上「商品資料庫」資料夾，否則下週四再失敗
+   ・看門狗另待拍板 2 件：sitemap 線回寫 crawl_state（回「可以」）、bushiroad 卡在 Shopify 100 頁上限（需 Mac 夜跑實測改抓法）
+   📌 全是一句話就能動的事，不需要再討論
+   🧵 三條積壓線 第 4 回（上回 09/26 晚報）
+
+【🤖 今日系統】
+1. 品牌官今日預巡 20 牌｜前 5：BANDAI-Hobby 47d／Sideshow 39d／Furyu 39d／revolve 35d／p-bandai TW 35d
+   新鮮度（220 牌）：✅7 天內 167｜🟡8-30 天 39｜🔴>30 天 14（昨 14，±0）。腳本估「18 牌/日、紅燈 1 天清空」不可信：今日名單裡 Sideshow／Furyu／PresentToys／JNDStudios／HotToys 等是被擋牌、要 Chrome 才巡得動，紅燈實際要等 Chrome 待辦開工。
+   分線：runner 17 牌 ✅（最後一輪 9/27，夜跑再不醒就會開始轉黃）｜chrome 135 牌 🔴13｜通路 6 牌 🔴1（熱血模玩 sitemap 取不到，9/29 已重排、待換抓法）｜聚合 62 牌全 ✅。
+   ⚠️ 10:30／10:34 若雙軌未關，兩班會搶同一份名單。
+   📌 🔴14 卡在 Chrome lane，不是巡邏量不夠
+   🧵 品牌巡邏新鮮度 第 4 回（上回 09/23 晨報）
+
+【✅ 要 West 拍板／動手】
+☐ West：10:30 前到排程設定關掉 A 或 B 一套（避免兩班品牌官同寫 xlsx）
+☐ West：本週內對經銷下 11 月檔一番賞訂單（拆賞看 JOJO RIVALS／我英）
+☐ West：本週回 EVA 破 12 月檔：進／不進
+☐ West：按一次 10/03 新版 輸出/夜跑急救.command，選 pmset 定時開機
+☐ West：留下那套的晨／晚報 prompt 改成「走 crawlers/brief_render.py」；酷比樂週報排程掛上資料夾
+
+【🎯 今天】
+- 品牌官 10:30：若雙軌未關，晚報班對帳品牌 xlsx 列數
+- 景品線：10/05 pipeline 複查 4 案（Q's Q 芙莉蓮 對阿烏拉戰／APEX 納西妲／幽夜綺想 基尼奇／Batman×ZERO-ONE）
+- 一番賞線：10/15 回查 2027/01 賞位、10/18 回查 2027/02
+- 晚報班 21:30：巡邏戰果＋陀螺行情
+
+存檔頁：https://westlee0811.github.io/esontoy-console/%E5%A0%B1%E5%91%8A/%E6%99%A8%E6%99%9A%E5%A0%B1/261004_am.html
+— 資訊官晨報班（B 套 08:54）｜昨夜無 runner log、佇列無新執行（熱血模玩 9/29 已重排在案，不重複排）｜信箱無新 Code 指令｜圖文版遠端連結要等夜跑醒來發布才點得開，先看本機 輸出/報告/晨晚報/261004_am.html

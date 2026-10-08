@@ -1,0 +1,371 @@
+{
+ "kind": "am",
+ "date": "2026-10-06",
+ "headline": "獵人 幻影旅團① 一番賞七尊 MASTERLISE（2027/03）＋航海王劇場版 GOD VALLEY 漏登補件",
+ "deck": "補 08:46 純文字版沒有的；帝王光環 今天截止、夜跑第 9 晚",
+ "kpis": [
+  {
+   "label": "B 輪新訊號",
+   "value": "4 件",
+   "delta": "08:46 那封沒有"
+  },
+  {
+   "label": "PVC 截止",
+   "value": "今天＋明晚",
+   "delta": "帝王光環／諾亞・妃咲"
+  },
+  {
+   "label": "夜跑",
+   "value": "斷 9 晚",
+   "delta": "最後 log 9/27"
+  },
+  {
+   "label": "新鮮度 ✅7天內",
+   "value": "14",
+   "delta": "昨 29（−15）｜🔴14 ±0"
+  },
+  {
+   "label": "看門狗",
+   "value": "FAIL 3",
+   "delta": "WARN 9／OK 9"
+  }
+ ],
+ "sections": [
+  {
+   "title": "🌙 昨夜戰果",
+   "items": [
+    {
+     "title": "昨夜平靜（夜跑第 9 晚沒跑）；今晨雷達 B 輪補到 4 件＋1 件漏登",
+     "body": "Mac 夜跑還是沒醒（最後 log 9/27）→ 通路增量、RSS 新聞、卡牌站都停在 9/27，今天的情報全靠白天人工補掃。\n雷達 B 輪（08:43–08:55）直接掃 1kuji 官方頁、animatetimes 2027 片單、キャラホビ プライズ表：抓到 **10/05 下午 1kuji 才上架的 6 則**（08:46 那封沒有），另查出**航海王新劇場版 8/23 就官宣、雷達漏了 6 週**。\n1kuji LINE UP 目前排到 2027/03：11 月 16 檔／12 月 16 檔／1 月 8 檔／2 月 11 檔／3 月 2 檔。\npipeline 414→417 件｜缺口工單 11→12｜大腦更新 航海王／獵人／藥師少女／我英 4 頁。看門狗 B 輪順手修掉一個明天會叫你「重新授權 Gmail」的假警報（W12 判定）。",
+     "tags": [
+      "雷達",
+      "夜跑"
+     ],
+     "verdict": "夜跑仍斷；情報靠白天人工補掃撐住"
+    }
+   ]
+  },
+  {
+   "title": "🔥 今日情報",
+   "items": [
+    {
+     "title": "🆕 一番賞 獵人 幻影旅團①（2027/03/12，850 円）：A〜G 七尊全是 MASTERLISE",
+     "body": "A 庫洛洛 約 26cm（友克鑫「鎮魂曲」指揮姿）／B 信長 約 22cm／**C 窩金 MASTERLISE EXTRA 約 34cm**／D 瑪琪 約 23cm／E 派克諾妲 約 27cm／F コルトピ 約 18cm／G 西索 約 27cm；最後賞未公開。\n庫洛洛、窩金上一次進賞是 2024/06 REVENGE OF SCARLET（主角酷拉皮卡，圖為該套做工參考）；這次是**第一套整張賞單全是旅團**，編號「①」＝後面還有 ②（飛坦、芬克斯、俠客、小滴等還沒出）。西索近 16 個月已是第 3 尊 MASTERLISE（X-Day、GREED ISLAND ②、本套），拆賞的賣點在 **A 庫洛洛＋C 窩金 EXTRA**。\n獵人一番賞 2023/09 起 8 套新作＋3 次再販（嵌合蟻②、GI② 都再販＝首批賣完），在日本走量穩。庫內 2,358 筆｜訂貨分 56｜1kuji 2027/03 目前只有這套＋七龍珠 SNAP COLLECTION3。\nhttps://1kuji.com/products/hxh12\nhttps://www.famitsu.com/article/202610/90075",
+     "score": 56,
+     "link": "https://1kuji.com/products/hxh12",
+     "q": [
+      "庫洛洛",
+      "窩金",
+      "西索"
+     ],
+     "brand": "一番賞",
+     "gallery": [
+      {
+       "name": "B賞 庫洛洛・魯西魯 MASTERLISE",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/102256/422655a3-e395-4ee0-85bb-e14bd2f1ca9c.jpg",
+       "link": "https://1kuji.com/products/hxh5"
+      },
+      {
+       "name": "D賞 窩金 MASTERLISE EXTRA",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/102258/b7836d26-87d8-4013-8c05-d8f7196589cd.jpg",
+       "link": "https://1kuji.com/products/hxh5"
+      },
+      {
+       "name": "D賞 西索 MASTERLISE",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/106319/a5215f0f-0e6d-491a-ada6-b14e0af036df.webp",
+       "link": "https://1kuji.com/products/hxh11"
+      },
+      {
+       "name": "G賞 西索的玩具箱",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/105199/83ae62be-1cd2-496e-a25f-8ed145ee6a0f.jpg",
+       "link": "https://1kuji.com/products/hxh9"
+      },
+      {
+       "name": "C賞 西索 MASTERLISE",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/105195/8c19b7fd-aac4-4ba7-b008-fe7cfe4e4231.jpg",
+       "link": "https://1kuji.com/products/hxh9"
+      },
+      {
+       "name": "最後賞 小傑×奇犽×西索 Revible Moment",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/103423/99d790c4-847b-460a-aa24-184f14e5ecb7.jpg",
+       "link": "https://1kuji.com/products/hxh6"
+      }
+     ],
+     "tags": [
+      "一番賞",
+      "獵人",
+      "2027/03"
+     ],
+     "thread": "kuji-2027-03",
+     "verdict": "3 月檔第 2 套（幻影旅團①）；訂貨窗預估 11〜12 月，跟七龍珠 SNAP3 同一張單下",
+     "img": "https://assets.1kuji.com/uploads/product_item/image/102256/422655a3-e395-4ee0-85bb-e14bd2f1ca9c.jpg"
+    },
+    {
+     "title": "🎬 航海王劇場版《ONE PIECE FILM GOD VALLEY》2027 夏上映：8/23 就官宣，雷達漏了 6 週",
+     "body": "One Piece Day '26（8/23）同場宣布兩部：**GOD VALLEY 2027 夏**（漫畫 30 週年檔；演 38 年前的神之谷事件——洛克斯海賊團 vs 羅傑＋卡普，外媒稱 26 年來首部正史劇場版）、**FILM BAAD 2029**。\n生意面：映畫連動景品／一番賞照往例會在上映前幾個月陸續發表（預估 2027/03〜05），屆時是航海王全年最大單。GK 廠早押這題——本庫已有 **139 筆神之谷題材**（Yz Studio 神之谷大戰系列為主，圖），電影一上這批會再被翻出來。\n漏登原因：雷達 S 級詞庫沒有「新作映画／公開決定／FILM」，標題只被判 C 級（GAP-261006-01，見下方要你動手）。\nhttps://www.onepiece-film.jp/en/",
+     "score": 140,
+     "q": "神之谷",
+     "gallery": [
+      {
+       "name": "航海王 神之谷事件 #10 洛克斯海賊團 船長約翰 WCF GK 雕像 - YZ Studio【預購】",
+       "img": "https://cdn.shopify.com/s/files/1/0750/7869/7261/files/one-piece-god-valley-incident-10-rocks-pirates-captain-john-wcf-gk-statue-yz-studio-pre-order-797.webp?v=1786578106",
+       "link": "https://yesgk.com/products/one-piece-god-valley-incident-10-rocks-pirates-captain-john-wcf-gk-statue-yz-studio"
+      },
+      {
+       "name": "Yz工作室 神之谷大戰第9彈 洛克斯海賊團&amp;amp;nbsp;長麵包",
+       "img": "https://shoplineimg.com/64bf83e10c9a630084069d98/68ee1bc6afeb2b000c7cd66f/1500x.webp",
+       "link": "https://www.scctoys.com.tw/products/a22772"
+      },
+      {
+       "name": "Yz工作室 神之谷大戰 洛克斯海賊團 夏洛特·玲玲",
+       "img": "https://shoplineimg.com/64bf83e10c9a630084069d98/683efcc03fa498001101bde5/800x.webp",
+       "link": "https://www.scctoys.com.tw/products/a20424"
+      },
+      {
+       "name": "Yz工作室 神之谷大戰 格林古聖",
+       "img": "https://shoplineimg.com/64bf83e10c9a630084069d98/683aff10ef53380010ee8969/800x.webp",
+       "link": "https://www.scctoys.com.tw/products/a20386"
+      },
+      {
+       "name": "Yz工作室 神之谷大戰 洛克斯海賊團 金獅子史基",
+       "img": "https://shoplineimg.com/64bf83e10c9a630084069d98/684976d337f95f000c91d879/800x.webp",
+       "link": "https://www.scctoys.com.tw/products/a20558"
+      },
+      {
+       "name": "Yz工作室 神之谷大戰 海軍英雄卡普",
+       "img": "https://shoplineimg.com/64bf83e10c9a630084069d98/6862a039b14956000bb45948/800x.webp",
+       "link": "https://www.scctoys.com.tw/products/a20927"
+      }
+     ],
+     "tags": [
+      "航海王",
+      "劇場版",
+      "戰略"
+     ],
+     "thread": "op-film-gv",
+     "thread_title": "航海王劇場版 GOD VALLEY（2027 夏）連動商品",
+     "verdict": "戰略級：今天不用動作，2027/03〜05 連動商品發表期再拍板量",
+     "img": "https://cdn.shopify.com/s/files/1/0750/7869/7261/files/one-piece-god-valley-incident-10-rocks-pirates-captain-john-wcf-gk-statue-yz-studio-pre-order-797.webp?v=1786578106"
+    },
+    {
+     "title": "🎯 一番賞 我英 うなれ体育祭（2027/02）賞位全開：安德瓦 EXTRA 約 29cm 撐場",
+     "body": "爆豪／常闇／出久／**D 安德瓦 MASTERLISE EXTRA 約 29cm**／E しょうと（新公開）／最後賞 轟。\n2 月檔目前兩套：這套＋航海王 メモリーオブヒロインズ Royal Princess（2/05，790 円，5 尊，08:46 那封已報）。我英庫內 1,825 筆、近一年 9 套一番賞，是穩定走量的線。\nhttps://1kuji.com/products/myhero49",
+     "score": 56,
+     "link": "https://1kuji.com/products/myhero49",
+     "tags": [
+      "一番賞",
+      "我的英雄學院",
+      "2027/02"
+     ],
+     "thread": "kuji-2027-02",
+     "verdict": "2 月檔一起評估：Royal Princess（2/05）＋我英體育祭"
+    },
+    {
+     "title": "📈 藥師少女的獨語 Q4 三廠同時灌：SEGA 11/6 兩款＋劇場版一番賞 D 賞公開",
+     "body": "SEGA 11/6：ちょこのせ 貓貓 月精Ver.、きゅるみー 貓貓・壬氏；**劇場版一番賞〈亡妃的祕寶〉**（A 貓貓／B 壬氏 Dioramique Master、最後賞 貓貓）12/05 起、取扱店寫「全家等」，D 賞 きららいずマスコット 新公開；BANPRESTO 12 月 貓貓～狐の里～ 已在 12 月檔。\n藥師少女庫內約 165 筆（7 月 85，翻倍）：供給還薄、熱度在漲。\n另記：亂馬½ 中華コレクション（12/18）只在一番くじONLINE＋官方店賣，經銷單不會出現，不用找。\nhttps://1kuji.com/products/kusuriya2\nSEGA 11 月景品清單 https://premium.gamepedia.jp/hobby/prize/s-01J7JQ88CGQJHRFVFW2PW3QZVA",
+     "score": 45,
+     "link": "https://1kuji.com/products/kusuriya2",
+     "gallery": [
+      {
+       "name": "A賞 貓貓 Dioramique Master",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/106944/849324be-16cf-4a61-8417-97e98aa22540.webp"
+      },
+      {
+       "name": "B賞 壬氏 Dioramique Master",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/106945/014c4587-fd5a-48df-8b2b-435e1b0dd90d.webp"
+      },
+      {
+       "name": "最後賞 貓貓公仔",
+       "img": "https://assets.1kuji.com/uploads/product_item/image/106946/c10f8b29-b724-4d19-b6bf-a6aed366f5de.webp"
+      }
+     ],
+     "tags": [
+      "一番賞",
+      "景品",
+      "藥師少女的獨語"
+     ],
+     "thread": "kuji-dec",
+     "verdict": "12 月檔劇場版一番賞照 10 月中旬窗口決定；SEGA 兩款跟 11 月景品單",
+     "img": "https://assets.1kuji.com/uploads/product/top_banner/10779/919e4289-5aa5-4eb8-b315-c2d1373c15c1.webp"
+    }
+   ]
+  },
+  {
+   "title": "⏰ 要截止",
+   "items": [
+    {
+     "title": "今天：壽屋 帝王光環 1/7 再生產截止｜明晚 23:59：GSC 生鹽諾亞・龍華妃咲",
+     "body": "**帝王光環（賽馬娘）** 壽屋 ¥22,000（≈NT$4,700），2027/02 出貨，今天是「確實入手」截止；再販＝首販完售驗證過。https://www.inside-games.jp/article/2026/09/01/187104.html\n**生鹽諾亞 ～内緒の記録～ 1/7**（蔚藍檔案）GSC ¥22,000，2027/09 出貨，官方商城 10/07 23:59 截止（已延長一次）。https://www.goodsmile.com/ja/product/1137827\n**龍華妃咲 メモリアルロビーVer.** ¥19,800（≈NT$4,240，正中 A 賞成本帶），同日截止。https://www.goodsmile.com/en/product/1137829\n08:46 那封已列，這裡補連結與價格；過了截止沒保證量。",
+     "q": "壽屋 賽馬娘 Pretty Derby 1/7 帝王光環",
+     "tags": [
+      "PVC",
+      "賽馬娘",
+      "蔚藍檔案"
+     ],
+     "thread": "pvc-1006-1007",
+     "verdict": "要做乙賞：壽屋今天、GSC 明晚前拍板",
+     "img": "https://s3-ap-northeast-1.amazonaws.com/hobbystock/img/item/00000506731/pc_detail_0.jpg"
+    },
+    {
+     "title": "本週：11 月檔一番賞最後決策窗＋EVA 破｜10/12（下週一）PREMIUM 火影 店頭預約截止",
+     "body": "11 月檔照 9/23 優先序（七龍珠 FA3 > JOJO RIVALS > 鋼彈 UC > 我英）；EVA 破可併 12 月檔一起回（12 月檔窗口 10 月中旬前）。\nバンプレくじ PREMIUM 火影忍者 疾風傳 漩渦鳴人：1 回 1 萬円、配額制，店頭預約到 10/12，本週向經銷確認配額。https://bsp-prize.jp/campaign/341/",
+     "tags": [
+      "一番賞",
+      "訂貨窗"
+     ],
+     "thread": "kuji-nov",
+     "verdict": "本週是 11 月檔最後決策窗；PREMIUM 火影 10/12 前確認配額"
+    }
+   ]
+  },
+  {
+   "title": "🔔 要你動手",
+   "items": [
+    {
+     "title": "🔴 夜跑第 9 晚沒跑：只差你在 Mac 雙擊一次急救包",
+     "body": "最後一份夜跑 log 是 9/27。斷的是 launchd 夜跑這一條，不是 Mac 關機（白天看門狗、日報都照常產）。\n雙擊 `輸出/夜跑急救.command`（10/03 新版）→ 通路增量、RSS 新聞、卡牌站、圖文版遠端連結一起回來；明早看門狗 W1 轉綠＝驗收。",
+     "tags": [
+      "夜跑"
+     ],
+     "thread": "runner-down",
+     "verdict": "只有 West 在 Mac 上按得到；明早 W1 轉綠＝驗收"
+    },
+    {
+     "title": "🔴 兩套排程第 3 天：今天 10:30 起兩套翻譯官＋品牌官同寫品牌 xlsx",
+     "body": "你今天又收到兩封晨報（08:46 A 套純文字、這封 B 套圖文版）。今天週二撞車窗：A 套品牌官 10:30＋兩套翻譯官（B 套 10:43）同寫品牌 xlsx，沒有檔案鎖，後寫蓋前寫；明天一番賞快報會兩套同寫 一番賞.xlsx、續編 KUJ 號。\n回「**關 B 套**」（看門狗建議）或「關 A 套」，下一個有你在的對話就關。留 A 套的話，記得在 A 套晨／晚報 prompt 補「一律走 crawlers/brief_render.py」，不然圖文版存檔會斷。",
+     "tags": [
+      "排程"
+     ],
+     "thread": "dual-schedule",
+     "verdict": "回「關 B 套」；明早 W13 只剩 1 輪＝驗收"
+    },
+    {
+     "title": "🟠 酷比樂（萬榮）預購週報：10/08 下一輪前要掛資料夾",
+     "body": "10/01 那輪失敗的週報，10/04 已手動補跑（`輸出/快報/261004_酷比樂預購新品.md`），資料沒斷；根因是排程沒掛資料夾。到排程設定掛上「商品資料庫」並勾「需要這台電腦」，不然 10/08 會再失敗。",
+     "tags": [
+      "排程",
+      "酷比樂"
+     ],
+     "thread": "kubileh-preorder",
+     "verdict": "10/08 前掛資料夾＋勾「需要這台電腦」"
+    },
+    {
+     "title": "🟡 一句話的事：准不准補雷達「大片」詞庫（GAP-261006-01）",
+     "body": "GOD VALLEY 漏 6 週的根因：雷達 S 級關鍵字只認「劇場版／映画化」，「新作映画／公開決定／FILM」不在詞庫。建議補詞＋animatetimes 片單新條目（庫存 >1,000 的 IP）自動登 pipeline。框架/ 的設定雷達無權改，回「**准改雷達詞庫**」就交 Code 端改。",
+     "tags": [
+      "雷達"
+     ],
+     "thread": "radar-s-gap",
+     "thread_title": "雷達 S 級詞庫漏大片（GAP-261006-01）",
+     "verdict": "回「准改雷達詞庫」"
+    }
+   ]
+  },
+  {
+   "title": "🤖 今日系統",
+   "items": [
+    {
+     "title": "品牌官今日預巡 20 牌｜前 5：BANDAI-Hobby 49d／Sideshow 41d／revolve 37d／p-bandai TW 37d／TAITO 37d",
+     "body": "其餘：PresentToys／Plusone／Mamegyorai／Lechery／HotToys／HollywoodCollectibles／HexCollectibles／GrandJesterStudios／Gantaku／GENCO／FireGirlToys／FOTS JAPAN／FLAGSET（皆 37d）；通路席 GK-SCC 11d、熱血模玩 10d。\nburn-down：✅14／🟡192／🔴14（🔴 昨 14，±0）。照實際 1〜3 牌/日的速度 🔴 不會自然清空；GSC／MaxFactory／SEGAFave 10/10 轉紅前要排進名單。三條積壓線（夜跑 staged／Chrome 待辦／缺口工單）未動，08:46 那封已列。\n更正：08:46 那封寫 ✅32 是時區誤差（A 套在 UTC 跑 patrol_queue，日期還停在 10/05），以台灣時間 ✅14 為準；A 套那輪也把 patrol_history 的 10/05 快照蓋掉，歷史檔已出現日期重複 → 交週日進化回顧：patrol_queue 固定用台灣時區。",
+     "tags": [
+      "巡邏"
+     ],
+     "thread": "patrol",
+     "verdict": "🔴14 持平；A 套 ✅32 是 UTC 誤差，以台灣時間 ✅14 為準"
+    }
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "owner": "West",
+   "text": "今天回壽屋 帝王光環 再生產（下／不下）；明晚 23:59 前回 GSC 諾亞・妃咲",
+   "thread": "pvc-1006-1007"
+  },
+  {
+   "owner": "West",
+   "text": "在 Mac 雙擊一次 輸出/夜跑急救.command（10/03 新版）",
+   "thread": "runner-down"
+  },
+  {
+   "owner": "West",
+   "text": "回「關 B 套」或「關 A 套」（最好在 10:30 撞車窗前）；留 A 套就在它的晨／晚報 prompt 補「一律走 crawlers/brief_render.py」",
+   "thread": "dual-schedule"
+  },
+  {
+   "owner": "West",
+   "text": "10/08 前在酷比樂週報排程掛「商品資料庫」資料夾＋勾「需要這台電腦」",
+   "thread": "kubileh-preorder"
+  },
+  {
+   "owner": "West",
+   "text": "本週內對經銷下 11 月檔一番賞（拆賞看 JOJO RIVALS／我英）",
+   "thread": "kuji-nov"
+  },
+  {
+   "owner": "West",
+   "text": "本週回 EVA 破 進／不進（可併 12 月檔，10 月中旬前）",
+   "thread": "eva20"
+  },
+  {
+   "owner": "West",
+   "text": "10/12 前向經銷確認 PREMIUM 火影 配額",
+   "thread": "naruto-premium"
+  },
+  {
+   "owner": "West",
+   "text": "回「准改雷達詞庫」（GAP-261006-01，補大片關鍵字）",
+   "thread": "radar-s-gap"
+  },
+  {
+   "owner": "West",
+   "text": "向麗英／大哥要 SEGA 2027/1〜3 月型錄",
+   "thread": "sega-2027q1"
+  },
+  {
+   "owner": "West",
+   "text": "TTA 扭蛋 ORDER 維持原單（已拍板）→ 確認單位後回傳大哥；已傳就回「TTA 已傳」結案",
+   "thread": "dahge-gacha-2701"
+  }
+ ],
+ "tomorrow": [
+  "10/07（三）GSC 諾亞・妃咲 23:59 截止｜一番賞快報 08:39：掃描窗要取到 2027/03（hxh12＋七龍珠 SNAP3）；雙軌沒關的話兩套同寫 一番賞.xlsx、KUJ 號會撞",
+  "10/08（四）MegaHouse VAH 白鬍子 Ver.1.5 開約｜酷比樂週報第 2 輪（要先掛資料夾）｜開拓官 Reverse Studio 建檔",
+  "雷達回查：Prime 1 四連發／NLS XIX（10/07）、PREMIUM 火影（10/10）、hxh12 最後賞（10/18）",
+  "今晚晚報 21:30：翻譯官＋品牌官戰果；雙軌撞車抽驗品牌 xlsx 列數"
+ ],
+ "refs": [
+  {
+   "label": "IP 雷達 digest 261006（A 套補掃＋B 輪急件＋全鏈掃描）",
+   "path": "爬蟲資料/ip_news/digest_261006.md"
+  },
+  {
+   "label": "看門狗 261006",
+   "path": "輸出/健檢/261006_watchdog.md"
+  },
+  {
+   "label": "看門狗 B 輪警報（已隨 08:46 晨報寄出）",
+   "path": "輸出/日報/261006_看門狗警報_未寄出.已隨晨報寄出.md"
+  },
+  {
+   "label": "市場週報 #14（PVC 截止 Top 5）",
+   "path": "大腦/週報/261005.md"
+  },
+  {
+   "label": "1kuji 獵人 幻影旅團①",
+   "url": "https://1kuji.com/products/hxh12"
+  },
+  {
+   "label": "航海王劇場版 GOD VALLEY 官網",
+   "url": "https://www.onepiece-film.jp/en/"
+  }
+ ],
+ "signoff": "資訊官晨報班（B 套 08:54）｜今天第二封晨報（08:46 A 套純文字版已寄出，本封補它沒有的 B 輪急件＋圖文存檔）｜checkpoint 無未完成爬蟲｜夜跑佇列無新失敗（熱血模玩 9/29 已重排在案，不重複排）｜信箱無新 Code 指令｜看門狗 B 輪警報已由 A 套晨報帶走｜圖文版遠端連結要等夜跑醒來發布才點得開，先看本機 輸出/報告/晨晚報/261006_am.html",
+ "id": "261006_am",
+ "hero": {
+  "img": "https://cdn.shopify.com/s/files/1/0750/7869/7261/files/one-piece-god-valley-incident-10-rocks-pirates-captain-john-wcf-gk-statue-yz-studio-pre-order-797.webp?v=1786578106",
+  "link": "",
+  "caption": "🎬 航海王劇場版《ONE PIECE FILM GOD VALLEY》2027 夏上映：8/23 就官宣，雷達漏了 6 週",
+  "auto": true
+ }
+}

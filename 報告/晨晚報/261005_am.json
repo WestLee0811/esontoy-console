@@ -1,0 +1,333 @@
+{
+ "kind": "am",
+ "date": "2026-10-05",
+ "headline": "雷達 B 輪抓到 4 件景品訂貨訊號：PREMIUM 火影 10/12 收預約、SEGA 2027Q1 77 品未入庫",
+ "deck": "補 08:46 純文字版沒有的急件；夜跑第 8 晚，新鮮度今晨斷崖 ✅167→29",
+ "kpis": [
+  {
+   "label": "景品訂貨訊號",
+   "value": "4 件",
+   "delta": "皆 ≥40 分、官方頁實查"
+  },
+  {
+   "label": "PREMIUM 火影",
+   "value": "10/12 收",
+   "delta": "1 回 1 萬円、配額制"
+  },
+  {
+   "label": "夜跑",
+   "value": "斷 8 晚",
+   "delta": "最後 log 9/27"
+  },
+  {
+   "label": "新鮮度 ✅7天內",
+   "value": "29",
+   "delta": "昨 167（−138）"
+  },
+  {
+   "label": "看門狗",
+   "value": "FAIL 3",
+   "delta": "WARN 8／OK 10"
+  }
+ ],
+ "sections": [
+  {
+   "title": "🌙 昨夜戰果",
+   "items": [
+    {
+     "title": "夜跑第 8 晚沒跑——今晨 138 牌一起掉出 7 天新鮮線",
+     "body": "runner log／RSS raw 仍停在 **9/27**。今天是傷害第一次浮上檯面：9/27 那輪夜跑刷新過的品牌（runner 17、聚合 62，及當晚 probe 體檢過的 Chrome 牌）今晨起滿 8 天 → **✅7 天內 167→29**（🔴14 持平）。\nA 套 08:46 那封寫「✅167 持平」是時區誤差（它的環境用 UTC 算，晚 8 小時），以本封為準。\n看門狗 B 輪更正根因：**Mac 白天在線**（排程 08:24、01:51 都在本機觸發），斷的是 launchd 夜跑這一條；10/03 改好的一天 5 時段排程（03:30／10:00／14:00／19:00／23:00）**要按一次急救包才會裝進系統**。",
+     "tags": [
+      "系統",
+      "夜跑"
+     ],
+     "thread": "runner-down",
+     "verdict": "只有 West 在 Mac 上按得到；按完明早看門狗 W1 轉綠＝驗收",
+     "action": {
+      "owner": "West",
+      "text": "雙擊一次 輸出/夜跑急救.command（10/03 新版）"
+     }
+    },
+    {
+     "title": "陀螺行情（01:51 補跑）：戰神伏特 跌到 3,500；CX-00 序列混進 EVA 改造組，今晚會假報 +122%",
+     "body": "10/04 三源報價：**CX-00 戰神伏特 3,500–4,000**、**UX-15 1,600–2,000**；UX-00 紅空力 賣家稱「下個月才到貨」（10/5–7 螺旋門賽事冠軍獎品）。\n⚠️ **資料混碼**：CX-00 檔 10/02–03 兩筆（~1,500）其實是 **EVA 改造組**，該進 CX-00-EVA（那邊停在 9/18）。不拆的話今晚漲跌榜會把 CX-00 算成 **+122%**。\n真實走勢：戰神伏特 9/28 4,100→10/04 3,500（**−15%**，3 源）；EVA 改造組 9/18 1,800→10/03 約 1,575（−13%）。",
+     "tags": [
+      "陀螺",
+      "行情",
+      "資料品質"
+     ],
+     "thread": "beyblade-ux",
+     "verdict": "戰神伏特 真跌 15%；CX-00 先拆碼再出漲跌榜"
+    },
+    {
+     "title": "大哥 TTA 扭蛋單：你填的 15 項已回填 ORDER 欄，確認單位就能回傳",
+     "body": "凌晨完成：建議清單你填的 15 項（我英 かぷっこ×2／我英 でふぉラバ／排球 でふぉフィグ／進擊 ゆらゆら／吉伊卡哇 再販／咒術 懷玉・玉折 再販／膽大黨 高速婆婆／芙莉蓮×2／轉生史萊姆／鬼滅×2／貓咪大戰爭×2）→ 回填大哥原檔 ORDER 欄另存，只動 ORDER 15 格、逐格核對品名、字級沿用原檔。\n**送出前確認單位**：若是「袋」＝440 個、日本零售合計約 ¥170,000。\n檔案：`預購圖/大哥/26.10月_扭蛋/BANDAI_ TTA CP JAN-MARCH 2027_ORDER.xlsx`",
+     "tags": [
+      "扭蛋",
+      "大哥",
+      "訂單"
+     ],
+     "thread": "dahge-gacha-2701",
+     "thread_title": "大哥扭蛋單 2027/1〜3 月",
+     "verdict": "確認單位後直接回傳大哥",
+     "action": {
+      "owner": "West",
+      "text": "確認 ORDER 單位（袋／個）後把檔案傳回大哥"
+     }
+    }
+   ]
+  },
+  {
+   "title": "🔥 今日情報",
+   "items": [
+    {
+     "title": "🆕 バンプレくじ PREMIUM 火影忍者 疾風傳 漩渦鳴人：店頭預約只到 10/12",
+     "body": "2027/02/27 發售、**1 回 10,000 円**、遊戲中心限定；火影 **首次進 PREMIUM 線**（前作都是航海王：薩波／羅傑／索隆／羅／克洛克達爾）。高單價＝限量配額制，晚問就沒量。\n火影忍者 本庫庫存 7,286 筆｜雷達 56 分。",
+     "score": 56,
+     "link": "https://bsp-prize.jp/campaign/341/",
+     "q": "火影忍者 漩渦鳴人",
+     "tags": [
+      "景品",
+      "火影忍者",
+      "PREMIUM"
+     ],
+     "thread": "naruto-premium",
+     "thread_title": "PREMIUM 火影 漩渦鳴人（店頭預約至 10/12）",
+     "verdict": "本週向經銷問配額；10/12 後就收",
+     "action": {
+      "owner": "West",
+      "text": "10/12 前向經銷確認 PREMIUM 火影 配額"
+     },
+     "img": "https://img.shoplineapp.com/media/image_clips/665d99b780d3d10022400a7e/original.jpg?1717410230"
+    },
+    {
+     "title": "🆕 SEGA 景品 2027/1〜3 月 lineup 公開：77 品（公仔 40），本庫全未入庫",
+     "body": "本庫 SEGA 景品最新只到 2026/09。量大的 IP：\n・**鬼滅之刃**（庫存 5,013）FIGURIZMα 炭治郎「通透世界」2 月／義勇「生生流轉」3 月＋寝そべり Vol.1〜5\n・**咒術迴戰 死滅迴游**（4,195）Luminasta 禪院直哉 1 月／直哉 幼少 3 月／GigantiX 伏黑甚爾 回想 3 月\n・**新劇場版 EVA**（3,870）FIGURIZMα 綾波零（暫稱）戰鬥服 2 月＋XStellar 綾波／明日香 制服 3 月\n・**JOJO 石之海**（2,708）XrossLinkMAX 徐倫／普奇 2 月\n・**蔚藍檔案**（2,207）XStellar Happy Valentine!! 梓／日富美 1 月、小春／花子 2 月\n・**BanG Dream! Ave Mujica** Yumemirize 睡衣派對 1〜3 月分批、可湊齊\n另有 莉可麗絲 瀧奈／千束、犬夜叉 殺生丸、攻殼機動隊 素子、快打旋風6、〈物語〉系列。BANPRESTO 1〜2 月 9/5 已下單，SEGA 同季型錄應已發或即將發。\n完整清單：`爬蟲資料/ip_news/segaplaza_2027Q1_lineup_261005.json`",
+     "score": 56,
+     "link": "https://segaplaza.jp/special/column/e1042ff523172e1b9527314447225be8/",
+     "q": [
+      "鬼滅之刃 炭治郎",
+      "咒術迴戰"
+     ],
+     "tags": [
+      "景品",
+      "SEGA",
+      "2027Q1"
+     ],
+     "thread": "sega-2027q1",
+     "thread_title": "SEGA 景品 2027/1〜3 月 lineup",
+     "verdict": "要型錄排量；鬼滅／咒術／EVA 三條量最大",
+     "action": {
+      "owner": "West",
+      "text": "向麗英／大哥要 SEGA 2027/1〜3 月型錄"
+     },
+     "img": "https://img.fantaskycdn.com/80a4e3027399c5f010fc5367794d99e1.jpg"
+    },
+    {
+     "title": "⚠️ 12 月檔漏列補回：一番賞 蔚藍檔案 vol.4（12/26，5 尊 1/7 Gracemaster 禮服）",
+     "body": "A 亞瑠／B 佳代子／C 亞子／D 沙織／最後賞 日奈，全 1/7 Gracemaster 禮服 5 尊，850 円。pipeline 有登記但缺訂貨窗欄位，10/04 的 12 月檔清單漏掉它。\n12 月檔公仔密度最高：**蔚藍 vol.4 ≈ 五等分 beachside（五姊妹 5 尊）＞ EVA 破（4 尊）**——跟其他 12 月檔一起在 **10 月中旬前**決定。蔚藍檔案 本庫庫存 2,207｜雷達 56 分。\nEVA 破 https://1kuji.com/products/eva20 ｜ 五等分 https://1kuji.com/products/5Hanayome22",
+     "score": 56,
+     "link": "https://1kuji.com/products/bluearchive4",
+     "q": "蔚藍檔案",
+     "tags": [
+      "一番賞",
+      "12 月檔",
+      "蔚藍檔案"
+     ],
+     "thread": "kuji-dec",
+     "thread_title": "12 月一番賞訂貨窗（10 月中旬前）",
+     "verdict": "併入 12 月檔一起排量，別漏單",
+     "img": "https://assets.1kuji.com/uploads/product/top_banner/10781/e51116f3-1105-4889-ba53-b775b4cb3875.webp"
+    },
+    {
+     "title": "🆕 一番賞 2027/03 檔首檔：七龍珠 DRAGONBALL SNAP COLLECTION3",
+     "body": "3 月中旬、800 円。A 布瑪＆悟空（布瑪約 21cm）／B 特南克斯＆布瑪＆嬰兒特南克斯／C 樂平＆普亞爾／D 蘭琪 全 2 種／最後賞 悟空＆布瑪；E〜I 未公開。SNAP COLLECTION 第 3 彈（1＝2024/09、2＝2025/11 皆已入庫）。\n七龍珠 本庫庫存 15,202｜56 分｜訂貨窗預估 11〜12 月（3 月檔月度預購單）。",
+     "score": 56,
+     "link": "https://1kuji.com/products/db_sc3",
+     "q": "七龍珠 SNAP COLLECTION",
+     "tags": [
+      "一番賞",
+      "七龍珠",
+      "2027/03"
+     ],
+     "thread": "kuji-2027-03",
+     "thread_title": "2027/03 一番賞檔期",
+     "verdict": "情報級；10/18 雷達回查 E〜I 賞"
+    },
+    {
+     "title": "本週日本登場景品（10/6〜10/14）：社群預熱素材",
+     "body": "藥師少女的獨語 貓貓、刃牙 範馬勇次郎 Grandista、火影忍者 VIBRATION STARS、BLEACH MAXIMATIC 石田雨龍、JOJO 花京院、七龍珠超 MATCH MAKERS、我英 THE AMAZING HEROES、藍色監獄 御影玲王、一拳超人 MAXIMATIC 琦玉。\n日本登場＝社群第一波預熱；行事曆＋一鍵文案在 `輸出/景品行事曆/index.html`。",
+     "link": "https://bsp-prize.jp/schedule/",
+     "q": "BLEACH 石田雨龍",
+     "tags": [
+      "景品",
+      "BANPRESTO",
+      "預熱"
+     ],
+     "verdict": "情報級，拿來排社群貼文"
+    }
+   ]
+  },
+  {
+   "title": "⏰ 要截止",
+   "items": [
+    {
+     "title": "今天 10 點起：兩套排程第 2 天撞車（品質官→品牌官），今早 A 套「已收斂」是誤判",
+     "body": "看門狗今天排程窗又跑 2 輪（08:20 A／08:24 B）＝W13 🔴 連 2 天；A 輪寫的「今日 1 輪＝已收斂」跑在 B 輪之前，作廢。你今天收到的也是**第二封晨報**（08:46 A 套純文字／08:55 B 套＝本封圖文版）。\n**今天撞車時刻**：10 點起品質官兩套各跑一次（rollover＋audit＋週報都跑兩次、同寫 crawl_state.json）→ 10:30／10:34 品牌官（同一份 20 牌名單同寫品牌 xlsx，無檔案鎖）→ 21:00／21:04 行情、21:30／21:39 晚報。**本週週排程也會雙跑**：週二翻譯官、週三一番賞快報（同寫 一番賞.xlsx、續編 KUJ 號）、週四開拓官、週五大掃除（sync_fg --all＋db 重建）。\n10/04 兩班都碰過的 MuckleM／GK-SCC 已抽驗：網址、SKU 重複 0，昨天沒毀檔。\n**看門狗傾向留 A 關 B**：A 9/24 起值勤、獨有酷比樂週報、10/04 品牌官真的巡了 3 牌；B 10/04 品牌官 Chrome 被擋 0/20、週排程 9/24〜10/03 停用。留 A 的話，A 的晨／晚報 prompt 要改走 brief_render（今天 08:46 那封仍是純文字）。",
+     "tags": [
+      "排程",
+      "警報"
+     ],
+     "thread": "dual-schedule",
+     "verdict": "回「關 B 套」即停用 Cowork 這 11 支；明早 W13 只剩 1 輪＝驗收",
+     "action": {
+      "owner": "West",
+      "text": "回「關 B 套」（或到 A 那邊關同名排程），最好在 10 點品質官前"
+     }
+    },
+    {
+     "title": "本週：11 月檔一番賞收窗（第 2 次提醒）＋EVA 破 決策窗已到",
+     "body": "經銷 11 月檔訂貨窗預估 9 月下旬〜10 月上旬＝**本週收**。優先序不變（看公仔密度）：**JOJO RIVALS（7 尊全 MASTERLISE）＞ 我英 -她們的故事-（5 尊）＞ 七龍珠 FA3（IP 最大但 B〜I 未刊）＞ 鋼彈 UC INTERLUDE**；航海王 あにまる大集合 是雜貨彈，勿依 IP 規模重訂。https://1kuji.com/products/jojo_26 \nEVA 破（12/05，4 尊公仔）上回定「決策窗到 10 月初」＝已到，進／不進可跟 12 月檔一起回（見 🔥 蔚藍 vol.4）。https://1kuji.com/products/eva20",
+     "link": "https://1kuji.com/products/jojo_26",
+     "tags": [
+      "一番賞",
+      "11 月檔",
+      "截止"
+     ],
+     "thread": "kuji-nov",
+     "verdict": "本週下單；拆賞看 JOJO RIVALS／我英",
+     "action": {
+      "owner": "West",
+      "text": "本週內對經銷下 11 月檔一番賞訂單"
+     },
+     "img": "https://assets.1kuji.com/uploads/product/top_banner/10771/45e9d075-428f-45a8-bc7a-6a553a40caa0.webp"
+    },
+    {
+     "title": "官方截止 3 天內：無｜10/08（四）白鬍子 VAH Ver.1.5 開約",
+     "body": "PVC 官方截止最近仍是 **11/4 GSC 未花(泳裝) 1/7**、**11/18 ALTER 米浴**，不在 3 天內。\n**10/08（四）開約**：ONE PIECE VAH 白鬍子 Ver.1.5（MegaHouse）https://figsoku.net/ \n**10/08** 酷比樂週報下一輪（10/01 失敗主因＝排程沒掛資料夾，看這輪成不成）｜**下週一 10/12** PREMIUM 火影 店頭預約截止（見 🔥）",
+     "q": "白鬍子 VAH",
+     "tags": [
+      "截止",
+      "PVC"
+     ],
+     "verdict": "3 天內無官方截止；最近的硬期限是 10/12 火影 PREMIUM"
+    }
+   ]
+  },
+  {
+   "title": "🔔 要你動手",
+   "items": [
+    {
+     "title": "看門狗 FAIL 3／WARN 8：雙軌和夜跑之外，其餘都是一句話的事",
+     "body": "・**夜跑積壓 1,522 筆連 14 天沒出口**（OrzGK 1,519，最久 30 天；AUTO_MERGE=0）→ 回「**消化夜跑 staged**」\n・**12 牌巡邏連 41 天被擋**，已派工 26 牌進 Chrome 待辦（前 5：Sideshow 7,040／BeastKingdom 1,545／HotToys 1,437／Furyu 1,396／Threezero 616）→ 開有 Chrome 的對話說「**跑 Chrome 待辦**」\n・**缺口工單**：miHoYo／HoYoverse 收編（25 天）→ 回「收」或「不收」；另 7 件可執行 → 說「**清缺口工單**」\n・**酷比樂週報排程**要掛「商品資料庫」資料夾，否則 10/08 可能再失敗\n・Medicom 夜跑抓到的 15,473 筆是另一通路（store. vs www.），不可直接 merge，已在缺口工單（30 天）",
+     "tags": [
+      "看門狗",
+      "積壓"
+     ],
+     "thread": "backlog-three-lines",
+     "verdict": "全是一句話就能動的事，不需要再討論",
+     "action": {
+      "owner": "West",
+      "text": "挑一句回：消化夜跑 staged／跑 Chrome 待辦／miHoYo 收或不收"
+     }
+    }
+   ]
+  },
+  {
+   "title": "🤖 今日系統",
+   "items": [
+    {
+     "title": "品牌官今日預巡 20 牌｜前 5：BANDAI-Hobby 48d／Sideshow 40d／Furyu 40d／revolve 36d／p-bandai TW 36d",
+     "body": "新鮮度（220 牌）：✅7 天內 **29**｜🟡8-30 天 **177**｜🔴>30 天 **14**（🔴 昨 14，±0；✅ 斷崖原因見 🌙）。分線：runner 17 全 🟡｜聚合 62 全 🟡｜Chrome 135 ✅29 🟡93 🔴13｜通路 6 🟡5 🔴1（熱血模玩 sitemap 0 筆，9/29 已重排、待換抓法）。\n腳本估「18 牌/日、紅燈 1 天清空」**不可信**：🔴 多是被擋牌，要 Chrome 待辦開工才動；🟡 177 要夜跑醒來才會整批回綠。\n昨天品牌官：A 班巡 3 牌入庫 275 筆（GK-SCC 268 筆中 F 空 21、缺英文名 16＝🟡 待翻譯官；MuckleM 7）；B 班 Chrome 授權被拒巡 0 牌，改做入庫複核（MuckleM 刪 1 筆重複列）。\n⚠️ 10:30／10:34 若雙軌未關，兩班會搶同一份名單。資料庫規模 230 品牌／363,178 筆。",
+     "tags": [
+      "巡邏",
+      "新鮮度"
+     ],
+     "thread": "patrol",
+     "verdict": "🟡 暴增是夜跑停擺的直接後果，不是巡邏量不夠"
+    }
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "owner": "West",
+   "text": "回「關 B 套」或到 A 關同名排程（最好在今天 10 點品質官前）",
+   "thread": "dual-schedule"
+  },
+  {
+   "owner": "West",
+   "text": "雙擊一次 輸出/夜跑急救.command（10/03 新版）",
+   "thread": "runner-down"
+  },
+  {
+   "owner": "West",
+   "text": "本週內對經銷下 11 月檔一番賞訂單（拆賞看 JOJO RIVALS／我英）",
+   "thread": "kuji-nov"
+  },
+  {
+   "owner": "West",
+   "text": "本週回 EVA 破：進／不進（可跟 12 月檔一起）",
+   "thread": "eva20"
+  },
+  {
+   "owner": "West",
+   "text": "10/12 前向經銷確認 PREMIUM 火影 配額",
+   "thread": "naruto-premium"
+  },
+  {
+   "owner": "West",
+   "text": "向麗英／大哥要 SEGA 2027/1〜3 月型錄",
+   "thread": "sega-2027q1"
+  },
+  {
+   "owner": "West",
+   "text": "確認單位後把 TTA ORDER 檔傳回大哥",
+   "thread": "dahge-gacha-2701"
+  }
+ ],
+ "tomorrow": [
+  "行情官 21:00：先把 CX-00 的 10/02–03 兩筆移回 CX-00-EVA 再出漲跌榜（不然假報 +122%）",
+  "看門狗明早：對帳 10/04 晚報——兩套晚報班都觸發，Gmail 只收到 1 封（02:34），查是哪套沒寄",
+  "雷達：10/07 回查 Prime 1 四連發／咲 プライズ／NLS XIX；10/10 PREMIUM 火影；10/12 SEGA 2027Q1；10/15 一番賞 2027/01 賞位",
+  "晚報班 21:30：品牌官戰果＋陀螺行情；若雙軌未關，對帳 crawl_state.json 與品牌 xlsx 列數"
+ ],
+ "refs": [
+  {
+   "label": "IP 雷達 digest 261005（含 B 輪急件）",
+   "path": "爬蟲資料/ip_news/digest_261005.md"
+  },
+  {
+   "label": "看門狗 261005",
+   "path": "輸出/健檢/261005_watchdog.md"
+  },
+  {
+   "label": "看門狗 B 輪警報（本期夾帶）",
+   "path": "輸出/日報/261005_看門狗警報_未寄出.已隨晨報寄出.md"
+  },
+  {
+   "label": "SEGA 2027Q1 景品 77 品清單",
+   "path": "爬蟲資料/ip_news/segaplaza_2027Q1_lineup_261005.json"
+  },
+  {
+   "label": "大哥 TTA ORDER 檔",
+   "path": "預購圖/大哥/26.10月_扭蛋/BANDAI_ TTA CP JAN-MARCH 2027_ORDER.xlsx"
+  },
+  {
+   "label": "陀螺行情 10/04 掃描摘要",
+   "path": "爬蟲資料/行情/脆_raw_261004.txt"
+  },
+  {
+   "label": "市場週報 #13（260928）",
+   "path": "大腦/週報/260928.md"
+  }
+ ],
+ "signoff": "資訊官晨報班（B 套 08:55）｜今天第二封晨報（08:46 A 套純文字版已寄出）｜昨夜無 runner log、佇列無新執行（熱血模玩 9/29 已重排在案，不重複排）｜信箱無新 Code 指令｜看門狗 B 輪未寄出警報已併入本期｜圖文版遠端連結要等夜跑醒來發布才點得開，先看本機 輸出/報告/晨晚報/261005_am.html",
+ "id": "261005_am",
+ "hero": {
+  "img": "https://img.shoplineapp.com/media/image_clips/665d99b780d3d10022400a7e/original.jpg?1717410230",
+  "link": "https://bsp-prize.jp/campaign/341/",
+  "caption": "🆕 バンプレくじ PREMIUM 火影忍者 疾風傳 漩渦鳴人：店頭預約只到 10/12",
+  "auto": true
+ }
+}

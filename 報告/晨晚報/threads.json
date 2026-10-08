@@ -83,9 +83,49 @@
     "issue": "260926_pm",
     "anchor": "actions",
     "note": "檢查 Mac 端 launchd/cron 排程與睡眠設定（runner 斷線 4 天，本月第二次）"
+   },
+   {
+    "issue": "261004_am",
+    "anchor": "actions",
+    "note": "按一次 10/03 新版 輸出/夜跑急救.command，選 pmset 定時開機"
+   },
+   {
+    "issue": "261005_am",
+    "anchor": "actions",
+    "note": "雙擊一次 輸出/夜跑急救.command（10/03 新版）"
+   },
+   {
+    "issue": "261005_pm",
+    "anchor": "actions",
+    "note": "在 Mac 雙擊一次 輸出/夜跑急救.command（10/03 新版）"
+   },
+   {
+    "issue": "261006_am",
+    "anchor": "actions",
+    "note": "在 Mac 雙擊一次 輸出/夜跑急救.command（10/03 新版）"
+   },
+   {
+    "issue": "261006_pm",
+    "anchor": "actions",
+    "note": "在 Mac 雙擊一次 輸出/夜跑急救.command"
+   },
+   {
+    "issue": "261007_am",
+    "anchor": "actions",
+    "note": "在 Mac 雙擊一次 輸出/夜跑急救.command"
+   },
+   {
+    "issue": "261007_pm",
+    "anchor": "actions",
+    "note": "在 Mac 雙擊一次 輸出/夜跑急救.command"
+   },
+   {
+    "issue": "261008_am",
+    "anchor": "actions",
+    "note": "今天把 bash 加進完整取用磁碟"
    }
   ],
-  "last": "260926_pm"
+  "last": "261008_am"
  },
  "kuji-oct-4sets": {
   "title": "10 月下旬四套賞別待公開",
@@ -177,9 +217,29 @@
     "issue": "260918_am",
     "anchor": "actions",
     "note": "EVA 破 12 月檔：進／不進（決策窗到 10 月初）"
+   },
+   {
+    "issue": "261004_am",
+    "anchor": "actions",
+    "note": "本週回 EVA 破 12 月檔：進／不進"
+   },
+   {
+    "issue": "261005_am",
+    "anchor": "actions",
+    "note": "本週回 EVA 破：進／不進（可跟 12 月檔一起）"
+   },
+   {
+    "issue": "261005_pm",
+    "anchor": "actions",
+    "note": "本週回 EVA 破 進／不進（可併 12 月檔，10 月中旬前）"
+   },
+   {
+    "issue": "261006_am",
+    "anchor": "actions",
+    "note": "本週回 EVA 破 進／不進（可併 12 月檔，10 月中旬前）"
    }
   ],
-  "last": "260918_am"
+  "last": "261006_am"
  },
  "chrome-todo": {
   "title": "Chrome 待辦積壓",
@@ -368,9 +428,34 @@
     "issue": "260919_am",
     "anchor": "actions",
     "note": "大哥 26.09 第二批：半箱 Grandista 凱茲＋佐助 II，其餘萬榮單隻——同意就回單"
+   },
+   {
+    "issue": "261004_am",
+    "anchor": "it7",
+    "note": "成套款適合整組進；TAITO 11 月最快變現"
+   },
+   {
+    "issue": "261006_am",
+    "anchor": "actions",
+    "note": "10/08 前在酷比樂週報排程掛「商品資料庫」資料夾＋勾「需要這台電腦」"
+   },
+   {
+    "issue": "261006_pm",
+    "anchor": "actions",
+    "note": "10/08 前到排程設定給酷比樂週報掛上「商品資料庫」資料夾"
+   },
+   {
+    "issue": "261007_am",
+    "anchor": "actions",
+    "note": "今天在酷比樂週報排程掛「商品資料庫」資料夾＋勾「需要這台電腦」"
+   },
+   {
+    "issue": "261007_pm",
+    "anchor": "actions",
+    "note": "明天週報前給酷比樂週報排程掛「商品資料庫」資料夾"
    }
   ],
-  "last": "260919_am"
+  "last": "261007_pm"
  },
  "pbandai-gap": {
   "title": "p-bandai 7,180 缺口專案",
@@ -564,9 +649,14 @@
     "issue": "260921_pm",
     "anchor": "it2",
     "note": "列觀察 4 檔，等景品廠首發訊號再拉高分數"
+   },
+   {
+    "issue": "261005_pm",
+    "anchor": "it2",
+    "note": "獵人 11 月照原量；JOJO 全年有貨；薰香花朵 等首發公告"
    }
   ],
-  "last": "260921_pm"
+  "last": "261005_pm"
  },
  "beyblade-ux": {
   "title": "陀螺 UX 線行情",
@@ -577,9 +667,34 @@
     "issue": "260921_pm",
     "anchor": "it4",
     "note": "脆二手 UX 線三筆 ≥5%（全 TWD，樣本已過濾單樣本）"
+   },
+   {
+    "issue": "261005_am",
+    "anchor": "it2",
+    "note": "戰神伏特 真跌 15%；CX-00 先拆碼再出漲跌榜"
+   },
+   {
+    "issue": "261005_pm",
+    "anchor": "it4",
+    "note": "魔導神杖真跌（8 源）；戰神伏特止跌 4,000；其餘三筆基準過舊"
+   },
+   {
+    "issue": "261006_pm",
+    "anchor": "it4",
+    "note": "⚠️ 這四筆漲跌要打折看：惡魔幽冥 +28%、鮫鯊狂鱗頂重 ±32%、金神杖 −44%、藍空力 −14%"
+   },
+   {
+    "issue": "261007_pm",
+    "anchor": "it5",
+    "note": "UX-17、紅空力頂重的漲是假的；比賽週高價款不急賣"
+   },
+   {
+    "issue": "261008_pm",
+    "anchor": "it4",
+    "note": "金神杖有貨可掛高、別進；鯊魚散刃 1,000 內收"
    }
   ],
-  "last": "260921_pm"
+  "last": "261008_pm"
  },
  "patrol": {
   "title": "品牌巡邏新鮮度",
@@ -600,9 +715,49 @@
     "issue": "260923_am",
     "anchor": "it7",
     "note": "🔴 0 維持；9/22 復跑把 ✅ 從 114 拉到 184"
+   },
+   {
+    "issue": "261004_am",
+    "anchor": "it11",
+    "note": "🔴14 卡在 Chrome lane，不是巡邏量不夠"
+   },
+   {
+    "issue": "261005_am",
+    "anchor": "it13",
+    "note": "🟡 暴增是夜跑停擺的直接後果，不是巡邏量不夠"
+   },
+   {
+    "issue": "261005_pm",
+    "anchor": "it6",
+    "note": "瓶頸是排程與夜跑，不是名單；GSC／SEGAFave 10/10 轉紅前要排進名單"
+   },
+   {
+    "issue": "261006_am",
+    "anchor": "it12",
+    "note": "🔴14 持平；A 套 ✅32 是 UTC 誤差，以台灣時間 ✅14 為準"
+   },
+   {
+    "issue": "261006_pm",
+    "anchor": "it5",
+    "note": "🔴 結構性底 8；GSC／MaxFactory／SEGAFave 等 9 牌要在 10/09 前巡到"
+   },
+   {
+    "issue": "261007_am",
+    "anchor": "actions",
+    "note": "10:30 班把 revolve／p-bandai TW／Plusone／HotToys／Cavico 換成 ActionToys／Figurama Collectors／GSC／MaxFactory／SEGAFave"
+   },
+   {
+    "issue": "261007_pm",
+    "anchor": "actions",
+    "note": "10/08 先巡 10/10 轉紅的 8 牌（GSC／MaxFactory／SEGAFave／Alpha×Omega／Hertz／FireGirlToys／CGLToys／BLACKBOX）"
+   },
+   {
+    "issue": "261008_pm",
+    "anchor": "it5",
+    "note": "紅燈預計 1 天後清空；豆魚雷 200 筆交翻譯官"
    }
   ],
-  "last": "260923_am"
+  "last": "261008_pm"
  },
  "disney-coco-kuji": {
   "title": "迪士尼 可可夜總會 一番くじ",
@@ -675,9 +830,29 @@
     "issue": "260926_pm",
     "anchor": "it10",
     "note": "🟡 三條積壓線持續掛著：夜跑 staged 1,038 筆／Chrome 通路 35 天／缺口工單 7 件"
+   },
+   {
+    "issue": "261004_am",
+    "anchor": "it10",
+    "note": "全是一句話就能動的事，不需要再討論"
+   },
+   {
+    "issue": "261005_am",
+    "anchor": "it12",
+    "note": "全是一句話就能動的事，不需要再討論"
+   },
+   {
+    "issue": "261005_pm",
+    "anchor": "it11",
+    "note": "miHoYo 不用回；其餘兩句挑一句"
+   },
+   {
+    "issue": "261006_pm",
+    "anchor": "it10",
+    "note": "miHoYo 不用回；夜跑 staged／Chrome 待辦 各一句話"
    }
   ],
-  "last": "260926_pm"
+  "last": "261006_pm"
  },
  "kuji-nov": {
   "title": "11 月一番くじ 訂貨窗",
@@ -688,9 +863,54 @@
     "issue": "260923_am",
     "anchor": "actions",
     "note": "本週決定 11 月一番くじ 前 4 檔（七龍珠 FA3／JOJO RIVALS／鋼彈 UC INTERLUDE／我英 彼女たち）進不進、各幾套"
+   },
+   {
+    "issue": "261004_am",
+    "anchor": "actions",
+    "note": "本週內對經銷下 11 月檔一番賞訂單（拆賞看 JOJO RIVALS／我英）"
+   },
+   {
+    "issue": "261005_am",
+    "anchor": "actions",
+    "note": "本週內對經銷下 11 月檔一番賞訂單（拆賞看 JOJO RIVALS／我英）"
+   },
+   {
+    "issue": "261005_pm",
+    "anchor": "actions",
+    "note": "本週內對經銷下 11 月檔一番賞（拆賞看 JOJO RIVALS／我英）"
+   },
+   {
+    "issue": "261006_am",
+    "anchor": "actions",
+    "note": "本週內對經銷下 11 月檔一番賞（拆賞看 JOJO RIVALS／我英）"
+   },
+   {
+    "issue": "261006_pm",
+    "anchor": "actions",
+    "note": "本週內對經銷下 11 月檔一番賞；10/12 前確認 PREMIUM 火影 配額"
+   },
+   {
+    "issue": "261007_am",
+    "anchor": "actions",
+    "note": "本週（10/10 前）跟經銷確認 11 月檔一番賞配額，含鋼彈 UC INTERLUDE"
+   },
+   {
+    "issue": "261007_pm",
+    "anchor": "actions",
+    "note": "10/10 前確認 11 月檔一番賞配額（含 UC INTERLUDE）；10/12 前確認 PREMIUM 火影"
+   },
+   {
+    "issue": "261008_am",
+    "anchor": "actions",
+    "note": "10/10 前跟經銷定 11 月檔一番賞配額"
+   },
+   {
+    "issue": "261008_pm",
+    "anchor": "actions",
+    "note": "10/10 前跟經銷定 11 月檔一番賞配額"
    }
   ],
-  "last": "260923_am"
+  "last": "261008_pm"
  },
  "kuji-nov-dec": {
   "title": "11-12 月一番くじ訂貨窗仍在倒數：優先序不變",
@@ -717,5 +937,469 @@
    }
   ],
   "last": "260926_pm"
+ },
+ "kuji-2027-01": {
+  "title": "2027/01 一番賞訂貨窗",
+  "status": "open",
+  "first": "261004_am",
+  "entries": [
+   {
+    "issue": "261004_am",
+    "anchor": "it4",
+    "note": "孤獨搖滾 VOL.5（五尊 Gracemaster）最值得先排量；其餘等 10/15 賞位"
+   }
+  ],
+  "last": "261004_am"
+ },
+ "kuji-2027-02": {
+  "title": "2027/02 一番賞檔期",
+  "status": "open",
+  "first": "261004_am",
+  "entries": [
+   {
+    "issue": "261004_am",
+    "anchor": "it5",
+    "note": "情報級；10/18 雷達回查賞位"
+   },
+   {
+    "issue": "261006_am",
+    "anchor": "it4",
+    "note": "2 月檔一起評估：Royal Princess（2/05）＋我英體育祭"
+   },
+   {
+    "issue": "261007_am",
+    "anchor": "it1",
+    "note": "15 套全入庫、列級🟢80；2027/02 情報級，2/5〜2/13 三套公仔重套連開"
+   },
+   {
+    "issue": "261008_am",
+    "anchor": "it4",
+    "note": "重點檔：先向經銷卡位，E 賞以下公開再定量"
+   }
+  ],
+  "last": "261008_am"
+ },
+ "swf2026": {
+  "title": "上海 WF 2026 新作→予約追蹤",
+  "status": "open",
+  "first": "261004_am",
+  "entries": [
+   {
+    "issue": "261004_am",
+    "anchor": "it6",
+    "note": "PVC 情報級，等予約開再看價"
+   }
+  ],
+  "last": "261004_am"
+ },
+ "dual-schedule": {
+  "title": "兩套排程並行（W13）",
+  "status": "open",
+  "first": "261004_am",
+  "entries": [
+   {
+    "issue": "261004_am",
+    "anchor": "actions",
+    "note": "留下那套的晨／晚報 prompt 改成「走 crawlers/brief_render.py」；酷比樂週報排程掛上資料夾"
+   },
+   {
+    "issue": "261005_am",
+    "anchor": "actions",
+    "note": "回「關 B 套」或到 A 關同名排程（最好在今天 10 點品質官前）"
+   },
+   {
+    "issue": "261005_pm",
+    "anchor": "actions",
+    "note": "回「關 B 套」，並在 A 套晨／晚報 prompt 補「一律走 crawlers/brief_render.py」"
+   },
+   {
+    "issue": "261006_am",
+    "anchor": "actions",
+    "note": "回「關 B 套」或「關 A 套」（最好在 10:30 撞車窗前）；留 A 套就在它的晨／晚報 prompt 補「一律走 crawlers/brief_render.py」"
+   },
+   {
+    "issue": "261006_pm",
+    "anchor": "actions",
+    "note": "回「關 B 套」，關前在 A 套晨／晚報 prompt 補「一律走 crawlers/brief_render.py」"
+   },
+   {
+    "issue": "261007_am",
+    "anchor": "actions",
+    "note": "回「關 B 套」（週五 09:01 大掃除前）；關前在 A 套晨／晚報 prompt 補「一律走 crawlers/brief_render.py」"
+   },
+   {
+    "issue": "261007_pm",
+    "anchor": "actions",
+    "note": "回「關 B 套」（週五 09:01 前）；關前在 A 套晨／晚報 prompt 補「一律走 crawlers/brief_render.py」"
+   },
+   {
+    "issue": "261008_am",
+    "anchor": "actions",
+    "note": "明早 9 點前關 9/24 那組排程"
+   },
+   {
+    "issue": "261008_pm",
+    "anchor": "actions",
+    "note": "明早 9 點前關 9/24 那組排程"
+   }
+  ],
+  "last": "261008_pm"
+ },
+ "dahge-gacha-2701": {
+  "title": "大哥扭蛋單 2027/1〜3 月",
+  "status": "open",
+  "first": "261005_am",
+  "entries": [
+   {
+    "issue": "261005_am",
+    "anchor": "actions",
+    "note": "確認單位後把 TTA ORDER 檔傳回大哥"
+   },
+   {
+    "issue": "261005_pm",
+    "anchor": "actions",
+    "note": "確認 TTA ORDER 單位（袋／個）後回傳大哥"
+   },
+   {
+    "issue": "261006_am",
+    "anchor": "actions",
+    "note": "TTA 扭蛋 ORDER 維持原單（已拍板）→ 確認單位後回傳大哥；已傳就回「TTA 已傳」結案"
+   }
+  ],
+  "last": "261006_am"
+ },
+ "naruto-premium": {
+  "title": "PREMIUM 火影 漩渦鳴人（店頭預約至 10/12）",
+  "status": "open",
+  "first": "261005_am",
+  "entries": [
+   {
+    "issue": "261005_am",
+    "anchor": "actions",
+    "note": "10/12 前向經銷確認 PREMIUM 火影 配額"
+   },
+   {
+    "issue": "261005_pm",
+    "anchor": "actions",
+    "note": "10/12 前向經銷確認 PREMIUM 火影 配額"
+   },
+   {
+    "issue": "261006_am",
+    "anchor": "actions",
+    "note": "10/12 前向經銷確認 PREMIUM 火影 配額"
+   },
+   {
+    "issue": "261007_am",
+    "anchor": "actions",
+    "note": "10/12 前向經銷確認 PREMIUM 火影 配額"
+   },
+   {
+    "issue": "261008_am",
+    "anchor": "actions",
+    "note": "10/12 前確認 PREMIUM 火影配額"
+   },
+   {
+    "issue": "261008_pm",
+    "anchor": "actions",
+    "note": "10/12 前確認 PREMIUM 火影配額"
+   }
+  ],
+  "last": "261008_pm"
+ },
+ "sega-2027q1": {
+  "title": "SEGA 景品 2027/1〜3 月 lineup",
+  "status": "open",
+  "first": "261005_am",
+  "entries": [
+   {
+    "issue": "261005_am",
+    "anchor": "actions",
+    "note": "向麗英／大哥要 SEGA 2027/1〜3 月型錄"
+   },
+   {
+    "issue": "261005_pm",
+    "anchor": "actions",
+    "note": "向麗英／大哥要 SEGA 2027/1〜3 月型錄"
+   },
+   {
+    "issue": "261006_am",
+    "anchor": "actions",
+    "note": "向麗英／大哥要 SEGA 2027/1〜3 月型錄"
+   }
+  ],
+  "last": "261006_am"
+ },
+ "kuji-dec": {
+  "title": "12 月一番賞訂貨窗（10 月中旬前）",
+  "status": "open",
+  "first": "261005_am",
+  "entries": [
+   {
+    "issue": "261005_am",
+    "anchor": "it6",
+    "note": "併入 12 月檔一起排量，別漏單"
+   },
+   {
+    "issue": "261006_am",
+    "anchor": "it5",
+    "note": "12 月檔劇場版一番賞照 10 月中旬窗口決定；SEGA 兩款跟 11 月景品單"
+   }
+  ],
+  "last": "261006_am"
+ },
+ "kuji-2027-03": {
+  "title": "2027/03 一番賞檔期",
+  "status": "open",
+  "first": "261005_am",
+  "entries": [
+   {
+    "issue": "261005_am",
+    "anchor": "it7",
+    "note": "情報級；10/18 雷達回查 E〜I 賞"
+   },
+   {
+    "issue": "261006_am",
+    "anchor": "it2",
+    "note": "3 月檔第 2 套（幻影旅團①）；訂貨窗預估 11〜12 月，跟七龍珠 SNAP3 同一張單下"
+   }
+  ],
+  "last": "261006_am"
+ },
+ "pvc-1006-1007": {
+  "title": "PVC 近截止：帝王光環 再生產（10/06）／諾亞・妃咲（10/07）",
+  "status": "closed",
+  "first": "261005_pm",
+  "entries": [
+   {
+    "issue": "261005_pm",
+    "anchor": "actions",
+    "note": "10/06 前回壽屋 帝王光環 再生產；10/07 23:59 前回 GSC 諾亞・妃咲（下／不下）"
+   },
+   {
+    "issue": "261006_am",
+    "anchor": "actions",
+    "note": "今天回壽屋 帝王光環 再生產（下／不下）；明晚 23:59 前回 GSC 諾亞・妃咲"
+   },
+   {
+    "issue": "261006_pm",
+    "anchor": "actions",
+    "note": "10/07 23:59 前回 GSC 諾亞・妃咲（下／不下）"
+   },
+   {
+    "issue": "261007_am",
+    "anchor": "actions",
+    "note": "今晚 23:59 前決定 GSC 諾亞・妃咲（下／不下）"
+   },
+   {
+    "issue": "261007_pm",
+    "anchor": "actions",
+    "note": "今晚 22:59 前決定 GSC 截止款（蔚藍三尊／乙骨／凱茲 L）下不下"
+   }
+  ],
+  "last": "261007_pm",
+  "closed_in": "261007_pm"
+ },
+ "furyu-prize-q4": {
+  "title": "Furyu 10〜11 月景品入庫（🟡 待中文名）",
+  "status": "open",
+  "first": "261005_pm",
+  "entries": [
+   {
+    "issue": "261005_pm",
+    "anchor": "it3",
+    "note": "夾娃娃台看三麗鷗／迪士尼絨毛；乙賞只有 6 尊可用"
+   }
+  ],
+  "last": "261005_pm"
+ },
+ "card-site-stale": {
+  "title": "卡牌行情站停更（跟著夜跑）",
+  "status": "open",
+  "first": "261005_pm",
+  "entries": [
+   {
+    "issue": "261005_pm",
+    "anchor": "it7",
+    "note": "站台價格是 9 天前的，夜跑醒來即補"
+   },
+   {
+    "issue": "261006_pm",
+    "anchor": "it6",
+    "note": "站台價格停在 9/27，跟著夜跑"
+   },
+   {
+    "issue": "261007_pm",
+    "anchor": "it7",
+    "note": "±0；卡價要等夜跑醒才會動"
+   },
+   {
+    "issue": "261008_pm",
+    "anchor": "it7",
+    "note": "卡價停更 11 天；夜跑整晚跑完才會動"
+   }
+  ],
+  "last": "261008_pm"
+ },
+ "zh-name-errors": {
+  "title": "譯名錯誤清單（翻譯官）",
+  "status": "open",
+  "first": "261005_pm",
+  "entries": [
+   {
+    "issue": "261005_pm",
+    "anchor": "it10",
+    "note": "先修人物庫 3 條再翻 Furyu 60；F 欄手動"
+   },
+   {
+    "issue": "261006_pm",
+    "anchor": "it11",
+    "note": "人物庫 4 條＋ip_table 7 條待修，下次翻譯官 10/13"
+   },
+   {
+    "issue": "261007_am",
+    "anchor": "it13",
+    "note": "ワンピース→航海王 至少 14 筆（4 筆 IP 也錯）＋一番賞新列 4 處；翻譯官 10/13"
+   },
+   {
+    "issue": "261008_am",
+    "anchor": "it7",
+    "note": "誤標已清；樂平／飲茶統一等 3 項待你定"
+   }
+  ],
+  "last": "261008_am"
+ },
+ "op-film-gv": {
+  "title": "航海王劇場版 GOD VALLEY（2027 夏）連動商品",
+  "status": "open",
+  "first": "261006_am",
+  "entries": [
+   {
+    "issue": "261006_am",
+    "anchor": "it3",
+    "note": "戰略級：今天不用動作，2027/03〜05 連動商品發表期再拍板量"
+   }
+  ],
+  "last": "261006_am"
+ },
+ "radar-s-gap": {
+  "title": "雷達 S 級詞庫漏大片（GAP-261006-01）",
+  "status": "open",
+  "first": "261006_am",
+  "entries": [
+   {
+    "issue": "261006_am",
+    "anchor": "actions",
+    "note": "回「准改雷達詞庫」（GAP-261006-01，補大片關鍵字）"
+   },
+   {
+    "issue": "261007_am",
+    "anchor": "it4",
+    "note": "咒術 120 分＝『完結展』誤觸，實 C 級；雷達詞庫兩頭都要修（S 漏大片／A 誤觸完結展）"
+   }
+  ],
+  "last": "261007_am"
+ },
+ "taito-prize-fix": {
+  "title": "TAITO 景品 78 筆：製造商標錯＋16 筆跨分頁重複",
+  "status": "open",
+  "first": "261006_pm",
+  "entries": [
+   {
+    "issue": "261006_pm",
+    "anchor": "actions",
+    "note": "回「照建議修 TAITO」或「先不動」（刪 16 筆跨分頁重複＋改製造商）"
+   },
+   {
+    "issue": "261007_am",
+    "anchor": "actions",
+    "note": "回「照建議修 TAITO」或「先不動」（刪 16 筆跨分頁重複＋改製造商）"
+   },
+   {
+    "issue": "261007_pm",
+    "anchor": "actions",
+    "note": "回「照建議修 TAITO」或「先不動」（刪 16 筆跨分頁重複＋改製造商）"
+   }
+  ],
+  "last": "261007_pm"
+ },
+ "kuji-backfill": {
+  "title": "一番賞 ±6 月滾動回補（？？？賞位）",
+  "status": "open",
+  "first": "261007_am",
+  "entries": [
+   {
+    "issue": "261007_am",
+    "anchor": "actions",
+    "note": "回補 17 套「？？？」賞位＋estherbunny 全賞（瀏覽器同源 fetch → ichiban_prizes_ingest.py）"
+   }
+  ],
+  "last": "261007_am"
+ },
+ "autodeduct-fail": {
+  "title": "台中店 自動扣庫存（Apps Script）失敗",
+  "status": "open",
+  "first": "261007_pm",
+  "entries": [
+   {
+    "issue": "261007_pm",
+    "anchor": "actions",
+    "note": "對帳台中店 5 個扣庫存失敗時點（9/26、10/01、10/02、10/03、10/06），或回「對帳扣庫存」"
+   },
+   {
+    "issue": "261008_am",
+    "anchor": "actions",
+    "note": "本週內對帳台中店 5 筆扣庫存失敗"
+   },
+   {
+    "issue": "261008_pm",
+    "anchor": "actions",
+    "note": "本週內對帳台中店 5 筆扣庫存失敗"
+   }
+  ],
+  "last": "261008_pm"
+ },
+ "night-staged": {
+  "title": "夜跑積壓 staged（OrzGK 1,519）",
+  "status": "open",
+  "first": "261007_pm",
+  "entries": [
+   {
+    "issue": "261007_pm",
+    "anchor": "actions",
+    "note": "「消化夜跑 staged」放不放（放＝+1,519 筆 minimal，要同時排翻譯官）"
+   },
+   {
+    "issue": "261008_pm",
+    "anchor": "actions",
+    "note": "明早回「消化夜跑 staged」放不放（+1,814 筆）"
+   }
+  ],
+  "last": "261008_pm"
+ },
+ "movie-oct": {
+  "title": "10 月劇場版連映（景品連動）",
+  "status": "open",
+  "first": "261008_am",
+  "entries": [
+   {
+    "issue": "261008_am",
+    "anchor": "it5",
+    "note": "上映期盯景品連動，少女與戰車優先"
+   }
+  ],
+  "last": "261008_am"
+ },
+ "onep-wb-loki": {
+  "title": "航海王 VAH 白鬍子／P.O.P 洛基 開約",
+  "status": "open",
+  "first": "261008_pm",
+  "entries": [
+   {
+    "issue": "261008_pm",
+    "anchor": "it2",
+    "note": "白鬍子可評估下單；洛基走官方通路，當訊號看"
+   }
+  ],
+  "last": "261008_pm"
  }
 }

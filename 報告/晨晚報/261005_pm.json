@@ -1,0 +1,330 @@
+{
+ "kind": "pm",
+ "date": "2026-10-05",
+ "headline": "PVC 兩檔明後天截止：壽屋 帝王光環 再生產（10/06）、GSC 諾亞・妃咲（10/07）",
+ "deck": "圖文版補刊（21:34 純文字版已寄）；魔導神杖 8 源確認跌到 NT$625；夜跑今晚第 9 晚",
+ "kpis": [
+  {
+   "label": "PVC 近截止",
+   "value": "2 檔",
+   "delta": "10/06 壽屋・10/07 GSC"
+  },
+  {
+   "label": "今日入庫",
+   "value": "60 筆",
+   "delta": "Furyu 景品｜🟡 待中文名"
+  },
+  {
+   "label": "新鮮度 🔴>30天",
+   "value": "14",
+   "delta": "昨 14（±0）"
+  },
+  {
+   "label": "魔導神杖 UX-03",
+   "value": "NT$625",
+   "delta": "8 源｜−22%"
+  },
+  {
+   "label": "帶價卡數",
+   "value": "13,441",
+   "delta": "±0（站台停 9/27）"
+  },
+  {
+   "label": "夜跑",
+   "value": "斷 8 晚",
+   "delta": "今晚第 9 晚"
+  }
+ ],
+ "sections": [
+  {
+   "title": "💰 機會",
+   "items": [
+    {
+     "title": "⏰ 明天截止：壽屋 帝王光環 1/7 再生產；後天截止：GSC 生鹽諾亞・龍華妃咲",
+     "body": "**10/06（二）壽屋「確實入手」截止——賽馬娘 帝王光環 1/7 再生產**｜¥22,000（≈NT$4,700）｜2027/02 出貨。再生產＝首販賣完已驗證；賽馬娘全庫 1,039 筆、其中一番賞 195 筆（18.8%），是賞品佔比最高的 IP 之一；價位略超 A 賞成本帶上緣，壽屋直營（CyStore）另有「眨眼臉」購買特典。過了截止就沒有保證量。 https://www.inside-games.jp/article/2026/09/01/187104.html\n**10/07（三）23:59 GSC 官方商城截止——蔚藍檔案 兩檔**：生鹽諾亞 ～内緒の記録～ 1/7 ¥22,000（2027/09） https://www.goodsmile.com/ja/product/1137827 ／龍華妃咲 メモリアルロビーVer. ¥19,800（≈NT$4,240，正中 A 賞成本帶） https://www.goodsmile.com/en/product/1137829 \n兩檔庫內都是 0 筆（GSC G.S.Collection 新線漏收，已交品牌官）。\n同線不急的：GSC 貓貓 1/7 再販 ¥16,000（2027/01 上旬截）、ALTER 愛麗速子 再販（ツルマイ 11/18）、GSC 聖園彌香（泳裝）（11/04）——細節見市場週報 #14。",
+     "score": 70,
+     "link": "https://www.inside-games.jp/article/2026/09/01/187104.html",
+     "q": "帝王光環",
+     "tags": [
+      "PVC",
+      "截止",
+      "賽馬娘",
+      "蔚藍檔案"
+     ],
+     "thread": "pvc-1006-1007",
+     "thread_title": "PVC 近截止：帝王光環 再生產（10/06）／諾亞・妃咲（10/07）",
+     "verdict": "三尊都落在 A 賞成本帶附近；要做乙賞就今晚／明早決定，過了截止沒保證量",
+     "action": {
+      "owner": "West",
+      "text": "10/06 前回帝王光環；10/07 23:59 前回諾亞・妃咲（下／不下）"
+     },
+     "img": "https://s3-ap-northeast-1.amazonaws.com/hobbystock/img/item/00000506731/pc_detail_0.jpg"
+    },
+    {
+     "title": "📚 Oricon 漫畫週榜（9/21–9/27）：獵人 39 卷衝進作品別第 8——11 月檔獵人照原量",
+     "body": "單卷第 1 黑執事 36（46,274 本）、第 2 JOJO 第 9 部 JOJOLands 9（33,144 本）。作品別前 10：黑執事／藍色監獄／JOJO／薰香花朵凜然綻放／入間同學入魔了／女の園の星／王者天下／**獵人**／排球少年!!／吉伊卡哇。\n**生意解讀**：①**獵人回溫**，撐 11/14 一番賞 獵人 CHIMERA ANT ② 再販，加上 Furyu 10 月「ちょぴぬいぷち④」（今天已入庫 FRY-01440），11 月檔照原量即可；庫內獵人約 2,358 筆（另有「獵人×獵人」等異寫 89 筆待統一）。②**JOJO 全年有貨**：11/21 一番賞 RIVALS（7 尊 MASTERLISE）、SEGA 景品 SBR 喬尼／傑洛（10/30）、石之海 徐倫／普奇（2027/02）——乙賞可排一個 JOJO 月。③**供給缺口**：《薰香花朵凜然綻放》作品別第 4，庫內只有 4 筆，一番賞／大廠景品都還沒出；第一個公仔化公告就是先手訊號，先觀察。\n https://www.oricon.co.jp/rank/cbm/w/2026-10-05/ ",
+     "score": 58,
+     "link": "https://www.oricon.co.jp/rank/cbm/w/2026-10-05/",
+     "img": "https://furyuprize.com/files/images/prz/pi-main-22621.webp",
+     "tags": [
+      "Oricon",
+      "獵人",
+      "JOJO",
+      "IP 熱度"
+     ],
+     "thread": "oricon-gap",
+     "verdict": "獵人 11 月照原量；JOJO 全年有貨；薰香花朵 等首發公告"
+    },
+    {
+     "title": "🎪 Furyu 10〜11 月景品 60 款今天入庫：絨毛 48 款撐夾娃娃台，公仔 6 款",
+     "body": "品牌官 A 班比對 Furyu 官方登場表，補進 60 款庫內沒有的 10〜11 月景品（FRY-01397〜01456）。\n**公仔 6**：賽馬娘 Trio-Try-iT 曼城茶座／愛麗速子、出包王女 Trio-Try-iT 茉茉、泡麵蓋公仔（ぬーどるストッパー）勝利女神：妮姬 Noir／明日方舟 德克薩斯 意志ver.／犬夜叉 vol.2。\n**絨毛・吊飾 48**：三麗鷗 17（美樂蒂、酷洛米、大耳狗、Hello Kitty 熊貓）、迪士尼 9（含《聖誕夜驚魂》傑克／零）、Minecraft 2、星之卡比、獵人 ちょぴぬいぷち④、新網球王子 青學 ×2、金色的卡修、青鬼 超 BIG。\n**生意解讀**：經銷問 Furyu 10〜11 月景品時直接對這份；夾娃娃台走量靠三麗鷗／迪士尼絨毛，乙賞能用的只有 6 尊——賽馬娘兩尊剛好跟 PVC 線（愛麗速子 ALTER 再販中）同角，可排主題陳列。\n中文名／IP 欄還是 🟡（交週二翻譯官，注意 ⚠️ 第 3 則）。官方登場表 https://furyuprize.com/schedule ",
+     "score": 52,
+     "link": "https://furyuprize.com/schedule",
+     "img": "https://furyuprize.com/files/images/prz/pi-main-22599.webp",
+     "gallery": [
+      {
+       "name": "賽馬娘 Trio-Try-iT 曼城茶座",
+       "img": "https://furyuprize.com/files/images/prz/pi-main-22599.webp",
+       "link": "https://furyuprize.com/item/22599"
+      },
+      {
+       "name": "賽馬娘 Trio-Try-iT 愛麗速子",
+       "img": "https://furyuprize.com/files/images/prz/pi-main-22600.webp",
+       "link": "https://furyuprize.com/item/22600"
+      },
+      {
+       "name": "出包王女 Trio-Try-iT 茉茉",
+       "img": "https://furyuprize.com/files/images/prz/pi-main-22615.webp",
+       "link": "https://furyuprize.com/item/22615"
+      },
+      {
+       "name": "妮姬 泡麵蓋公仔 Noir",
+       "img": "https://furyuprize.com/files/images/prz/pi-main-22300.webp",
+       "link": "https://furyuprize.com/item/22300"
+      },
+      {
+       "name": "明日方舟 泡麵蓋公仔 德克薩斯 意志ver.",
+       "img": "https://furyuprize.com/files/images/prz/pi-main-22614.webp",
+       "link": "https://furyuprize.com/item/22614"
+      },
+      {
+       "name": "犬夜叉 泡麵蓋公仔 vol.2",
+       "img": "https://furyuprize.com/files/images/prz/pi-main-22843.webp",
+       "link": "https://furyuprize.com/item/22843"
+      }
+     ],
+     "tags": [
+      "景品",
+      "Furyu",
+      "入庫"
+     ],
+     "thread": "furyu-prize-q4",
+     "thread_title": "Furyu 10〜11 月景品入庫（🟡 待中文名）",
+     "verdict": "夾娃娃台看三麗鷗／迪士尼絨毛；乙賞只有 6 尊可用"
+    }
+   ]
+  },
+  {
+   "title": "📈 漲跌",
+   "items": [
+    {
+     "title": "🔻 UX-03 魔導神杖（整盒，NT$）跌到 625：8 個賣家一致，真跌",
+     "body": "Beyblade X 脆成交：10/05 八源 500–750、中位 **625**；10/03 800（−22%）；9/17 還有 1,500（**三週 −58%**）。同日多源收斂、價差小，不是單一賣家喊價。\n**生意解讀**：收購二手魔導神杖別再用 9 月的價；有整盒庫存的，現在成交大約落在 600 上下。\n同系列 UX-03-GOLD 今天只有 1 筆，樣本不夠，明天補交叉。",
+     "tags": [
+      "陀螺",
+      "Beyblade X",
+      "TWD"
+     ],
+     "thread": "beyblade-ux",
+     "verdict": "魔導神杖真跌（8 源）；戰神伏特止跌 4,000；其餘三筆基準過舊"
+    },
+    {
+     "title": "⚠️ 另外三筆「大跌／大漲」要打折看；戰神伏特 7 源站穩 4,000",
+     "body": "・UX-17 隕星龍騎士（整盒）−42%：今天 3 源 670–800 是真價位，但比的是 **27 天前**（9/08 1,200），中間沒資料，跌在哪天不知道。\n・UX-21 惡魔幽冥 改造組（整盒）−30%：只有 2 源（1,000／1,100），基準是 13 天前，中信心。\n・CX-16（整盒）+9%：比的是 10/03 只有 2 源的低點；對 10/02 2,250 其實 −11%，實際在 **2,000–2,250 橫盤**＝雜訊。\n・**CX-00 戰神伏特 S4-70V（整盒）**：7 源 3,500–4,000、中位 4,000（10/04 3,500），上週 −15% 的跌勢**止住**。EVA 改造組 3 源 1,600 持平，港版 10 月下旬到貨，供給還會增加。\n根因：漲跌榜取「最後兩筆」不管隔多久；CX-00 檔裡 10/02–03 兩筆 EVA 還沒移出（明天行情官處理）。",
+     "tags": [
+      "陀螺",
+      "資料品質",
+      "TWD"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "🏭 巡邏戰報",
+   "items": [
+    {
+     "title": "今日巡 3 牌、新品 60 筆｜🔴14（昨 14，±0）——照實際速度，🔴 不會自然清空",
+     "body": "A 套 10:30 班巡 3 牌：Furyu 入庫 **60 筆 🟡**（中文名／IP 待翻譯）、JNDStudios 0（API 76 筆＝庫內 76）、IronStudios 1 筆疑新（Magneto 1/4 預購，留夜跑）。B 套 10:34 班 **0/20**（Chrome 動作授權被拒，連 2 天，見 ⚠️）。\n新鮮度（220 牌）：✅7 天內 **32**（今晨 29，+3＝今天巡的 3 牌）｜🟡 **174**｜🔴 **14**（昨 14，±0）。\n**預計清空日**：腳本寫「18 牌/日、1 天清空」是用 20 牌/日算的，這 4 天實際只有 1〜3 牌/日。🔴14 裡 GKResinStatues 已停業（永遠清不掉），其餘 13 牌照 3 牌/日、名單先排紅燈牌，最快 **10/10**；但 10/10 當天又有 9 牌滿 30 天轉紅（**GSC／MaxFactory／SEGAFave**、Alpha×Omega、BLACKBOX、CGLToys、FLAGSET、FireGirlToys、Hertz）。B 套關掉（或修好 Chrome 授權）＋夜跑醒來之前，🔴 會卡在 10〜14。\n未巡主因：TAITO 官網找不到新品列表入口；Mamegyorai 首頁 200 筆有 173 筆不在庫（要走 chunk 管線，日巡做不完）。",
+     "tags": [
+      "巡邏",
+      "新鮮度"
+     ],
+     "thread": "patrol",
+     "verdict": "瓶頸是排程與夜跑，不是名單；GSC／SEGAFave 10/10 轉紅前要排進名單"
+    }
+   ]
+  },
+  {
+   "title": "🃏 卡牌",
+   "items": [
+    {
+     "title": "六遊戲 24,143 張、帶價 13,441（55.7%）——今日 ±0，站台停在 9/27",
+     "body": "卡牌行情站最後重產 **9/27 05:43**（由夜跑重產，夜跑沒醒就不動）：寶可夢 12,791（帶價 8,024，63%）／航海王 9,869（3,934，40%）／遊戲王 658／數碼寶貝 364／WS 344／UA 117（後四者 100% 帶價）。\n跟 9/26 晚報（9/22 版）比：寶可夢 **+347 張**、航海王帶價 **+6**，之後 8 天沒變。今天寶可夢／航海王都沒有新價進來；數碼寶貝 單卡序列停在 8/29（每張只 1 筆）。\n**生意解讀**：站上價格是 9 天前的，拿來報價或收卡先打個問號；夜跑醒來第一晚就會整批補上。",
+     "tags": [
+      "卡牌"
+     ],
+     "thread": "card-site-stale",
+     "thread_title": "卡牌行情站停更（跟著夜跑）",
+     "verdict": "站台價格是 9 天前的，夜跑醒來即補"
+    }
+   ]
+  },
+  {
+   "title": "⚠️ 警報",
+   "items": [
+    {
+     "title": "🔴 夜跑今晚第 9 晚——按一次急救包，卡牌站、雷達、通路增量一起回來",
+     "body": "runner log 最後一份仍是 **260927**。Mac 白天在線（排程都在本機觸發），斷的是 launchd 夜跑這一條；10/03 改好的一天 5 時段排程要**在 Mac 上雙擊一次** `輸出/夜跑急救.command` 才會裝進系統，Cowork 代按不了。\n不按的代價（每天累加）：卡牌行情站停在 9/27、RSS 新聞雷達 0 訊號、通路增量 0、🟡174 不會回綠、圖文版存檔頁發布不上 GitHub（手機看不到圖）。",
+     "tags": [
+      "系統",
+      "夜跑"
+     ],
+     "thread": "runner-down",
+     "verdict": "只有 West 在 Mac 上按得到；明早看門狗 W1 轉綠＝驗收",
+     "action": {
+      "owner": "West",
+      "text": "在 Mac 雙擊一次 輸出/夜跑急救.command（10/03 新版）"
+     }
+    },
+    {
+     "title": "🔴 兩套排程第 2 天：今晚你收到兩封晚報，明天翻譯官會兩班同寫同一份 xlsx",
+     "body": "今天實際撞車：晨報 2 封（08:46／08:55）、品質官 2 輪（10:02／10:12）、品牌官 2 班（10:30 A 巡 3 牌／10:34 B **0/20**——B 班 Chrome 動作授權被拒連 2 天，擴充功能在線，是授權層攔截不是網站擋）、晚報 2 封（21:34 A 純文字／本封 B 圖文版）。\n**明天（週二）風險**：翻譯官兩班同寫 Furyu／GK-SCC 的 xlsx（沒有檔案鎖，後寫蓋前寫）；週三一番賞快報兩班同寫 一番賞.xlsx、續編 KUJ 號。\n看門狗依證據建議**留 A 關 B**（A 9/24 起值勤、獨有酷比樂週報、品牌官 Chrome 正常）。關之前請在 A 套晨／晚報 prompt 補一句「晨晚報一律走 crawlers/brief_render.py」，不然明天起只剩純文字版。",
+     "tags": [
+      "排程",
+      "警報"
+     ],
+     "thread": "dual-schedule",
+     "verdict": "回「關 B 套」；明早 W13 只剩 1 輪＝驗收",
+     "action": {
+      "owner": "West",
+      "text": "回「關 B 套」＋A 套晨晚報 prompt 補 brief_render 那一句"
+     }
+    },
+    {
+     "title": "🟠 給明天翻譯官：Furyu 60 筆別跑 enrich_ip_zh 寫入；人物庫有 3 條錯譯",
+     "body": "①**Furyu 60 筆 F 欄手動補**：純讀試跑 enrich_ip_zh 命中 48、至少 12 筆錯掛——「ワンピース」（連身裙）→航海王、忍者亂太郎／哈姆太郎的「太郎」→超人力霸王、刀劍亂舞「ONLINE」、汪汪隊「ロール」→洛克人、「サン」リオ ×5→吉卜力、內褲兔「うさぎ」×2→吉伊卡哇。\n②**人物庫 character_db.json 錯譯 3 條**（今晚查到，翻譯流程會照抄）：アグネスタキオン 寫成「愛麗數碼」（那是アグネスデジタル）→ 應為**愛麗速子**；聖園ミカ 寫成「霞澤美琴」→ **聖園彌香**；百合園セイア 寫成「百合園聖娜」（英文還填 Sena）→ **百合園聖亞**。\n③**商品名已被帶歪 16 筆**：HOBBY STOCK 3 筆愛麗速子被寫成「愛麗數碼」（壽屋 1/7／ALTER 1/7／黏土人）；マンハッタンカフェ 13 筆全用「曼哈頓咖啡」，台版官方是**曼城茶座**（庫內 0 筆用對）。Furyu 這批正好有這兩位，先修人物庫再翻。\n另：A 套備份 `品牌/Furyu.xlsx.bak.261005` 放錯位置（應在 備份文件/），週五大掃除收。",
+     "tags": [
+      "翻譯",
+      "資料品質"
+     ],
+     "thread": "zh-name-errors",
+     "thread_title": "譯名錯誤清單（翻譯官）",
+     "verdict": "先修人物庫 3 條再翻 Furyu 60；F 欄手動"
+    },
+    {
+     "title": "ℹ️ 更正：miHoYo 工單你 9/18 已裁定「收」，不用再回；積壓兩條仍是一句話的事",
+     "body": "今晚 21:34 那封又問「miHoYo／HoYoverse 收或不收」——是看門狗讀錯：工單 decision 欄已記 **West 9/18 裁定收**，只剩 OrzGK 3,766 筆佔位中文名的清洗題（Code 端），**不需要你回**。\n仍待一句話：「**消化夜跑 staged**」＝入庫 1,522 筆（OrzGK 1,519，積壓 14 天）；「**跑 Chrome 待辦**」＝在有 Chrome 的對話清被擋牌（前 4：Sideshow 7,040／BeastKingdom 1,545／HotToys 1,437／Threezero 616；Furyu 今天已巡）。",
+     "tags": [
+      "看門狗",
+      "積壓"
+     ],
+     "thread": "backlog-three-lines",
+     "verdict": "miHoYo 不用回；其餘兩句挑一句"
+    }
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "owner": "West",
+   "text": "10/06 前回壽屋 帝王光環 再生產；10/07 23:59 前回 GSC 諾亞・妃咲（下／不下）",
+   "thread": "pvc-1006-1007"
+  },
+  {
+   "owner": "West",
+   "text": "回「關 B 套」，並在 A 套晨／晚報 prompt 補「一律走 crawlers/brief_render.py」",
+   "thread": "dual-schedule"
+  },
+  {
+   "owner": "West",
+   "text": "在 Mac 雙擊一次 輸出/夜跑急救.command（10/03 新版）",
+   "thread": "runner-down"
+  },
+  {
+   "owner": "West",
+   "text": "本週內對經銷下 11 月檔一番賞（拆賞看 JOJO RIVALS／我英）",
+   "thread": "kuji-nov"
+  },
+  {
+   "owner": "West",
+   "text": "本週回 EVA 破 進／不進（可併 12 月檔，10 月中旬前）",
+   "thread": "eva20"
+  },
+  {
+   "owner": "West",
+   "text": "10/12 前向經銷確認 PREMIUM 火影 配額",
+   "thread": "naruto-premium"
+  },
+  {
+   "owner": "West",
+   "text": "確認 TTA ORDER 單位（袋／個）後回傳大哥",
+   "thread": "dahge-gacha-2701"
+  },
+  {
+   "owner": "West",
+   "text": "向麗英／大哥要 SEGA 2027/1〜3 月型錄",
+   "thread": "sega-2027q1"
+  }
+ ],
+ "tomorrow": [
+  "10/06（二）壽屋 帝王光環 確實入手截止｜翻譯官（週二）：Furyu 60＋GK-SCC 268＋MuckleM 6 補中文名，先修人物庫 3 條錯譯、F 欄手動；雙軌沒關的話兩班會同寫同一份 xlsx",
+  "品牌官 10:30：Mamegyorai 173 筆缺口走 chunk 管線；GSC G.S.Collection 新線（諾亞／妃咲／聖亞／彌香 庫內 0 筆）；GSC／SEGAFave／MaxFactory 趕在 10/10 轉紅前排進名單",
+  "行情官 21:00：CX-00 檔 10/02–03 兩筆 EVA 移回 CX-00-EVA；補 UX-00-BLUE／UX-00-TOPW／UX-03-GOLD／UX-04 交叉樣本（今天都只有 1 筆）",
+  "看門狗 08:20：驗 W13 是否只剩 1 輪、W1 有沒有新夜跑 log",
+  "10/07（三）GSC 諾亞・妃咲 23:59 截止｜一番賞快報掃描窗要含 2027/01〜03（GAP-261004-01）｜雷達回查 Prime 1 四連發／NLS XIX",
+  "10/08（四）MegaHouse VAH 白鬍子 Ver.1.5 開約 ¥22,000｜酷比樂週報第 2 輪（排程要掛「商品資料庫」資料夾，不然會像 10/01 一樣失敗）｜開拓官 Reverse Studio 建檔",
+  "10/09–10/12 GSC 參展高雄國際動漫節（留意台灣限定／先行品）｜10/12 PREMIUM 火影 店頭預約截止"
+ ],
+ "refs": [
+  {
+   "label": "日報全文 261005",
+   "path": "輸出/日報/261005.md"
+  },
+  {
+   "label": "IP 雷達 digest 261005（B 輪全鏈掃描段）",
+   "path": "爬蟲資料/ip_news/digest_261005.md"
+  },
+  {
+   "label": "市場週報 #14（PVC 雷達查證版）",
+   "path": "大腦/週報/261005.md"
+  },
+  {
+   "label": "巡邏戰報",
+   "path": "輸出/巡邏戰報.md"
+  },
+  {
+   "label": "品牌官 B 班警報（本期夾帶）",
+   "path": "輸出/日報/261006_品牌官警報_未寄出.已隨晚報寄出.md"
+  },
+  {
+   "label": "看門狗 261005",
+   "path": "輸出/健檢/261005_watchdog.md"
+  },
+  {
+   "label": "陀螺行情 raw 261005",
+   "path": "爬蟲資料/行情/脆_raw_261005.txt"
+  },
+  {
+   "label": "卡牌行情站",
+   "path": "輸出/卡牌行情站/index.html"
+  }
+ ],
+ "signoff": "資訊官晚報班（B 套 21:39）｜今天第二封晚報（21:34 A 套純文字版已寄）｜信箱無新 Code 指令｜品牌官 B 班未寄出警報已併入本期｜圖文版遠端連結要等夜跑醒來發布才點得開，先看本機 輸出/報告/晨晚報/261005_pm.html",
+ "id": "261005_pm",
+ "hero": {
+  "img": "https://s3-ap-northeast-1.amazonaws.com/hobbystock/img/item/00000506731/pc_detail_0.jpg",
+  "link": "https://www.inside-games.jp/article/2026/09/01/187104.html",
+  "caption": "⏰ 明天截止：壽屋 帝王光環 1/7 再生產；後天截止：GSC 生鹽諾亞・龍華妃咲",
+  "auto": true
+ }
+}
