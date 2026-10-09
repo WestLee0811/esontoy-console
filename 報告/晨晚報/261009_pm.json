@@ -1,0 +1,173 @@
+{
+ "kind": "pm",
+ "date": "2026-10-09",
+ "headline": "11 月檔明天收窗；今日新品 3,308 筆入庫",
+ "deck": "夜跑全修好、明起抓完自動入庫；陀螺藍空力二手 −22%",
+ "top": [
+  "11 月檔一番賞明天收窗，火影 10/12 截止",
+  "夜跑修好＋明起自動入庫，今日入庫 3,308 筆",
+  "陀螺藍空力二手 4,700（−22%），BX-53 明日發售"
+ ],
+ "sections": [
+  {
+   "title": "💰 機會",
+   "items": [
+    {
+     "title": "11 月檔一番賞明天收窗：哥吉拉 5 體公仔是主菜",
+     "body": "哥吉拉怪獸亂舞 11/13 店頭、850 円，A〜D 加 LO 共 5 體公仔，取扱店含 LAWSON。PREMIUM 火影 1 回 10,000 円店頭預約週一 10/12 截止，配額制晚問沒量。",
+     "verdict": "明天前確認 11 月檔單含哥吉拉，火影 10/12 前問配額",
+     "link": "https://1kuji.com/products/godzilla10",
+     "score": 80,
+     "thread": "kuji-nov",
+     "tags": [
+      "一番賞",
+      "哥吉拉",
+      "火影忍者"
+     ],
+     "img": "https://assets.1kuji.com/uploads/product/top_banner/10789/827adbcd-6f7c-4d71-8285-79a543854a79.webp"
+    },
+    {
+     "title": "膽大黨景品連發：Figuno 10 月、Grandista 11 月",
+     "body": "BANDAI SPIRITS 今日新登記：Figuno 桃／變身歐卡倫 10 月預熱、Grandista 歐卡倫金屬色 11 月確認期。膽大黨熱度 83、第二季熱度正高，本庫只有少量。",
+     "verdict": "景品訂貨窗看經銷 10 月單，到貨期可做社群第二波",
+     "link": "https://bsp-prize.jp/item/2837183/",
+     "score": 83,
+     "thread": "dandadan-prize",
+     "thread_title": "膽大黨 景品線（Figuno／Grandista）",
+     "tags": [
+      "景品",
+      "膽大黨"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "📈 漲跌（脆 Threads 台灣報價，幣別 NT$）",
+   "items": [
+    {
+     "title": "🔻 陀螺續跌：藍空力二手 4,700（−22%）",
+     "body": "脆 217 帖入庫 27 序列：UX-00-BLUE 二手 4,700（BX-53 明日發售壓頂）、UX-03-GOLD 整盒 19,000（−14%）、CX-00 3,250（−7%）、DRAKE 2,500（−11%）。",
+     "verdict": "藍空力等 BX-53 上市再看，金神杖 15,000 下才碰",
+     "thread": "beyblade-ux",
+     "tags": [
+      "陀螺",
+      "行情"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "🏭 巡邏戰報",
+   "items": [
+    {
+     "title": "今日巡 2 牌、新品 1,393 筆｜🔴11（昨 11，—0）",
+     "body": "GK-SCC +757（🟢 名／IP／價／圖齊）、熱血模玩 +636（🟡 價日空），夜跑入庫後蓋章；另 Toyergk +452。Chrome 第 6 天被拒跳過 18 牌，🔴 最舊 40 天。",
+     "verdict": "新鮮度 ✅170／🟡39／🔴11；Chrome 恢復就清紅",
+     "thread": "patrol",
+     "tags": [
+      "巡邏",
+      "GK-SCC",
+      "熱血模玩"
+     ]
+    },
+    {
+     "title": "積壓 1,463 筆今晚全入庫，明起夜跑抓完自動放行",
+     "body": "Shopify 12 牌去重後真新 80（YesGK 27／GK Collectors 26…）；OrzGK 1,383 全真新、中文名待翻。你拍板開自動入庫、SCC 每晚 2,000，約 4 晚追平。",
+     "verdict": "18 天積壓結案；OrzGK 1,383 筆排翻譯官",
+     "thread": "night-staged",
+     "close": true,
+     "tags": [
+      "夜跑",
+      "OrzGK"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "🃏 卡牌",
+   "items": [
+    {
+     "title": "卡價停更 11 天今晨恢復：帶價 13,447（+6）",
+     "body": "六遊戲 24,143 張，寶可夢 115／海賊王 113 張有 7 日漲跌。日版 M6 頂級 SAR スニダン鬆動：113/076 ¥55,000→39,999（−28%）。露天 OP17 暴漲為小樣本噪音。",
+     "verdict": "M6 頂卡日本在跌，台版 M6 進價別追高",
+     "thread": "card-site-stale",
+     "close": true,
+     "tags": [
+      "卡牌",
+      "寶可夢",
+      "海賊王"
+     ]
+    }
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "owner": "West",
+   "text": "明天 10/10 前跟經銷定 11 月檔一番賞配額",
+   "thread": "kuji-nov"
+  },
+  {
+   "owner": "West",
+   "text": "10/12 前確認 PREMIUM 火影配額",
+   "thread": "naruto-premium"
+  },
+  {
+   "owner": "West",
+   "text": "明天查 10 月單有無賽馬娘 14 弾，沒有就追單",
+   "thread": "uma-14"
+  },
+  {
+   "owner": "West",
+   "text": "本週內對帳台中店 5 筆扣庫存失敗",
+   "thread": "autodeduct-fail"
+  },
+  {
+   "owner": "West",
+   "text": "本週內開排程 Gmail 寄信權限（看門狗／行情官）",
+   "thread": "sched-gmail"
+  }
+ ],
+ "system": [
+  "夜跑完全恢復：05:35 自跑完畢，10:00／14:00 亦自動觸發",
+  "明晚起夜跑抓完自動入庫（框架/.auto_merge 已開）",
+  "積壓 1,463 筆今入庫；OrzGK 1,383 中文名全待翻譯",
+  "Medicom 新站 15,465 筆改用 JAN 對表，另開工單",
+  "看門狗：昨 3 紅今全綠，FAIL 0／WARN 10",
+  "看門狗／行情官 Gmail 被拒，排程寄信權限待開",
+  "品牌官 Chrome 第 6 天被拒，今巡 2 牌由夜跑蓋章",
+  "11 牌巡邏被擋 45 天（Sideshow 等）",
+  "9/24 那組排程今天整天未見，視同已關",
+  "大掃除 09:12 收工：總覽 221 牌、db 36.6 萬筆重建",
+  "卡牌行情站 07:00 重產，停更 11 天結束",
+  "雷達 RSS 恢復：88 訊號／160 則，無 S 級"
+ ],
+ "tomorrow": [
+  "一番賞線：11 月檔收窗後，12 月檔 10 月中旬前接棒",
+  "巡邏線：10:30 品牌官巡 20 牌；SCC 每晚 2,000 追差額",
+  "夜跑線：03:30 看 10/10 log＋首次自動入庫有沒有成",
+  "行情線：BX-53 10/10 日本發售，盯藍空力二手壓價"
+ ],
+ "refs": [
+  {
+   "label": "日報全文",
+   "path": "輸出/日報/261009.md"
+  },
+  {
+   "label": "看門狗 08:24 班",
+   "path": "輸出/日報/261009_看門狗警報_未寄出.md"
+  },
+  {
+   "label": "巡邏戰報",
+   "path": "輸出/巡邏戰報.md"
+  }
+ ],
+ "signoff": "資訊官晚報班",
+ "id": "261009_pm",
+ "hero": {
+  "img": "https://assets.1kuji.com/uploads/product/top_banner/10789/827adbcd-6f7c-4d71-8285-79a543854a79.webp",
+  "link": "https://1kuji.com/products/godzilla10",
+  "caption": "11 月檔一番賞明天收窗：哥吉拉 5 體公仔是主菜",
+  "auto": true
+ }
+}

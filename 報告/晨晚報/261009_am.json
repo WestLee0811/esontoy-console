@@ -1,0 +1,193 @@
+{
+ "kind": "am",
+ "date": "2026-10-09",
+ "headline": "11 月檔一番賞明天收窗：哥吉拉全賞位出爐",
+ "deck": "夜跑停 11 晚修好、今晨完整跑畢；賽馬娘 14 弾 10/17 店頭要追單",
+ "top": [
+  "明天 10/10 收窗：11 月檔一番賞配額（含哥吉拉）",
+  "賽馬娘 14 弾 10/17 店頭，查 10 月單沒有就追",
+  "夜跑 11 晚停擺修好，今晨 14 牌完整跑畢"
+ ],
+ "sections": [
+  {
+   "title": "⏰ 要截止",
+   "items": [
+    {
+     "title": "11 月檔一番賞明天收窗：哥吉拉怪獸亂舞全賞位公開",
+     "body": "1kuji 10/8 公開全賞位：11/13 店頭、850 円，A 哥吉拉-0.0／B 哥吉拉(2023)／C 真哥吉拉第 2 形態／D 蓋剛／LO 發光版＝5 體公仔，取扱店含 LAWSON。",
+     "verdict": "公仔密度 5/5，明天前確認 11 月檔單已含，未訂就追",
+     "link": "https://1kuji.com/products/godzilla10",
+     "score": 80,
+     "thread": "kuji-nov",
+     "tags": [
+      "一番賞",
+      "哥吉拉"
+     ],
+     "img": "https://assets.1kuji.com/uploads/product/top_banner/10789/827adbcd-6f7c-4d71-8285-79a543854a79.webp"
+    },
+    {
+     "title": "PREMIUM 火影 漩渦鳴人 店頭預約週一 10/12 截止",
+     "body": "バンプレくじ PREMIUM 火影疾風傳 2027/02/27 發售、1 回 10,000 円、遊戲中心限定。高單價配額制，晚問就沒量；火影庫存 7,286 筆。",
+     "verdict": "10/12 前跟經銷確認配額",
+     "link": "https://bsp-prize.jp/campaign/341/",
+     "thread": "naruto-premium",
+     "tags": [
+      "一番賞",
+      "火影忍者"
+     ]
+    },
+    {
+     "title": "航海王 P.O.P 洛基今天 13:00 開約，¥55,000",
+     "body": "艾爾巴夫篇第 2 彈，2027/09 出貨，限 P-BANDAI 等指定通路受注；VAH 白鬍子 Ver.1.5 ¥22,000 昨開約。航海王庫存 30,097 筆、全庫最大 IP。",
+     "verdict": "價位不屬乙番帶，當客群訊號觀察、不進單",
+     "link": "https://figsoku.net/blog-entry-528729.html",
+     "thread": "onep-wb-loki",
+     "tags": [
+      "PVC",
+      "航海王"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "🔥 今日情報",
+   "items": [
+    {
+     "title": "賽馬娘一番賞 14 弾 10/17 店頭，10 月單正式窗已過",
+     "body": "920 円、線上 10/20：A 黃金旅程／B 夢幻旅程／C 奧菲佛／D 金色黃金船像／LO＝5 體公仔（GOLD WEEK）。取扱店 MINISTOP／Daily Yamazaki，無 LAWSON。",
+     "verdict": "查 10 月檔單有沒有，沒有走追單或二批",
+     "link": "https://1kuji.com/products/umamusume17",
+     "score": 56,
+     "thread": "uma-14",
+     "thread_title": "賽馬娘 一番賞 14 弾（10/17 店頭）",
+     "tags": [
+      "一番賞",
+      "賽馬娘"
+     ],
+     "img": "https://assets.1kuji.com/uploads/product/top_banner/10726/8bc745ec-1c0d-4531-9b1c-ec480d742c10.webp"
+    },
+    {
+     "title": "航海王洛基、綠谷＆爆豪幼少期立體化，七龍珠 SHF 新剪影",
+     "body": "洛基（巨錘鐵雷）首度立體化、綠谷＆爆豪幼少期附歐爾麥特迷你公仔，兩檔廠牌／預購窗未公布。另見 S.H.Figuarts 比克／飲茶剪影、Mimeyoi 碧藍航線高雄 1/4 今開約。",
+     "verdict": "PVC 預購追蹤，進經銷單時回報價格與截止",
+     "link": "https://animeanime.jp/article/2026/10/08/103626.html",
+     "score": 80,
+     "thread": "pvc-1009",
+     "thread_title": "10/9 PVC 立體化情報（洛基／我英幼少期／SHF）",
+     "tags": [
+      "PVC",
+      "航海王",
+      "我的英雄學院"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "🌙 昨夜戰果",
+   "items": [
+    {
+     "title": "夜跑停擺 11 晚修好：今晨 05:35 開跑、07:01 跑畢",
+     "body": "根因是 launchd 把 log 寫進「文件」資料夾被隱私擋下，改到 ~/Library/Logs 後背景直跑成功。新品 Numskull 176、GK Collectors 39、YesGK 27；SCC／Toyergk／熱血 1,845 筆已入庫。",
+     "verdict": "明晨 03:30 自動跑出 10/10 的 log 才算結案",
+     "thread": "runner-down",
+     "tags": [
+      "夜跑"
+     ]
+    },
+    {
+     "title": "夜跑積壓 1,463 筆等放行，OrzGK 佔 1,383",
+     "body": "連 18 天沒出口，AUTO_MERGE=0 之下只有你開口才入庫。另 Medicom 新站 15,465 筆是另一通路（store.medicomtoy），不能直接合併，要先比對。",
+     "verdict": "回「消化夜跑 staged」就入庫",
+     "thread": "night-staged",
+     "tags": [
+      "夜跑",
+      "OrzGK"
+     ]
+    },
+    {
+     "title": "陀螺 10/8：伏特 4000 地板失守，金神杖掛牌 22,000",
+     "body": "伏特八源中位 3,500（−7%，首見 3,000×2）；金神杖掛牌 18,000–26,000 但 10/6 成交 13,000–15,000 才是底；BX-53 藍空力套組 10/10 日本發售、台預購 3,200–3,780。",
+     "verdict": "伏特 3,000–3,200 才碰，金神杖等 15,000 以下",
+     "thread": "beyblade-ux",
+     "tags": [
+      "陀螺",
+      "行情"
+     ]
+    }
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "owner": "West",
+   "text": "10/10 前跟經銷定 11 月檔一番賞配額",
+   "thread": "kuji-nov"
+  },
+  {
+   "owner": "West",
+   "text": "今天查 10 月單有無賽馬娘 14 弾，沒有就追單",
+   "thread": "uma-14"
+  },
+  {
+   "owner": "West",
+   "text": "10/12 前確認 PREMIUM 火影配額",
+   "thread": "naruto-premium"
+  },
+  {
+   "owner": "West",
+   "text": "本週內對帳台中店 5 筆扣庫存失敗",
+   "thread": "autodeduct-fail"
+  },
+  {
+   "owner": "West",
+   "text": "今天回「消化夜跑 staged」放行 1,463 筆",
+   "thread": "night-staged"
+  }
+ ],
+ "system": [
+  "夜跑修好：05:35 自動開跑、07:01 完整跑畢 14 牌",
+  "夜跑積壓 1,463 筆／11 牌，等「消化夜跑 staged」",
+  "Medicom 新站 15,465 筆是另一通路，不可直接合併",
+  "feed 推送失敗：Mac 沒裝 gh，工程師端停在舊版",
+  "看門狗 FAIL 0／WARN 10；11 牌巡邏被擋 45 天",
+  "品牌新鮮度 ✅168／🟡41／🔴11；今日巡 20 牌",
+  "品牌官 Chrome 授權卡 5 天，昨第二班 0 牌",
+  "雷達 RSS 恢復：88 訊號／160 則，無 S 級",
+  "重複排程：今早雷達只見 1 班，疑已關，晚報再驗",
+  "豆魚雷 200 筆中文名空白，翻譯官待補標",
+  "行情官 10/8 報告 Gmail 被拒，內容已併入本期",
+  "品質官大掃除 09:01 今天跑（上次 9/18）"
+ ],
+ "tomorrow": [
+  "一番賞線：11 月檔收窗後，12 月檔 10 月中旬前接棒",
+  "巡邏線：10:30 品牌官巡 20 牌（SquareEnix／Prime1／McFarlane…）",
+  "夜跑線：明晨 03:30 看 10/10 log 有沒有自動跑出",
+  "行情線：20:30 陀螺日掃，盯 BX-53 10/10 發售壓價"
+ ],
+ "refs": [
+  {
+   "label": "IP 雷達 digest",
+   "path": "爬蟲資料/ip_news/digest_261009.md"
+  },
+  {
+   "label": "看門狗",
+   "path": "輸出/健檢/261009_watchdog.md"
+  },
+  {
+   "label": "行情官 10/8 全文",
+   "path": "輸出/日報/261008_行情官_未寄出.md"
+  },
+  {
+   "label": "夜跑 log",
+   "path": "crawlers/local_runner/logs/261009.log"
+  }
+ ],
+ "signoff": "資訊官晨報班",
+ "id": "261009_am",
+ "hero": {
+  "img": "https://assets.1kuji.com/uploads/product/top_banner/10789/827adbcd-6f7c-4d71-8285-79a543854a79.webp",
+  "link": "https://1kuji.com/products/godzilla10",
+  "caption": "11 月檔一番賞明天收窗：哥吉拉怪獸亂舞全賞位公開",
+  "auto": true
+ }
+}

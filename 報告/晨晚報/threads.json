@@ -123,9 +123,14 @@
     "issue": "261008_am",
     "anchor": "actions",
     "note": "今天把 bash 加進完整取用磁碟"
+   },
+   {
+    "issue": "261009_am",
+    "anchor": "it6",
+    "note": "明晨 03:30 自動跑出 10/10 的 log 才算結案"
    }
   ],
-  "last": "261008_am"
+  "last": "261009_am"
  },
  "kuji-oct-4sets": {
   "title": "10 月下旬四套賞別待公開",
@@ -692,9 +697,19 @@
     "issue": "261008_pm",
     "anchor": "it4",
     "note": "金神杖有貨可掛高、別進；鯊魚散刃 1,000 內收"
+   },
+   {
+    "issue": "261009_am",
+    "anchor": "it8",
+    "note": "伏特 3,000–3,200 才碰，金神杖等 15,000 以下"
+   },
+   {
+    "issue": "261009_pm",
+    "anchor": "it3",
+    "note": "藍空力等 BX-53 上市再看，金神杖 15,000 下才碰"
    }
   ],
-  "last": "261008_pm"
+  "last": "261009_pm"
  },
  "patrol": {
   "title": "品牌巡邏新鮮度",
@@ -755,9 +770,14 @@
     "issue": "261008_pm",
     "anchor": "it5",
     "note": "紅燈預計 1 天後清空；豆魚雷 200 筆交翻譯官"
+   },
+   {
+    "issue": "261009_pm",
+    "anchor": "it4",
+    "note": "新鮮度 ✅170／🟡39／🔴11；Chrome 恢復就清紅"
    }
   ],
-  "last": "261008_pm"
+  "last": "261009_pm"
  },
  "disney-coco-kuji": {
   "title": "迪士尼 可可夜總會 一番くじ",
@@ -908,9 +928,19 @@
     "issue": "261008_pm",
     "anchor": "actions",
     "note": "10/10 前跟經銷定 11 月檔一番賞配額"
+   },
+   {
+    "issue": "261009_am",
+    "anchor": "actions",
+    "note": "10/10 前跟經銷定 11 月檔一番賞配額"
+   },
+   {
+    "issue": "261009_pm",
+    "anchor": "actions",
+    "note": "明天 10/10 前跟經銷定 11 月檔一番賞配額"
    }
   ],
-  "last": "261008_pm"
+  "last": "261009_pm"
  },
  "kuji-nov-dec": {
   "title": "11-12 月一番くじ訂貨窗仍在倒數：優先序不變",
@@ -1102,9 +1132,19 @@
     "issue": "261008_pm",
     "anchor": "actions",
     "note": "10/12 前確認 PREMIUM 火影配額"
+   },
+   {
+    "issue": "261009_am",
+    "anchor": "actions",
+    "note": "10/12 前確認 PREMIUM 火影配額"
+   },
+   {
+    "issue": "261009_pm",
+    "anchor": "actions",
+    "note": "10/12 前確認 PREMIUM 火影配額"
    }
   ],
-  "last": "261008_pm"
+  "last": "261009_pm"
  },
  "sega-2027q1": {
   "title": "SEGA 景品 2027/1〜3 月 lineup",
@@ -1214,7 +1254,7 @@
  },
  "card-site-stale": {
   "title": "卡牌行情站停更（跟著夜跑）",
-  "status": "open",
+  "status": "closed",
   "first": "261005_pm",
   "entries": [
    {
@@ -1236,9 +1276,15 @@
     "issue": "261008_pm",
     "anchor": "it7",
     "note": "卡價停更 11 天；夜跑整晚跑完才會動"
+   },
+   {
+    "issue": "261009_pm",
+    "anchor": "it6",
+    "note": "M6 頂卡日本在跌，台版 M6 進價別追高"
    }
   ],
-  "last": "261008_pm"
+  "last": "261009_pm",
+  "closed_in": "261009_pm"
  },
  "zh-name-errors": {
   "title": "譯名錯誤清單（翻譯官）",
@@ -1354,9 +1400,19 @@
     "issue": "261008_pm",
     "anchor": "actions",
     "note": "本週內對帳台中店 5 筆扣庫存失敗"
+   },
+   {
+    "issue": "261009_am",
+    "anchor": "actions",
+    "note": "本週內對帳台中店 5 筆扣庫存失敗"
+   },
+   {
+    "issue": "261009_pm",
+    "anchor": "actions",
+    "note": "本週內對帳台中店 5 筆扣庫存失敗"
    }
   ],
-  "last": "261008_pm"
+  "last": "261009_pm"
  },
  "night-staged": {
   "title": "夜跑積壓 staged（OrzGK 1,519）",
@@ -1372,9 +1428,19 @@
     "issue": "261008_pm",
     "anchor": "actions",
     "note": "明早回「消化夜跑 staged」放不放（+1,814 筆）"
+   },
+   {
+    "issue": "261009_am",
+    "anchor": "actions",
+    "note": "今天回「消化夜跑 staged」放行 1,463 筆"
+   },
+   {
+    "issue": "261009_pm",
+    "anchor": "it5",
+    "note": "18 天積壓結案；OrzGK 1,383 筆排翻譯官"
    }
   ],
-  "last": "261008_pm"
+  "last": "261009_pm"
  },
  "movie-oct": {
   "title": "10 月劇場版連映（景品連動）",
@@ -1398,8 +1464,70 @@
     "issue": "261008_pm",
     "anchor": "it2",
     "note": "白鬍子可評估下單；洛基走官方通路，當訊號看"
+   },
+   {
+    "issue": "261009_am",
+    "anchor": "it3",
+    "note": "價位不屬乙番帶，當客群訊號觀察、不進單"
    }
   ],
-  "last": "261008_pm"
+  "last": "261009_am"
+ },
+ "uma-14": {
+  "title": "賽馬娘 一番賞 14 弾（10/17 店頭）",
+  "status": "open",
+  "first": "261009_am",
+  "entries": [
+   {
+    "issue": "261009_am",
+    "anchor": "actions",
+    "note": "今天查 10 月單有無賽馬娘 14 弾，沒有就追單"
+   },
+   {
+    "issue": "261009_pm",
+    "anchor": "actions",
+    "note": "明天查 10 月單有無賽馬娘 14 弾，沒有就追單"
+   }
+  ],
+  "last": "261009_pm"
+ },
+ "pvc-1009": {
+  "title": "10/9 PVC 立體化情報（洛基／我英幼少期／SHF）",
+  "status": "open",
+  "first": "261009_am",
+  "entries": [
+   {
+    "issue": "261009_am",
+    "anchor": "it5",
+    "note": "PVC 預購追蹤，進經銷單時回報價格與截止"
+   }
+  ],
+  "last": "261009_am"
+ },
+ "dandadan-prize": {
+  "title": "膽大黨 景品線（Figuno／Grandista）",
+  "status": "open",
+  "first": "261009_pm",
+  "entries": [
+   {
+    "issue": "261009_pm",
+    "anchor": "it2",
+    "note": "景品訂貨窗看經銷 10 月單，到貨期可做社群第二波"
+   }
+  ],
+  "last": "261009_pm"
+ },
+ "sched-gmail": {
+  "title": "本週內開排程 Gmail 寄信權限（看門狗／行情官）",
+  "status": "open",
+  "first": "261009_pm",
+  "entries": [
+   {
+    "issue": "261009_pm",
+    "anchor": "actions",
+    "note": "本週內開排程 Gmail 寄信權限（看門狗／行情官）"
+   }
+  ],
+  "last": "261009_pm"
  }
 }
