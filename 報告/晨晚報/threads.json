@@ -707,9 +707,19 @@
     "issue": "261009_pm",
     "anchor": "it3",
     "note": "藍空力等 BX-53 上市再看，金神杖 15,000 下才碰"
+   },
+   {
+    "issue": "261010_am",
+    "anchor": "it8",
+    "note": "藍空力別再進；龍神勇氣持有者早出"
+   },
+   {
+    "issue": "261010_pm",
+    "anchor": "it3",
+    "note": "CX-00 現貨趁高出；UX-15 別補貨"
    }
   ],
-  "last": "261009_pm"
+  "last": "261010_pm"
  },
  "patrol": {
   "title": "品牌巡邏新鮮度",
@@ -775,9 +785,14 @@
     "issue": "261009_pm",
     "anchor": "it4",
     "note": "新鮮度 ✅170／🟡39／🔴11；Chrome 恢復就清紅"
+   },
+   {
+    "issue": "261010_pm",
+    "anchor": "it4",
+    "note": "放行排程 Chrome 或關這班，紅燈才會清"
    }
   ],
-  "last": "261009_pm"
+  "last": "261010_pm"
  },
  "disney-coco-kuji": {
   "title": "迪士尼 可可夜總會 一番くじ",
@@ -938,9 +953,19 @@
     "issue": "261009_pm",
     "anchor": "actions",
     "note": "明天 10/10 前跟經銷定 11 月檔一番賞配額"
+   },
+   {
+    "issue": "261010_am",
+    "anchor": "actions",
+    "note": "今天 10/10 跟經銷定 11 月檔一番賞配額"
+   },
+   {
+    "issue": "261010_pm",
+    "anchor": "actions",
+    "note": "11 月檔若今天沒定，明早 10/11 補定案"
    }
   ],
-  "last": "261009_pm"
+  "last": "261010_pm"
  },
  "kuji-nov-dec": {
   "title": "11-12 月一番くじ訂貨窗仍在倒數：優先序不變",
@@ -977,9 +1002,14 @@
     "issue": "261004_am",
     "anchor": "it4",
     "note": "孤獨搖滾 VOL.5（五尊 Gracemaster）最值得先排量；其餘等 10/15 賞位"
+   },
+   {
+    "issue": "261010_am",
+    "anchor": "it4",
+    "note": "強檔，11 月單列優先訂貨"
    }
   ],
-  "last": "261004_am"
+  "last": "261010_am"
  },
  "kuji-2027-02": {
   "title": "2027/02 一番賞檔期",
@@ -1142,9 +1172,19 @@
     "issue": "261009_pm",
     "anchor": "actions",
     "note": "10/12 前確認 PREMIUM 火影配額"
+   },
+   {
+    "issue": "261010_am",
+    "anchor": "actions",
+    "note": "10/12 前確認 PREMIUM 火影配額"
+   },
+   {
+    "issue": "261010_pm",
+    "anchor": "actions",
+    "note": "10/12 前確認 PREMIUM 火影配額"
    }
   ],
-  "last": "261009_pm"
+  "last": "261010_pm"
  },
  "sega-2027q1": {
   "title": "SEGA 景品 2027/1〜3 月 lineup",
@@ -1201,9 +1241,14 @@
     "issue": "261006_am",
     "anchor": "it2",
     "note": "3 月檔第 2 套（幻影旅團①）；訂貨窗預估 11〜12 月，跟七龍珠 SNAP3 同一張單下"
+   },
+   {
+    "issue": "261010_am",
+    "anchor": "it5",
+    "note": "追特設頁開站，2027/01 預購單再拍板"
    }
   ],
-  "last": "261006_am"
+  "last": "261010_am"
  },
  "pvc-1006-1007": {
   "title": "PVC 近截止：帝王光環 再生產（10/06）／諾亞・妃咲（10/07）",
@@ -1281,10 +1326,15 @@
     "issue": "261009_pm",
     "anchor": "it6",
     "note": "M6 頂卡日本在跌，台版 M6 進價別追高"
+   },
+   {
+    "issue": "261010_pm",
+    "anchor": "it5",
+    "note": "停更結案；M 系列 AR 進價壓低，M6 頂卡止跌"
    }
   ],
-  "last": "261009_pm",
-  "closed_in": "261009_pm"
+  "last": "261010_pm",
+  "closed_in": "261010_pm"
  },
  "zh-name-errors": {
   "title": "譯名錯誤清單（翻譯官）",
@@ -1410,13 +1460,18 @@
     "issue": "261009_pm",
     "anchor": "actions",
     "note": "本週內對帳台中店 5 筆扣庫存失敗"
+   },
+   {
+    "issue": "261010_am",
+    "anchor": "actions",
+    "note": "本週內對帳台中店 5 筆扣庫存失敗"
    }
   ],
-  "last": "261009_pm"
+  "last": "261010_am"
  },
  "night-staged": {
   "title": "夜跑積壓 staged（OrzGK 1,519）",
-  "status": "open",
+  "status": "closed",
   "first": "261007_pm",
   "entries": [
    {
@@ -1440,7 +1495,8 @@
     "note": "18 天積壓結案；OrzGK 1,383 筆排翻譯官"
    }
   ],
-  "last": "261009_pm"
+  "last": "261009_pm",
+  "closed_in": "261009_pm"
  },
  "movie-oct": {
   "title": "10 月劇場版連映（景品連動）",
@@ -1487,9 +1543,14 @@
     "issue": "261009_pm",
     "anchor": "actions",
     "note": "明天查 10 月單有無賽馬娘 14 弾，沒有就追單"
+   },
+   {
+    "issue": "261010_am",
+    "anchor": "actions",
+    "note": "10/17 前查 10 月單有無賽馬娘 14 弾"
    }
   ],
-  "last": "261009_pm"
+  "last": "261010_am"
  },
  "pvc-1009": {
   "title": "10/9 PVC 立體化情報（洛基／我英幼少期／SHF）",
@@ -1529,5 +1590,93 @@
    }
   ],
   "last": "261009_pm"
+ },
+ "alter-hanabi": {
+  "title": "ALTER 花火 預購截止",
+  "status": "open",
+  "first": "261010_am",
+  "entries": [
+   {
+    "issue": "261010_am",
+    "anchor": "it3",
+    "note": "要進明天前下單"
+   },
+   {
+    "issue": "261010_pm",
+    "anchor": "actions",
+    "note": "明天 10/11 前下 ALTER 花火 HLJ 單"
+   }
+  ],
+  "last": "261010_pm"
+ },
+ "aot-cart-titan": {
+  "title": "進擊的巨人 車力巨人 可動 figure",
+  "status": "open",
+  "first": "261010_am",
+  "entries": [
+   {
+    "issue": "261010_am",
+    "anchor": "it6",
+    "note": "PVC 預購追蹤，價格日期待公布"
+   }
+  ],
+  "last": "261010_am"
+ },
+ "medicom-dup": {
+  "title": "Medicom 遷站 15,465 筆重複入庫",
+  "status": "open",
+  "first": "261010_am",
+  "entries": [
+   {
+    "issue": "261010_am",
+    "anchor": "actions",
+    "note": "今天拍板 Medicom 回滾備份或 JAN 去重"
+   },
+   {
+    "issue": "261010_pm",
+    "anchor": "actions",
+    "note": "本週內拍板 Medicom 回滾或 JAN 去重"
+   }
+  ],
+  "last": "261010_pm"
+ },
+ "kuji-madomagi16": {
+  "title": "小圓劇場版 一番賞 2027/02",
+  "status": "open",
+  "first": "261010_pm",
+  "entries": [
+   {
+    "issue": "261010_pm",
+    "anchor": "it1",
+    "note": "老粉套，12 月檔單再拍板訂量"
+   }
+  ],
+  "last": "261010_pm"
+ },
+ "kuji-chiikawa5": {
+  "title": "吉伊卡哇 一番賞 第 5 套 2027/04",
+  "status": "open",
+  "first": "261010_pm",
+  "entries": [
+   {
+    "issue": "261010_pm",
+    "anchor": "it2",
+    "note": "必進候選，等賞別公開再估量"
+   }
+  ],
+  "last": "261010_pm"
+ },
+ "patrol-chrome": {
+  "title": "本週內放行品牌官排程 Chrome，或關 10:34 那班",
+  "status": "open",
+  "first": "261010_pm",
+  "entries": [
+   {
+    "issue": "261010_pm",
+    "anchor": "actions",
+    "note": "本週內放行品牌官排程 Chrome，或關 10:34 那班"
+   }
+  ],
+  "last": "261010_pm"
  }
 }
