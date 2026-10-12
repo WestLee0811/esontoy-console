@@ -727,9 +727,14 @@
     "issue": "261011_pm",
     "anchor": "it4",
     "note": "CX-00 高點已過；BX-53 二手有肉，別急出"
+   },
+   {
+    "issue": "261012_am",
+    "anchor": "it8",
+    "note": "紅空力可收但不追價；中低階官方回補勿囤"
    }
   ],
-  "last": "261011_pm"
+  "last": "261012_am"
  },
  "patrol": {
   "title": "品牌巡邏新鮮度",
@@ -988,9 +993,14 @@
     "issue": "261011_pm",
     "anchor": "actions",
     "note": "哥吉拉 11 月檔明天 10/12 前補定案"
+   },
+   {
+    "issue": "261012_am",
+    "anchor": "actions",
+    "note": "今天 10/12 補定哥吉拉 11 月檔配額"
    }
   ],
-  "last": "261011_pm"
+  "last": "261012_am"
  },
  "kuji-nov-dec": {
   "title": "11-12 月一番くじ訂貨窗仍在倒數：優先序不變",
@@ -1217,9 +1227,14 @@
     "issue": "261011_pm",
     "anchor": "actions",
     "note": "明天 10/12 前確認 PREMIUM 火影配額"
+   },
+   {
+    "issue": "261012_am",
+    "anchor": "actions",
+    "note": "今天 10/12 內確認 PREMIUM 火影配額"
    }
   ],
-  "last": "261011_pm"
+  "last": "261012_am"
  },
  "sega-2027q1": {
   "title": "SEGA 景品 2027/1〜3 月 lineup",
@@ -1506,7 +1521,7 @@
  },
  "night-staged": {
   "title": "夜跑積壓 staged（OrzGK 1,519）",
-  "status": "closed",
+  "status": "open",
   "first": "261007_pm",
   "entries": [
    {
@@ -1528,10 +1543,14 @@
     "issue": "261009_pm",
     "anchor": "it5",
     "note": "18 天積壓結案；OrzGK 1,383 筆排翻譯官"
+   },
+   {
+    "issue": "261012_am",
+    "anchor": "it7",
+    "note": "入庫線週末淡；三通路斷線修了才有新品"
    }
   ],
-  "last": "261009_pm",
-  "closed_in": "261009_pm"
+  "last": "261012_am"
  },
  "movie-oct": {
   "title": "10 月劇場版連映（景品連動）",
@@ -1686,9 +1705,14 @@
     "issue": "261011_pm",
     "anchor": "actions",
     "note": "本週 10/17 前拍板 Medicom 回滾或去重"
+   },
+   {
+    "issue": "261012_am",
+    "anchor": "actions",
+    "note": "本週 10/17 前拍板 Medicom 回滾或去重"
    }
   ],
-  "last": "261011_pm"
+  "last": "261012_am"
  },
  "kuji-madomagi16": {
   "title": "小圓劇場版 一番賞 2027/02",
@@ -1735,9 +1759,14 @@
     "issue": "261011_pm",
     "anchor": "actions",
     "note": "本週 10/17 前放行品牌官 Chrome 或關班"
+   },
+   {
+    "issue": "261012_am",
+    "anchor": "actions",
+    "note": "本週 10/17 前放行品牌官 Chrome 或關班"
    }
   ],
-  "last": "261011_pm"
+  "last": "261012_am"
  },
  "kuji-fate29": {
   "title": "FGO 一番賞 カルデアピックアップメモリー 訂貨窗",
@@ -1855,5 +1884,70 @@
    }
   ],
   "last": "261011_pm"
+ },
+ "metal-build-noir": {
+  "title": "METAL BUILD 黑色攻擊鋼彈 20th P-Bandai 收單",
+  "status": "open",
+  "first": "261012_am",
+  "entries": [
+   {
+    "issue": "261012_am",
+    "anchor": "actions",
+    "note": "明 10/13 前決 METAL BUILD 黑攻擊補單"
+   }
+  ],
+  "last": "261012_am"
+ },
+ "gsc-miku-mm2025": {
+  "title": "GSC 初音 マジカルミライ 黏土人 官限預購",
+  "status": "open",
+  "first": "261012_am",
+  "entries": [
+   {
+    "issue": "261012_am",
+    "anchor": "it3",
+    "note": "要補本週內下單，黏土人官限版截止後難補"
+   }
+  ],
+  "last": "261012_am"
+ },
+ "kuji-sumikko27": {
+  "title": "角落小夥伴一番賞〈進化〉12 月檔 訂貨窗",
+  "status": "open",
+  "first": "261012_am",
+  "entries": [
+   {
+    "issue": "261012_am",
+    "anchor": "it4",
+    "note": "情報級，先登記；經銷單出現再定量"
+   }
+  ],
+  "last": "261012_am"
+ },
+ "pvc-douma": {
+  "title": "鬼滅 童磨 ufotable 繪 PVC（Aniplex）",
+  "status": "open",
+  "first": "261012_am",
+  "entries": [
+   {
+    "issue": "261012_am",
+    "anchor": "it5",
+    "note": "追 Aniplex+ 受注頁，開約日再評代購量"
+   }
+  ],
+  "last": "261012_am"
+ },
+ "db-goku-yardrat": {
+  "title": "七龍珠 雅德拉特悟空 figure 化",
+  "status": "open",
+  "first": "261012_am",
+  "entries": [
+   {
+    "issue": "261012_am",
+    "anchor": "it6",
+    "note": "七龍珠雙訊號，神與神篇角色景品優先備貨"
+   }
+  ],
+  "last": "261012_am"
  }
 }
