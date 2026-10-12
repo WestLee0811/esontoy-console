@@ -732,9 +732,14 @@
     "issue": "261012_am",
     "anchor": "it8",
     "note": "紅空力可收但不追價；中低階官方回補勿囤"
+   },
+   {
+    "issue": "261012_pm",
+    "anchor": "it8",
+    "note": "昨判失準：BX-53 到貨溢價歸零，有貨即出"
    }
   ],
-  "last": "261012_am"
+  "last": "261012_pm"
  },
  "patrol": {
   "title": "品牌巡邏新鮮度",
@@ -810,9 +815,14 @@
     "issue": "261011_pm",
     "anchor": "it6",
     "note": "放行排程 Chrome 或關這班，紅燈才會清"
+   },
+   {
+    "issue": "261012_pm",
+    "anchor": "it10",
+    "note": "逐站放行太慢，設 Auto；無頭 lane 放寬時限"
    }
   ],
-  "last": "261011_pm"
+  "last": "261012_pm"
  },
  "disney-coco-kuji": {
   "title": "迪士尼 可可夜總會 一番くじ",
@@ -998,9 +1008,14 @@
     "issue": "261012_am",
     "anchor": "actions",
     "note": "今天 10/12 補定哥吉拉 11 月檔配額"
+   },
+   {
+    "issue": "261012_pm",
+    "anchor": "actions",
+    "note": "哥吉拉 11 月檔配額最晚明 10/13 定"
    }
   ],
-  "last": "261012_am"
+  "last": "261012_pm"
  },
  "kuji-nov-dec": {
   "title": "11-12 月一番くじ訂貨窗仍在倒數：優先序不變",
@@ -1548,9 +1563,14 @@
     "issue": "261012_am",
     "anchor": "it7",
     "note": "入庫線週末淡；三通路斷線修了才有新品"
+   },
+   {
+    "issue": "261012_pm",
+    "anchor": "actions",
+    "note": "今晚夜跑前 Finder 刪 OrzGK 2.xlsx 副本"
    }
   ],
-  "last": "261012_am"
+  "last": "261012_pm"
  },
  "movie-oct": {
   "title": "10 月劇場版連映（景品連動）",
@@ -1602,9 +1622,14 @@
     "issue": "261010_am",
     "anchor": "actions",
     "note": "10/17 前查 10 月單有無賽馬娘 14 弾"
+   },
+   {
+    "issue": "261012_pm",
+    "anchor": "it7",
+    "note": "查 10 月檔單是否已含，未含走到貨追單"
    }
   ],
-  "last": "261010_am"
+  "last": "261012_pm"
  },
  "pvc-1009": {
   "title": "10/9 PVC 立體化情報（洛基／我英幼少期／SHF）",
@@ -1764,9 +1789,14 @@
     "issue": "261012_am",
     "anchor": "actions",
     "note": "本週 10/17 前放行品牌官 Chrome 或關班"
+   },
+   {
+    "issue": "261012_pm",
+    "anchor": "actions",
+    "note": "10/17 前品牌官 Chrome 設 Auto 或關班"
    }
   ],
-  "last": "261012_am"
+  "last": "261012_pm"
  },
  "kuji-fate29": {
   "title": "FGO 一番賞 カルデアピックアップメモリー 訂貨窗",
@@ -1816,9 +1846,14 @@
     "issue": "261011_pm",
     "anchor": "it1",
     "note": "併入 1 月訂量盤點，12 月中前定"
+   },
+   {
+    "issue": "261012_pm",
+    "anchor": "it1",
+    "note": "SEED 1 月線成形；¥8,800 水着可當乙番 B 賞"
    }
   ],
-  "last": "261011_pm"
+  "last": "261012_pm"
  },
  "kuji-sumikko": {
   "title": "角落小夥伴 一番賞 10/24 發售",
@@ -1855,9 +1890,14 @@
     "issue": "261011_pm",
     "anchor": "it5",
     "note": "烈空坐 SAR 持有不出；進貨只挑頂卡"
+   },
+   {
+    "issue": "261012_pm",
+    "anchor": "it9",
+    "note": "雷公 SAR 區間震盪勿追；MUR 掛牌增、價承壓"
    }
   ],
-  "last": "261011_pm"
+  "last": "261012_pm"
  },
  "card-market": {
   "title": "卡牌行情站每日更新",
@@ -1868,9 +1908,14 @@
     "issue": "261011_pm",
     "anchor": "it7",
     "note": "海賊王頂卡分化：艾斯回檔、魯夫 L 續強"
+   },
+   {
+    "issue": "261012_pm",
+    "anchor": "it11",
+    "note": "平日無新套，等 M6a／SV11B 台版報價補進"
    }
   ],
-  "last": "261011_pm"
+  "last": "261012_pm"
  },
  "night-gh": {
   "title": "明早前終端機跑 which gh || brew install gh",
@@ -1894,9 +1939,14 @@
     "issue": "261012_am",
     "anchor": "actions",
     "note": "明 10/13 前決 METAL BUILD 黑攻擊補單"
+   },
+   {
+    "issue": "261012_pm",
+    "anchor": "actions",
+    "note": "明 10/13 前決 METAL BUILD 黑攻擊補單量"
    }
   ],
-  "last": "261012_am"
+  "last": "261012_pm"
  },
  "gsc-miku-mm2025": {
   "title": "GSC 初音 マジカルミライ 黏土人 官限預購",
@@ -1907,9 +1957,14 @@
     "issue": "261012_am",
     "anchor": "it3",
     "note": "要補本週內下單，黏土人官限版截止後難補"
+   },
+   {
+    "issue": "261012_pm",
+    "anchor": "actions",
+    "note": "10/14 前決初音 MM2026 1/7 收否"
    }
   ],
-  "last": "261012_am"
+  "last": "261012_pm"
  },
  "kuji-sumikko27": {
   "title": "角落小夥伴一番賞〈進化〉12 月檔 訂貨窗",
@@ -1920,9 +1975,14 @@
     "issue": "261012_am",
     "anchor": "it4",
     "note": "情報級，先登記；經銷單出現再定量"
+   },
+   {
+    "issue": "261012_pm",
+    "anchor": "it4",
+    "note": "維持 10/11 結論：不追首批，到貨看二批價"
    }
   ],
-  "last": "261012_am"
+  "last": "261012_pm"
  },
  "pvc-douma": {
   "title": "鬼滅 童磨 ufotable 繪 PVC（Aniplex）",
@@ -1933,9 +1993,14 @@
     "issue": "261012_am",
     "anchor": "it5",
     "note": "追 Aniplex+ 受注頁，開約日再評代購量"
+   },
+   {
+    "issue": "261012_pm",
+    "anchor": "it3",
+    "note": "受注生產截止即絕版，預購單 12 月中前收"
    }
   ],
-  "last": "261012_am"
+  "last": "261012_pm"
  },
  "db-goku-yardrat": {
   "title": "七龍珠 雅德拉特悟空 figure 化",
@@ -1949,5 +2014,57 @@
    }
   ],
   "last": "261012_am"
+ },
+ "csm-reze-statue": {
+  "title": "鏈鋸人 レゼ／ボム 1/4 雕像 ¥238,590",
+  "status": "open",
+  "first": "261012_pm",
+  "entries": [
+   {
+    "issue": "261012_pm",
+    "anchor": "it2",
+    "note": "情報級；查廠牌開約日，鏈鋸人 GK 客層有需求"
+   }
+  ],
+  "last": "261012_pm"
+ },
+ "alter-dream-journey": {
+  "title": "ALTER 賽馬娘 夢幻之旅 1/7 預購（12/09 止）",
+  "status": "open",
+  "first": "261012_pm",
+  "entries": [
+   {
+    "issue": "261012_pm",
+    "anchor": "it5",
+    "note": "ALTER 賽馬娘線穩，12/09 前照同線量收"
+   }
+  ],
+  "last": "261012_pm"
+ },
+ "gsc-mika-swim": {
+  "title": "GSC 聖園彌香（水着）1/7 官限預購（11/04 止）",
+  "status": "open",
+  "first": "261012_pm",
+  "entries": [
+   {
+    "issue": "261012_pm",
+    "anchor": "it6",
+    "note": "要補 11/04 前下單，官限截止後只剩二手"
+   }
+  ],
+  "last": "261012_pm"
+ },
+ "icloud-dup": {
+  "title": "今晚夜跑前 Finder 刪 OrzGK 2.xlsx 副本",
+  "status": "open",
+  "first": "261012_pm",
+  "entries": [
+   {
+    "issue": "261012_pm",
+    "anchor": "actions",
+    "note": "今晚夜跑前 Finder 刪 OrzGK 2.xlsx 副本"
+   }
+  ],
+  "last": "261012_pm"
  }
 }

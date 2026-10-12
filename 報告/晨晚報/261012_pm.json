@@ -1,0 +1,275 @@
+{
+ "kind": "pm",
+ "date": "2026-10-12",
+ "headline": "童磨開約¥6,800；角落賞更正10/24絨毛檔",
+ "deck": "BX-53 代購價崩 56%；JXK +18；無頭 lane 逾時 0 落地",
+ "top": [
+  "明 10/13 METAL BUILD 黑攻擊收單，今晚定量",
+  "童磨開約¥6,800至12/28；角落賞改10/24絨毛檔",
+  "BX-53 代購 −56% 回原價；JXK +18，🔴16"
+ ],
+ "kpis": [
+  {
+   "label": "新鮮度 ✅7天內",
+   "value": "172",
+   "delta": "+2"
+  },
+  {
+   "label": "🔴 >30天",
+   "value": "16",
+   "delta": "−1"
+  },
+  {
+   "label": "夜跑入庫",
+   "value": "1,154",
+   "delta": "GK 通路 1,131"
+  },
+  {
+   "label": "情報卡",
+   "value": "533",
+   "delta": "首建"
+  }
+ ],
+ "sections": [
+  {
+   "title": "💰 機會",
+   "items": [
+    {
+     "title": "SEED Q1 三件齊：MegaHouse 8 品＋賞＋劇場版",
+     "body": "MegaHouse 10/08 開 8 品：拉克絲水着 Lucrea ¥8,800、陣羽織 GGG ¥24,200、VAH 白鬍子 1.5 ¥22,000；搭一番賞 1/16、劇場版 1/15 同窗。",
+     "verdict": "SEED 1 月線成形；¥8,800 水着可當乙番 B 賞",
+     "link": "https://hobby.watch.impress.co.jp/docs/news/2145642.html",
+     "score": 80,
+     "tags": [
+      "鋼彈",
+      "SEED",
+      "MegaHouse"
+     ],
+     "thread": "kuji-seed-freedom"
+    },
+    {
+     "title": "鏈鋸人 レゼ／ボム 1/4 雕像 56cm ¥238,590",
+     "body": "全高 56cm 1/4 雕像 ¥238,590（約 NT$5.2 萬）立體化。鏈鋸人庫存 2,708，劇場版レゼ篇後熱度仍在，高端雕像客層與 GK 線重疊；廠牌與開約日待核。",
+     "verdict": "情報級；查廠牌開約日，鏈鋸人 GK 客層有需求",
+     "link": "https://animeanime.jp/article/2026/10/11/103704.html",
+     "score": 60,
+     "tags": [
+      "鏈鋸人",
+      "雕像",
+      "1/4"
+     ],
+     "thread": "csm-reze-statue",
+     "thread_title": "鏈鋸人 レゼ／ボム 1/4 雕像 ¥238,590"
+    }
+   ]
+  },
+  {
+   "title": "📌 狀態變化",
+   "items": [
+    {
+     "title": "鬼滅之刃｜童磨 PVC 開約 ¥6,800，12/28 止",
+     "body": "晨報「待官方頁」→ 已開約：Crane'l（Aniplex 系）受注 ¥6,800，Aniplex Online 12/28 23:59 止、一般通路同步，2027/07 出；特典吊飾只在官網。",
+     "verdict": "受注生產截止即絕版，預購單 12 月中前收",
+     "link": "https://animeanime.jp/article/2026/10/11/103688.html",
+     "score": 70,
+     "tags": [
+      "鬼滅之刃",
+      "PVC",
+      "預約中"
+     ],
+     "thread": "pvc-douma"
+    },
+    {
+     "title": "角落小夥伴｜一番賞〈進化〉更正：10/24 店頭、全絨毛",
+     "body": "晨報寫「12 月檔、訂貨窗 10 月底起」是誤讀。週報實查：10/24 店頭、10/27 線上，一回 750 円，A〜H 全絨毛無公仔，經銷窗已關。",
+     "verdict": "維持 10/11 結論：不追首批，到貨看二批價",
+     "link": "https://1kuji.com/products/sumikko27",
+     "score": 42,
+     "tags": [
+      "角落小夥伴",
+      "一番賞",
+      "更正"
+     ],
+     "thread": "kuji-sumikko27",
+     "close": true,
+     "img": "https://assets.1kuji.com/uploads/product/top_banner/10750/eb91981b-b5f8-42ff-bbff-549e39650598.webp"
+    },
+    {
+     "title": "賽馬娘｜ALTER 夢幻之旅 1/7 新開約，12/09 止",
+     "body": "¥28,380，10/09 開約、ツルマイ 12/09 截止、2027/10 出；amiami ¥26,960 未標截止。同廠同線米浴 ¥28,380 可比價。賽馬娘庫存 948。",
+     "verdict": "ALTER 賽馬娘線穩，12/09 前照同線量收",
+     "link": "https://www.alter-web.jp/blog_alter/2026/382",
+     "score": 55,
+     "tags": [
+      "賽馬娘",
+      "ALTER",
+      "預約中"
+     ],
+     "thread": "alter-dream-journey",
+     "thread_title": "ALTER 賽馬娘 夢幻之旅 1/7 預購（12/09 止）"
+    },
+    {
+     "title": "蔚藍檔案｜聖園彌香（水着）1/7 11/04 截止",
+     "body": "GSC G.S.Collection 1/7 ¥21,800，官方商城 11/04 23:59 止、2027/11 出，剩 3 週，週報標「最後一期提醒」。蔚藍檔案庫存 2,273。",
+     "verdict": "要補 11/04 前下單，官限截止後只剩二手",
+     "link": "https://prtimes.jp/main/html/rd/p/000001080.000042572.html",
+     "score": 70,
+     "tags": [
+      "蔚藍檔案",
+      "GSC",
+      "截止倒數"
+     ],
+     "thread": "gsc-mika-swim",
+     "thread_title": "GSC 聖園彌香（水着）1/7 官限預購（11/04 止）"
+    },
+    {
+     "title": "賽馬娘｜一番賞 14彈 10/17（六）店頭，剩 5 天",
+     "body": "一番くじ ウマ娘 14弾 本週六店頭，5 體公仔＋金のゴルシ像；經銷窗 9 月中已關。賽馬娘庫存 948。",
+     "verdict": "查 10 月檔單是否已含，未含走到貨追單",
+     "link": "https://1kuji.com/products/umamusume17",
+     "score": 56,
+     "tags": [
+      "賽馬娘",
+      "一番賞",
+      "本週發售"
+     ],
+     "thread": "uma-14",
+     "img": "https://assets.1kuji.com/uploads/product/top_banner/10726/8bc745ec-1c0d-4531-9b1c-ec480d742c10.webp"
+    }
+   ]
+  },
+  {
+   "title": "📈 漲跌（脆 Threads 台灣報價 NT$／スニダン ¥）",
+   "items": [
+    {
+     "title": "陀螺 BX-53 代購 3,500→1,550（−56%）",
+     "body": "玩具e哥／Funbox 台版 1,550 到貨，代購溢價一天歸零；CX-02 −27%、UX-15 1,500（−17%）；UX-04 +8%；CX-00 地板首見 2,800，中價 3,400。",
+     "verdict": "昨判失準：BX-53 到貨溢價歸零，有貨即出",
+     "score": 60,
+     "tags": [
+      "陀螺",
+      "BX-53",
+      "CX-00"
+     ],
+     "thread": "beyblade-ux"
+    },
+    {
+     "title": "M6 雷公ex SAR ¥2,490→3,100（+24%）",
+     "body": "スニダン 108/076 雷公 SAR 昨跌 15% 今反彈 24%（掛牌 75→73）；113/076 烈空坐 MUR ¥45,000→42,000（−7%，掛牌增）；095/076 SR −9%。",
+     "verdict": "雷公 SAR 區間震盪勿追；MUR 掛牌增、價承壓",
+     "score": 50,
+     "tags": [
+      "寶可夢",
+      "M6",
+      "スニダン"
+     ],
+     "thread": "card-m6"
+    }
+   ]
+  },
+  {
+   "title": "🏭 巡邏戰報",
+   "items": [
+    {
+     "title": "巡 1 牌 JXK +18｜入庫 1,154｜🔴16（▼1）",
+     "body": "首放行 JXK：6 真新＋12 補收；第 2 站被拒，18 牌跳過。夜跑 SCC 944／Toyergk 187／OrzGK 14／YesGK 9；無頭 lane 333 筆逾時 0 落地。",
+     "verdict": "逐站放行太慢，設 Auto；無頭 lane 放寬時限",
+     "score": 55,
+     "tags": [
+      "巡邏",
+      "JXK",
+      "無頭瀏覽器"
+     ],
+     "thread": "patrol"
+    }
+   ]
+  },
+  {
+   "title": "🃏 卡牌",
+   "items": [
+    {
+     "title": "卡牌站重產：帶價 13,535、總卡 24,700（皆 +0）",
+     "body": "六遊戲帶價：寶可夢 8,114／航海王 3,938／遊戲王 658／數碼 364／WS 344／UA 117，今日無新卡。有交叉樣本的漲跌只有 M6 三張；港日台價差雷達 2,188 張，無壓境警訊。",
+     "verdict": "平日無新套，等 M6a／SV11B 台版報價補進",
+     "score": 40,
+     "tags": [
+      "卡牌",
+      "行情站"
+     ],
+     "thread": "card-market"
+    }
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "owner": "West",
+   "text": "明 10/13 前決 METAL BUILD 黑攻擊補單量",
+   "thread": "metal-build-noir"
+  },
+  {
+   "owner": "West",
+   "text": "今晚夜跑前 Finder 刪 OrzGK 2.xlsx 副本",
+   "thread": "icloud-dup"
+  },
+  {
+   "owner": "West",
+   "text": "10/14 前決初音 MM2026 1/7 收否",
+   "thread": "gsc-miku-mm2025"
+  },
+  {
+   "owner": "West",
+   "text": "哥吉拉 11 月檔配額最晚明 10/13 定",
+   "thread": "kuji-nov"
+  },
+  {
+   "owner": "West",
+   "text": "10/17 前品牌官 Chrome 設 Auto 或關班",
+   "thread": "patrol-chrome"
+  }
+ ],
+ "system": [
+  "夜跑今天跑兩輪（08:06／12:35）；工程師 feed 停 4 晚後今天推成功（upsert 16,176）",
+  "入庫 1,154：GK-SCC 944／Toyergk 187／OrzGK 14／YesGK 9；漏斗表只算 23",
+  "翻譯閘門首晚：F 命中 1,082／待確認 49 進佇列；中文名待翻 51",
+  "無頭 lane 首跑：瀏覽器啟動吃 20 分、40 分限到被殺，333 筆沒落地",
+  "figures.db 374,013（12:31 重建 ✅）；總台 12:35 已更新；情報卡 533 張上線",
+  "對接/full 有 8 個「 2.jsonl.gz」iCloud 副本一起傳上 release，請一併刪",
+  "品牌/OrzGK 2.xlsx 副本仍在；sync_fg／db 已改跳過，刪了才乾淨",
+  "看門狗 FAIL 0／WARN 7；警報 Gmail 被拒，已隨本報夾帶",
+  "新鮮度 ✅172 🟡32 🔴16（▼1）；Chrome 待辦 27 牌；最舊 8 牌 43 天",
+  "staged 待消化 3 檔 175 筆（Sideshow 候選／熱血模玩／Numskull raw）",
+  "卡住：natalie WAF 405（改 Google News 代理待驗）；Toyergk 失敗 412/600",
+  "源健檢 🔴10/60：BeastKingdom／Phat!／Jikan／COOMODEL／Claynel…",
+  "消息源 31→45 線；Medicom 去重 26,207→15,368 完成（備份有）",
+  "SCC 限額改 1000/晚；排程 12 支正常；信箱今日無指令；Blokees 工單等回「收／不收」"
+ ],
+ "tomorrow": [
+  "預購線：10/13 METAL BUILD／暴龍獸收單、白鬍子開約；10/14 初音截",
+  "一番賞線：火影 PREMIUM 轉追單；10/14 快報收 SEED 賞＋sumikko27",
+  "巡邏線：預巡 20 牌（Chrome 逐站放行）；夜跑驗 sync_fg／feed／無頭",
+  "行情線：BX-53 二手底；M6 雷公續否；翻譯官 10/13 修愛麗速子／彌香"
+ ],
+ "refs": [
+  {
+   "label": "日報全文",
+   "path": "輸出/日報/261012.md"
+  },
+  {
+   "label": "市場週報 #15",
+   "path": "大腦/週報/261012.md"
+  },
+  {
+   "label": "看門狗警報（夾帶）",
+   "path": "輸出/日報/261012_看門狗警報_未寄出.md"
+  }
+ ],
+ "signoff": "資訊官晚報班",
+ "id": "261012_pm",
+ "hero": {
+  "img": "https://assets.1kuji.com/uploads/product/top_banner/10726/8bc745ec-1c0d-4531-9b1c-ec480d742c10.webp",
+  "link": "https://1kuji.com/products/umamusume17",
+  "caption": "賽馬娘｜一番賞 14彈 10/17（六）店頭，剩 5 天",
+  "auto": true
+ }
+}

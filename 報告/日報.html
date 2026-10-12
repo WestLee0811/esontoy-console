@@ -27,18 +27,46 @@ blockquote{border-left:3px solid var(--line);padding-left:14px;color:var(--mut);
 .arch a{display:inline-block;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px 14px;margin:4px 6px 4px 0;font-size:13px;text-decoration:none}
 .arch a:hover{border-color:var(--gold)}
 </style></head><body>
-<div class="top"><a href="../總台.html">← 總台</a><b>每日日報</b><span style="flex:1"></span><span style="font-size:11px;color:var(--mut)">渲染於 10-12 12:34</span></div>
-<div class="wrap"><h1>【看門狗】FAIL 清零；請刪一個 iCloud 衝突副本（Gmail 兩次被自動拒絕：排程環境無人核准 send_message → 本檔交晨報夾帶）</h1>
-<p>看門狗 10/12（一）08:24 班｜FAIL 0／WARN 7／OK 14（昨 FAIL 1）</p>
-<h2>一、昨天的紅燈轉綠</h2>
-<p>merge 的 <code>str | None</code>（Python 3.9）錯誤今晚已不在失敗清單，OrzGK 入庫線恢復。</p>
-<h2>二、今晚新冒出來的故障（已修一半）</h2>
-<p><code>品牌/OrzGK 2.xlsx</code> — 10/10 凌晨出現的 iCloud 衝突副本，6.7MB 但未下載到本機。夜跑讀到它就回 <code>Resource deadlock avoided</code>，把 sync_fg 整批、figures.db 重建一起炸掉，publish_feed 跟著跳過（遠端查詢台今天沒更新）。</p>
-<p><strong>已修</strong>：<code>sync_fg.py</code> 與 <code>figures_db.py</code> 現在會跳過「名稱 N.xlsx」衝突副本，單檔讀不出來只警告不中斷（備份 <code>備份文件/watchdog_fix_261012/</code>）。今晚夜跑應恢復，明早驗收。</p>
-<p><strong>對生意的影響</strong>：今天遠端查詢台／figures.db 是 10/11 的資料，少了 OrzGK 昨晚 91 筆。</p>
-<p><strong>★ 要你做的一步</strong>：打開 Finder → 商品資料庫/品牌/，把「OrzGK 2.xlsx」拖到垃圾桶（<code>OrzGK.xlsx</code> 本體正常，不要動）。</p>
-<h2>三、週一例行提醒（W5 Chrome 積壓 &gt;14 天）</h2>
-<p>六通路 GK-MasterD 16 天、MozFigure 15 天沒巡，另 12 牌（Sideshow 7,086 件、BeastKingdom、Furyu、HotToys…）連 48 天被擋，新品斷層中。有 Chrome 的對話說「<strong>跑 Chrome 待辦</strong>」我就清。</p>
-<h2>其他</h2>
-<p>排程 12 支 lastRunAt 全正常；角色補全線（api.jikan.moe 連線逾時）與昨日相同，等下週日驗收；缺口工單 GAP-261008-01 Blokees 布魯可 等你回「收」或「不收」。</p>
-<p>完整報告：<code>輸出/健檢/261012_watchdog.md</code></p></div></body></html>
+<div class="top"><a href="../總台.html">← 總台</a><b>每日日報</b><span style="flex:1"></span><span style="font-size:11px;color:var(--mut)">渲染於 10-13 05:11</span></div>
+<div class="wrap"><h1>【行情官】261012 脆陀螺行情｜無斷點｜BX-53 台版原價 1550 到貨、代購溢價崩（-56%）</h1>
+<blockquote>⚠️ 本信 Gmail send_message 兩次皆「declined automatically（排程環境無人核准）」→ 依共通規則②落檔，請晚報夾帶。West 若要排程直接寄信，需在 Gmail 連接器核准 send_message 給排程使用。</blockquote>
+<p><strong>斷點狀態</strong>：近 3 天無斷點 ✅。今日 35 筆入庫（293 帖／30 查詢），寫前重讀無同日紀錄、無雙跑；Chrome 分頁已關；beyblade.db 未動（無新型號）。</p>
+<h2>$2000+ 必查表（11 顆；整盒除非標明；⚠️＝樣本&lt;2）</h2>
+<table>
+<tr><th>型號</th><th>今日</th><th>篇</th><th>vs 昨</th><th>重點</th></tr>
+<tr><td>CX-00 戰神伏特</td><td>2800-4500 mid <strong>3400</strong></td><td>13</td><td>-1%</td><td>地板首見 2800×3（台版全新／日版QR／拆擺）；高雄 4000-4500 五帳續掛未售；買方收 2700、1 帳徵；港版紅空力可換戰神伏特＝等價</td></tr>
+<tr><td>UX-00 紅空力</td><td>2800</td><td>⚠️1</td><td>持平</td><td>台中潭子 2800「售出」真成交；港 HK$400-450、港換 3 帳、台詢價 2 帳</td></tr>
+<tr><td>UX-00-TOPW 紅空力頂重（散刃）</td><td>1300</td><td>⚠️1</td><td>口徑差</td><td>二手 38.58；38.8+ 今日 0 明價，非真跌</td></tr>
+<tr><td>UX-00-BLUE 藍空力（二手）</td><td>6500</td><td>⚠️1</td><td>克數差</td><td>38.2-38.3 高重；全新整盒 0 明價第 4 日；港 38.13 full set 無code HK$3900</td></tr>
+<tr><td>UX-03-GOLD 金神杖</td><td>26000</td><td>⚠️1 掛牌</td><td>+53%</td><td>@jay09630748 35.83 一般標 26000、雙A3 42000 變體；單源勿當趨勢；圈外「也是萬元嗎」</td></tr>
+<tr><td><strong>BX-53 藍空力套組</strong></td><td><strong>1550</strong></td><td>3</td><td><strong>-56%</strong></td><td>玩具e哥「到貨 全部原價 1550」、Funbox 預售 1550、台南店現貨；日版代購 0 新價 → 代購溢價崩、跌出必查榜；港收 HK$620、新藍天馬單顆 38.88 HK$700、港收/換 6 帳</td></tr>
+<tr><td>UX-15-TOPW 鯊魚頂重</td><td>2300-2500 mid 2400</td><td>⚠️同帳</td><td>-4%</td><td>@ach0261 沿掛 37.93/38.01；其他 37.9+ 0 報價</td></tr>
+<tr><td>CX-16 龍王盤</td><td>1700-2500 mid 2000</td><td>6</td><td>持平</td><td>原價錨第六日</td></tr>
+<tr><td>UX-04</td><td>2600-2700 mid 2650</td><td>2</td><td>+8%</td><td>台版 2 帳</td></tr>
+<tr><td>CX-00-DRAKE 龍神勇氣</td><td>2300-3000 mid 2500</td><td>3</td><td>-17%</td><td>無QR 2300 新低；台版帶 2500-3000 持平（昨含日版 3800 拉高）</td></tr>
+<tr><td>UX-00-VALK 藍女武神</td><td>2800</td><td>⚠️1</td><td>-8%</td><td>港會場限定流出潮 7 帳 HK$420-550（≈NT$1,700-2,250）壓頂</td></tr>
+</table>
+<h2>漲跌榜（&gt;30%，已排除口徑差）</h2>
+<ul>
+<li>🔻 <strong>BX-53 -56%</strong>：代購→台版原價 1550。<strong>進貨建議：代購現貨勿追，走原價通路排貨；港需求仍強（6 帳收/換）。</strong></li>
+<li>🔻 <strong>UX-15 一般鯊 -17% mid 1500（16 篇）</strong>：克數階梯 37.1-37.2=1100-1400、37.5=1500-2000、F/G標 2250；玩具e哥三帳補貨原價＝官方壓頂。<strong>建議：停溢價進貨，以原價批為主；37.9+ 頂重另算。</strong></li>
+<li>🔺 UX-03-GOLD +53%、UX-00-BLUE 二手 +49% → 皆單源／克數差，非趨勢，不動作。</li>
+<li>口徑差勿信：UX-00-TOPW -53%（二手 38.58）、UX-15-TOPW 散刃 -76%（前值 10000 極端）。</li>
+</ul>
+<h2>一般盤</h2>
+<p>UX-03 650／UX-20 900／UX-21 1180／UX-17 800／UX-11 850／UX-01 650／CX-13 600／BX-23 825／CX-00-EVA 1500／BX-52 580（原價預售）-1200（機台）／BX-10 1100／UX-16 650／UX-13 825／CX-14 590／CX-15 500／CX-02 535／CX-11 1400（單）／CX-07 700／UX-19 850／BXG-51 1500（單）／BX-09 二手 1000-1200（全新 0 明價，補貨原價 795）。</p>
+<h2>供需風向</h2>
+<ul>
+<li><strong>官方通路大補貨成主旋律</strong>：玩具e哥 3 帳「鯊魚／女武神／惡魔幽冥／通行證 補貨 全部原價」＋BX-53 原價到貨；Funbox 預售 BX-52 580／BX-53 1550；彰化・高雄店「戰鬥盤 通行證 鯊魚 神杖 鳳凰都有」→ 中低階盤溢價歸零續。</li>
+<li>退坑潮續：退坑包 3000-4000 三帳；買方 6500-7000 收退坑組兩帳。</li>
+<li>需求集中：戰神伏特（徵＋收 2700）、紅空力（台詢價 2 帳＋港換 3 帳）、BX-53（港 6 帳收/換）、騎士重盾V2 上蓋（收 2 帳）。</li>
+<li>港盤看空：藍女武神會場限定流出 7 帳 420-550；「龍王盤跌到仆街嘅教訓」86 讚；「日本今次唔係好炒得起、日馬水浸」。</li>
+<li>CX-20 傳聞討論：一派「原色神杖回原價、-20 整盒溢兩倍」vs「退坑潮、會像 UX-21 更慘」。</li>
+<li>賽事 14 場（獎品：金神杖×3／紅空力×4／藍空力 38.1／38.8up 藍天馬／BX-53×3／龍神勇氣×2／藍女武神×2／福音戰士）。</li>
+</ul>
+<h2>新型號入庫：0</h2>
+<p>今日 69 個代碼皆在主檔（159 筆）；BXG-11 沿 10/9 判查無官方不入庫；CX-20 僅傳聞。</p>
+<h2>詐騙嫌疑：7 帳＋存疑 2 組</h2>
+<p>台 6：@raihanahmedf221×2／@lokesh_bidar_rayanna／@klp98g／@samuel_garang30／@aesthetic_aakash94w／@halimawkapala22×2；港 1：@eudorarichardd×2。存疑同文雙帳：@sun860103＝@sasa_____55（37.53 1000）、@zixuan1645＝@wilsonlin78（龍王盤 2000）。</p>
+<h2>檔案</h2>
+<p>爬蟲資料/行情/脆_raw_261012.txt、脆_candidates_261012.tsv、各 {型號}.jsonl（35 筆）；大腦/主題/行情系統與每日更新.md updated_note；大腦/log.md [price]。</p></div></body></html>
