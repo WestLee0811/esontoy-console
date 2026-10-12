@@ -717,9 +717,19 @@
     "issue": "261010_pm",
     "anchor": "it3",
     "note": "CX-00 現貨趁高出；UX-15 別補貨"
+   },
+   {
+    "issue": "261011_am",
+    "anchor": "it8",
+    "note": "中低階盤不進；BX-53 等兩週抵台再看"
+   },
+   {
+    "issue": "261011_pm",
+    "anchor": "it4",
+    "note": "CX-00 高點已過；BX-53 二手有肉，別急出"
    }
   ],
-  "last": "261010_pm"
+  "last": "261011_pm"
  },
  "patrol": {
   "title": "品牌巡邏新鮮度",
@@ -790,9 +800,14 @@
     "issue": "261010_pm",
     "anchor": "it4",
     "note": "放行排程 Chrome 或關這班，紅燈才會清"
+   },
+   {
+    "issue": "261011_pm",
+    "anchor": "it6",
+    "note": "放行排程 Chrome 或關這班，紅燈才會清"
    }
   ],
-  "last": "261010_pm"
+  "last": "261011_pm"
  },
  "disney-coco-kuji": {
   "title": "迪士尼 可可夜總會 一番くじ",
@@ -963,9 +978,19 @@
     "issue": "261010_pm",
     "anchor": "actions",
     "note": "11 月檔若今天沒定，明早 10/11 補定案"
+   },
+   {
+    "issue": "261011_am",
+    "anchor": "actions",
+    "note": "今天補定 11 月檔一番賞配額（含哥吉拉）"
+   },
+   {
+    "issue": "261011_pm",
+    "anchor": "actions",
+    "note": "哥吉拉 11 月檔明天 10/12 前補定案"
    }
   ],
-  "last": "261010_pm"
+  "last": "261011_pm"
  },
  "kuji-nov-dec": {
   "title": "11-12 月一番くじ訂貨窗仍在倒數：優先序不變",
@@ -1182,9 +1207,19 @@
     "issue": "261010_pm",
     "anchor": "actions",
     "note": "10/12 前確認 PREMIUM 火影配額"
+   },
+   {
+    "issue": "261011_am",
+    "anchor": "actions",
+    "note": "明天 10/12 前確認 PREMIUM 火影配額"
+   },
+   {
+    "issue": "261011_pm",
+    "anchor": "actions",
+    "note": "明天 10/12 前確認 PREMIUM 火影配額"
    }
   ],
-  "last": "261010_pm"
+  "last": "261011_pm"
  },
  "sega-2027q1": {
   "title": "SEGA 景品 2027/1〜3 月 lineup",
@@ -1605,9 +1640,14 @@
     "issue": "261010_pm",
     "anchor": "actions",
     "note": "明天 10/11 前下 ALTER 花火 HLJ 單"
+   },
+   {
+    "issue": "261011_am",
+    "anchor": "actions",
+    "note": "今天 10/11 ALTER 花火 HLJ 收單，否則走ツルマイ"
    }
   ],
-  "last": "261010_pm"
+  "last": "261011_am"
  },
  "aot-cart-titan": {
   "title": "進擊的巨人 車力巨人 可動 figure",
@@ -1636,9 +1676,19 @@
     "issue": "261010_pm",
     "anchor": "actions",
     "note": "本週內拍板 Medicom 回滾或 JAN 去重"
+   },
+   {
+    "issue": "261011_am",
+    "anchor": "actions",
+    "note": "本週內拍板 Medicom 回滾或 JAN 去重"
+   },
+   {
+    "issue": "261011_pm",
+    "anchor": "actions",
+    "note": "本週 10/17 前拍板 Medicom 回滾或去重"
    }
   ],
-  "last": "261010_pm"
+  "last": "261011_pm"
  },
  "kuji-madomagi16": {
   "title": "小圓劇場版 一番賞 2027/02",
@@ -1675,8 +1725,135 @@
     "issue": "261010_pm",
     "anchor": "actions",
     "note": "本週內放行品牌官排程 Chrome，或關 10:34 那班"
+   },
+   {
+    "issue": "261011_am",
+    "anchor": "actions",
+    "note": "本週內放行品牌官 Chrome，或關 10:34 那班"
+   },
+   {
+    "issue": "261011_pm",
+    "anchor": "actions",
+    "note": "本週 10/17 前放行品牌官 Chrome 或關班"
    }
   ],
-  "last": "261010_pm"
+  "last": "261011_pm"
+ },
+ "kuji-fate29": {
+  "title": "FGO 一番賞 カルデアピックアップメモリー 訂貨窗",
+  "status": "open",
+  "first": "261011_am",
+  "entries": [
+   {
+    "issue": "261011_am",
+    "anchor": "it4",
+    "note": "訂貨窗估 10 月中〜11 月上旬，先登記觀察"
+   }
+  ],
+  "last": "261011_am"
+ },
+ "shf-whitebeard": {
+  "title": "航海王 SHF 白鬍子 頂上決戰 開約",
+  "status": "open",
+  "first": "261011_am",
+  "entries": [
+   {
+    "issue": "261011_am",
+    "anchor": "it5",
+    "note": "預購截止後二手易飆，評估代購名額"
+   }
+  ],
+  "last": "261011_am"
+ },
+ "shf-nycc2026": {
+  "title": "NYCC 2026 魂 Nations SHF 新品線",
+  "status": "open",
+  "first": "261011_am",
+  "entries": [
+   {
+    "issue": "261011_am",
+    "anchor": "it6",
+    "note": "三線都是高庫存 IP，追各自的魂商店受注日"
+   }
+  ],
+  "last": "261011_am"
+ },
+ "kuji-seed-freedom": {
+  "title": "鋼彈 SEED FREEDOM 一番賞 2027/01 檔",
+  "status": "open",
+  "first": "261011_pm",
+  "entries": [
+   {
+    "issue": "261011_pm",
+    "anchor": "it1",
+    "note": "併入 1 月訂量盤點，12 月中前定"
+   }
+  ],
+  "last": "261011_pm"
+ },
+ "kuji-sumikko": {
+  "title": "角落小夥伴 一番賞 10/24 發售",
+  "status": "open",
+  "first": "261011_pm",
+  "entries": [
+   {
+    "issue": "261011_pm",
+    "anchor": "it2",
+    "note": "不追首批，到貨後看二批價"
+   }
+  ],
+  "last": "261011_pm"
+ },
+ "pvc-1011": {
+  "title": "10/11 PVC 立體化情報（洛琪希睡衣／SDF-1）",
+  "status": "open",
+  "first": "261011_pm",
+  "entries": [
+   {
+    "issue": "261011_pm",
+    "anchor": "it3",
+    "note": "洛琪希看 amiami 截止日；SDF-1 等開價"
+   }
+  ],
+  "last": "261011_pm"
+ },
+ "card-m6": {
+  "title": "寶可夢 M6 烈空坐 頂卡行情",
+  "status": "open",
+  "first": "261011_pm",
+  "entries": [
+   {
+    "issue": "261011_pm",
+    "anchor": "it5",
+    "note": "烈空坐 SAR 持有不出；進貨只挑頂卡"
+   }
+  ],
+  "last": "261011_pm"
+ },
+ "card-market": {
+  "title": "卡牌行情站每日更新",
+  "status": "open",
+  "first": "261011_pm",
+  "entries": [
+   {
+    "issue": "261011_pm",
+    "anchor": "it7",
+    "note": "海賊王頂卡分化：艾斯回檔、魯夫 L 續強"
+   }
+  ],
+  "last": "261011_pm"
+ },
+ "night-gh": {
+  "title": "明早前終端機跑 which gh || brew install gh",
+  "status": "open",
+  "first": "261011_pm",
+  "entries": [
+   {
+    "issue": "261011_pm",
+    "anchor": "actions",
+    "note": "明早前終端機跑 which gh || brew install gh"
+   }
+  ],
+  "last": "261011_pm"
  }
 }
