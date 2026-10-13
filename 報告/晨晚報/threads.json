@@ -737,9 +737,19 @@
     "issue": "261012_pm",
     "anchor": "it8",
     "note": "昨判失準：BX-53 到貨溢價歸零，有貨即出"
+   },
+   {
+    "issue": "261013_am",
+    "anchor": "it12",
+    "note": "代購現貨勿追，走原價通路排貨；港收 6 帳需求仍強"
+   },
+   {
+    "issue": "261013_pm",
+    "anchor": "it9",
+    "note": "CX 高價檔退潮，收貨價下修 10–15%"
    }
   ],
-  "last": "261012_pm"
+  "last": "261013_pm"
  },
  "patrol": {
   "title": "品牌巡邏新鮮度",
@@ -820,9 +830,14 @@
     "issue": "261012_pm",
     "anchor": "it10",
     "note": "逐站放行太慢，設 Auto；無頭 lane 放寬時限"
+   },
+   {
+    "issue": "261013_pm",
+    "anchor": "it12",
+    "note": "品牌官 Chrome 改 Auto，否則日巡仍 1 牌"
    }
   ],
-  "last": "261012_pm"
+  "last": "261013_pm"
  },
  "disney-coco-kuji": {
   "title": "迪士尼 可可夜總會 一番くじ",
@@ -1013,9 +1028,19 @@
     "issue": "261012_pm",
     "anchor": "actions",
     "note": "哥吉拉 11 月檔配額最晚明 10/13 定"
+   },
+   {
+    "issue": "261013_am",
+    "anchor": "actions",
+    "note": "哥吉拉 11 月檔配額今 10/13 內定"
+   },
+   {
+    "issue": "261013_pm",
+    "anchor": "actions",
+    "note": "哥吉拉 11 月檔配額若未定，明 10/14 補定"
    }
   ],
-  "last": "261012_pm"
+  "last": "261013_pm"
  },
  "kuji-nov-dec": {
   "title": "11-12 月一番くじ訂貨窗仍在倒數：優先序不變",
@@ -1247,9 +1272,14 @@
     "issue": "261012_am",
     "anchor": "actions",
     "note": "今天 10/12 內確認 PREMIUM 火影配額"
+   },
+   {
+    "issue": "261013_am",
+    "anchor": "it1",
+    "note": "配額已報→等 2027/02；未報今起走追單線"
    }
   ],
-  "last": "261012_am"
+  "last": "261013_am"
  },
  "sega-2027q1": {
   "title": "SEGA 景品 2027/1〜3 月 lineup",
@@ -1568,9 +1598,14 @@
     "issue": "261012_pm",
     "anchor": "actions",
     "note": "今晚夜跑前 Finder 刪 OrzGK 2.xlsx 副本"
+   },
+   {
+    "issue": "261013_am",
+    "anchor": "it11",
+    "note": "GSC 終於進庫；週報缺口蔚藍四檔今可回查"
    }
   ],
-  "last": "261012_pm"
+  "last": "261013_am"
  },
  "movie-oct": {
   "title": "10 月劇場版連映（景品連動）",
@@ -1627,9 +1662,14 @@
     "issue": "261012_pm",
     "anchor": "it7",
     "note": "查 10 月檔單是否已含，未含走到貨追單"
+   },
+   {
+    "issue": "261013_am",
+    "anchor": "it2",
+    "note": "查 10 月檔單是否已含；未含走到貨追單"
    }
   ],
-  "last": "261012_pm"
+  "last": "261013_am"
  },
  "pvc-1009": {
   "title": "10/9 PVC 立體化情報（洛基／我英幼少期／SHF）",
@@ -1794,9 +1834,14 @@
     "issue": "261012_pm",
     "anchor": "actions",
     "note": "10/17 前品牌官 Chrome 設 Auto 或關班"
+   },
+   {
+    "issue": "261013_pm",
+    "anchor": "actions",
+    "note": "10/17 前品牌官 Chrome 設 Auto 或關班"
    }
   ],
-  "last": "261012_pm"
+  "last": "261013_pm"
  },
  "kuji-fate29": {
   "title": "FGO 一番賞 カルデアピックアップメモリー 訂貨窗",
@@ -1820,9 +1865,19 @@
     "issue": "261011_am",
     "anchor": "it5",
     "note": "預購截止後二手易飆，評估代購名額"
+   },
+   {
+    "issue": "261013_am",
+    "anchor": "actions",
+    "note": "白鬍子 SHF 今 16:00 開約，要補今天下單"
+   },
+   {
+    "issue": "261013_pm",
+    "anchor": "it5",
+    "note": "要補今晚下單；截止日明回填情報卡"
    }
   ],
-  "last": "261011_am"
+  "last": "261013_pm"
  },
  "shf-nycc2026": {
   "title": "NYCC 2026 魂 Nations SHF 新品線",
@@ -1895,9 +1950,14 @@
     "issue": "261012_pm",
     "anchor": "it9",
     "note": "雷公 SAR 區間震盪勿追；MUR 掛牌增、價承壓"
+   },
+   {
+    "issue": "261013_pm",
+    "anchor": "it14",
+    "note": "雷公勿追；OP17 台版 SEC 掛牌鬆動，收貨壓價"
    }
   ],
-  "last": "261012_pm"
+  "last": "261013_pm"
  },
  "card-market": {
   "title": "卡牌行情站每日更新",
@@ -1913,9 +1973,14 @@
     "issue": "261012_pm",
     "anchor": "it11",
     "note": "平日無新套，等 M6a／SV11B 台版報價補進"
+   },
+   {
+    "issue": "261013_pm",
+    "anchor": "it13",
+    "note": "平日無新套；等 M6a／SV11B 台價補進"
    }
   ],
-  "last": "261012_pm"
+  "last": "261013_pm"
  },
  "night-gh": {
   "title": "明早前終端機跑 which gh || brew install gh",
@@ -1944,9 +2009,19 @@
     "issue": "261012_pm",
     "anchor": "actions",
     "note": "明 10/13 前決 METAL BUILD 黑攻擊補單量"
+   },
+   {
+    "issue": "261013_am",
+    "anchor": "actions",
+    "note": "今 10/13 內定 METAL BUILD 黑攻擊補單量"
+   },
+   {
+    "issue": "261013_pm",
+    "anchor": "it4",
+    "note": "受注窗關、線索結案；到貨後看二手價"
    }
   ],
-  "last": "261012_pm"
+  "last": "261013_pm"
  },
  "gsc-miku-mm2025": {
   "title": "GSC 初音 マジカルミライ 黏土人 官限預購",
@@ -1962,13 +2037,23 @@
     "issue": "261012_pm",
     "anchor": "actions",
     "note": "10/14 前決初音 MM2026 1/7 收否"
+   },
+   {
+    "issue": "261013_am",
+    "anchor": "it7",
+    "note": "明 23:59 前決收否；魂ウェブ批 10/18 前挑單"
+   },
+   {
+    "issue": "261013_pm",
+    "anchor": "actions",
+    "note": "明 10/14 23:59 前決初音 MM2026 收否"
    }
   ],
-  "last": "261012_pm"
+  "last": "261013_pm"
  },
  "kuji-sumikko27": {
   "title": "角落小夥伴一番賞〈進化〉12 月檔 訂貨窗",
-  "status": "open",
+  "status": "closed",
   "first": "261012_am",
   "entries": [
    {
@@ -1982,7 +2067,8 @@
     "note": "維持 10/11 結論：不追首批，到貨看二批價"
    }
   ],
-  "last": "261012_pm"
+  "last": "261012_pm",
+  "closed_in": "261012_pm"
  },
  "pvc-douma": {
   "title": "鬼滅 童磨 ufotable 繪 PVC（Aniplex）",
@@ -2063,8 +2149,179 @@
     "issue": "261012_pm",
     "anchor": "actions",
     "note": "今晚夜跑前 Finder 刪 OrzGK 2.xlsx 副本"
+   },
+   {
+    "issue": "261013_am",
+    "anchor": "actions",
+    "note": "今晚夜跑前 Finder 刪 3 個 iCloud 衝突副本"
+   },
+   {
+    "issue": "261013_pm",
+    "anchor": "actions",
+    "note": "今晚夜跑前 Finder 刪 3 個 iCloud 副本"
    }
   ],
-  "last": "261012_pm"
+  "last": "261013_pm"
+ },
+ "pl_73eef166c7": {
+  "title": "電馭叛客：邊緣行者 2｜Netflix 10/20 開播",
+  "status": "open",
+  "first": "261013_am",
+  "entries": [
+   {
+    "issue": "261013_am",
+    "anchor": "it3",
+    "note": "情報級；開播後 2 週看 GSC／景品開約再評"
+   }
+  ],
+  "last": "261013_am"
+ },
+ "pl_c36b691201": {
+  "title": "青春豬頭少年｜劇場版 10/16 上映",
+  "status": "open",
+  "first": "261013_am",
+  "entries": [
+   {
+    "issue": "261013_am",
+    "anchor": "it4",
+    "note": "情報級；小庫存 IP，不開單，等景品化訊號"
+   }
+  ],
+  "last": "261013_am"
+ },
+ "pl_0a954c5194": {
+  "title": "數碼寶貝×哥吉拉｜戰鬥暴龍獸 G侵食 今 23:00 止",
+  "status": "open",
+  "first": "261013_am",
+  "entries": [
+   {
+    "issue": "261013_am",
+    "anchor": "actions",
+    "note": "今 23:00 前決戰鬥暴龍獸 P-Bandai 收否"
+   },
+   {
+    "issue": "261013_pm",
+    "anchor": "actions",
+    "note": "今 23:00 前決暴龍獸 G侵食 P-Bandai 收否"
+   }
+  ],
+  "last": "261013_pm"
+ },
+ "kuji_naruto11": {
+  "title": "火影忍者｜一番賞 飛段・角都篇 10/26 ¥790",
+  "status": "open",
+  "first": "261013_am",
+  "entries": [
+   {
+    "issue": "261013_am",
+    "anchor": "it9",
+    "note": "訂貨窗已過（6/25 公開）；走追單／到貨二批線"
+   }
+  ],
+  "last": "261013_am"
+ },
+ "shf-kurama": {
+  "title": "SHF 九喇嘛 商品化→開約",
+  "status": "open",
+  "first": "261013_pm",
+  "entries": [
+   {
+    "issue": "261013_pm",
+    "anchor": "it1",
+    "note": "等魂ウェブ開約日；火影線 Q4 併單備貨"
+   }
+  ],
+  "last": "261013_pm"
+ },
+ "p1s-berserk-legacy": {
+  "title": "P1S LEGACY ART 三浦建太郎 凱茲／古力菲斯 預購",
+  "status": "open",
+  "first": "261013_pm",
+  "entries": [
+   {
+    "issue": "261013_pm",
+    "anchor": "it2",
+    "note": "限量 500 先問 GK 客層；PUP SP 走代理"
+   }
+  ],
+  "last": "261013_pm"
+ },
+ "xplus-gigantic-goku": {
+  "title": "X-PLUS ギガンティック 孫悟空 48cm",
+  "status": "open",
+  "first": "261013_pm",
+  "entries": [
+   {
+    "issue": "261013_pm",
+    "anchor": "it3",
+    "note": "一般通路大型 PVC，開約時照悟空線量收"
+   }
+  ],
+  "last": "261013_pm"
+ },
+ "kuji_gundam_ucs2": {
+  "title": "鋼彈｜一番賞 UC SAGA 2 媒體二波，11/05 店頭",
+  "status": "open",
+  "first": "261013_pm",
+  "entries": [
+   {
+    "issue": "261013_pm",
+    "anchor": "it6",
+    "note": "🔴 必吃大單：查 11 月檔配額，不足走追單"
+   }
+  ],
+  "last": "261013_pm"
+ },
+ "pl_9ddf8eb57b": {
+  "title": "NARUTO 新作動畫×忍空／Shadow Rising",
+  "status": "open",
+  "first": "261013_pm",
+  "entries": [
+   {
+    "issue": "261013_pm",
+    "anchor": "it7",
+    "note": "情報級；播出期定後回查景品連動"
+   }
+  ],
+  "last": "261013_pm"
+ },
+ "pl_9f9937ba4d": {
+  "title": "一拳超人 第 3 期第 2 クール（2027/01）景品連動",
+  "status": "open",
+  "first": "261013_pm",
+  "entries": [
+   {
+    "issue": "261013_pm",
+    "anchor": "it8",
+    "note": "12 月檔景品單把龍捲／吹雪算進去"
+   }
+  ],
+  "last": "261013_pm"
+ },
+ "ux15-shark": {
+  "title": "UX-15 鯊魚 整盒行情",
+  "status": "open",
+  "first": "261013_pm",
+  "entries": [
+   {
+    "issue": "261013_pm",
+    "anchor": "it10",
+    "note": "鯊魚一般檔止跌；重量檔另計勿混"
+   }
+  ],
+  "last": "261013_pm"
+ },
+ "beyblade-low": {
+  "title": "陀螺低價檔（UX／BX 新款）行情",
+  "status": "open",
+  "first": "261013_pm",
+  "entries": [
+   {
+    "issue": "261013_pm",
+    "anchor": "it11",
+    "note": "低價 UX／BX 新款原價壓頂，不囤"
+   }
+  ],
+  "last": "261013_pm"
  }
 }

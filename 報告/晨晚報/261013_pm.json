@@ -1,0 +1,314 @@
+{
+ "kind": "pm",
+ "date": "2026-10-13",
+ "headline": "九喇嘛SHF商品化；戰神伏特跌破3千",
+ "deck": "白鬍子SHF已開約；黑攻擊受注今收；紅燈 16→6",
+ "top": [
+  "今23:00暴龍獸收單；明23:59初音MM截",
+  "九喇嘛SHF商品化；白鬍子開約；黑攻擊收單",
+  "戰神伏特2,900（−15%）；紅燈16→6"
+ ],
+ "kpis": [
+  {
+   "label": "新鮮度 ✅7天內",
+   "value": "181",
+   "delta": "+9"
+  },
+  {
+   "label": "🔴 >30天",
+   "value": "6",
+   "delta": "−10"
+  },
+  {
+   "label": "夜跑入庫",
+   "value": "443",
+   "delta": "新品 247"
+  },
+  {
+   "label": "情報卡",
+   "value": "580",
+   "delta": "+47"
+  }
+ ],
+ "sections": [
+  {
+   "title": "💰 機會",
+   "items": [
+    {
+     "title": "火影忍者｜S.H.Figuarts 九喇嘛 商品化決定",
+     "body": "Tamashii 10/10 公告尾獸級大型可動，預購窗待魂ウェブ；火影庫存 7,482，同線 10/26 飛段角都賞、PREMIUM 2027/02、新作動畫×忍空，Q4 火影線三件齊。",
+     "verdict": "等魂ウェブ開約日；火影線 Q4 併單備貨",
+     "link": "https://figsoku.net/blog-entry-530194.html",
+     "score": 70,
+     "tags": [
+      "火影忍者",
+      "S.H.Figuarts",
+      "商品化決定"
+     ],
+     "thread": "shf-kurama",
+     "thread_title": "SHF 九喇嘛 商品化→開約"
+    },
+    {
+     "title": "烙印勇士｜P1S 三浦建太郎 凱茲／古力菲斯 1/4 預約中",
+     "body": "凱茲 74cm／古力菲斯 93cm 各 ¥208,890、限 500 體，P1S 官網 10/06 起約、2028/02 起出；GSC PUP SP 凱茲 30cm／古力菲斯 台灣同步預購。",
+     "verdict": "限量 500 先問 GK 客層；PUP SP 走代理",
+     "link": "https://www.gamespark.jp/release/prtimes/20261006/319292.html",
+     "score": 59,
+     "tags": [
+      "烙印勇士",
+      "Prime 1 Studio",
+      "POP UP PARADE SP"
+     ],
+     "thread": "p1s-berserk-legacy",
+     "thread_title": "P1S LEGACY ART 三浦建太郎 凱茲／古力菲斯 預購"
+    },
+    {
+     "title": "七龍珠｜X-PLUS ギガンティック 孫悟空 約 48cm",
+     "body": "10/12 發表 DBZ 悟空 48cm 大型 PVC，一般通路預購，價格待週二 amiami 輪掃補；七龍珠庫存 15,200 全庫第二；一番賞 SPIRIT OF THE SAIYAN 走追單。",
+     "verdict": "一般通路大型 PVC，開約時照悟空線量收",
+     "link": "https://animeanime.jp/article/2026/10/12/103712.html",
+     "score": 60,
+     "tags": [
+      "七龍珠",
+      "X-PLUS",
+      "大型PVC"
+     ],
+     "thread": "xplus-gigantic-goku",
+     "thread_title": "X-PLUS ギガンティック 孫悟空 48cm"
+    }
+   ]
+  },
+  {
+   "title": "📌 狀態變化",
+   "items": [
+    {
+     "title": "鋼彈｜METAL BUILD 黑色攻擊 20th 受注今日截止",
+     "body": "即將截止→今日截止｜P-Bandai 魂ウェブ受注 10/13 止，晨報已催定量；之後只剩二手與到貨追單。鋼彈庫存 6,648。",
+     "verdict": "受注窗關、線索結案；到貨後看二手價",
+     "link": "https://figsoku.net/blog-entry-524745.html",
+     "score": 60,
+     "tags": [
+      "P-Bandai",
+      "鋼彈",
+      "已截止"
+     ],
+     "thread": "metal-build-noir",
+     "close": true
+    },
+    {
+     "title": "航海王｜SHF 白鬍子 頂上決戰 今 16:00 開約",
+     "body": "已發表→預約中（依公告 16:00 魂ウェブ受注開始）｜航海王庫存 30,391 全庫第一，頂上戰爭線流速高；截止日待魂ウェブ頁回填。",
+     "verdict": "要補今晚下單；截止日明回填情報卡",
+     "link": "https://figsoku.net/blog-entry-530222.html",
+     "score": 55,
+     "tags": [
+      "P-Bandai",
+      "航海王",
+      "預約中"
+     ],
+     "thread": "shf-whitebeard"
+    },
+    {
+     "title": "鋼彈｜一番賞 UC SAGA 2 媒體二波，11/05 店頭",
+     "body": "新聞卡→併入既有卡｜animeanime 10/12：大きすぎるガルマ・ザビ／ザク胸像／Z ザクヘッド／MSV 壓克力立牌話題化；經銷窗（9 月下旬〜10 月上旬）已過。庫存 6,648。",
+     "verdict": "🔴 必吃大單：查 11 月檔配額，不足走追單",
+     "link": "https://animeanime.jp/article/2026/10/12/103724.html",
+     "score": 80,
+     "tags": [
+      "一番賞",
+      "鋼彈",
+      "UC SAGA"
+     ],
+     "thread": "kuji_gundam_ucs2"
+    },
+    {
+     "title": "火影忍者｜新作動畫×忍空、新漫畫 Shadow Rising",
+     "body": "情報卡新建｜10/10〜11 發表 NARUTO 新作限定動畫與『忍空』合作、岸本齊史新作漫畫 Shadow Rising；播出期＝景品／一番賞連動發表期。庫存 7,482。",
+     "verdict": "情報級；播出期定後回查景品連動",
+     "link": "https://crunchyroll.com/news/latest/2026/10/10/naruto-shadow-rising-manga-ninku-tv-anime-limited-series-announced",
+     "score": 70,
+     "tags": [
+      "火影忍者",
+      "新作動畫"
+     ],
+     "thread": "pl_9ddf8eb57b",
+     "thread_title": "NARUTO 新作動畫×忍空／Shadow Rising"
+    },
+    {
+     "title": "一拳超人｜第 3 期第 2 クール 2027/01 播出",
+     "body": "情報卡新建（2027-01）｜10/10 公開視覺＋PV；TAITO 戦慄のタツマキ／地獄のフブキ 景品 9/11 已發表，1 月播出＝投放期。庫存 452。",
+     "verdict": "12 月檔景品單把龍捲／吹雪算進去",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1nRnQtYkU3NjZXZXo1NEE1SHhvTG9zdnhZNWY4V0V2Vk43b1pmZ2ZpUlozVTdhVzc4ekJlN3dGWEQ1bU01T2E0SVRkaG8?oc=5",
+     "score": 45,
+     "tags": [
+      "一拳超人",
+      "景品",
+      "TAITO"
+     ],
+     "thread": "pl_9f9937ba4d",
+     "thread_title": "一拳超人 第 3 期第 2 クール（2027/01）景品連動"
+    }
+   ]
+  },
+  {
+   "title": "📈 漲跌（脆 Threads 台灣報價 NT$）",
+   "items": [
+    {
+     "title": "CX-00 戰神伏特 整盒 3,400→2,900（−15%）",
+     "body": "脆成交八源 2,800–3,000，4,000 檔消失；CX-16 龍王盤 1,900（−5%）跌破原價；UX-00 紅空力 2,500（−11%）；龍神勇氣 2,600 但 2,000 新低×2。",
+     "verdict": "CX 高價檔退潮，收貨價下修 10–15%",
+     "score": 60,
+     "tags": [
+      "陀螺",
+      "CX-00",
+      "CX-16"
+     ],
+     "thread": "beyblade-ux"
+    },
+    {
+     "title": "UX-15 鯊魚 整盒 1,500→1,750（+16%，十源）",
+     "body": "一般鯊十源 1,100–1,900 回升，昨 −17% 為官方補貨壓頂；38+ 重量檔 3,500–4,000（口徑差另計）；BX-53 原價 1,550 持平、BX-09 通行證 1,900 持平。",
+     "verdict": "鯊魚一般檔止跌；重量檔另計勿混",
+     "score": 50,
+     "tags": [
+      "陀螺",
+      "UX-15",
+      "BX-53"
+     ],
+     "thread": "ux15-shark",
+     "thread_title": "UX-15 鯊魚 整盒行情"
+    },
+    {
+     "title": "UX-16／BX-52／UX-19 整盒 跌 12–36%",
+     "body": "UX-16 650→500（−24%，五源）、BX-52 900→580（−36%，原價預售）、UX-19 850→750（−12%）、UX-08 630（−26%）；BXG-51 900 單源不計。",
+     "verdict": "低價 UX／BX 新款原價壓頂，不囤",
+     "score": 45,
+     "tags": [
+      "陀螺",
+      "UX-16",
+      "BX-52"
+     ],
+     "thread": "beyblade-low",
+     "thread_title": "陀螺低價檔（UX／BX 新款）行情"
+    }
+   ]
+  },
+  {
+   "title": "🏭 巡邏戰報",
+   "items": [
+    {
+     "title": "巡 1 牌 JXK 0 新品｜夜跑入庫 443｜🔴6（▼10）",
+     "body": "Chrome 第 9 天被拒，19 牌跳過；夜跑新品 247、入庫 443（YesGK 125、GSC 119、OrzGK 67）；無頭瀏覽器 ✅8 ❌2 共 420 筆，紅燈 16→6 靠它蓋章。",
+     "verdict": "品牌官 Chrome 改 Auto，否則日巡仍 1 牌",
+     "score": 55,
+     "tags": [
+      "巡邏",
+      "JXK",
+      "無頭瀏覽器"
+     ],
+     "thread": "patrol"
+    }
+   ]
+  },
+  {
+   "title": "🃏 卡牌",
+   "items": [
+    {
+     "title": "卡牌站 24,700 張／帶價 13,535（皆 +0）",
+     "body": "六遊戲帶價：寶可夢 8,114／航海王 3,938／遊戲王 658／數碼 364／WS 344／UA 117；今日無新卡入庫，PTCG 快報照常（日版 top 仍是 998,000 円促銷皮卡丘群）。",
+     "verdict": "平日無新套；等 M6a／SV11B 台價補進",
+     "score": 40,
+     "tags": [
+      "卡牌",
+      "行情站"
+     ],
+     "thread": "card-market"
+    },
+    {
+     "title": "M6 雷公ex SAR ¥3,100→2,100（−32%）",
+     "body": "スニダン 73 掛，三日 2,490→3,100→2,100 震盪；烈空坐 MUR 掛賣 ¥44,000（+5%，155 掛）；台版 OP17-118 洛克斯 SEC 露天 206→62（−70%）。",
+     "verdict": "雷公勿追；OP17 台版 SEC 掛牌鬆動，收貨壓價",
+     "score": 50,
+     "tags": [
+      "寶可夢",
+      "M6",
+      "航海王卡",
+      "OP17"
+     ],
+     "thread": "card-m6"
+    }
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "owner": "West",
+   "text": "今 23:00 前決暴龍獸 G侵食 P-Bandai 收否",
+   "thread": "pl_0a954c5194"
+  },
+  {
+   "owner": "West",
+   "text": "今晚夜跑前 Finder 刪 3 個 iCloud 副本",
+   "thread": "icloud-dup"
+  },
+  {
+   "owner": "West",
+   "text": "明 10/14 23:59 前決初音 MM2026 收否",
+   "thread": "gsc-miku-mm2025"
+  },
+  {
+   "owner": "West",
+   "text": "10/17 前品牌官 Chrome 設 Auto 或關班",
+   "thread": "patrol-chrome"
+  },
+  {
+   "owner": "West",
+   "text": "哥吉拉 11 月檔配額若未定，明 10/14 補定",
+   "thread": "kuji-nov"
+  }
+ ],
+ "system": [
+  "🌙 夜跑 10/13 03:30 → 完成 10/13 05:12（1h42m）｜Shopify 14 牌＋OrzGK 抓完，新品 247 筆（YesGK 125、OrzGK 67、MegaHouse 42、GK Collectors 12、Mondo 1）",
+  "📥 入庫 443 筆（YesGK 125、GSC 119、OrzGK 67、Plusone 49、MegaHouse 42）｜staged 待消化 12 檔 595 筆｜品牌總覽同步 221 牌",
+  "🈶 中文名待翻 356 筆",
+  "🗄 figures.db 375,805 筆（10/13 05:08 版，昨夜重建 ✅）｜30h 內巡過／爬過 110 牌",
+  "🌐 總台已更新 ✅ 最後 push 10/13 05:12（16.5 小時前）（log 有「已發布」）",
+  "⛔ 卡住：有牌沒抓好（不是成功）：／台灣三通路抓取逾時／sideshow_news: HTTPError HTTP Error 302:／merge 找不到暫存檔／源健檢 🔴9/60",
+  "🚦 品牌新鮮度 ✅181 🟡33 🔴6（昨 16，▼10）｜Chrome 待辦 24 牌｜最舊：GKResinStatues(44d)、ActionToys(44d)、BANDAI(44d)、amiami(44d)、revolve(44d)…",
+  "🔔 翻譯官 10:43 有跑無產出：無健檢檔、佇列 356 未動，明早補查",
+  "🔔 看門狗 FAIL 0／WARN 7；Release 快照連 2 晚未上傳，08:30 已寄警報",
+  "🔔 iCloud 副本 3 檔仍在（OrzGK 2.xlsx／figures 2.db／feed_state 2）",
+  "無頭 lane ✅8 ⚪2 🚧1 ❌2 ⏭2（revolve／ActionToys 吃 amiami API 403）",
+  "情報卡 580（+47）；鋼彈 UC SAGA 新聞卡與 kuji 卡重複、プロセカ誤掛 P5R",
+  "IP 雷達：PR TIMES 舊稿回流 4 則（乙骨刀 2023 等）已降級，GAP-261013-02",
+  "行情官 20:30 正常：34 序列／329 帖；卡牌快照 4,508 序列",
+  "12 牌被擋連 49 天；Chrome 待辦 24 牌；角色庫補全 10/18 驗",
+  "信箱今日無指令；1kuji.com 明 10/14 倶楽部維護，官網查詢可能中斷"
+ ],
+ "tomorrow": [
+  "一番賞線：10/14 1kuji 維護日；週三 07:45 快報班收 SEED 賞＋角落 27；賽馬娘 14 彈週六店頭",
+  "預購線：初音 MM2026 明 23:59 止；魂ウェブ 2027/03 批 10/18 23:00；白鬍子 SHF 截止日回填",
+  "巡邏線：品牌官 10:34 輪巡 20 牌（Chrome 待 Auto）；Toyergk 降速重跑；翻譯官缺產出補查",
+  "行情線：CX-00 2,800 地板守不守；UX-15 鯊魚 1,750 續否；M6 雷公 2,100 三日震盪"
+ ],
+ "refs": [
+  {
+   "label": "日報全文",
+   "path": "輸出/日報/261013.md"
+  },
+  {
+   "label": "IP 雷達 digest 261013",
+   "path": "爬蟲資料/ip_news/digest_261013.md"
+  },
+  {
+   "label": "PTCG 行情快報 261013",
+   "path": "輸出/快報/261013_PTCG行情.md"
+  },
+  {
+   "label": "看門狗報告 261013",
+   "path": "輸出/健檢/261013_watchdog.md"
+  }
+ ],
+ "signoff": "資訊官晚報班",
+ "id": "261013_pm"
+}
